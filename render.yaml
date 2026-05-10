@@ -7,5 +7,5 @@ services:
     startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
     envVars:
       - key: DEEPSEEK_API_KEY
-        value: sk-aa0aeaf480484648a8a93d672d76334d
+        value: 
     healthCheckPath: /api/health
