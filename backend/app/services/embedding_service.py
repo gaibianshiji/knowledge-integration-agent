@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-QIANWEN_API_KEY = os.getenv("QIANWEN_API_KEY", "sk-4e27ef8b50f64046a5ccca4392615c3d")
+QIANWEN_API_KEY = os.getenv("QIANWEN_API_KEY", "sk-87fd5a8557844463b46cf9cb518aff9f")
 QIANWEN_BASE_URL = "https://dashscope.aliyuncs.com/compatible-mode/v1"
 
 async def get_embedding(text: str) -> list[float]:
