@@ -1,6 +1,7 @@
 import json
 import numpy as np
 from pathlib import Path
+from rank_bm25 import BM25Okapi
 from app.services.llm_service import call_deepseek
 from app.services.embedding_service import get_embedding, get_embeddings_batch, cosine_similarity
 from app.utils import get_data_dir
@@ -10,6 +11,7 @@ INDEX_DIR = get_data_dir("index")
 
 embeddings_matrix = None
 chunks_data = []
+bm25_index = None
 
 def chunk_textbook(textbook: dict, chunk_size: int = 600, overlap: int = 80) -> list[dict]:
     chunks = []
@@ -95,10 +97,13 @@ async def build_index(textbooks: list[dict]) -> dict:
     with open(CHUNKS_DIR / "chunks.json", 'w', encoding='utf-8') as f:
         json.dump(chunks_data, f, ensure_ascii=False, indent=2)
 
+    # Build BM25 index
+    _build_bm25_index()
+
     return {"status": "ok", "count": len(chunks_data), "new": len(new_chunks)}
 
 def load_index() -> bool:
-    global embeddings_matrix, chunks_data
+    global embeddings_matrix, chunks_data, bm25_index
 
     embeddings_path = INDEX_DIR / "embeddings.npy"
     chunks_path = CHUNKS_DIR / "chunks.json"
@@ -107,11 +112,21 @@ def load_index() -> bool:
         embeddings_matrix = np.load(str(embeddings_path))
         with open(chunks_path, 'r', encoding='utf-8') as f:
             chunks_data = json.load(f)
+        # Build BM25 index
+        _build_bm25_index()
         return True
     return False
 
+def _build_bm25_index():
+    """Build BM25 index from chunks for hybrid retrieval"""
+    global bm25_index
+    if chunks_data:
+        # Simple character-level tokenization for Chinese
+        tokenized = [list(c["content"]) for c in chunks_data]
+        bm25_index = BM25Okapi(tokenized)
+
 async def search(query: str, top_k: int = 5) -> list[dict]:
-    global embeddings_matrix, chunks_data
+    global embeddings_matrix, chunks_data, bm25_index
 
     if embeddings_matrix is None:
         load_index()
@@ -119,23 +134,38 @@ async def search(query: str, top_k: int = 5) -> list[dict]:
     if embeddings_matrix is None or not chunks_data:
         return []
 
-    # Get query embedding
+    # Get query embedding for vector search
     query_embedding = await get_embedding(query)
     query_vec = np.array(query_embedding, dtype='float32')
 
-    # Calculate cosine similarities
-    similarities = np.dot(embeddings_matrix, query_vec) / (
+    # Vector cosine similarities
+    vector_scores = np.dot(embeddings_matrix, query_vec) / (
         np.linalg.norm(embeddings_matrix, axis=1) * np.linalg.norm(query_vec)
     )
 
+    # BM25 scores (hybrid retrieval)
+    if bm25_index is not None:
+        query_tokens = list(query)
+        bm25_scores = bm25_index.get_scores(query_tokens)
+        # Normalize BM25 scores to [0, 1]
+        bm25_max = np.max(bm25_scores) if np.max(bm25_scores) > 0 else 1
+        bm25_scores = bm25_scores / bm25_max
+        # Weighted fusion: 0.5 vector + 0.5 BM25
+        combined_scores = 0.5 * vector_scores + 0.5 * bm25_scores
+    else:
+        combined_scores = vector_scores
+
     # Get top-k indices
-    top_indices = np.argsort(similarities)[::-1][:top_k]
+    top_indices = np.argsort(combined_scores)[::-1][:top_k]
 
     results = []
     for idx in top_indices:
-        if idx < len(chunks_data) and similarities[idx] > 0:
+        if idx < len(chunks_data) and combined_scores[idx] > 0:
             chunk = chunks_data[idx].copy()
-            chunk["relevance_score"] = float(similarities[idx])
+            chunk["relevance_score"] = float(combined_scores[idx])
+            chunk["vector_score"] = float(vector_scores[idx])
+            if bm25_index is not None:
+                chunk["bm25_score"] = float(bm25_scores[idx])
             results.append(chunk)
 
     return results
