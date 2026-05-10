@@ -1,22 +1,12 @@
 import json
 import asyncio
 from pathlib import Path
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
 from app.services.llm_service import call_deepseek, extract_json_from_llm
+from app.services.embedding_service import get_embeddings_batch, cosine_similarity
 
 INTEGRATION_DIR = Path(__file__).parent.parent.parent / "data" / "integration"
 INTEGRATION_DIR.mkdir(parents=True, exist_ok=True)
-
-def compute_similarity(text1: str, text2: str) -> float:
-    vectorizer = TfidfVectorizer(
-        analyzer='char_wb',
-        ngram_range=(2, 4),
-        sublinear_tf=True
-    )
-    tfidf = vectorizer.fit_transform([text1, text2])
-    return float(cosine_similarity(tfidf[0:1], tfidf[1:2])[0][0])
 
 async def align_knowledge_nodes(graphs: list[dict]) -> dict:
     all_nodes = []
@@ -27,17 +17,25 @@ async def align_knowledge_nodes(graphs: list[dict]) -> dict:
     if len(all_nodes) < 2:
         return {"merged_nodes": all_nodes, "decisions": [], "stats": {"original": len(all_nodes), "merged": len(all_nodes)}}
 
+    # Get embeddings for all nodes
     node_texts = [f"{n['name']} {n['definition']}" for n in all_nodes]
 
-    vectorizer = TfidfVectorizer(
-        analyzer='char_wb',
-        ngram_range=(2, 4),
-        sublinear_tf=True
-    )
-    tfidf_matrix = vectorizer.fit_transform(node_texts)
-    sim_matrix = cosine_similarity(tfidf_matrix)
+    batch_size = 20
+    all_embeddings = []
+    for i in range(0, len(node_texts), batch_size):
+        batch = node_texts[i:i + batch_size]
+        batch_embeddings = await get_embeddings_batch(batch)
+        all_embeddings.extend(batch_embeddings)
 
-    threshold = 0.3
+    embeddings_matrix = np.array(all_embeddings, dtype='float32')
+
+    # Calculate similarity matrix
+    norms = np.linalg.norm(embeddings_matrix, axis=1, keepdims=True)
+    normalized = embeddings_matrix / norms
+    sim_matrix = np.dot(normalized, normalized.T)
+
+    # Find candidate pairs
+    threshold = 0.75
     candidate_pairs = []
     for i in range(len(all_nodes)):
         for j in range(i + 1, len(all_nodes)):
@@ -51,6 +49,7 @@ async def align_knowledge_nodes(graphs: list[dict]) -> dict:
     merged_nodes = list(all_nodes)
     merged_set = set()
 
+    # Process candidates in batches
     batch_size = 5
     for batch_start in range(0, min(len(candidate_pairs), 20), batch_size):
         batch = candidate_pairs[batch_start:batch_start + batch_size]

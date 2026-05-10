@@ -1,18 +1,15 @@
 import json
 import numpy as np
 from pathlib import Path
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.metrics.pairwise import cosine_similarity
-import pickle
 from app.services.llm_service import call_deepseek
+from app.services.embedding_service import get_embedding, get_embeddings_batch, cosine_similarity
 
 CHUNKS_DIR = Path(__file__).parent.parent.parent / "data" / "chunks"
 INDEX_DIR = Path(__file__).parent.parent.parent / "data" / "index"
 CHUNKS_DIR.mkdir(parents=True, exist_ok=True)
 INDEX_DIR.mkdir(parents=True, exist_ok=True)
 
-vectorizer = None
-tfidf_matrix = None
+embeddings_matrix = None
 chunks_data = []
 
 def chunk_textbook(textbook: dict, chunk_size: int = 600, overlap: int = 80) -> list[dict]:
@@ -44,8 +41,8 @@ def chunk_textbook(textbook: dict, chunk_size: int = 600, overlap: int = 80) -> 
 
     return chunks
 
-def build_index(textbooks: list[dict]):
-    global vectorizer, tfidf_matrix, chunks_data
+async def build_index(textbooks: list[dict]) -> dict:
+    global embeddings_matrix, chunks_data
 
     all_chunks = []
     for tb in textbooks:
@@ -56,67 +53,70 @@ def build_index(textbooks: list[dict]):
     if not chunks_data:
         return {"status": "no_chunks", "count": 0}
 
+    # Get embeddings in batches
     texts = [c["content"] for c in chunks_data]
+    batch_size = 20
+    all_embeddings = []
 
-    vectorizer = TfidfVectorizer(
-        max_features=10000,
-        analyzer='char_wb',
-        ngram_range=(2, 4),
-        sublinear_tf=True
-    )
-    tfidf_matrix = vectorizer.fit_transform(texts)
+    for i in range(0, len(texts), batch_size):
+        batch = texts[i:i + batch_size]
+        batch_embeddings = await get_embeddings_batch(batch)
+        all_embeddings.extend(batch_embeddings)
 
-    with open(INDEX_DIR / "vectorizer.pkl", 'wb') as f:
-        pickle.dump(vectorizer, f)
-    with open(INDEX_DIR / "tfidf_matrix.pkl", 'wb') as f:
-        pickle.dump(tfidf_matrix, f)
+    embeddings_matrix = np.array(all_embeddings, dtype='float32')
+
+    # Save to disk
+    np.save(str(INDEX_DIR / "embeddings.npy"), embeddings_matrix)
     with open(CHUNKS_DIR / "chunks.json", 'w', encoding='utf-8') as f:
         json.dump(chunks_data, f, ensure_ascii=False, indent=2)
 
     return {"status": "ok", "count": len(chunks_data)}
 
-def load_index():
-    global vectorizer, tfidf_matrix, chunks_data
+def load_index() -> bool:
+    global embeddings_matrix, chunks_data
 
-    vec_path = INDEX_DIR / "vectorizer.pkl"
-    matrix_path = INDEX_DIR / "tfidf_matrix.pkl"
+    embeddings_path = INDEX_DIR / "embeddings.npy"
     chunks_path = CHUNKS_DIR / "chunks.json"
 
-    if vec_path.exists() and matrix_path.exists() and chunks_path.exists():
-        with open(vec_path, 'rb') as f:
-            vectorizer = pickle.load(f)
-        with open(matrix_path, 'rb') as f:
-            tfidf_matrix = pickle.load(f)
+    if embeddings_path.exists() and chunks_path.exists():
+        embeddings_matrix = np.load(str(embeddings_path))
         with open(chunks_path, 'r', encoding='utf-8') as f:
             chunks_data = json.load(f)
         return True
     return False
 
-def search(query: str, top_k: int = 5) -> list[dict]:
-    global vectorizer, tfidf_matrix, chunks_data
+async def search(query: str, top_k: int = 5) -> list[dict]:
+    global embeddings_matrix, chunks_data
 
-    if vectorizer is None:
+    if embeddings_matrix is None:
         load_index()
 
-    if vectorizer is None or tfidf_matrix is None or not chunks_data:
+    if embeddings_matrix is None or not chunks_data:
         return []
 
-    query_vec = vectorizer.transform([query])
-    scores = cosine_similarity(query_vec, tfidf_matrix).flatten()
+    # Get query embedding
+    query_embedding = await get_embedding(query)
+    query_vec = np.array(query_embedding, dtype='float32')
 
-    top_indices = np.argsort(scores)[::-1][:top_k]
+    # Calculate cosine similarities
+    similarities = np.dot(embeddings_matrix, query_vec) / (
+        np.linalg.norm(embeddings_matrix, axis=1) * np.linalg.norm(query_vec)
+    )
+
+    # Get top-k indices
+    top_indices = np.argsort(similarities)[::-1][:top_k]
 
     results = []
     for idx in top_indices:
-        if idx < len(chunks_data) and scores[idx] > 0:
+        if idx < len(chunks_data) and similarities[idx] > 0:
             chunk = chunks_data[idx].copy()
-            chunk["relevance_score"] = float(scores[idx])
+            chunk["relevance_score"] = float(similarities[idx])
             results.append(chunk)
 
     return results
 
 async def query_rag(question: str) -> dict:
-    retrieved = search(question, top_k=5)
+    retrieved = await search(question, top_k=5)
 
     if not retrieved:
         return {
@@ -168,5 +168,5 @@ def get_index_status() -> dict:
     return {
         "indexed_textbooks": len(set(c["textbook_id"] for c in chunks_data)),
         "total_chunks": len(chunks_data),
-        "is_indexed": vectorizer is not None
+        "is_indexed": embeddings_matrix is not None
     }
