@@ -80,7 +80,7 @@ Set Root Directory: `backend`
 - [ ] **Step 3: Add environment variable**
 
 Action: Click "Variables" tab
-Add: `DEEPSEEK_API_KEY` = `sk-aa0aeaf480484648a8a93d672d76334d`
+Add: `DEEPSEEK_API_KEY` = (your DeepSeek API key)
 
 - [ ] **Step 4: Wait for deployment**
 

@@ -1,4 +1,4 @@
-from fastapi import APIRouter
+from fastapi import APIRouter, HTTPException
 from app.services.pdf_parser import get_parsed_textbook, list_parsed_textbooks
 from app.services.knowledge_extractor import extract_textbook_knowledge, get_textbook_graph
 
@@ -8,7 +8,7 @@ router = APIRouter()
 async def build_graph(textbook_id: str, max_chapters: int = 50):
     textbook = get_parsed_textbook(textbook_id)
     if not textbook:
-        return {"error": "未找到教材，请先上传"}
+        raise HTTPException(status_code=404, detail="未找到教材，请先上传")
 
     graph = await extract_textbook_knowledge(textbook, max_chapters)
     return {
@@ -24,7 +24,7 @@ async def get_graph_data(textbook_id: str):
     graph = get_textbook_graph(textbook_id)
     if graph:
         return graph
-    return {"error": "未找到知识图谱，请先构建"}
+    raise HTTPException(status_code=404, detail="未找到知识图谱，请先构建")
 
 @router.get("/list")
 async def list_graphs():
