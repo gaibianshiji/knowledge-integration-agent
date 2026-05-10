@@ -2,9 +2,10 @@ import json
 import asyncio
 from pathlib import Path
 from app.services.llm_service import extract_json_from_llm
-from app.utils import get_data_dir
+from app.utils import get_data_dir, get_bundled_data_dir
 
 GRAPH_DIR = get_data_dir("graphs")
+BUNDLED_GRAPH_DIR = get_bundled_data_dir("graphs")
 
 EXTRACT_SYSTEM_PROMPT = """你是一个医学知识提取专家。你需要从教材章节中提取核心知识点和它们之间的关系。
 
@@ -118,5 +119,10 @@ def get_textbook_graph(textbook_id: str) -> dict | None:
     path = GRAPH_DIR / f"{textbook_id}_graph.json"
     if path.exists():
         with open(path, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    # Fallback to bundled data (read-only on serverless)
+    bundled_path = BUNDLED_GRAPH_DIR / f"{textbook_id}_graph.json"
+    if bundled_path.exists():
+        with open(bundled_path, 'r', encoding='utf-8') as f:
             return json.load(f)
     return None

@@ -1,6 +1,9 @@
 # Exclude large files from deployment
 textbooks/
-backend/data/
+backend/data/uploads/
+backend/data/index/
+backend/data/chunks/
+backend/data/integration/
 backend/__pycache__/
 backend/app/__pycache__/
 backend/app/routers/__pycache__/

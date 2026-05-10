@@ -3,9 +3,10 @@ import re
 import os
 import json
 from pathlib import Path
-from app.utils import get_data_dir, store_in_memory, get_from_memory, list_from_memory
+from app.utils import get_data_dir, get_bundled_data_dir, store_in_memory, get_from_memory, list_from_memory
 
 DATA_DIR = get_data_dir("parsed")
+BUNDLED_DATA_DIR = get_bundled_data_dir("parsed")
 
 def parse_pdf(file_path: str, textbook_id: str) -> dict:
     doc = fitz.open(file_path)
@@ -141,6 +142,17 @@ def parse_pdf(file_path: str, textbook_id: str) -> dict:
 
     doc.close()
     return textbook
+
+def preload_textbooks():
+    """Load pre-parsed textbook data from disk into memory at startup."""
+    try:
+        for path in BUNDLED_DATA_DIR.glob("*.json"):
+            with open(path, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+                store_in_memory("parsed_textbooks", data["textbook_id"], data)
+        print(f"Preloaded textbooks from {BUNDLED_DATA_DIR}")
+    except Exception as e:
+        print(f"Failed to preload textbooks: {e}")
 
 def get_parsed_textbook(textbook_id: str) -> dict | None:
     # Try memory first

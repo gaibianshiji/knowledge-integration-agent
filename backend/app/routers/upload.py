@@ -1,7 +1,7 @@
 import os
 import uuid
 import tempfile
-from fastapi import APIRouter, UploadFile, File
+from fastapi import APIRouter, UploadFile, File, HTTPException
 from pathlib import Path
 from app.services.pdf_parser import parse_pdf, get_parsed_textbook, list_parsed_textbooks
 from app.utils import get_data_dir, store_in_memory
@@ -9,6 +9,7 @@ from app.utils import get_data_dir, store_in_memory
 router = APIRouter()
 
 UPLOAD_DIR = get_data_dir("uploads")
+MAX_FILE_SIZE = 4 * 1024 * 1024  # 4MB
 
 @router.post("/textbook")
 async def upload_textbook(file: UploadFile = File(...)):
@@ -16,6 +17,8 @@ async def upload_textbook(file: UploadFile = File(...)):
     file_ext = Path(file.filename).suffix.lower()
 
     content = await file.read()
+    if len(content) > MAX_FILE_SIZE:
+        raise HTTPException(status_code=413, detail="文件超过 4MB 限制。系统已预加载 7 本教材，请直接使用。")
 
     # Try to save to disk, fall back to /tmp
     save_path = None

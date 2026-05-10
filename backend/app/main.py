@@ -1,8 +1,15 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.routers import upload, graph, rag, chat, integration
+from app.services.pdf_parser import preload_textbooks
+from app.services.graph_service import preload_graphs
 
 app = FastAPI(title="学科知识整合智能体", version="1.0.0")
+
+@app.on_event("startup")
+async def startup():
+    preload_textbooks()
+    preload_graphs()
 
 app.add_middleware(
     CORSMiddleware,

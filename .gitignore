@@ -25,13 +25,10 @@ yarn-error.log*
 # Data (不要上传教材PDF)
 data/textbooks/*.pdf
 *.pdf
-data/uploads/
-data/parsed/
-data/graphs/
-data/chunks/
-data/index/
-data/integration/
-backend/data/
+backend/data/uploads/
+backend/data/chunks/
+backend/data/index/
+backend/data/integration/
 textbooks/
 
 # IDE

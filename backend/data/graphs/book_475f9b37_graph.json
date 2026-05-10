@@ -1,0 +1,919 @@
+{
+  "textbook_id": "book_475f9b37",
+  "textbook_name": "局部解剖学",
+  "nodes": [
+    {
+      "id": "book_475f9b37_node_001",
+      "name": "局部解剖学",
+      "definition": "研究人体各局部由浅入深的层次结构、形态、位置、毗邻关系及其临床应用的科学。",
+      "category": "核心概念",
+      "chapter": "第一节 概述",
+      "page": 14,
+      "textbook_id": "book_475f9b37",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_475f9b37_node_002",
+      "name": "境界与分区",
+      "definition": "描述人体各局部之间的边界划分以及内部区域的细分，是局部解剖学的基础内容。",
+      "category": "核心概念",
+      "chapter": "第一节 概述",
+      "page": 14,
+      "textbook_id": "book_475f9b37",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_475f9b37_node_003",
+      "name": "表面解剖",
+      "definition": "通过观察和触摸体表标志（如骨性突起、肌性隆起、皮肤皱纹等）来推断内部结构的位置。",
+      "category": "核心概念",
+      "chapter": "第一节 概述",
+      "page": 14,
+      "textbook_id": "book_475f9b37",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_475f9b37_node_004",
+      "name": "体表标志",
+      "definition": "位于人体表面的骨性、肌性或皮肤性标志，用于定位深层结构。",
+      "category": "解剖结构",
+      "chapter": "第一节 概述",
+      "page": 14,
+      "textbook_id": "book_475f9b37",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_475f9b37_node_005",
+      "name": "骨性标志",
+      "definition": "体表可触及的骨性突起或凹陷，如髂前上棘、肩胛骨下角等。",
+      "category": "解剖结构",
+      "chapter": "第一节 概述",
+      "page": 14,
+      "textbook_id": "book_475f9b37",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_475f9b37_node_006",
+      "name": "肌性标志",
+      "definition": "体表可见或可触及的肌肉轮廓或肌腱，如胸锁乳突肌、肱二头肌肌腱等。",
+      "category": "解剖结构",
+      "chapter": "第一节 概述",
+      "page": 14,
+      "textbook_id": "book_475f9b37",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_475f9b37_node_007",
+      "name": "皮肤标志",
+      "definition": "体表皮肤上的皱纹、凹陷或特殊纹理，如掌纹、腋前襞等。",
+      "category": "解剖结构",
+      "chapter": "第一节 概述",
+      "page": 14,
+      "textbook_id": "book_475f9b37",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_475f9b37_node_008",
+      "name": "局部划分",
+      "definition": "将人体分为头部、颈部、躯干、四肢等主要部分，并进一步细分区域。",
+      "category": "核心概念",
+      "chapter": "第一节 概述",
+      "page": 14,
+      "textbook_id": "book_475f9b37",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_475f9b37_node_009",
+      "name": "临床应用",
+      "definition": "局部解剖学知识在手术、穿刺、体格检查等临床操作中的实际应用。",
+      "category": "核心概念",
+      "chapter": "第一节 概述",
+      "page": 14,
+      "textbook_id": "book_475f9b37",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_475f9b37_node_010",
+      "name": "层次结构",
+      "definition": "人体各局部由浅入深依次排列的皮肤、皮下组织、筋膜、肌肉、血管神经等结构。",
+      "category": "核心概念",
+      "chapter": "第一节 概述",
+      "page": 14,
+      "textbook_id": "book_475f9b37",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_475f9b37_node_011",
+      "name": "面部浅层结构",
+      "definition": "面部皮肤、浅筋膜、表情肌及浅层血管、神经等结构的总称。",
+      "category": "解剖结构",
+      "chapter": "第二节 面部",
+      "page": 11,
+      "textbook_id": "book_475f9b37",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_475f9b37_node_012",
+      "name": "面侧区",
+      "definition": "面部两侧的区域，包含腮腺、咬肌、面神经等深层重要结构。",
+      "category": "解剖结构",
+      "chapter": "第二节 面部",
+      "page": 13,
+      "textbook_id": "book_475f9b37",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_475f9b37_node_013",
+      "name": "面部的间隙",
+      "definition": "面部筋膜之间形成的潜在腔隙，如咬肌间隙、翼下颌间隙等，是感染扩散的途径。",
+      "category": "解剖结构",
+      "chapter": "第二节 面部",
+      "page": 19,
+      "textbook_id": "book_475f9b37",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_475f9b37_node_014",
+      "name": "面部皮肤",
+      "definition": "面部皮肤薄而柔软，血供丰富，富含皮脂腺和汗腺，是表情肌的附着点。",
+      "category": "解剖结构",
+      "chapter": "第二节 面部",
+      "page": 11,
+      "textbook_id": "book_475f9b37",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_475f9b37_node_015",
+      "name": "浅筋膜",
+      "definition": "面部浅筋膜疏松，内含表情肌、血管、神经和脂肪组织，与皮肤连接紧密。",
+      "category": "解剖结构",
+      "chapter": "第二节 面部",
+      "page": 11,
+      "textbook_id": "book_475f9b37",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_475f9b37_node_016",
+      "name": "表情肌",
+      "definition": "起于骨面或筋膜，止于皮肤，收缩时牵动皮肤产生表情的肌肉群。",
+      "category": "解剖结构",
+      "chapter": "第二节 面部",
+      "page": 11,
+      "textbook_id": "book_475f9b37",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_475f9b37_node_017",
+      "name": "腮腺",
+      "definition": "位于面侧区，是最大的唾液腺，其浅面有皮肤和浅筋膜覆盖，深面邻接咬肌和下颌支。",
+      "category": "解剖结构",
+      "chapter": "第二节 面部",
+      "page": 13,
+      "textbook_id": "book_475f9b37",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_475f9b37_node_018",
+      "name": "咬肌",
+      "definition": "位于面侧区，起于颧弓，止于下颌角，是主要的咀嚼肌之一。",
+      "category": "解剖结构",
+      "chapter": "第二节 面部",
+      "page": 13,
+      "textbook_id": "book_475f9b37",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_475f9b37_node_019",
+      "name": "面神经",
+      "definition": "支配面部表情肌的混合神经，从茎乳孔出颅后进入腮腺，分为五支分布于面部。",
+      "category": "解剖结构",
+      "chapter": "第二节 面部",
+      "page": 13,
+      "textbook_id": "book_475f9b37",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_475f9b37_node_020",
+      "name": "咬肌间隙",
+      "definition": "位于咬肌与下颌支之间的潜在间隙，是面部常见的感染扩散通道。",
+      "category": "解剖结构",
+      "chapter": "第二节 面部",
+      "page": 19,
+      "textbook_id": "book_475f9b37",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_475f9b37_node_021",
+      "name": "翼下颌间隙",
+      "definition": "位于翼内肌与下颌支之间的潜在间隙，与咬肌间隙相通，是牙源性感染扩散的重要途径。",
+      "category": "解剖结构",
+      "chapter": "第二节 面部",
+      "page": 19,
+      "textbook_id": "book_475f9b37",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_475f9b37_node_022",
+      "name": "面部浅层血管",
+      "definition": "包括面动脉、面静脉等，分布于面部浅层，为面部提供血供和回流。",
+      "category": "解剖结构",
+      "chapter": "第二节 面部",
+      "page": 11,
+      "textbook_id": "book_475f9b37",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_475f9b37_node_023",
+      "name": "面部浅层神经",
+      "definition": "包括三叉神经的皮支和面神经的终末支，负责面部的感觉和运动。",
+      "category": "解剖结构",
+      "chapter": "第二节 面部",
+      "page": 11,
+      "textbook_id": "book_475f9b37",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_475f9b37_node_024",
+      "name": "颅部",
+      "definition": "头部的重要组成部分，包含颅骨、脑及其被膜、血管、神经等结构。",
+      "category": "解剖结构",
+      "chapter": "第三节 颅部",
+      "page": 20,
+      "textbook_id": "book_475f9b37",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_475f9b37_node_025",
+      "name": "颅底内面",
+      "definition": "颅腔的底部内表面，分为颅前窝、颅中窝和颅后窝，有多个孔裂供神经血管通过。",
+      "category": "解剖结构",
+      "chapter": "第三节 颅部",
+      "page": 23,
+      "textbook_id": "book_475f9b37",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_475f9b37_node_026",
+      "name": "颅前窝",
+      "definition": "颅底内面前部，容纳大脑额叶，由额骨、筛骨和蝶骨小翼构成。",
+      "category": "解剖结构",
+      "chapter": "第三节 颅部",
+      "page": 23,
+      "textbook_id": "book_475f9b37",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_475f9b37_node_027",
+      "name": "颅中窝",
+      "definition": "颅底内面中部，容纳大脑颞叶和垂体，由蝶骨体和颞骨岩部构成。",
+      "category": "解剖结构",
+      "chapter": "第三节 颅部",
+      "page": 23,
+      "textbook_id": "book_475f9b37",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_475f9b37_node_028",
+      "name": "颅后窝",
+      "definition": "颅底内面后部，容纳小脑和脑干，由枕骨和颞骨岩部后面构成。",
+      "category": "解剖结构",
+      "chapter": "第三节 颅部",
+      "page": 23,
+      "textbook_id": "book_475f9b37",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_475f9b37_node_029",
+      "name": "筛孔",
+      "definition": "位于颅前窝筛骨筛板上的小孔，嗅神经纤维由此通过进入鼻腔。",
+      "category": "解剖结构",
+      "chapter": "第三节 颅部",
+      "page": 23,
+      "textbook_id": "book_475f9b37",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_475f9b37_node_030",
+      "name": "视神经管",
+      "definition": "位于颅中窝蝶骨小翼根部，视神经和眼动脉由此通过。",
+      "category": "解剖结构",
+      "chapter": "第三节 颅部",
+      "page": 23,
+      "textbook_id": "book_475f9b37",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_475f9b37_node_031",
+      "name": "眶上裂",
+      "definition": "位于颅中窝蝶骨大小翼之间，动眼神经、滑车神经、展神经和三叉神经眼支由此通过。",
+      "category": "解剖结构",
+      "chapter": "第三节 颅部",
+      "page": 23,
+      "textbook_id": "book_475f9b37",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_475f9b37_node_032",
+      "name": "圆孔",
+      "definition": "位于颅中窝蝶骨大翼，三叉神经上颌支由此通过。",
+      "category": "解剖结构",
+      "chapter": "第三节 颅部",
+      "page": 23,
+      "textbook_id": "book_475f9b37",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_475f9b37_node_033",
+      "name": "卵圆孔",
+      "definition": "位于颅中窝蝶骨大翼，三叉神经下颌支和脑膜副动脉由此通过。",
+      "category": "解剖结构",
+      "chapter": "第三节 颅部",
+      "page": 23,
+      "textbook_id": "book_475f9b37",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_475f9b37_node_034",
+      "name": "棘孔",
+      "definition": "位于颅中窝蝶骨大翼，脑膜中动脉由此入颅。",
+      "category": "解剖结构",
+      "chapter": "第三节 颅部",
+      "page": 23,
+      "textbook_id": "book_475f9b37",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_475f9b37_node_035",
+      "name": "颈静脉孔",
+      "definition": "位于颅后窝，舌咽神经、迷走神经、副神经和颈内静脉由此通过。",
+      "category": "解剖结构",
+      "chapter": "第三节 颅部",
+      "page": 23,
+      "textbook_id": "book_475f9b37",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_475f9b37_node_036",
+      "name": "舌下神经管",
+      "definition": "位于颅后窝枕骨髁上方，舌下神经由此通过。",
+      "category": "解剖结构",
+      "chapter": "第三节 颅部",
+      "page": 23,
+      "textbook_id": "book_475f9b37",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_475f9b37_node_037",
+      "name": "内耳门",
+      "definition": "位于颅后窝颞骨岩部后面，面神经和前庭蜗神经由此通过。",
+      "category": "解剖结构",
+      "chapter": "第三节 颅部",
+      "page": 23,
+      "textbook_id": "book_475f9b37",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_475f9b37_node_038",
+      "name": "枕骨大孔",
+      "definition": "位于颅后窝中央，延髓与脊髓交界处及椎动脉由此通过。",
+      "category": "解剖结构",
+      "chapter": "第三节 颅部",
+      "page": 23,
+      "textbook_id": "book_475f9b37",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_475f9b37_node_039",
+      "name": "头部解剖操作",
+      "definition": "对头部进行系统解剖的操作流程，包括面部和颅部的解剖步骤。",
+      "category": "核心概念",
+      "chapter": "第四节 头部解剖操作",
+      "page": 14,
+      "textbook_id": "book_475f9b37",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_475f9b37_node_040",
+      "name": "解剖面部",
+      "definition": "头部解剖操作的一部分，涉及面部结构的分离和暴露。",
+      "category": "核心概念",
+      "chapter": "第四节 头部解剖操作",
+      "page": 14,
+      "textbook_id": "book_475f9b37",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_475f9b37_node_041",
+      "name": "解剖颅部",
+      "definition": "头部解剖操作的一部分，涉及颅骨及颅内结构的暴露和观察。",
+      "category": "核心概念",
+      "chapter": "第四节 头部解剖操作",
+      "page": 14,
+      "textbook_id": "book_475f9b37",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_475f9b37_node_042",
+      "name": "面部解剖步骤",
+      "definition": "解剖面部时的具体操作顺序和方法，包括皮肤切开、浅筋膜分离等。",
+      "category": "核心概念",
+      "chapter": "第四节 头部解剖操作",
+      "page": 30,
+      "textbook_id": "book_475f9b37",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_475f9b37_node_043",
+      "name": "颅部解剖步骤",
+      "definition": "解剖颅部时的具体操作顺序和方法，包括开颅、硬脑膜切开等。",
+      "category": "核心概念",
+      "chapter": "第四节 头部解剖操作",
+      "page": 33,
+      "textbook_id": "book_475f9b37",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_475f9b37_node_044",
+      "name": "面部浅层结构",
+      "definition": "面部皮肤、浅筋膜、表情肌等位于浅层的解剖结构。",
+      "category": "解剖结构",
+      "chapter": "第四节 头部解剖操作",
+      "page": 30,
+      "textbook_id": "book_475f9b37",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_475f9b37_node_045",
+      "name": "面部深层结构",
+      "definition": "面部深层包括咬肌、颊肌、腮腺、面神经分支及血管等结构。",
+      "category": "解剖结构",
+      "chapter": "第四节 头部解剖操作",
+      "page": 30,
+      "textbook_id": "book_475f9b37",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_475f9b37_node_046",
+      "name": "颅骨",
+      "definition": "构成颅部的骨骼，包括颅盖骨和颅底骨。",
+      "category": "解剖结构",
+      "chapter": "第四节 头部解剖操作",
+      "page": 33,
+      "textbook_id": "book_475f9b37",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_475f9b37_node_047",
+      "name": "硬脑膜",
+      "definition": "位于颅骨内面，包裹脑组织的最外层脑膜。",
+      "category": "解剖结构",
+      "chapter": "第四节 头部解剖操作",
+      "page": 33,
+      "textbook_id": "book_475f9b37",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_475f9b37_node_048",
+      "name": "脑",
+      "definition": "位于颅腔内，是中枢神经系统的主要部分。",
+      "category": "解剖结构",
+      "chapter": "第四节 头部解剖操作",
+      "page": 33,
+      "textbook_id": "book_475f9b37",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_475f9b37_node_049",
+      "name": "面神经",
+      "definition": "第七对脑神经，支配面部表情肌的运动。",
+      "category": "解剖结构",
+      "chapter": "第四节 头部解剖操作",
+      "page": 30,
+      "textbook_id": "book_475f9b37",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_475f9b37_node_050",
+      "name": "腮腺",
+      "definition": "最大的唾液腺，位于面部两侧，耳前下方。",
+      "category": "解剖结构",
+      "chapter": "第四节 头部解剖操作",
+      "page": 30,
+      "textbook_id": "book_475f9b37",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_475f9b37_node_051",
+      "name": "颅内血管",
+      "definition": "供应脑组织的动脉和静脉，包括大脑前、中、后动脉等。",
+      "category": "解剖结构",
+      "chapter": "第四节 头部解剖操作",
+      "page": 33,
+      "textbook_id": "book_475f9b37",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_475f9b37_node_052",
+      "name": "颅神经",
+      "definition": "从脑发出的12对神经，支配头颈部的感觉和运动。",
+      "category": "解剖结构",
+      "chapter": "第四节 头部解剖操作",
+      "page": 33,
+      "textbook_id": "book_475f9b37",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_475f9b37_node_053",
+      "name": "境界与分区",
+      "definition": "描述人体特定区域的边界划分和内部区域划分，是局部解剖学的基础内容。",
+      "category": "核心概念",
+      "chapter": "第一节 概述",
+      "page": 38,
+      "textbook_id": "book_475f9b37",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_475f9b37_node_054",
+      "name": "表面解剖",
+      "definition": "通过观察和触摸体表标志（如骨性突起、肌性隆起等）来推断深层结构的位置和关系。",
+      "category": "核心概念",
+      "chapter": "第一节 概述",
+      "page": 38,
+      "textbook_id": "book_475f9b37",
+      "textbook_name": "局部解剖学"
+    }
+  ],
+  "relations": [
+    {
+      "source": "book_475f9b37_node_053",
+      "target": "book_475f9b37_node_054",
+      "relation_type": "contains",
+      "description": "局部解剖学包含境界与分区这一基础内容。"
+    },
+    {
+      "source": "book_475f9b37_node_053",
+      "target": "book_475f9b37_node_041",
+      "relation_type": "contains",
+      "description": "局部解剖学包含表面解剖这一重要研究方法。"
+    },
+    {
+      "source": "book_475f9b37_node_053",
+      "target": "book_475f9b37_node_048",
+      "relation_type": "contains",
+      "description": "局部解剖学核心研究内容之一是层次结构。"
+    },
+    {
+      "source": "book_475f9b37_node_054",
+      "target": "book_475f9b37_node_046",
+      "relation_type": "contains",
+      "description": "境界与分区包括对人体进行局部划分。"
+    },
+    {
+      "source": "book_475f9b37_node_041",
+      "target": "book_475f9b37_node_042",
+      "relation_type": "contains",
+      "description": "表面解剖主要依赖体表标志来推断内部结构。"
+    },
+    {
+      "source": "book_475f9b37_node_042",
+      "target": "book_475f9b37_node_043",
+      "relation_type": "contains",
+      "description": "体表标志包括骨性标志。"
+    },
+    {
+      "source": "book_475f9b37_node_042",
+      "target": "book_475f9b37_node_044",
+      "relation_type": "contains",
+      "description": "体表标志包括肌性标志。"
+    },
+    {
+      "source": "book_475f9b37_node_042",
+      "target": "book_475f9b37_node_045",
+      "relation_type": "contains",
+      "description": "体表标志包括皮肤标志。"
+    },
+    {
+      "source": "book_475f9b37_node_041",
+      "target": "book_475f9b37_node_047",
+      "relation_type": "applies_to",
+      "description": "表面解剖知识应用于临床操作中的定位。"
+    },
+    {
+      "source": "book_475f9b37_node_053",
+      "target": "book_475f9b37_node_047",
+      "relation_type": "applies_to",
+      "description": "局部解剖学知识直接服务于临床应用。"
+    },
+    {
+      "source": "book_475f9b37_node_054",
+      "target": "book_475f9b37_node_041",
+      "relation_type": "parallel",
+      "description": "境界与分区和表面解剖是概述中并列的两个核心内容。"
+    },
+    {
+      "source": "book_475f9b37_node_043",
+      "target": "book_475f9b37_node_044",
+      "relation_type": "parallel",
+      "description": "骨性标志和肌性标志是体表标志中并列的两类。"
+    },
+    {
+      "source": "book_475f9b37_node_053",
+      "target": "book_475f9b37_node_042",
+      "relation_type": "contains",
+      "description": "面部浅层结构包含面部皮肤"
+    },
+    {
+      "source": "book_475f9b37_node_053",
+      "target": "book_475f9b37_node_043",
+      "relation_type": "contains",
+      "description": "面部浅层结构包含浅筋膜"
+    },
+    {
+      "source": "book_475f9b37_node_053",
+      "target": "book_475f9b37_node_044",
+      "relation_type": "contains",
+      "description": "面部浅层结构包含表情肌"
+    },
+    {
+      "source": "book_475f9b37_node_053",
+      "target": "book_475f9b37_node_050",
+      "relation_type": "contains",
+      "description": "面部浅层结构包含面部浅层血管"
+    },
+    {
+      "source": "book_475f9b37_node_053",
+      "target": "book_475f9b37_node_051",
+      "relation_type": "contains",
+      "description": "面部浅层结构包含面部浅层神经"
+    },
+    {
+      "source": "book_475f9b37_node_054",
+      "target": "book_475f9b37_node_045",
+      "relation_type": "contains",
+      "description": "面侧区包含腮腺"
+    },
+    {
+      "source": "book_475f9b37_node_054",
+      "target": "book_475f9b37_node_046",
+      "relation_type": "contains",
+      "description": "面侧区包含咬肌"
+    },
+    {
+      "source": "book_475f9b37_node_054",
+      "target": "book_475f9b37_node_047",
+      "relation_type": "contains",
+      "description": "面侧区包含面神经"
+    },
+    {
+      "source": "book_475f9b37_node_041",
+      "target": "book_475f9b37_node_048",
+      "relation_type": "contains",
+      "description": "面部的间隙包含咬肌间隙"
+    },
+    {
+      "source": "book_475f9b37_node_041",
+      "target": "book_475f9b37_node_049",
+      "relation_type": "contains",
+      "description": "面部的间隙包含翼下颌间隙"
+    },
+    {
+      "source": "book_475f9b37_node_053",
+      "target": "book_475f9b37_node_054",
+      "relation_type": "parallel",
+      "description": "面部浅层结构和面侧区是面部的两个主要分区"
+    },
+    {
+      "source": "book_475f9b37_node_054",
+      "target": "book_475f9b37_node_041",
+      "relation_type": "parallel",
+      "description": "面侧区和面部的间隙是面部的不同解剖层次"
+    },
+    {
+      "source": "book_475f9b37_node_048",
+      "target": "book_475f9b37_node_049",
+      "relation_type": "parallel",
+      "description": "咬肌间隙和翼下颌间隙是面侧区深部的重要间隙"
+    },
+    {
+      "source": "book_475f9b37_node_045",
+      "target": "book_475f9b37_node_047",
+      "relation_type": "applies_to",
+      "description": "面神经穿经腮腺，其分支在腮腺内或浅面分布"
+    },
+    {
+      "source": "book_475f9b37_node_046",
+      "target": "book_475f9b37_node_048",
+      "relation_type": "applies_to",
+      "description": "咬肌间隙位于咬肌深面与下颌支之间"
+    },
+    {
+      "source": "book_475f9b37_node_053",
+      "target": "book_475f9b37_node_054",
+      "relation_type": "contains",
+      "description": "颅部包含颅底内面作为其重要组成部分"
+    },
+    {
+      "source": "book_475f9b37_node_054",
+      "target": "book_475f9b37_node_041",
+      "relation_type": "contains",
+      "description": "颅底内面分为颅前窝"
+    },
+    {
+      "source": "book_475f9b37_node_054",
+      "target": "book_475f9b37_node_042",
+      "relation_type": "contains",
+      "description": "颅底内面分为颅中窝"
+    },
+    {
+      "source": "book_475f9b37_node_054",
+      "target": "book_475f9b37_node_043",
+      "relation_type": "contains",
+      "description": "颅底内面分为颅后窝"
+    },
+    {
+      "source": "book_475f9b37_node_041",
+      "target": "book_475f9b37_node_044",
+      "relation_type": "contains",
+      "description": "颅前窝包含筛孔"
+    },
+    {
+      "source": "book_475f9b37_node_042",
+      "target": "book_475f9b37_node_045",
+      "relation_type": "contains",
+      "description": "颅中窝包含视神经管"
+    },
+    {
+      "source": "book_475f9b37_node_042",
+      "target": "book_475f9b37_node_046",
+      "relation_type": "contains",
+      "description": "颅中窝包含眶上裂"
+    },
+    {
+      "source": "book_475f9b37_node_042",
+      "target": "book_475f9b37_node_047",
+      "relation_type": "contains",
+      "description": "颅中窝包含圆孔"
+    },
+    {
+      "source": "book_475f9b37_node_042",
+      "target": "book_475f9b37_node_048",
+      "relation_type": "contains",
+      "description": "颅中窝包含卵圆孔"
+    },
+    {
+      "source": "book_475f9b37_node_042",
+      "target": "book_475f9b37_node_049",
+      "relation_type": "contains",
+      "description": "颅中窝包含棘孔"
+    },
+    {
+      "source": "book_475f9b37_node_043",
+      "target": "book_475f9b37_node_050",
+      "relation_type": "contains",
+      "description": "颅后窝包含颈静脉孔"
+    },
+    {
+      "source": "book_475f9b37_node_043",
+      "target": "book_475f9b37_node_051",
+      "relation_type": "contains",
+      "description": "颅后窝包含舌下神经管"
+    },
+    {
+      "source": "book_475f9b37_node_043",
+      "target": "book_475f9b37_node_052",
+      "relation_type": "contains",
+      "description": "颅后窝包含内耳门"
+    },
+    {
+      "source": "book_475f9b37_node_043",
+      "target": "book_475f9b37_node_038",
+      "relation_type": "contains",
+      "description": "颅后窝包含枕骨大孔"
+    },
+    {
+      "source": "book_475f9b37_node_041",
+      "target": "book_475f9b37_node_042",
+      "relation_type": "parallel",
+      "description": "颅前窝和颅中窝是颅底内面相邻的两个窝"
+    },
+    {
+      "source": "book_475f9b37_node_042",
+      "target": "book_475f9b37_node_043",
+      "relation_type": "parallel",
+      "description": "颅中窝和颅后窝是颅底内面相邻的两个窝"
+    },
+    {
+      "source": "book_475f9b37_node_053",
+      "target": "book_475f9b37_node_054",
+      "relation_type": "contains",
+      "description": "头部解剖操作包含解剖面部这一子步骤。"
+    },
+    {
+      "source": "book_475f9b37_node_053",
+      "target": "book_475f9b37_node_041",
+      "relation_type": "contains",
+      "description": "头部解剖操作包含解剖颅部这一子步骤。"
+    },
+    {
+      "source": "book_475f9b37_node_054",
+      "target": "book_475f9b37_node_042",
+      "relation_type": "contains",
+      "description": "解剖面部包含具体的面部解剖步骤。"
+    },
+    {
+      "source": "book_475f9b37_node_041",
+      "target": "book_475f9b37_node_043",
+      "relation_type": "contains",
+      "description": "解剖颅部包含具体的颅部解剖步骤。"
+    },
+    {
+      "source": "book_475f9b37_node_042",
+      "target": "book_475f9b37_node_044",
+      "relation_type": "applies_to",
+      "description": "面部解剖步骤应用于暴露面部浅层结构。"
+    },
+    {
+      "source": "book_475f9b37_node_042",
+      "target": "book_475f9b37_node_045",
+      "relation_type": "applies_to",
+      "description": "面部解剖步骤进一步应用于暴露面部深层结构。"
+    },
+    {
+      "source": "book_475f9b37_node_043",
+      "target": "book_475f9b37_node_046",
+      "relation_type": "applies_to",
+      "description": "颅部解剖步骤首先应用于暴露颅骨。"
+    },
+    {
+      "source": "book_475f9b37_node_043",
+      "target": "book_475f9b37_node_047",
+      "relation_type": "applies_to",
+      "description": "颅部解剖步骤应用于暴露硬脑膜。"
+    },
+    {
+      "source": "book_475f9b37_node_043",
+      "target": "book_475f9b37_node_048",
+      "relation_type": "applies_to",
+      "description": "颅部解剖步骤最终应用于暴露脑。"
+    },
+    {
+      "source": "book_475f9b37_node_044",
+      "target": "book_475f9b37_node_045",
+      "relation_type": "prerequisite",
+      "description": "必须先解剖面部浅层结构，才能暴露深层结构。"
+    },
+    {
+      "source": "book_475f9b37_node_046",
+      "target": "book_475f9b37_node_047",
+      "relation_type": "prerequisite",
+      "description": "必须先暴露颅骨，才能暴露硬脑膜。"
+    },
+    {
+      "source": "book_475f9b37_node_047",
+      "target": "book_475f9b37_node_048",
+      "relation_type": "prerequisite",
+      "description": "必须先暴露硬脑膜，才能暴露脑。"
+    },
+    {
+      "source": "book_475f9b37_node_045",
+      "target": "book_475f9b37_node_049",
+      "relation_type": "contains",
+      "description": "面部深层结构包含面神经。"
+    },
+    {
+      "source": "book_475f9b37_node_045",
+      "target": "book_475f9b37_node_050",
+      "relation_type": "contains",
+      "description": "面部深层结构包含腮腺。"
+    },
+    {
+      "source": "book_475f9b37_node_048",
+      "target": "book_475f9b37_node_051",
+      "relation_type": "contains",
+      "description": "脑的解剖结构包含颅内血管。"
+    },
+    {
+      "source": "book_475f9b37_node_048",
+      "target": "book_475f9b37_node_052",
+      "relation_type": "contains",
+      "description": "脑的解剖结构包含颅神经。"
+    },
+    {
+      "source": "book_475f9b37_node_054",
+      "target": "book_475f9b37_node_041",
+      "relation_type": "parallel",
+      "description": "解剖面部和解剖颅部是头部解剖操作中两个平行的主要部分。"
+    },
+    {
+      "source": "book_475f9b37_node_053",
+      "target": "book_475f9b37_node_054",
+      "relation_type": "parallel",
+      "description": "境界与分区和表面解剖是概述中并列的两个核心概念，共同构成局部解剖学的基础知识框架。"
+    }
+  ],
+  "stats": {
+    "total_nodes": 54,
+    "total_relations": 61,
+    "chapters_processed": 5
+  }
+}

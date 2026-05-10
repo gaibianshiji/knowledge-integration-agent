@@ -22,6 +22,10 @@ def get_data_dir(subdir: str) -> Path:
         tmp_dir.mkdir(parents=True, exist_ok=True)
         return tmp_dir
 
+def get_bundled_data_dir(subdir: str) -> Path:
+    """Get the bundled data directory (read-only, for pre-loaded data)"""
+    return Path(__file__).parent.parent / "data" / subdir
+
 def get_memory_storage(key: str) -> dict:
     """Get in-memory storage for a given key"""
     if key not in _memory_storage:
