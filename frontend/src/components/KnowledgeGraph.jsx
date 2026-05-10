@@ -3,8 +3,10 @@ import * as d3 from 'd3'
 
 export default function KnowledgeGraph({ data, onNodeSelect, integrationResult }) {
   const svgRef = useRef(null)
+  const matrixSvgRef = useRef(null)
   const [searchTerm, setSearchTerm] = useState('')
   const [filterTextbook, setFilterTextbook] = useState('')
+  const [viewMode, setViewMode] = useState('graph')
   const simulationRef = useRef(null)
   const highlightedRef = useRef(new Set())
 
@@ -214,6 +216,133 @@ export default function KnowledgeGraph({ data, onNodeSelect, integrationResult }
     if (window._graphSearch) window._graphSearch(searchTerm)
   }, [searchTerm])
 
+  // Matrix heatmap rendering
+  useEffect(() => {
+    if (viewMode !== 'matrix' || !data || !data.nodes || data.nodes.length === 0) return
+
+    const svg = d3.select(matrixSvgRef.current)
+    const containerWidth = matrixSvgRef.current.clientWidth || 900
+    const containerHeight = matrixSvgRef.current.clientHeight || 600
+
+    svg.selectAll('*').remove()
+
+    // Get unique textbook names
+    const textbooks = [...new Set(data.nodes.map(n => n.textbook_name).filter(Boolean))]
+    if (textbooks.length === 0) return
+
+    // Count concept frequency across all textbooks
+    const conceptFreq = new Map()
+    data.nodes.forEach(n => {
+      const name = n.name || n.id
+      conceptFreq.set(name, (conceptFreq.get(name) || 0) + 1)
+    })
+
+    // Get top 20 concepts by frequency
+    const topConcepts = [...conceptFreq.entries()]
+      .sort((a, b) => b[1] - a[1])
+      .slice(0, 20)
+      .map(([name]) => name)
+
+    if (topConcepts.length === 0) return
+
+    // Build presence matrix: concept x textbook
+    const matrix = []
+    topConcepts.forEach((concept, yi) => {
+      textbooks.forEach((textbook, xi) => {
+        const present = data.nodes.some(n => (n.name || n.id) === concept && n.textbook_name === textbook)
+        matrix.push({ xi, yi, value: present ? 1 : 0, concept, textbook })
+      })
+    })
+
+    // Layout
+    const margin = { top: 120, right: 30, bottom: 30, left: 150 }
+    const plotWidth = containerWidth - margin.left - margin.right
+    const plotHeight = containerHeight - margin.top - margin.bottom
+    const cellWidth = plotWidth / textbooks.length
+    const cellHeight = plotHeight / topConcepts.length
+
+    const g = svg.append('g').attr('transform', `translate(${margin.left},${margin.top})`)
+
+    // Color scale
+    const colorScale = d3.scaleSequential()
+      .domain([0, 1])
+      .interpolator(d3.interpolateBlues)
+
+    // Draw cells
+    g.selectAll('rect')
+      .data(matrix)
+      .join('rect')
+      .attr('x', d => d.xi * cellWidth)
+      .attr('y', d => d.yi * cellHeight)
+      .attr('width', Math.max(cellWidth - 1, 1))
+      .attr('height', Math.max(cellHeight - 1, 1))
+      .attr('rx', 2)
+      .attr('fill', d => d.value ? colorScale(0.85) : '#1a1a2e')
+      .attr('stroke', '#2a2a3e')
+      .attr('stroke-width', 0.5)
+      .append('title')
+      .text(d => `${d.concept} / ${d.textbook}: ${d.value ? '存在' : '不存在'}`)
+
+    // X axis - textbook names (rotated)
+    g.selectAll('.x-label')
+      .data(textbooks)
+      .join('text')
+      .attr('class', 'x-label')
+      .attr('x', (d, i) => i * cellWidth + cellWidth / 2)
+      .attr('y', -8)
+      .attr('text-anchor', 'start')
+      .attr('font-size', '10px')
+      .attr('fill', '#9ca3af')
+      .attr('transform', (d, i) => `rotate(-45, ${i * cellWidth + cellWidth / 2}, -8)`)
+      .text(d => d.length > 12 ? d.slice(0, 12) + '...' : d)
+
+    // Y axis - concept names
+    g.selectAll('.y-label')
+      .data(topConcepts)
+      .join('text')
+      .attr('class', 'y-label')
+      .attr('x', -8)
+      .attr('y', (d, i) => i * cellHeight + cellHeight / 2 + 4)
+      .attr('text-anchor', 'end')
+      .attr('font-size', '11px')
+      .attr('fill', '#9ca3af')
+      .text(d => d.length > 16 ? d.slice(0, 16) + '...' : d)
+
+    // Title
+    svg.append('text')
+      .attr('x', containerWidth / 2)
+      .attr('y', 24)
+      .attr('text-anchor', 'middle')
+      .attr('font-size', '14px')
+      .attr('font-weight', '600')
+      .attr('fill', '#e5e7eb')
+      .text('知识概念-教材 矩阵热力图')
+
+    // Legend
+    const legendG = svg.append('g').attr('transform', `translate(${margin.left}, 45)`)
+    const legendData = [
+      { label: '存在', color: colorScale(0.85) },
+      { label: '不存在', color: '#1a1a2e' }
+    ]
+    legendData.forEach((item, i) => {
+      legendG.append('rect')
+        .attr('x', i * 100)
+        .attr('y', 0)
+        .attr('width', 14)
+        .attr('height', 14)
+        .attr('rx', 2)
+        .attr('fill', item.color)
+        .attr('stroke', '#2a2a3e')
+      legendG.append('text')
+        .attr('x', i * 100 + 20)
+        .attr('y', 11)
+        .attr('font-size', '11px')
+        .attr('fill', '#9ca3af')
+        .text(item.label)
+    })
+
+  }, [viewMode, data])
+
   // Get unique textbook names for filter
   const textbookNames = [...new Set(data.nodes.map(n => n.textbook_name).filter(Boolean))]
 
@@ -241,11 +370,31 @@ export default function KnowledgeGraph({ data, onNodeSelect, integrationResult }
             ))}
           </select>
         )}
+        <button
+          onClick={() => setViewMode(viewMode === 'graph' ? 'matrix' : 'graph')}
+          style={{
+            marginLeft: '8px',
+            padding: '4px 10px',
+            borderRadius: '4px',
+            background: viewMode === 'matrix' ? 'var(--accent-primary, #6366f1)' : 'var(--bg-tertiary)',
+            color: viewMode === 'matrix' ? '#fff' : 'var(--text-primary)',
+            border: '1px solid var(--border)',
+            fontSize: '12px',
+            cursor: 'pointer',
+            whiteSpace: 'nowrap'
+          }}
+        >
+          {viewMode === 'graph' ? '矩阵热力图' : '图谱视图'}
+        </button>
       </div>
 
-      <svg ref={svgRef} style={{ width: '100%', height: '100%' }}></svg>
+      {viewMode === 'graph' ? (
+        <svg ref={svgRef} style={{ width: '100%', height: '100%' }}></svg>
+      ) : (
+        <svg ref={matrixSvgRef} style={{ width: '100%', height: '100%' }}></svg>
+      )}
 
-      {data.nodes.length > 0 && (
+      {viewMode === 'graph' && data.nodes.length > 0 && (
         <div className="graph-legend">
           <div style={{ fontWeight: 600, marginBottom: '8px', fontSize: '12px' }}>图例</div>
           <div className="legend-item">
