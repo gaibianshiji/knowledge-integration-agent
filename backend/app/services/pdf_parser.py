@@ -3,9 +3,9 @@ import re
 import os
 import json
 from pathlib import Path
+from app.utils import get_data_dir
 
-DATA_DIR = Path(__file__).parent.parent.parent / "data" / "parsed"
-DATA_DIR.mkdir(parents=True, exist_ok=True)
+DATA_DIR = get_data_dir("parsed")
 
 def parse_pdf(file_path: str, textbook_id: str) -> dict:
     doc = fitz.open(file_path)

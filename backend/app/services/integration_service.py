@@ -4,9 +4,9 @@ from pathlib import Path
 import numpy as np
 from app.services.llm_service import call_deepseek, extract_json_from_llm
 from app.services.embedding_service import get_embeddings_batch, cosine_similarity
+from app.utils import get_data_dir
 
-INTEGRATION_DIR = Path(__file__).parent.parent.parent / "data" / "integration"
-INTEGRATION_DIR.mkdir(parents=True, exist_ok=True)
+INTEGRATION_DIR = get_data_dir("integration")
 
 async def align_knowledge_nodes(graphs: list[dict]) -> dict:
     all_nodes = []

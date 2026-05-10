@@ -2,9 +2,9 @@ import json
 import asyncio
 from pathlib import Path
 from app.services.llm_service import extract_json_from_llm
+from app.utils import get_data_dir
 
-GRAPH_DIR = Path(__file__).parent.parent.parent / "data" / "graphs"
-GRAPH_DIR.mkdir(parents=True, exist_ok=True)
+GRAPH_DIR = get_data_dir("graphs")
 
 EXTRACT_SYSTEM_PROMPT = """你是一个医学知识提取专家。你需要从教材章节中提取核心知识点和它们之间的关系。
 

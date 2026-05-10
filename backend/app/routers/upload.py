@@ -3,11 +3,11 @@ import uuid
 from fastapi import APIRouter, UploadFile, File
 from pathlib import Path
 from app.services.pdf_parser import parse_pdf, get_parsed_textbook, list_parsed_textbooks
+from app.utils import get_data_dir
 
 router = APIRouter()
 
-UPLOAD_DIR = Path(__file__).parent.parent.parent / "data" / "uploads"
-UPLOAD_DIR.mkdir(parents=True, exist_ok=True)
+UPLOAD_DIR = get_data_dir("uploads")
 
 @router.post("/textbook")
 async def upload_textbook(file: UploadFile = File(...)):

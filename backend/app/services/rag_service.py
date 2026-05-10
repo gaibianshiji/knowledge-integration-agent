@@ -3,11 +3,10 @@ import numpy as np
 from pathlib import Path
 from app.services.llm_service import call_deepseek
 from app.services.embedding_service import get_embedding, get_embeddings_batch, cosine_similarity
+from app.utils import get_data_dir
 
-CHUNKS_DIR = Path(__file__).parent.parent.parent / "data" / "chunks"
-INDEX_DIR = Path(__file__).parent.parent.parent / "data" / "index"
-CHUNKS_DIR.mkdir(parents=True, exist_ok=True)
-INDEX_DIR.mkdir(parents=True, exist_ok=True)
+CHUNKS_DIR = get_data_dir("chunks")
+INDEX_DIR = get_data_dir("index")
 
 embeddings_matrix = None
 chunks_data = []
