@@ -17,6 +17,7 @@ export default function App() {
   const [integrationResult, setIntegrationResult] = useState(null)
   const [loading, setLoading] = useState('')
   const [allGraphData, setAllGraphData] = useState({ nodes: [], links: [] })
+  const [sidebarCollapsed, setSidebarCollapsed] = useState(false)
 
   useEffect(() => {
     loadTextbooks()
@@ -175,7 +176,10 @@ export default function App() {
       </header>
 
       <div className="main-content">
-        <div className="sidebar">
+        <div className={`sidebar ${sidebarCollapsed ? 'collapsed' : ''}`}>
+          <div className="sidebar-toggle" onClick={() => setSidebarCollapsed(!sidebarCollapsed)}>
+            {sidebarCollapsed ? '▶' : '◀'}
+          </div>
           <FileUpload
             textbooks={textbooks}
             onUpload={handleUpload}

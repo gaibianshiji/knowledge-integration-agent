@@ -1,10 +1,29 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 
+const STORAGE_KEY = 'med-agent-chat-history'
+
 export default function Chat({ apiBase }) {
-  const [messages, setMessages] = useState([])
+  const [messages, setMessages] = useState(() => {
+    try {
+      const saved = localStorage.getItem(STORAGE_KEY)
+      return saved ? JSON.parse(saved) : []
+    } catch { return [] }
+  })
   const [input, setInput] = useState('')
   const [loading, setLoading] = useState(false)
+
+  // Persist messages to localStorage
+  useEffect(() => {
+    try {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(messages))
+    } catch {}
+  }, [messages])
+
+  const clearHistory = () => {
+    setMessages([])
+    localStorage.removeItem(STORAGE_KEY)
+  }
 
   const sendMessage = async () => {
     if (!input.trim()) return
@@ -15,7 +34,8 @@ export default function Chat({ apiBase }) {
     setLoading(true)
 
     try {
-      const res = await axios.post(`${apiBase}/chat/message?message=${encodeURIComponent(input)}`, {
+      const res = await axios.post(`${apiBase}/chat/message`, {
+        message: input,
         history: messages
       })
       setMessages(prev => [...prev, { role: 'assistant', content: res.data.response }])
@@ -35,6 +55,13 @@ export default function Chat({ apiBase }) {
 
   return (
     <div className="chat-container">
+      {messages.length > 0 && (
+        <div style={{ padding: '6px 12px', borderBottom: '1px solid var(--border)', display: 'flex', justifyContent: 'flex-end' }}>
+          <button onClick={clearHistory} style={{ background: 'none', border: 'none', color: 'var(--text-secondary)', cursor: 'pointer', fontSize: '11px' }}>
+            清空对话
+          </button>
+        </div>
+      )}
       <div className="chat-messages scrollbar-thin">
         {messages.length === 0 && (
           <div className="empty-state" style={{ height: 'auto', padding: '40px 0' }}>

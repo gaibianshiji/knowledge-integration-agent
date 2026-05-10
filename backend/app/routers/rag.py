@@ -16,7 +16,7 @@ async def index_textbooks():
     if not textbooks:
         return {"error": "未找到已解析的教材"}
 
-    result = build_index(textbooks)
+    result = await build_index(textbooks)
     return result
 
 @router.post("/query")

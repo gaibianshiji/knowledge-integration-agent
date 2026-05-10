@@ -29,6 +29,8 @@ backend/data/uploads/
 backend/data/chunks/
 backend/data/index/
 backend/data/integration/
+backend/data/parsed/
+backend/data/graphs/
 textbooks/
 
 # IDE

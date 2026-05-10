@@ -46,3 +46,8 @@ def list_from_memory(key: str) -> list:
     """List all items from memory storage"""
     storage = get_memory_storage(key)
     return list(storage.values())
+
+def clear_memory(key: str):
+    """Clear all items from memory storage for a given key"""
+    if key in _memory_storage:
+        _memory_storage[key] = {}

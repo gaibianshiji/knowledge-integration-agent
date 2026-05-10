@@ -1,8 +1,8 @@
-import React, { useRef } from 'react'
+import React, { useRef, useState } from 'react'
 
-export default function FileUpload({ textbooks, onUpload, onBlobUpload, onBuildGraph, onBuildAll, loading, graphs }) {
+export default function FileUpload({ textbooks, onUpload, onBuildGraph, onBuildAll, loading, graphs }) {
   const fileInputRef = useRef(null)
-  const blobInputRef = useRef(null)
+  const [selected, setSelected] = useState(new Set())
 
   const handleDrop = (e) => {
     e.preventDefault()
@@ -23,12 +23,17 @@ export default function FileUpload({ textbooks, onUpload, onBlobUpload, onBuildG
     }
   }
 
-  const handleBlobFileSelect = (e) => {
-    const files = e.target.files
-    for (const file of files) {
-      onBlobUpload(file)
-    }
+  const toggleSelect = (id) => {
+    setSelected(prev => {
+      const next = new Set(prev)
+      if (next.has(id)) next.delete(id)
+      else next.add(id)
+      return next
+    })
   }
+
+  const selectAll = () => setSelected(new Set(textbooks.map(t => t.textbook_id)))
+  const deselectAll = () => setSelected(new Set())
 
   return (
     <div className="sidebar-section">
@@ -41,7 +46,7 @@ export default function FileUpload({ textbooks, onUpload, onBlobUpload, onBuildG
       >
         <div style={{ fontSize: '24px', marginBottom: '8px' }}>📚</div>
         <p>拖拽上传或点击选择</p>
-        <p style={{ fontSize: '11px', marginTop: '4px' }}>支持 PDF / Markdown / TXT (≤4MB)</p>
+        <p style={{ fontSize: '11px', marginTop: '4px' }}>支持 PDF / Markdown / TXT</p>
         <input
           ref={fileInputRef}
           type="file"
@@ -51,42 +56,49 @@ export default function FileUpload({ textbooks, onUpload, onBlobUpload, onBuildG
           style={{ display: 'none' }}
         />
       </div>
-      <div style={{ marginTop: '8px' }}>
-        <button
-          className="btn btn-secondary"
-          onClick={() => blobInputRef.current?.click()}
-          disabled={loading === 'blob-upload'}
-          style={{ width: '100%', fontSize: '12px' }}
-        >
-          {loading === 'blob-upload' ? '上传中...' : '大文件上传 (Vercel Blob)'}
-        </button>
-        <input
-          ref={blobInputRef}
-          type="file"
-          accept=".pdf,.md,.txt"
-          onChange={handleBlobFileSelect}
-          style={{ display: 'none' }}
-        />
-      </div>
+
+      {loading === 'uploading' && (
+        <div className="upload-progress">
+          <div className="progress-bar"><div className="progress-fill"></div></div>
+          <span className="progress-text">上传中...</span>
+        </div>
+      )}
 
       {textbooks.length > 0 && (
         <>
+          <div className="selection-controls">
+            <button className="btn btn-secondary" onClick={selectAll} style={{ fontSize: '11px', padding: '4px 8px' }}>全选</button>
+            <button className="btn btn-secondary" onClick={deselectAll} style={{ fontSize: '11px', padding: '4px 8px' }}>取消</button>
+            <span style={{ fontSize: '11px', color: 'var(--text-secondary)' }}>已选 {selected.size}/{textbooks.length}</span>
+          </div>
+
           <ul className="file-list">
             {textbooks.map(tb => (
               <li key={tb.textbook_id} className="file-item">
+                <input
+                  type="checkbox"
+                  className="file-checkbox"
+                  checked={selected.has(tb.textbook_id)}
+                  onChange={() => toggleSelect(tb.textbook_id)}
+                />
                 <span className="name" title={tb.filename}>{tb.title}</span>
-                <span className={`status ${graphs[tb.textbook_id] ? 'done' : ''}`}>
-                  {graphs[tb.textbook_id] ? '已构建' : '待构建'}
-                </span>
+                <button
+                  className={`btn ${graphs[tb.textbook_id] ? 'btn-done' : 'btn-build'}`}
+                  onClick={() => onBuildGraph(tb.textbook_id)}
+                  disabled={loading === `graph-${tb.textbook_id}`}
+                >
+                  {loading === `graph-${tb.textbook_id}` ? '...' : graphs[tb.textbook_id] ? '✓' : '构建'}
+                </button>
               </li>
             ))}
           </ul>
-          <div style={{ marginTop: '12px', display: 'flex', gap: '8px' }}>
+
+          <div style={{ marginTop: '12px' }}>
             <button
-              className="btn btn-secondary"
+              className="btn btn-primary"
               onClick={onBuildAll}
               disabled={loading === 'all-graphs'}
-              style={{ flex: 1 }}
+              style={{ width: '100%' }}
             >
               {loading === 'all-graphs' ? '构建中...' : '全部构建'}
             </button>

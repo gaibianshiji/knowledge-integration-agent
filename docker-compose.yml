@@ -1,0 +1,15 @@
+version: "3.8"
+
+services:
+  app:
+    build: .
+    ports:
+      - "7860:7860"
+    environment:
+      - DEEPSEEK_API_KEY=${DEEPSEEK_API_KEY}
+      - QIANWEN_API_KEY=${QIANWEN_API_KEY}
+    volumes:
+      - app_data:/app/backend/data
+
+volumes:
+  app_data:

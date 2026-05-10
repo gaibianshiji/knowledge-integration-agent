@@ -43,33 +43,59 @@ def chunk_textbook(textbook: dict, chunk_size: int = 600, overlap: int = 80) -> 
 async def build_index(textbooks: list[dict]) -> dict:
     global embeddings_matrix, chunks_data
 
-    all_chunks = []
-    for tb in textbooks:
-        all_chunks.extend(chunk_textbook(tb))
+    # Load existing index first for incremental build
+    if embeddings_matrix is None:
+        load_index()
 
-    chunks_data = all_chunks
+    # Find which textbooks are already indexed
+    existing_tb_ids = set(c["textbook_id"] for c in chunks_data)
+    new_textbooks = [tb for tb in textbooks if tb["textbook_id"] not in existing_tb_ids]
 
-    if not chunks_data:
-        return {"status": "no_chunks", "count": 0}
+    if not new_textbooks:
+        return {"status": "already_indexed", "count": len(chunks_data), "new": 0}
 
-    # Get embeddings in batches
-    texts = [c["content"] for c in chunks_data]
-    batch_size = 20
-    all_embeddings = []
+    # Chunk only new textbooks
+    new_chunks = []
+    for tb in new_textbooks:
+        new_chunks.extend(chunk_textbook(tb))
 
-    for i in range(0, len(texts), batch_size):
-        batch = texts[i:i + batch_size]
-        batch_embeddings = await get_embeddings_batch(batch)
-        all_embeddings.extend(batch_embeddings)
+    # Limit per build to avoid timeout
+    if len(new_chunks) > 500:
+        new_chunks = new_chunks[:500]
 
-    embeddings_matrix = np.array(all_embeddings, dtype='float32')
+    if not new_chunks:
+        return {"status": "no_chunks", "count": len(chunks_data), "new": 0}
 
-    # Save to disk
+    # Get embeddings for new chunks
+    texts = [c["content"] for c in new_chunks]
+    new_embeddings = []
+
+    for i, text in enumerate(texts):
+        try:
+            embedding = await get_embedding(text)
+            new_embeddings.append(embedding)
+            if (i + 1) % 50 == 0:
+                print(f"Processed {i + 1}/{len(texts)} embeddings")
+        except Exception as e:
+            print(f"Failed to get embedding for chunk {i}: {e}")
+            new_embeddings.append([0.0] * 1024)
+
+    new_embeddings_arr = np.array(new_embeddings, dtype='float32')
+
+    # Merge with existing
+    if embeddings_matrix is not None and len(chunks_data) > 0:
+        chunks_data = chunks_data + new_chunks
+        embeddings_matrix = np.vstack([embeddings_matrix, new_embeddings_arr])
+    else:
+        chunks_data = new_chunks
+        embeddings_matrix = new_embeddings_arr
+
+    # Persist to disk
     np.save(str(INDEX_DIR / "embeddings.npy"), embeddings_matrix)
     with open(CHUNKS_DIR / "chunks.json", 'w', encoding='utf-8') as f:
         json.dump(chunks_data, f, ensure_ascii=False, indent=2)
 
-    return {"status": "ok", "count": len(chunks_data)}
+    return {"status": "ok", "count": len(chunks_data), "new": len(new_chunks)}
 
 def load_index() -> bool:
     global embeddings_matrix, chunks_data

@@ -8,9 +8,9 @@ from app.utils import get_data_dir, get_bundled_data_dir, store_in_memory, get_f
 DATA_DIR = get_data_dir("parsed")
 BUNDLED_DATA_DIR = get_bundled_data_dir("parsed")
 
-def parse_pdf(file_path: str, textbook_id: str) -> dict:
+def parse_pdf(file_path: str, textbook_id: str, original_filename: str = None) -> dict:
     doc = fitz.open(file_path)
-    filename = os.path.basename(file_path)
+    filename = original_filename or os.path.basename(file_path)
 
     # Known textbook name mapping (by filename prefix)
     TEXTBOOK_NAMES = {
