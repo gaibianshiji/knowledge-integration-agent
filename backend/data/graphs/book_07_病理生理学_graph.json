@@ -1,0 +1,1193 @@
+{
+  "textbook_id": "book_07_病理生理学",
+  "textbook_name": "病理生理学",
+  "nodes": [
+    {
+      "id": "book_07_病理生理学_node_001",
+      "name": "病理生理学",
+      "definition": "研究疾病发生、发展过程中机体功能、代谢变化及其机制的学科，是连接基础医学与临床医学的桥梁学科。",
+      "category": "核心概念",
+      "chapter": "第一节",
+      "page": 16,
+      "textbook_id": "book_07_病理生理学",
+      "textbook_name": "病理生理学"
+    },
+    {
+      "id": "book_07_病理生理学_node_002",
+      "name": "发展简史",
+      "definition": "病理生理学作为独立学科从萌芽到形成的历史过程，包括早期实验病理学、临床病理生理学等阶段。",
+      "category": "核心概念",
+      "chapter": "第一节",
+      "page": 16,
+      "textbook_id": "book_07_病理生理学",
+      "textbook_name": "病理生理学"
+    },
+    {
+      "id": "book_07_病理生理学_node_003",
+      "name": "未来趋势",
+      "definition": "病理生理学在分子生物学、系统生物学、精准医学等新技术推动下的发展方向。",
+      "category": "核心概念",
+      "chapter": "第一节",
+      "page": 16,
+      "textbook_id": "book_07_病理生理学",
+      "textbook_name": "病理生理学"
+    },
+    {
+      "id": "book_07_病理生理学_node_004",
+      "name": "实验病理学",
+      "definition": "19世纪后期通过动物实验研究疾病机制的方法，是病理生理学的前身。",
+      "category": "核心概念",
+      "chapter": "第一节",
+      "page": 16,
+      "textbook_id": "book_07_病理生理学",
+      "textbook_name": "病理生理学"
+    },
+    {
+      "id": "book_07_病理生理学_node_005",
+      "name": "临床病理生理学",
+      "definition": "20世纪初期将病理生理学应用于临床，研究疾病发生发展规律的分支。",
+      "category": "核心概念",
+      "chapter": "第一节",
+      "page": 16,
+      "textbook_id": "book_07_病理生理学",
+      "textbook_name": "病理生理学"
+    },
+    {
+      "id": "book_07_病理生理学_node_006",
+      "name": "分子病理生理学",
+      "definition": "从分子水平研究疾病发生机制，是病理生理学未来趋势的重要方向。",
+      "category": "核心概念",
+      "chapter": "第一节",
+      "page": 16,
+      "textbook_id": "book_07_病理生理学",
+      "textbook_name": "病理生理学"
+    },
+    {
+      "id": "book_07_病理生理学_node_007",
+      "name": "系统生物学",
+      "definition": "整合基因组学、蛋白质组学等多组学数据，系统研究疾病网络的方法。",
+      "category": "核心概念",
+      "chapter": "第一节",
+      "page": 16,
+      "textbook_id": "book_07_病理生理学",
+      "textbook_name": "病理生理学"
+    },
+    {
+      "id": "book_07_病理生理学_node_008",
+      "name": "精准医学",
+      "definition": "基于个体基因、环境、生活方式差异，制定个性化疾病预防和治疗策略。",
+      "category": "核心概念",
+      "chapter": "第一节",
+      "page": 16,
+      "textbook_id": "book_07_病理生理学",
+      "textbook_name": "病理生理学"
+    },
+    {
+      "id": "book_07_病理生理学_node_009",
+      "name": "桥梁学科",
+      "definition": "病理生理学在基础医学（如生理学、病理学）与临床医学（如内科学）之间的连接作用。",
+      "category": "核心概念",
+      "chapter": "第一节",
+      "page": 16,
+      "textbook_id": "book_07_病理生理学",
+      "textbook_name": "病理生理学"
+    },
+    {
+      "id": "book_07_病理生理学_node_010",
+      "name": "疾病机制研究",
+      "definition": "病理生理学的核心任务，探索疾病发生、发展的功能与代谢变化规律。",
+      "category": "核心概念",
+      "chapter": "第一节",
+      "page": 16,
+      "textbook_id": "book_07_病理生理学",
+      "textbook_name": "病理生理学"
+    },
+    {
+      "id": "book_07_病理生理学_node_011",
+      "name": "病理生理学",
+      "definition": "研究疾病发生、发展过程中功能、代谢变化及其机制的学科，是连接基础医学与临床医学的桥梁学科。",
+      "category": "核心概念",
+      "chapter": "第二节",
+      "page": 16,
+      "textbook_id": "book_07_病理生理学",
+      "textbook_name": "病理生理学"
+    },
+    {
+      "id": "book_07_病理生理学_node_012",
+      "name": "主要教学内容",
+      "definition": "病理生理学课程的核心学习内容，包括疾病概论、基本病理过程和各系统病理生理学。",
+      "category": "核心概念",
+      "chapter": "第二节",
+      "page": 16,
+      "textbook_id": "book_07_病理生理学",
+      "textbook_name": "病理生理学"
+    },
+    {
+      "id": "book_07_病理生理学_node_013",
+      "name": "疾病概论",
+      "definition": "病理生理学教学内容的一部分，阐述疾病的概念、发生原因、发病条件及转归等一般规律。",
+      "category": "核心概念",
+      "chapter": "第二节",
+      "page": 16,
+      "textbook_id": "book_07_病理生理学",
+      "textbook_name": "病理生理学"
+    },
+    {
+      "id": "book_07_病理生理学_node_014",
+      "name": "基本病理过程",
+      "definition": "多种疾病中可能出现的共同的、成套的功能、代谢和结构变化，如发热、缺氧、休克等。",
+      "category": "核心概念",
+      "chapter": "第二节",
+      "page": 16,
+      "textbook_id": "book_07_病理生理学",
+      "textbook_name": "病理生理学"
+    },
+    {
+      "id": "book_07_病理生理学_node_015",
+      "name": "各系统病理生理学",
+      "definition": "研究具体器官或系统在疾病状态下功能、代谢变化的规律和机制，如心血管、呼吸、消化系统等。",
+      "category": "核心概念",
+      "chapter": "第二节",
+      "page": 16,
+      "textbook_id": "book_07_病理生理学",
+      "textbook_name": "病理生理学"
+    },
+    {
+      "id": "book_07_病理生理学_node_016",
+      "name": "病理生理学研究手段概述",
+      "definition": "用于研究疾病发生发展机制的各种实验方法和临床观察手段的简要介绍。",
+      "category": "核心概念",
+      "chapter": "第二节",
+      "page": 16,
+      "textbook_id": "book_07_病理生理学",
+      "textbook_name": "病理生理学"
+    },
+    {
+      "id": "book_07_病理生理学_node_017",
+      "name": "动物实验",
+      "definition": "病理生理学的重要研究手段，通过在动物身上复制人类疾病模型来研究发病机制。",
+      "category": "治疗方法",
+      "chapter": "第二节",
+      "page": 16,
+      "textbook_id": "book_07_病理生理学",
+      "textbook_name": "病理生理学"
+    },
+    {
+      "id": "book_07_病理生理学_node_018",
+      "name": "临床观察",
+      "definition": "在人体上进行的疾病研究手段，通过观察患者症状、体征及实验室检查结果来研究疾病规律。",
+      "category": "治疗方法",
+      "chapter": "第二节",
+      "page": 16,
+      "textbook_id": "book_07_病理生理学",
+      "textbook_name": "病理生理学"
+    },
+    {
+      "id": "book_07_病理生理学_node_019",
+      "name": "细胞与分子生物学技术",
+      "definition": "从细胞和分子水平研究疾病机制的技术手段，如基因敲除、蛋白质组学等。",
+      "category": "治疗方法",
+      "chapter": "第二节",
+      "page": 16,
+      "textbook_id": "book_07_病理生理学",
+      "textbook_name": "病理生理学"
+    },
+    {
+      "id": "book_07_病理生理学_node_020",
+      "name": "学习方法",
+      "definition": "学习病理生理学课程的有效策略和技巧，强调理解机制、联系临床和主动思考。",
+      "category": "核心概念",
+      "chapter": "第二节",
+      "page": 17,
+      "textbook_id": "book_07_病理生理学",
+      "textbook_name": "病理生理学"
+    },
+    {
+      "id": "book_07_病理生理学_node_021",
+      "name": "理解机制",
+      "definition": "学习方法之一，重点在于理解疾病发生发展的内在机制，而非死记硬背。",
+      "category": "核心概念",
+      "chapter": "第二节",
+      "page": 17,
+      "textbook_id": "book_07_病理生理学",
+      "textbook_name": "病理生理学"
+    },
+    {
+      "id": "book_07_病理生理学_node_022",
+      "name": "联系临床",
+      "definition": "学习方法之一，将病理生理学知识与临床疾病表现、诊断和治疗联系起来。",
+      "category": "核心概念",
+      "chapter": "第二节",
+      "page": 17,
+      "textbook_id": "book_07_病理生理学",
+      "textbook_name": "病理生理学"
+    },
+    {
+      "id": "book_07_病理生理学_node_023",
+      "name": "主动思考",
+      "definition": "学习方法之一，鼓励学生主动提问、分析和推理，培养临床思维能力。",
+      "category": "核心概念",
+      "chapter": "第二节",
+      "page": 17,
+      "textbook_id": "book_07_病理生理学",
+      "textbook_name": "病理生理学"
+    },
+    {
+      "id": "book_07_病理生理学_node_024",
+      "name": "健康",
+      "definition": "健康不仅是没有疾病或虚弱，而是身体、心理和社会适应方面的完好状态。",
+      "category": "核心概念",
+      "chapter": "第一节 健康与疾病",
+      "page": 16,
+      "textbook_id": "book_07_病理生理学",
+      "textbook_name": "病理生理学"
+    },
+    {
+      "id": "book_07_病理生理学_node_025",
+      "name": "疾病",
+      "definition": "疾病是在一定病因作用下，机体自稳调节紊乱而发生的异常生命活动过程。",
+      "category": "核心概念",
+      "chapter": "第一节 健康与疾病",
+      "page": 16,
+      "textbook_id": "book_07_病理生理学",
+      "textbook_name": "病理生理学"
+    },
+    {
+      "id": "book_07_病理生理学_node_026",
+      "name": "亚健康",
+      "definition": "亚健康是介于健康与疾病之间的一种生理功能低下的状态，又称第三状态或灰色状态。",
+      "category": "核心概念",
+      "chapter": "第一节 健康与疾病",
+      "page": 16,
+      "textbook_id": "book_07_病理生理学",
+      "textbook_name": "病理生理学"
+    },
+    {
+      "id": "book_07_病理生理学_node_027",
+      "name": "自稳调节紊乱",
+      "definition": "机体在内外环境变化时，维持内环境相对稳定的调节机制出现障碍，导致疾病发生。",
+      "category": "生理机制",
+      "chapter": "第一节 健康与疾病",
+      "page": 16,
+      "textbook_id": "book_07_病理生理学",
+      "textbook_name": "病理生理学"
+    },
+    {
+      "id": "book_07_病理生理学_node_028",
+      "name": "病因",
+      "definition": "引起疾病发生并赋予疾病特征的因素，包括生物性、物理性、化学性、营养性、遗传性、免疫性、心理社会性等。",
+      "category": "核心概念",
+      "chapter": "第一节 健康与疾病",
+      "page": 16,
+      "textbook_id": "book_07_病理生理学",
+      "textbook_name": "病理生理学"
+    },
+    {
+      "id": "book_07_病理生理学_node_029",
+      "name": "诱因",
+      "definition": "能够加强病因作用或促进疾病发生的因素，本身不能引起疾病。",
+      "category": "核心概念",
+      "chapter": "第一节 健康与疾病",
+      "page": 16,
+      "textbook_id": "book_07_病理生理学",
+      "textbook_name": "病理生理学"
+    },
+    {
+      "id": "book_07_病理生理学_node_030",
+      "name": "疾病发生的一般规律",
+      "definition": "疾病发生过程中普遍存在的规律，包括损伤与抗损伤、因果交替、局部与整体关系等。",
+      "category": "病理变化",
+      "chapter": "第一节 健康与疾病",
+      "page": 16,
+      "textbook_id": "book_07_病理生理学",
+      "textbook_name": "病理生理学"
+    },
+    {
+      "id": "book_07_病理生理学_node_031",
+      "name": "损伤与抗损伤反应",
+      "definition": "疾病过程中，致病因素造成的损伤与机体抗损伤反应同时存在，贯穿疾病始终。",
+      "category": "病理变化",
+      "chapter": "第一节 健康与疾病",
+      "page": 16,
+      "textbook_id": "book_07_病理生理学",
+      "textbook_name": "病理生理学"
+    },
+    {
+      "id": "book_07_病理生理学_node_032",
+      "name": "因果交替",
+      "definition": "疾病过程中，原始病因引起的结果可转化为新的病因，导致恶性循环或良性循环。",
+      "category": "病理变化",
+      "chapter": "第一节 健康与疾病",
+      "page": 16,
+      "textbook_id": "book_07_病理生理学",
+      "textbook_name": "病理生理学"
+    },
+    {
+      "id": "book_07_病理生理学_node_033",
+      "name": "局部与整体关系",
+      "definition": "疾病过程中，局部病变可影响全身，全身状态也可影响局部病变的发展。",
+      "category": "病理变化",
+      "chapter": "第一节 健康与疾病",
+      "page": 16,
+      "textbook_id": "book_07_病理生理学",
+      "textbook_name": "病理生理学"
+    },
+    {
+      "id": "book_07_病理生理学_node_034",
+      "name": "疾病转归",
+      "definition": "疾病发展的最终结局，包括完全康复、不完全康复和死亡。",
+      "category": "核心概念",
+      "chapter": "第一节 健康与疾病",
+      "page": 16,
+      "textbook_id": "book_07_病理生理学",
+      "textbook_name": "病理生理学"
+    },
+    {
+      "id": "book_07_病理生理学_node_035",
+      "name": "完全康复",
+      "definition": "疾病过程中损伤完全修复，机体的功能、代谢和形态结构恢复正常，症状体征消失。",
+      "category": "临床表现",
+      "chapter": "第一节 健康与疾病",
+      "page": 16,
+      "textbook_id": "book_07_病理生理学",
+      "textbook_name": "病理生理学"
+    },
+    {
+      "id": "book_07_病理生理学_node_036",
+      "name": "不完全康复",
+      "definition": "疾病后遗留某些病理变化或功能障碍，但机体通过代偿维持相对正常的生命活动。",
+      "category": "临床表现",
+      "chapter": "第一节 健康与疾病",
+      "page": 16,
+      "textbook_id": "book_07_病理生理学",
+      "textbook_name": "病理生理学"
+    },
+    {
+      "id": "book_07_病理生理学_node_037",
+      "name": "死亡",
+      "definition": "机体生命活动和新陈代谢的永久终止，包括生理性死亡和病理性死亡。",
+      "category": "核心概念",
+      "chapter": "第一节 健康与疾病",
+      "page": 16,
+      "textbook_id": "book_07_病理生理学",
+      "textbook_name": "病理生理学"
+    },
+    {
+      "id": "book_07_病理生理学_node_038",
+      "name": "脑死亡",
+      "definition": "全脑功能（包括大脑、小脑、脑干）不可逆性丧失，作为现代死亡判断标准。",
+      "category": "核心概念",
+      "chapter": "第一节 健康与疾病",
+      "page": 16,
+      "textbook_id": "book_07_病理生理学",
+      "textbook_name": "病理生理学"
+    },
+    {
+      "id": "book_07_病理生理学_node_039",
+      "name": "病因学基础",
+      "definition": "研究疾病发生原因和条件的科学，是病理生理学的重要基础。",
+      "category": "核心概念",
+      "chapter": "第二节",
+      "page": 16,
+      "textbook_id": "book_07_病理生理学",
+      "textbook_name": "病理生理学"
+    },
+    {
+      "id": "book_07_病理生理学_node_040",
+      "name": "疾病发生的原因",
+      "definition": "引起疾病并赋予疾病特征性的致病因素，是疾病发生的必要因素。",
+      "category": "核心概念",
+      "chapter": "第二节",
+      "page": 16,
+      "textbook_id": "book_07_病理生理学",
+      "textbook_name": "病理生理学"
+    },
+    {
+      "id": "book_07_病理生理学_node_041",
+      "name": "疾病发生的条件",
+      "definition": "影响疾病发生发展的各种环境、机体状态等因素，可促进或阻碍疾病发生。",
+      "category": "核心概念",
+      "chapter": "第二节",
+      "page": 16,
+      "textbook_id": "book_07_病理生理学",
+      "textbook_name": "病理生理学"
+    },
+    {
+      "id": "book_07_病理生理学_node_042",
+      "name": "危险因素",
+      "definition": "增加疾病发生可能性的各种因素，包括生物、环境、行为、遗传等。",
+      "category": "核心概念",
+      "chapter": "第二节",
+      "page": 16,
+      "textbook_id": "book_07_病理生理学",
+      "textbook_name": "病理生理学"
+    },
+    {
+      "id": "book_07_病理生理学_node_043",
+      "name": "致病因素",
+      "definition": "直接导致疾病发生的具体因素，如物理、化学、生物因素等。",
+      "category": "核心概念",
+      "chapter": "第二节",
+      "page": 16,
+      "textbook_id": "book_07_病理生理学",
+      "textbook_name": "病理生理学"
+    },
+    {
+      "id": "book_07_病理生理学_node_044",
+      "name": "诱因",
+      "definition": "能够促进或触发疾病发生的条件因素，如劳累、受凉、情绪波动等。",
+      "category": "核心概念",
+      "chapter": "第二节",
+      "page": 16,
+      "textbook_id": "book_07_病理生理学",
+      "textbook_name": "病理生理学"
+    },
+    {
+      "id": "book_07_病理生理学_node_045",
+      "name": "遗传因素",
+      "definition": "通过基因突变或染色体异常导致疾病发生的生物因素。",
+      "category": "核心概念",
+      "chapter": "第二节",
+      "page": 16,
+      "textbook_id": "book_07_病理生理学",
+      "textbook_name": "病理生理学"
+    },
+    {
+      "id": "book_07_病理生理学_node_046",
+      "name": "环境因素",
+      "definition": "包括自然环境和社会环境中的各种致病条件，如污染、气候、社会压力等。",
+      "category": "核心概念",
+      "chapter": "第二节",
+      "page": 16,
+      "textbook_id": "book_07_病理生理学",
+      "textbook_name": "病理生理学"
+    },
+    {
+      "id": "book_07_病理生理学_node_047",
+      "name": "宿主因素",
+      "definition": "机体自身的生理、免疫、营养、心理状态等影响疾病发生的内部条件。",
+      "category": "核心概念",
+      "chapter": "第二节",
+      "page": 16,
+      "textbook_id": "book_07_病理生理学",
+      "textbook_name": "病理生理学"
+    },
+    {
+      "id": "book_07_病理生理学_node_048",
+      "name": "病因与条件的关系",
+      "definition": "病因是疾病发生的必要因素，条件影响病因的作用结果，二者共同决定疾病发生。",
+      "category": "核心概念",
+      "chapter": "第二节",
+      "page": 16,
+      "textbook_id": "book_07_病理生理学",
+      "textbook_name": "病理生理学"
+    },
+    {
+      "id": "book_07_病理生理学_node_049",
+      "name": "多因素致病模式",
+      "definition": "多数疾病由多种病因和条件共同作用导致，而非单一因素。",
+      "category": "核心概念",
+      "chapter": "第二节",
+      "page": 16,
+      "textbook_id": "book_07_病理生理学",
+      "textbook_name": "病理生理学"
+    },
+    {
+      "id": "book_07_病理生理学_node_050",
+      "name": "生物因素",
+      "definition": "包括病原微生物、寄生虫等直接引起感染的致病因素。",
+      "category": "核心概念",
+      "chapter": "第二节",
+      "page": 16,
+      "textbook_id": "book_07_病理生理学",
+      "textbook_name": "病理生理学"
+    },
+    {
+      "id": "book_07_病理生理学_node_051",
+      "name": "物理因素",
+      "definition": "如机械力、温度、辐射、电流等物理性致病因素。",
+      "category": "核心概念",
+      "chapter": "第二节",
+      "page": 16,
+      "textbook_id": "book_07_病理生理学",
+      "textbook_name": "病理生理学"
+    },
+    {
+      "id": "book_07_病理生理学_node_052",
+      "name": "化学因素",
+      "definition": "如毒物、药物、酸碱失衡等化学性致病因素。",
+      "category": "核心概念",
+      "chapter": "第二节",
+      "page": 16,
+      "textbook_id": "book_07_病理生理学",
+      "textbook_name": "病理生理学"
+    },
+    {
+      "id": "book_07_病理生理学_node_053",
+      "name": "发病学基础",
+      "definition": "研究疾病发生、发展及转归的普遍规律和基本机制的理论基础。",
+      "category": "核心概念",
+      "chapter": "第三节",
+      "page": 16,
+      "textbook_id": "book_07_病理生理学",
+      "textbook_name": "病理生理学"
+    },
+    {
+      "id": "book_07_病理生理学_node_054",
+      "name": "疾病发生发展的一般规律",
+      "definition": "疾病过程中普遍存在的、反映疾病发生发展过程的基本规律。",
+      "category": "核心概念",
+      "chapter": "第三节",
+      "page": 16,
+      "textbook_id": "book_07_病理生理学",
+      "textbook_name": "病理生理学"
+    },
+    {
+      "id": "book_07_病理生理学_node_055",
+      "name": "疾病发生发展的基本机制",
+      "definition": "导致疾病发生和发展的具体生物学和病理生理学过程。",
+      "category": "核心概念",
+      "chapter": "第三节",
+      "page": 16,
+      "textbook_id": "book_07_病理生理学",
+      "textbook_name": "病理生理学"
+    },
+    {
+      "id": "book_07_病理生理学_node_056",
+      "name": "损伤与抗损伤反应",
+      "definition": "疾病过程中，致病因素引起的组织损伤与机体防御修复机制之间的相互作用。",
+      "category": "病理变化",
+      "chapter": "第三节",
+      "page": 16,
+      "textbook_id": "book_07_病理生理学",
+      "textbook_name": "病理生理学"
+    },
+    {
+      "id": "book_07_病理生理学_node_057",
+      "name": "因果交替规律",
+      "definition": "疾病过程中，原因和结果相互转化、互为因果，形成链式发展的规律。",
+      "category": "病理变化",
+      "chapter": "第三节",
+      "page": 16,
+      "textbook_id": "book_07_病理生理学",
+      "textbook_name": "病理生理学"
+    },
+    {
+      "id": "book_07_病理生理学_node_058",
+      "name": "局部与整体关系",
+      "definition": "疾病过程中，局部病变与全身反应相互影响、相互制约的关系。",
+      "category": "病理变化",
+      "chapter": "第三节",
+      "page": 16,
+      "textbook_id": "book_07_病理生理学",
+      "textbook_name": "病理生理学"
+    },
+    {
+      "id": "book_07_病理生理学_node_059",
+      "name": "神经机制",
+      "definition": "通过神经系统（如反射、神经递质）参与疾病发生发展的机制。",
+      "category": "生理机制",
+      "chapter": "第三节",
+      "page": 16,
+      "textbook_id": "book_07_病理生理学",
+      "textbook_name": "病理生理学"
+    },
+    {
+      "id": "book_07_病理生理学_node_060",
+      "name": "体液机制",
+      "definition": "通过体液因子（如激素、细胞因子、炎症介质）参与疾病发生发展的机制。",
+      "category": "生理机制",
+      "chapter": "第三节",
+      "page": 16,
+      "textbook_id": "book_07_病理生理学",
+      "textbook_name": "病理生理学"
+    },
+    {
+      "id": "book_07_病理生理学_node_061",
+      "name": "细胞机制",
+      "definition": "通过细胞结构、功能及代谢异常参与疾病发生发展的机制。",
+      "category": "生理机制",
+      "chapter": "第三节",
+      "page": 16,
+      "textbook_id": "book_07_病理生理学",
+      "textbook_name": "病理生理学"
+    },
+    {
+      "id": "book_07_病理生理学_node_062",
+      "name": "分子机制",
+      "definition": "从基因、蛋白质等分子水平阐述疾病发生发展的机制。",
+      "category": "生理机制",
+      "chapter": "第三节",
+      "page": 16,
+      "textbook_id": "book_07_病理生理学",
+      "textbook_name": "病理生理学"
+    },
+    {
+      "id": "book_07_病理生理学_node_063",
+      "name": "疾病发生发展的基本过程",
+      "definition": "疾病从起始、发展到结局所经历的阶段，包括潜伏期、前驱期、症状明显期、转归期。",
+      "category": "核心概念",
+      "chapter": "第三节",
+      "page": 16,
+      "textbook_id": "book_07_病理生理学",
+      "textbook_name": "病理生理学"
+    },
+    {
+      "id": "book_07_病理生理学_node_064",
+      "name": "疾病转归",
+      "definition": "疾病发展的最终结局，包括康复、死亡或遗留后遗症。",
+      "category": "临床表现",
+      "chapter": "第三节",
+      "page": 16,
+      "textbook_id": "book_07_病理生理学",
+      "textbook_name": "病理生理学"
+    }
+  ],
+  "relations": [
+    {
+      "source": "book_07_病理生理学_node_001",
+      "target": "book_07_病理生理学_node_002",
+      "relation_type": "contains",
+      "description": "病理生理学包含发展简史这一历史维度"
+    },
+    {
+      "source": "book_07_病理生理学_node_001",
+      "target": "book_07_病理生理学_node_003",
+      "relation_type": "contains",
+      "description": "病理生理学包含未来趋势这一发展方向"
+    },
+    {
+      "source": "book_07_病理生理学_node_002",
+      "target": "book_07_病理生理学_node_004",
+      "relation_type": "contains",
+      "description": "发展简史包含实验病理学阶段"
+    },
+    {
+      "source": "book_07_病理生理学_node_002",
+      "target": "book_07_病理生理学_node_005",
+      "relation_type": "contains",
+      "description": "发展简史包含临床病理生理学阶段"
+    },
+    {
+      "source": "book_07_病理生理学_node_004",
+      "target": "book_07_病理生理学_node_005",
+      "relation_type": "prerequisite",
+      "description": "实验病理学是临床病理生理学发展的基础"
+    },
+    {
+      "source": "book_07_病理生理学_node_005",
+      "target": "book_07_病理生理学_node_001",
+      "relation_type": "prerequisite",
+      "description": "临床病理生理学是病理生理学学科形成的前提"
+    },
+    {
+      "source": "book_07_病理生理学_node_003",
+      "target": "book_07_病理生理学_node_006",
+      "relation_type": "contains",
+      "description": "未来趋势包含分子病理生理学方向"
+    },
+    {
+      "source": "book_07_病理生理学_node_003",
+      "target": "book_07_病理生理学_node_007",
+      "relation_type": "contains",
+      "description": "未来趋势包含系统生物学方向"
+    },
+    {
+      "source": "book_07_病理生理学_node_003",
+      "target": "book_07_病理生理学_node_008",
+      "relation_type": "contains",
+      "description": "未来趋势包含精准医学方向"
+    },
+    {
+      "source": "book_07_病理生理学_node_006",
+      "target": "book_07_病理生理学_node_007",
+      "relation_type": "parallel",
+      "description": "分子病理生理学与系统生物学是并列的未来研究方向"
+    },
+    {
+      "source": "book_07_病理生理学_node_007",
+      "target": "book_07_病理生理学_node_008",
+      "relation_type": "applies_to",
+      "description": "系统生物学方法应用于精准医学的疾病机制研究"
+    },
+    {
+      "source": "book_07_病理生理学_node_001",
+      "target": "book_07_病理生理学_node_009",
+      "relation_type": "applies_to",
+      "description": "病理生理学作为桥梁学科连接基础与临床医学"
+    },
+    {
+      "source": "book_07_病理生理学_node_001",
+      "target": "book_07_病理生理学_node_010",
+      "relation_type": "contains",
+      "description": "病理生理学的核心内容是疾病机制研究"
+    },
+    {
+      "source": "book_07_病理生理学_node_009",
+      "target": "book_07_病理生理学_node_010",
+      "relation_type": "applies_to",
+      "description": "桥梁学科功能服务于疾病机制研究"
+    },
+    {
+      "source": "book_07_病理生理学_node_011",
+      "target": "book_07_病理生理学_node_012",
+      "relation_type": "contains",
+      "description": "病理生理学包含主要教学内容，后者是其核心组成部分。"
+    },
+    {
+      "source": "book_07_病理生理学_node_012",
+      "target": "book_07_病理生理学_node_013",
+      "relation_type": "contains",
+      "description": "主要教学内容包含疾病概论这一部分。"
+    },
+    {
+      "source": "book_07_病理生理学_node_012",
+      "target": "book_07_病理生理学_node_014",
+      "relation_type": "contains",
+      "description": "主要教学内容包含基本病理过程这一部分。"
+    },
+    {
+      "source": "book_07_病理生理学_node_012",
+      "target": "book_07_病理生理学_node_015",
+      "relation_type": "contains",
+      "description": "主要教学内容包含各系统病理生理学这一部分。"
+    },
+    {
+      "source": "book_07_病理生理学_node_013",
+      "target": "book_07_病理生理学_node_014",
+      "relation_type": "parallel",
+      "description": "疾病概论和基本病理过程是病理生理学教学内容中并列的两个主要部分。"
+    },
+    {
+      "source": "book_07_病理生理学_node_014",
+      "target": "book_07_病理生理学_node_015",
+      "relation_type": "parallel",
+      "description": "基本病理过程和各系统病理生理学是病理生理学教学内容中并列的两个主要部分。"
+    },
+    {
+      "source": "book_07_病理生理学_node_011",
+      "target": "book_07_病理生理学_node_016",
+      "relation_type": "contains",
+      "description": "病理生理学包含研究手段概述，作为其方法论部分。"
+    },
+    {
+      "source": "book_07_病理生理学_node_016",
+      "target": "book_07_病理生理学_node_017",
+      "relation_type": "contains",
+      "description": "研究手段概述包含动物实验这一具体方法。"
+    },
+    {
+      "source": "book_07_病理生理学_node_016",
+      "target": "book_07_病理生理学_node_018",
+      "relation_type": "contains",
+      "description": "研究手段概述包含临床观察这一具体方法。"
+    },
+    {
+      "source": "book_07_病理生理学_node_016",
+      "target": "book_07_病理生理学_node_019",
+      "relation_type": "contains",
+      "description": "研究手段概述包含细胞与分子生物学技术这一具体方法。"
+    },
+    {
+      "source": "book_07_病理生理学_node_017",
+      "target": "book_07_病理生理学_node_018",
+      "relation_type": "parallel",
+      "description": "动物实验和临床观察是病理生理学研究中并列的两类主要手段。"
+    },
+    {
+      "source": "book_07_病理生理学_node_011",
+      "target": "book_07_病理生理学_node_020",
+      "relation_type": "contains",
+      "description": "病理生理学包含学习方法，作为指导学生学习的内容。"
+    },
+    {
+      "source": "book_07_病理生理学_node_020",
+      "target": "book_07_病理生理学_node_021",
+      "relation_type": "contains",
+      "description": "学习方法包含理解机制这一具体策略。"
+    },
+    {
+      "source": "book_07_病理生理学_node_020",
+      "target": "book_07_病理生理学_node_022",
+      "relation_type": "contains",
+      "description": "学习方法包含联系临床这一具体策略。"
+    },
+    {
+      "source": "book_07_病理生理学_node_020",
+      "target": "book_07_病理生理学_node_023",
+      "relation_type": "contains",
+      "description": "学习方法包含主动思考这一具体策略。"
+    },
+    {
+      "source": "book_07_病理生理学_node_021",
+      "target": "book_07_病理生理学_node_022",
+      "relation_type": "parallel",
+      "description": "理解机制和联系临床是学习方法中并列的两个重要方面。"
+    },
+    {
+      "source": "book_07_病理生理学_node_022",
+      "target": "book_07_病理生理学_node_023",
+      "relation_type": "parallel",
+      "description": "联系临床和主动思考是学习方法中并列的两个重要方面。"
+    },
+    {
+      "source": "book_07_病理生理学_node_013",
+      "target": "book_07_病理生理学_node_017",
+      "relation_type": "applies_to",
+      "description": "疾病概论中的理论可通过动物实验进行验证和研究。"
+    },
+    {
+      "source": "book_07_病理生理学_node_014",
+      "target": "book_07_病理生理学_node_018",
+      "relation_type": "applies_to",
+      "description": "基本病理过程的研究结果可应用于临床观察中解释患者表现。"
+    },
+    {
+      "source": "book_07_病理生理学_node_015",
+      "target": "book_07_病理生理学_node_019",
+      "relation_type": "applies_to",
+      "description": "各系统病理生理学的研究常应用细胞与分子生物学技术来深入机制。"
+    },
+    {
+      "source": "book_07_病理生理学_node_024",
+      "target": "book_07_病理生理学_node_025",
+      "relation_type": "parallel",
+      "description": "健康和疾病是生命活动过程中两种对立的状态，共同构成生命连续谱的两端。"
+    },
+    {
+      "source": "book_07_病理生理学_node_026",
+      "target": "book_07_病理生理学_node_024",
+      "relation_type": "parallel",
+      "description": "亚健康是介于健康与疾病之间的中间状态，与健康和疾病并列。"
+    },
+    {
+      "source": "book_07_病理生理学_node_026",
+      "target": "book_07_病理生理学_node_025",
+      "relation_type": "parallel",
+      "description": "亚健康是介于健康与疾病之间的中间状态，与健康和疾病并列。"
+    },
+    {
+      "source": "book_07_病理生理学_node_025",
+      "target": "book_07_病理生理学_node_027",
+      "relation_type": "prerequisite",
+      "description": "理解疾病的概念需要先掌握自稳调节紊乱是疾病发生的核心机制。"
+    },
+    {
+      "source": "book_07_病理生理学_node_027",
+      "target": "book_07_病理生理学_node_028",
+      "relation_type": "applies_to",
+      "description": "自稳调节紊乱是病因作用于机体后导致的结果，病因是自稳调节紊乱的启动因素。"
+    },
+    {
+      "source": "book_07_病理生理学_node_028",
+      "target": "book_07_病理生理学_node_029",
+      "relation_type": "parallel",
+      "description": "病因和诱因都是疾病发生的相关因素，但病因是必要因素，诱因是促进因素。"
+    },
+    {
+      "source": "book_07_病理生理学_node_030",
+      "target": "book_07_病理生理学_node_031",
+      "relation_type": "contains",
+      "description": "疾病发生的一般规律包含损伤与抗损伤反应这一具体规律。"
+    },
+    {
+      "source": "book_07_病理生理学_node_030",
+      "target": "book_07_病理生理学_node_032",
+      "relation_type": "contains",
+      "description": "疾病发生的一般规律包含因果交替这一具体规律。"
+    },
+    {
+      "source": "book_07_病理生理学_node_030",
+      "target": "book_07_病理生理学_node_033",
+      "relation_type": "contains",
+      "description": "疾病发生的一般规律包含局部与整体关系这一具体规律。"
+    },
+    {
+      "source": "book_07_病理生理学_node_031",
+      "target": "book_07_病理生理学_node_032",
+      "relation_type": "parallel",
+      "description": "损伤与抗损伤反应和因果交替是疾病过程中同时存在的两个基本规律。"
+    },
+    {
+      "source": "book_07_病理生理学_node_032",
+      "target": "book_07_病理生理学_node_031",
+      "relation_type": "applies_to",
+      "description": "因果交替规律常导致损伤与抗损伤反应的恶性循环或良性循环。"
+    },
+    {
+      "source": "book_07_病理生理学_node_033",
+      "target": "book_07_病理生理学_node_031",
+      "relation_type": "applies_to",
+      "description": "局部与整体关系影响损伤与抗损伤反应的范围和程度。"
+    },
+    {
+      "source": "book_07_病理生理学_node_034",
+      "target": "book_07_病理生理学_node_035",
+      "relation_type": "contains",
+      "description": "疾病转归包含完全康复这一结局。"
+    },
+    {
+      "source": "book_07_病理生理学_node_034",
+      "target": "book_07_病理生理学_node_036",
+      "relation_type": "contains",
+      "description": "疾病转归包含不完全康复这一结局。"
+    },
+    {
+      "source": "book_07_病理生理学_node_034",
+      "target": "book_07_病理生理学_node_037",
+      "relation_type": "contains",
+      "description": "疾病转归包含死亡这一结局。"
+    },
+    {
+      "source": "book_07_病理生理学_node_037",
+      "target": "book_07_病理生理学_node_038",
+      "relation_type": "applies_to",
+      "description": "脑死亡是死亡判断的现代标准，应用于死亡概念的界定。"
+    },
+    {
+      "source": "book_07_病理生理学_node_038",
+      "target": "book_07_病理生理学_node_037",
+      "relation_type": "prerequisite",
+      "description": "理解死亡需要先掌握脑死亡的概念和判断标准。"
+    },
+    {
+      "source": "book_07_病理生理学_node_039",
+      "target": "book_07_病理生理学_node_040",
+      "relation_type": "contains",
+      "description": "病因学基础包含对疾病发生原因的研究"
+    },
+    {
+      "source": "book_07_病理生理学_node_039",
+      "target": "book_07_病理生理学_node_041",
+      "relation_type": "contains",
+      "description": "病因学基础包含对疾病发生条件的研究"
+    },
+    {
+      "source": "book_07_病理生理学_node_039",
+      "target": "book_07_病理生理学_node_042",
+      "relation_type": "contains",
+      "description": "病因学基础包含对危险因素的研究"
+    },
+    {
+      "source": "book_07_病理生理学_node_040",
+      "target": "book_07_病理生理学_node_043",
+      "relation_type": "contains",
+      "description": "疾病发生的原因包含具体的致病因素"
+    },
+    {
+      "source": "book_07_病理生理学_node_041",
+      "target": "book_07_病理生理学_node_044",
+      "relation_type": "contains",
+      "description": "疾病发生的条件包含诱因"
+    },
+    {
+      "source": "book_07_病理生理学_node_041",
+      "target": "book_07_病理生理学_node_046",
+      "relation_type": "contains",
+      "description": "疾病发生的条件包含环境因素"
+    },
+    {
+      "source": "book_07_病理生理学_node_041",
+      "target": "book_07_病理生理学_node_047",
+      "relation_type": "contains",
+      "description": "疾病发生的条件包含宿主因素"
+    },
+    {
+      "source": "book_07_病理生理学_node_040",
+      "target": "book_07_病理生理学_node_041",
+      "relation_type": "parallel",
+      "description": "原因和条件是疾病发生中并列的两个核心概念"
+    },
+    {
+      "source": "book_07_病理生理学_node_042",
+      "target": "book_07_病理生理学_node_041",
+      "relation_type": "parallel",
+      "description": "危险因素与疾病发生的条件密切相关，属于并列概念"
+    },
+    {
+      "source": "book_07_病理生理学_node_043",
+      "target": "book_07_病理生理学_node_050",
+      "relation_type": "contains",
+      "description": "致病因素包含生物因素"
+    },
+    {
+      "source": "book_07_病理生理学_node_043",
+      "target": "book_07_病理生理学_node_051",
+      "relation_type": "contains",
+      "description": "致病因素包含物理因素"
+    },
+    {
+      "source": "book_07_病理生理学_node_043",
+      "target": "book_07_病理生理学_node_052",
+      "relation_type": "contains",
+      "description": "致病因素包含化学因素"
+    },
+    {
+      "source": "book_07_病理生理学_node_043",
+      "target": "book_07_病理生理学_node_045",
+      "relation_type": "contains",
+      "description": "致病因素包含遗传因素"
+    },
+    {
+      "source": "book_07_病理生理学_node_040",
+      "target": "book_07_病理生理学_node_048",
+      "relation_type": "applies_to",
+      "description": "疾病发生的原因与条件的关系是病因学的重要应用"
+    },
+    {
+      "source": "book_07_病理生理学_node_048",
+      "target": "book_07_病理生理学_node_049",
+      "relation_type": "applies_to",
+      "description": "病因与条件的关系应用于多因素致病模式的理解"
+    },
+    {
+      "source": "book_07_病理生理学_node_040",
+      "target": "book_07_病理生理学_node_049",
+      "relation_type": "applies_to",
+      "description": "疾病发生的原因是多因素致病模式的核心组成部分"
+    },
+    {
+      "source": "book_07_病理生理学_node_041",
+      "target": "book_07_病理生理学_node_049",
+      "relation_type": "applies_to",
+      "description": "疾病发生的条件是多因素致病模式的重要组成部分"
+    },
+    {
+      "source": "book_07_病理生理学_node_042",
+      "target": "book_07_病理生理学_node_049",
+      "relation_type": "applies_to",
+      "description": "危险因素是多因素致病模式中需要重点评估的因素"
+    },
+    {
+      "source": "book_07_病理生理学_node_040",
+      "target": "book_07_病理生理学_node_042",
+      "relation_type": "prerequisite",
+      "description": "理解疾病发生的原因是认识危险因素的前提"
+    },
+    {
+      "source": "book_07_病理生理学_node_041",
+      "target": "book_07_病理生理学_node_044",
+      "relation_type": "prerequisite",
+      "description": "理解疾病发生的条件是认识诱因的基础"
+    },
+    {
+      "source": "book_07_病理生理学_node_053",
+      "target": "book_07_病理生理学_node_054",
+      "relation_type": "contains",
+      "description": "发病学基础包含疾病发生发展的一般规律这一核心内容。"
+    },
+    {
+      "source": "book_07_病理生理学_node_053",
+      "target": "book_07_病理生理学_node_055",
+      "relation_type": "contains",
+      "description": "发病学基础包含疾病发生发展的基本机制这一核心内容。"
+    },
+    {
+      "source": "book_07_病理生理学_node_054",
+      "target": "book_07_病理生理学_node_056",
+      "relation_type": "contains",
+      "description": "疾病发生发展的一般规律包括损伤与抗损伤反应。"
+    },
+    {
+      "source": "book_07_病理生理学_node_054",
+      "target": "book_07_病理生理学_node_057",
+      "relation_type": "contains",
+      "description": "疾病发生发展的一般规律包括因果交替规律。"
+    },
+    {
+      "source": "book_07_病理生理学_node_054",
+      "target": "book_07_病理生理学_node_058",
+      "relation_type": "contains",
+      "description": "疾病发生发展的一般规律包括局部与整体关系。"
+    },
+    {
+      "source": "book_07_病理生理学_node_055",
+      "target": "book_07_病理生理学_node_059",
+      "relation_type": "contains",
+      "description": "疾病发生发展的基本机制包括神经机制。"
+    },
+    {
+      "source": "book_07_病理生理学_node_055",
+      "target": "book_07_病理生理学_node_060",
+      "relation_type": "contains",
+      "description": "疾病发生发展的基本机制包括体液机制。"
+    },
+    {
+      "source": "book_07_病理生理学_node_055",
+      "target": "book_07_病理生理学_node_061",
+      "relation_type": "contains",
+      "description": "疾病发生发展的基本机制包括细胞机制。"
+    },
+    {
+      "source": "book_07_病理生理学_node_055",
+      "target": "book_07_病理生理学_node_062",
+      "relation_type": "contains",
+      "description": "疾病发生发展的基本机制包括分子机制。"
+    },
+    {
+      "source": "book_07_病理生理学_node_059",
+      "target": "book_07_病理生理学_node_060",
+      "relation_type": "parallel",
+      "description": "神经机制和体液机制是疾病发生发展中相互关联的两种基本机制。"
+    },
+    {
+      "source": "book_07_病理生理学_node_061",
+      "target": "book_07_病理生理学_node_062",
+      "relation_type": "parallel",
+      "description": "细胞机制和分子机制是不同层次但相互补充的疾病机制。"
+    },
+    {
+      "source": "book_07_病理生理学_node_054",
+      "target": "book_07_病理生理学_node_063",
+      "relation_type": "contains",
+      "description": "疾病发生发展的一般规律包含疾病发生发展的基本过程。"
+    },
+    {
+      "source": "book_07_病理生理学_node_063",
+      "target": "book_07_病理生理学_node_064",
+      "relation_type": "contains",
+      "description": "疾病发生发展的基本过程包含疾病转归这一最终阶段。"
+    },
+    {
+      "source": "book_07_病理生理学_node_056",
+      "target": "book_07_病理生理学_node_057",
+      "relation_type": "parallel",
+      "description": "损伤与抗损伤反应和因果交替规律是疾病过程中同时存在的两种规律。"
+    },
+    {
+      "source": "book_07_病理生理学_node_057",
+      "target": "book_07_病理生理学_node_056",
+      "relation_type": "applies_to",
+      "description": "因果交替规律常应用于解释损伤与抗损伤反应的动态变化。"
+    },
+    {
+      "source": "book_07_病理生理学_node_058",
+      "target": "book_07_病理生理学_node_056",
+      "relation_type": "applies_to",
+      "description": "局部与整体关系应用于理解损伤与抗损伤反应在全身的表现。"
+    },
+    {
+      "source": "book_07_病理生理学_node_059",
+      "target": "book_07_病理生理学_node_060",
+      "relation_type": "applies_to",
+      "description": "神经机制常与体液机制协同作用，共同调节疾病过程。"
+    },
+    {
+      "source": "book_07_病理生理学_node_061",
+      "target": "book_07_病理生理学_node_062",
+      "relation_type": "prerequisite",
+      "description": "理解细胞机制是掌握分子机制的基础，因为分子机制在细胞水平上体现。"
+    },
+    {
+      "source": "book_07_病理生理学_node_054",
+      "target": "book_07_病理生理学_node_055",
+      "relation_type": "prerequisite",
+      "description": "掌握疾病发生发展的一般规律是理解基本机制的前提。"
+    }
+  ],
+  "stats": {
+    "total_nodes": 64,
+    "total_relations": 90,
+    "chapters_processed": 5
+  }
+}

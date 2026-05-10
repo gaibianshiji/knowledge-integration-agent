@@ -56,41 +56,12 @@ export default function App() {
     setLoading('')
   }
 
-  const handleBlobUpload = async (file) => {
-    setLoading('blob-upload')
-    try {
-      // Step 1: Get presigned URL
-      const presignedResp = await axios.post(`${API_BASE}/upload/presigned-url`, {
-        filename: file.name,
-        content_type: file.type || 'application/pdf'
-      })
-      const { url: presignedUrl, blobUrl } = presignedResp.data
-
-      // Step 2: Upload directly to Vercel Blob
-      await axios.put(presignedUrl, file, {
-        headers: { 'Content-Type': file.type || 'application/pdf' }
-      })
-
-      // Step 3: Send blob URL to backend for parsing
-      await axios.post(`${API_BASE}/upload/textbook-url`, {
-        blob_url: blobUrl,
-        filename: file.name
-      })
-      await loadTextbooks()
-    } catch (e) {
-      console.error('大文件上传失败:', e)
-      alert('上传失败: ' + (e.response?.data?.detail || e.message))
-    }
-    setLoading('')
-  }
-
   const handleBuildGraph = async (textbookId) => {
     setLoading(`graph-${textbookId}`)
     try {
       await axios.post(`${API_BASE}/graph/build/${textbookId}`)
       const res = await axios.get(`${API_BASE}/graph/data/${textbookId}`)
       setGraphs(prev => ({ ...prev, [textbookId]: res.data }))
-      mergeAllGraphs()
     } catch (e) {
       console.error('构建图谱失败:', e)
       alert('构建图谱失败: ' + (e.response?.data?.detail || e.message))
@@ -102,7 +73,6 @@ export default function App() {
     try {
       const res = await axios.get(`${API_BASE}/graph/data/${textbookId}`)
       setGraphs(prev => ({ ...prev, [textbookId]: res.data }))
-      mergeAllGraphs()
     } catch (e) {
       console.error('加载图谱失败:', e)
     }
@@ -183,7 +153,6 @@ export default function App() {
           <FileUpload
             textbooks={textbooks}
             onUpload={handleUpload}
-            onBlobUpload={handleBlobUpload}
             onBuildGraph={handleBuildGraph}
             onBuildAll={handleBuildAllGraphs}
             loading={loading}

@@ -1,0 +1,1245 @@
+{
+  "textbook_id": "book_05_病理学",
+  "textbook_name": "病理学",
+  "nodes": [
+    {
+      "id": "book_05_病理学_node_001",
+      "name": "适应",
+      "definition": "细胞、组织或器官在环境变化或损伤刺激下，通过改变自身代谢、功能和结构以维持生存的过程。",
+      "category": "核心概念",
+      "chapter": "第一节　适应",
+      "page": 5,
+      "textbook_id": "book_05_病理学",
+      "textbook_name": "病理学"
+    },
+    {
+      "id": "book_05_病理学_node_002",
+      "name": "萎缩",
+      "definition": "已发育正常的细胞、组织或器官体积缩小，常伴细胞数量减少，是适应性反应之一。",
+      "category": "病理变化",
+      "chapter": "第一节　适应",
+      "page": 5,
+      "textbook_id": "book_05_病理学",
+      "textbook_name": "病理学"
+    },
+    {
+      "id": "book_05_病理学_node_003",
+      "name": "肥大",
+      "definition": "细胞、组织或器官体积增大，由细胞体积增大（实质细胞肥大）所致，可伴功能增强。",
+      "category": "病理变化",
+      "chapter": "第一节　适应",
+      "page": 7,
+      "textbook_id": "book_05_病理学",
+      "textbook_name": "病理学"
+    },
+    {
+      "id": "book_05_病理学_node_004",
+      "name": "增生",
+      "definition": "组织或器官内实质细胞数量增多，常导致组织体积增大，是细胞增殖活跃的适应性反应。",
+      "category": "病理变化",
+      "chapter": "第一节　适应",
+      "page": 8,
+      "textbook_id": "book_05_病理学",
+      "textbook_name": "病理学"
+    },
+    {
+      "id": "book_05_病理学_node_005",
+      "name": "化生",
+      "definition": "一种已分化成熟的组织类型被另一种分化成熟的组织类型取代的过程，属于适应性改变。",
+      "category": "病理变化",
+      "chapter": "第一节　适应",
+      "page": 8,
+      "textbook_id": "book_05_病理学",
+      "textbook_name": "病理学"
+    },
+    {
+      "id": "book_05_病理学_node_006",
+      "name": "细胞老化",
+      "definition": "细胞随年龄增长或受内外因素影响，出现功能衰退、增殖能力下降、代谢紊乱等不可逆改变的过程。",
+      "category": "生理机制",
+      "chapter": "第一节　适应",
+      "page": 10,
+      "textbook_id": "book_05_病理学",
+      "textbook_name": "病理学"
+    },
+    {
+      "id": "book_05_病理学_node_007",
+      "name": "生理性萎缩",
+      "definition": "正常生理过程中发生的萎缩，如青春期后胸腺萎缩、老年性器官萎缩。",
+      "category": "病理变化",
+      "chapter": "第一节　适应",
+      "page": 5,
+      "textbook_id": "book_05_病理学",
+      "textbook_name": "病理学"
+    },
+    {
+      "id": "book_05_病理学_node_008",
+      "name": "病理性萎缩",
+      "definition": "疾病或异常刺激导致的萎缩，如营养不良性萎缩、压迫性萎缩、失用性萎缩。",
+      "category": "病理变化",
+      "chapter": "第一节　适应",
+      "page": 5,
+      "textbook_id": "book_05_病理学",
+      "textbook_name": "病理学"
+    },
+    {
+      "id": "book_05_病理学_node_009",
+      "name": "代偿性肥大",
+      "definition": "因功能需求增加或部分组织丧失，剩余细胞通过体积增大代偿功能，如高血压时心肌肥大。",
+      "category": "病理变化",
+      "chapter": "第一节　适应",
+      "page": 7,
+      "textbook_id": "book_05_病理学",
+      "textbook_name": "病理学"
+    },
+    {
+      "id": "book_05_病理学_node_010",
+      "name": "内分泌性肥大",
+      "definition": "激素刺激引起的细胞体积增大，如妊娠期子宫平滑肌肥大。",
+      "category": "病理变化",
+      "chapter": "第一节　适应",
+      "page": 7,
+      "textbook_id": "book_05_病理学",
+      "textbook_name": "病理学"
+    },
+    {
+      "id": "book_05_病理学_node_011",
+      "name": "再生性增生",
+      "definition": "组织损伤后通过细胞增殖修复缺损，如肝细胞再生、皮肤创伤愈合。",
+      "category": "病理变化",
+      "chapter": "第一节　适应",
+      "page": 8,
+      "textbook_id": "book_05_病理学",
+      "textbook_name": "病理学"
+    },
+    {
+      "id": "book_05_病理学_node_012",
+      "name": "激素性增生",
+      "definition": "激素水平异常导致靶器官细胞数量增多，如雌激素过多引起子宫内膜增生。",
+      "category": "病理变化",
+      "chapter": "第一节　适应",
+      "page": 8,
+      "textbook_id": "book_05_病理学",
+      "textbook_name": "病理学"
+    },
+    {
+      "id": "book_05_病理学_node_013",
+      "name": "鳞状上皮化生",
+      "definition": "柱状上皮或移行上皮被鳞状上皮取代，常见于慢性支气管炎时支气管黏膜上皮化生。",
+      "category": "病理变化",
+      "chapter": "第一节　适应",
+      "page": 8,
+      "textbook_id": "book_05_病理学",
+      "textbook_name": "病理学"
+    },
+    {
+      "id": "book_05_病理学_node_014",
+      "name": "肠上皮化生",
+      "definition": "胃黏膜上皮被肠型上皮取代，常见于慢性胃炎，与胃癌发生相关。",
+      "category": "病理变化",
+      "chapter": "第一节　适应",
+      "page": 8,
+      "textbook_id": "book_05_病理学",
+      "textbook_name": "病理学"
+    },
+    {
+      "id": "book_05_病理学_node_015",
+      "name": "细胞老化机制",
+      "definition": "包括端粒缩短、DNA损伤积累、氧化应激、蛋白质稳态失衡等，导致细胞功能衰退。",
+      "category": "生理机制",
+      "chapter": "第一节　适应",
+      "page": 10,
+      "textbook_id": "book_05_病理学",
+      "textbook_name": "病理学"
+    },
+    {
+      "id": "book_05_病理学_node_016",
+      "name": "细胞和组织损伤的原因",
+      "definition": "导致细胞和组织发生损伤的各种因素，包括缺氧、物理因素、化学因素、生物因素、免疫反应、遗传因素、营养失衡、衰老等。",
+      "category": "核心概念",
+      "chapter": "第二节　细胞和组织损伤的原因和机制",
+      "page": 10,
+      "textbook_id": "book_05_病理学",
+      "textbook_name": "病理学"
+    },
+    {
+      "id": "book_05_病理学_node_017",
+      "name": "细胞和组织损伤的机制",
+      "definition": "细胞损伤发生的具体分子和细胞生物学过程，包括ATP耗竭、氧自由基损伤、细胞内钙超载、膜损伤、蛋白质错误折叠等。",
+      "category": "核心概念",
+      "chapter": "第二节　细胞和组织损伤的原因和机制",
+      "page": 11,
+      "textbook_id": "book_05_病理学",
+      "textbook_name": "病理学"
+    },
+    {
+      "id": "book_05_病理学_node_018",
+      "name": "缺氧",
+      "definition": "组织氧供应不足或氧利用障碍，是导致细胞损伤最常见的原因之一，包括低氧性缺氧、贫血性缺氧、循环性缺氧和组织中毒性缺氧。",
+      "category": "病理变化",
+      "chapter": "第二节　细胞和组织损伤的原因和机制",
+      "page": 10,
+      "textbook_id": "book_05_病理学",
+      "textbook_name": "病理学"
+    },
+    {
+      "id": "book_05_病理学_node_019",
+      "name": "物理因素",
+      "definition": "引起细胞损伤的物理性刺激，如机械力、温度（高温烧伤、低温冻伤）、辐射、电击等。",
+      "category": "病理变化",
+      "chapter": "第二节　细胞和组织损伤的原因和机制",
+      "page": 10,
+      "textbook_id": "book_05_病理学",
+      "textbook_name": "病理学"
+    },
+    {
+      "id": "book_05_病理学_node_020",
+      "name": "化学因素",
+      "definition": "各种化学物质（如毒物、药物、环境污染物质）对细胞造成的直接或间接损伤。",
+      "category": "病理变化",
+      "chapter": "第二节　细胞和组织损伤的原因和机制",
+      "page": 10,
+      "textbook_id": "book_05_病理学",
+      "textbook_name": "病理学"
+    },
+    {
+      "id": "book_05_病理学_node_021",
+      "name": "生物因素",
+      "definition": "病毒、细菌、真菌、寄生虫等病原体感染引起的细胞损伤，可通过直接破坏或间接免疫反应导致损伤。",
+      "category": "病理变化",
+      "chapter": "第二节　细胞和组织损伤的原因和机制",
+      "page": 10,
+      "textbook_id": "book_05_病理学",
+      "textbook_name": "病理学"
+    },
+    {
+      "id": "book_05_病理学_node_022",
+      "name": "免疫反应",
+      "definition": "机体免疫系统异常反应（如自身免疫、过敏反应）导致的细胞和组织损伤。",
+      "category": "病理变化",
+      "chapter": "第二节　细胞和组织损伤的原因和机制",
+      "page": 10,
+      "textbook_id": "book_05_病理学",
+      "textbook_name": "病理学"
+    },
+    {
+      "id": "book_05_病理学_node_023",
+      "name": "遗传因素",
+      "definition": "基因突变或染色体异常导致的细胞结构和功能缺陷，引起遗传性疾病相关的细胞损伤。",
+      "category": "病理变化",
+      "chapter": "第二节　细胞和组织损伤的原因和机制",
+      "page": 10,
+      "textbook_id": "book_05_病理学",
+      "textbook_name": "病理学"
+    },
+    {
+      "id": "book_05_病理学_node_024",
+      "name": "营养失衡",
+      "definition": "营养物质的缺乏或过量（如蛋白质-能量营养不良、维生素缺乏、肥胖）导致的细胞代谢紊乱和损伤。",
+      "category": "病理变化",
+      "chapter": "第二节　细胞和组织损伤的原因和机制",
+      "page": 10,
+      "textbook_id": "book_05_病理学",
+      "textbook_name": "病理学"
+    },
+    {
+      "id": "book_05_病理学_node_025",
+      "name": "衰老",
+      "definition": "随年龄增长，细胞逐渐丧失增殖和修复能力，对损伤的易感性增加，导致退行性变化。",
+      "category": "病理变化",
+      "chapter": "第二节　细胞和组织损伤的原因和机制",
+      "page": 10,
+      "textbook_id": "book_05_病理学",
+      "textbook_name": "病理学"
+    },
+    {
+      "id": "book_05_病理学_node_026",
+      "name": "ATP耗竭",
+      "definition": "细胞能量代谢障碍导致ATP水平下降，影响钠钾泵、蛋白质合成等关键生命活动，是损伤的核心机制之一。",
+      "category": "生理机制",
+      "chapter": "第二节　细胞和组织损伤的原因和机制",
+      "page": 11,
+      "textbook_id": "book_05_病理学",
+      "textbook_name": "病理学"
+    },
+    {
+      "id": "book_05_病理学_node_027",
+      "name": "氧自由基损伤",
+      "definition": "活性氧（ROS）等自由基产生过多或清除不足，导致脂质过氧化、蛋白质氧化和DNA损伤。",
+      "category": "生理机制",
+      "chapter": "第二节　细胞和组织损伤的原因和机制",
+      "page": 11,
+      "textbook_id": "book_05_病理学",
+      "textbook_name": "病理学"
+    },
+    {
+      "id": "book_05_病理学_node_028",
+      "name": "细胞内钙超载",
+      "definition": "细胞内钙离子浓度异常升高，激活多种酶（如磷脂酶、蛋白酶、核酸内切酶），破坏细胞结构。",
+      "category": "生理机制",
+      "chapter": "第二节　细胞和组织损伤的原因和机制",
+      "page": 11,
+      "textbook_id": "book_05_病理学",
+      "textbook_name": "病理学"
+    },
+    {
+      "id": "book_05_病理学_node_029",
+      "name": "膜损伤",
+      "definition": "细胞膜或细胞器膜（如线粒体膜、溶酶体膜）的完整性破坏，导致离子失衡、酶泄漏和细胞死亡。",
+      "category": "生理机制",
+      "chapter": "第二节　细胞和组织损伤的原因和机制",
+      "page": 11,
+      "textbook_id": "book_05_病理学",
+      "textbook_name": "病理学"
+    },
+    {
+      "id": "book_05_病理学_node_030",
+      "name": "蛋白质错误折叠",
+      "definition": "应激条件下蛋白质折叠异常，形成错误构象，引发内质网应激和未折叠蛋白反应，导致细胞损伤。",
+      "category": "生理机制",
+      "chapter": "第二节　细胞和组织损伤的原因和机制",
+      "page": 11,
+      "textbook_id": "book_05_病理学",
+      "textbook_name": "病理学"
+    },
+    {
+      "id": "book_05_病理学_node_031",
+      "name": "细胞可逆性损伤",
+      "definition": "细胞受到轻度、持续或短暂刺激后，出现的可恢复的形态和功能改变，是细胞损伤的早期阶段。",
+      "category": "核心概念",
+      "chapter": "第三节 细胞可逆性损伤",
+      "page": 14,
+      "textbook_id": "book_05_病理学",
+      "textbook_name": "病理学"
+    },
+    {
+      "id": "book_05_病理学_node_032",
+      "name": "细胞水肿",
+      "definition": "细胞损伤最早出现的改变，因线粒体受损、ATP减少，导致钠水潴留，细胞体积增大，胞浆疏松淡染。",
+      "category": "病理变化",
+      "chapter": "第三节 细胞可逆性损伤",
+      "page": 15,
+      "textbook_id": "book_05_病理学",
+      "textbook_name": "病理学"
+    },
+    {
+      "id": "book_05_病理学_node_033",
+      "name": "脂肪变",
+      "definition": "非脂肪细胞内出现中性脂肪（甘油三酯）异常蓄积，常见于肝、心、肾等器官，与脂代谢障碍有关。",
+      "category": "病理变化",
+      "chapter": "第三节 细胞可逆性损伤",
+      "page": 15,
+      "textbook_id": "book_05_病理学",
+      "textbook_name": "病理学"
+    },
+    {
+      "id": "book_05_病理学_node_034",
+      "name": "玻璃样变",
+      "definition": "细胞内或间质中出现均质、嗜伊红半透明蛋白质蓄积，又称透明变性，常见于结缔组织、血管壁等。",
+      "category": "病理变化",
+      "chapter": "第三节 细胞可逆性损伤",
+      "page": 16,
+      "textbook_id": "book_05_病理学",
+      "textbook_name": "病理学"
+    },
+    {
+      "id": "book_05_病理学_node_035",
+      "name": "淀粉样变",
+      "definition": "细胞外间质中出现淀粉样蛋白质-多糖复合物沉积，具有刚果红染色阳性、偏振光下呈苹果绿色双折射的特征。",
+      "category": "病理变化",
+      "chapter": "第三节 细胞可逆性损伤",
+      "page": 16,
+      "textbook_id": "book_05_病理学",
+      "textbook_name": "病理学"
+    },
+    {
+      "id": "book_05_病理学_node_036",
+      "name": "黏液样变",
+      "definition": "间质内出现黏多糖（透明质酸等）和蛋白质的异常积聚，常见于间叶组织肿瘤、风湿病等。",
+      "category": "病理变化",
+      "chapter": "第三节 细胞可逆性损伤",
+      "page": 17,
+      "textbook_id": "book_05_病理学",
+      "textbook_name": "病理学"
+    },
+    {
+      "id": "book_05_病理学_node_037",
+      "name": "病理性色素沉着",
+      "definition": "细胞内或间质中有异常色素（如含铁血黄素、胆红素、黑色素等）沉积，可由内源性或外源性色素引起。",
+      "category": "病理变化",
+      "chapter": "第三节 细胞可逆性损伤",
+      "page": 17,
+      "textbook_id": "book_05_病理学",
+      "textbook_name": "病理学"
+    },
+    {
+      "id": "book_05_病理学_node_038",
+      "name": "病理性钙化",
+      "definition": "除骨和牙齿外，软组织内出现固态钙盐沉积，分为营养不良性钙化和转移性钙化两种类型。",
+      "category": "病理变化",
+      "chapter": "第三节 细胞可逆性损伤",
+      "page": 18,
+      "textbook_id": "book_05_病理学",
+      "textbook_name": "病理学"
+    },
+    {
+      "id": "book_05_病理学_node_039",
+      "name": "营养不良性钙化",
+      "definition": "继发于局部坏死、变性或血栓等组织损伤的钙盐沉积，血钙正常，常见于结核坏死灶、动脉粥样硬化斑块。",
+      "category": "病理变化",
+      "chapter": "第三节 细胞可逆性损伤",
+      "page": 18,
+      "textbook_id": "book_05_病理学",
+      "textbook_name": "病理学"
+    },
+    {
+      "id": "book_05_病理学_node_040",
+      "name": "转移性钙化",
+      "definition": "因全身性钙磷代谢障碍（如甲状旁腺功能亢进）导致血钙升高，钙盐沉积于正常组织，常见于肾、肺、胃黏膜。",
+      "category": "病理变化",
+      "chapter": "第三节 细胞可逆性损伤",
+      "page": 18,
+      "textbook_id": "book_05_病理学",
+      "textbook_name": "病理学"
+    },
+    {
+      "id": "book_05_病理学_node_041",
+      "name": "含铁血黄素沉着",
+      "definition": "红细胞破坏后，血红蛋白分解产生的含铁色素（含铁血黄素）在局部或全身沉积，常见于陈旧性出血和溶血性疾病。",
+      "category": "病理变化",
+      "chapter": "第三节 细胞可逆性损伤",
+      "page": 17,
+      "textbook_id": "book_05_病理学",
+      "textbook_name": "病理学"
+    },
+    {
+      "id": "book_05_病理学_node_042",
+      "name": "胆红素沉着",
+      "definition": "胆红素代谢障碍导致其在细胞内或间质中沉积，引起黄疸，常见于肝细胞损伤或胆道梗阻。",
+      "category": "病理变化",
+      "chapter": "第三节 细胞可逆性损伤",
+      "page": 17,
+      "textbook_id": "book_05_病理学",
+      "textbook_name": "病理学"
+    },
+    {
+      "id": "book_05_病理学_node_043",
+      "name": "细胞不可逆性损伤",
+      "definition": "细胞遭受严重损伤后，无法恢复，最终导致细胞死亡的病理过程。",
+      "category": "核心概念",
+      "chapter": "第四节　细胞不可逆性损伤",
+      "page": 13,
+      "textbook_id": "book_05_病理学",
+      "textbook_name": "病理学"
+    },
+    {
+      "id": "book_05_病理学_node_044",
+      "name": "坏死",
+      "definition": "细胞受到严重损伤后，细胞膜完整性破坏，细胞内容物释放，引发周围组织炎症反应的被动性细胞死亡形式。",
+      "category": "病理变化",
+      "chapter": "第四节　细胞不可逆性损伤",
+      "page": 19,
+      "textbook_id": "book_05_病理学",
+      "textbook_name": "病理学"
+    },
+    {
+      "id": "book_05_病理学_node_045",
+      "name": "凋亡",
+      "definition": "由基因调控的、主动的、程序性的细胞死亡过程，细胞膜保持完整，不引发炎症反应。",
+      "category": "病理变化",
+      "chapter": "第四节　细胞不可逆性损伤",
+      "page": 21,
+      "textbook_id": "book_05_病理学",
+      "textbook_name": "病理学"
+    },
+    {
+      "id": "book_05_病理学_node_046",
+      "name": "坏死性凋亡",
+      "definition": "一种受调控的细胞死亡形式，兼具坏死和凋亡的特征，依赖受体相互作用蛋白激酶（RIPK）介导。",
+      "category": "病理变化",
+      "chapter": "第四节　细胞不可逆性损伤",
+      "page": 23,
+      "textbook_id": "book_05_病理学",
+      "textbook_name": "病理学"
+    },
+    {
+      "id": "book_05_病理学_node_047",
+      "name": "细胞焦亡",
+      "definition": "一种依赖炎症小体激活、caspase-1介导的促炎性细胞死亡形式，常伴随细胞肿胀和膜破裂。",
+      "category": "病理变化",
+      "chapter": "第四节　细胞不可逆性损伤",
+      "page": 23,
+      "textbook_id": "book_05_病理学",
+      "textbook_name": "病理学"
+    },
+    {
+      "id": "book_05_病理学_node_048",
+      "name": "铁死亡",
+      "definition": "一种依赖铁离子和脂质过氧化驱动的非凋亡性细胞死亡形式，具有独特的形态和生化特征。",
+      "category": "病理变化",
+      "chapter": "第四节　细胞不可逆性损伤",
+      "page": 24,
+      "textbook_id": "book_05_病理学",
+      "textbook_name": "病理学"
+    },
+    {
+      "id": "book_05_病理学_node_049",
+      "name": "自噬",
+      "definition": "细胞通过溶酶体降解自身受损细胞器或蛋白质，以维持稳态的过程，过度自噬可导致细胞死亡。",
+      "category": "生理机制",
+      "chapter": "第四节　细胞不可逆性损伤",
+      "page": 24,
+      "textbook_id": "book_05_病理学",
+      "textbook_name": "病理学"
+    },
+    {
+      "id": "book_05_病理学_node_050",
+      "name": "细胞膜完整性破坏",
+      "definition": "坏死的关键特征，导致细胞内容物泄漏，引发炎症反应。",
+      "category": "核心概念",
+      "chapter": "第四节　细胞不可逆性损伤",
+      "page": 19,
+      "textbook_id": "book_05_病理学",
+      "textbook_name": "病理学"
+    },
+    {
+      "id": "book_05_病理学_node_051",
+      "name": "炎症反应",
+      "definition": "机体对坏死细胞释放内容物产生的防御性反应，表现为红、肿、热、痛。",
+      "category": "临床表现",
+      "chapter": "第四节　细胞不可逆性损伤",
+      "page": 19,
+      "textbook_id": "book_05_病理学",
+      "textbook_name": "病理学"
+    },
+    {
+      "id": "book_05_病理学_node_052",
+      "name": "程序性细胞死亡",
+      "definition": "由基因调控的、有序的细胞死亡过程，包括凋亡、坏死性凋亡、细胞焦亡等。",
+      "category": "核心概念",
+      "chapter": "第四节　细胞不可逆性损伤",
+      "page": 13,
+      "textbook_id": "book_05_病理学",
+      "textbook_name": "病理学"
+    },
+    {
+      "id": "book_05_病理学_node_053",
+      "name": "炎症小体",
+      "definition": "胞内多蛋白复合物，可激活caspase-1，介导细胞焦亡和促炎因子释放。",
+      "category": "生理机制",
+      "chapter": "第四节　细胞不可逆性损伤",
+      "page": 23,
+      "textbook_id": "book_05_病理学",
+      "textbook_name": "病理学"
+    },
+    {
+      "id": "book_05_病理学_node_054",
+      "name": "脂质过氧化",
+      "definition": "铁死亡的核心生化过程，导致细胞膜损伤和细胞死亡。",
+      "category": "病理变化",
+      "chapter": "第四节　细胞不可逆性损伤",
+      "page": 24,
+      "textbook_id": "book_05_病理学",
+      "textbook_name": "病理学"
+    },
+    {
+      "id": "book_05_病理学_node_055",
+      "name": "溶酶体降解",
+      "definition": "自噬过程中，溶酶体与自噬体融合，降解包裹的细胞内容物。",
+      "category": "生理机制",
+      "chapter": "第四节　细胞不可逆性损伤",
+      "page": 24,
+      "textbook_id": "book_05_病理学",
+      "textbook_name": "病理学"
+    },
+    {
+      "id": "book_05_病理学_node_056",
+      "name": "细胞周期",
+      "definition": "细胞从一次分裂结束到下一次分裂结束所经历的有序过程，包括间期和分裂期。",
+      "category": "核心概念",
+      "chapter": "第一节　再生",
+      "page": 14,
+      "textbook_id": "book_05_病理学",
+      "textbook_name": "病理学"
+    },
+    {
+      "id": "book_05_病理学_node_057",
+      "name": "不同类型细胞的再生潜能",
+      "definition": "根据细胞周期状态和增殖能力，将细胞分为不稳定细胞、稳定细胞和永久性细胞三类，其再生潜能依次降低。",
+      "category": "核心概念",
+      "chapter": "第一节　再生",
+      "page": 14,
+      "textbook_id": "book_05_病理学",
+      "textbook_name": "病理学"
+    },
+    {
+      "id": "book_05_病理学_node_058",
+      "name": "不稳定细胞",
+      "definition": "持续分裂的细胞，再生能力强，如表皮细胞、造血细胞、黏膜上皮细胞等。",
+      "category": "核心概念",
+      "chapter": "第一节　再生",
+      "page": 14,
+      "textbook_id": "book_05_病理学",
+      "textbook_name": "病理学"
+    },
+    {
+      "id": "book_05_病理学_node_059",
+      "name": "稳定细胞",
+      "definition": "处于静止期（G0期）但可被刺激进入细胞周期的细胞，再生能力中等，如肝细胞、肾小管上皮细胞等。",
+      "category": "核心概念",
+      "chapter": "第一节　再生",
+      "page": 14,
+      "textbook_id": "book_05_病理学",
+      "textbook_name": "病理学"
+    },
+    {
+      "id": "book_05_病理学_node_060",
+      "name": "永久性细胞",
+      "definition": "已退出细胞周期、不再分裂的细胞，再生能力极弱或无，如神经元、心肌细胞、骨骼肌细胞。",
+      "category": "核心概念",
+      "chapter": "第一节　再生",
+      "page": 14,
+      "textbook_id": "book_05_病理学",
+      "textbook_name": "病理学"
+    },
+    {
+      "id": "book_05_病理学_node_061",
+      "name": "干细胞",
+      "definition": "具有自我更新和多向分化潜能的未分化细胞，是组织再生的基础。",
+      "category": "核心概念",
+      "chapter": "第一节　再生",
+      "page": 14,
+      "textbook_id": "book_05_病理学",
+      "textbook_name": "病理学"
+    },
+    {
+      "id": "book_05_病理学_node_062",
+      "name": "干细胞在再生中的作用",
+      "definition": "干细胞通过增殖、分化和迁移，补充受损或死亡的细胞，参与组织修复和再生。",
+      "category": "生理机制",
+      "chapter": "第一节　再生",
+      "page": 14,
+      "textbook_id": "book_05_病理学",
+      "textbook_name": "病理学"
+    },
+    {
+      "id": "book_05_病理学_node_063",
+      "name": "组织再生的机制",
+      "definition": "组织损伤后，通过细胞增殖、分化、迁移以及细胞外基质重塑等过程，恢复组织结构和功能。",
+      "category": "生理机制",
+      "chapter": "第一节　再生",
+      "page": 14,
+      "textbook_id": "book_05_病理学",
+      "textbook_name": "病理学"
+    },
+    {
+      "id": "book_05_病理学_node_064",
+      "name": "组织再生的过程",
+      "definition": "包括炎症反应、细胞增殖、血管生成、基质沉积和重塑等连续步骤。",
+      "category": "生理机制",
+      "chapter": "第一节　再生",
+      "page": 14,
+      "textbook_id": "book_05_病理学",
+      "textbook_name": "病理学"
+    },
+    {
+      "id": "book_05_病理学_node_065",
+      "name": "细胞再生的影响因素",
+      "definition": "影响细胞再生能力的各种因素，包括生长因子、细胞外基质、微环境、营养状态等。",
+      "category": "核心概念",
+      "chapter": "第一节　再生",
+      "page": 14,
+      "textbook_id": "book_05_病理学",
+      "textbook_name": "病理学"
+    },
+    {
+      "id": "book_05_病理学_node_066",
+      "name": "生长因子",
+      "definition": "一类能刺激细胞增殖和分化的多肽类信号分子，如EGF、FGF、PDGF等。",
+      "category": "核心概念",
+      "chapter": "第一节　再生",
+      "page": 14,
+      "textbook_id": "book_05_病理学",
+      "textbook_name": "病理学"
+    },
+    {
+      "id": "book_05_病理学_node_067",
+      "name": "细胞外基质",
+      "definition": "由胶原、蛋白聚糖、糖蛋白等组成的细胞外环境，对细胞增殖、迁移和分化起调控作用。",
+      "category": "解剖结构",
+      "chapter": "第一节　再生",
+      "page": 14,
+      "textbook_id": "book_05_病理学",
+      "textbook_name": "病理学"
+    },
+    {
+      "id": "book_05_病理学_node_068",
+      "name": "微环境",
+      "definition": "细胞周围的局部环境，包括细胞外基质、邻近细胞、可溶性因子等，影响干细胞行为和再生过程。",
+      "category": "核心概念",
+      "chapter": "第一节　再生",
+      "page": 14,
+      "textbook_id": "book_05_病理学",
+      "textbook_name": "病理学"
+    }
+  ],
+  "relations": [
+    {
+      "source": "book_05_病理学_node_001",
+      "target": "book_05_病理学_node_002",
+      "relation_type": "contains",
+      "description": "适应包括萎缩这一具体表现形式"
+    },
+    {
+      "source": "book_05_病理学_node_001",
+      "target": "book_05_病理学_node_003",
+      "relation_type": "contains",
+      "description": "适应包括肥大这一具体表现形式"
+    },
+    {
+      "source": "book_05_病理学_node_001",
+      "target": "book_05_病理学_node_004",
+      "relation_type": "contains",
+      "description": "适应包括增生这一具体表现形式"
+    },
+    {
+      "source": "book_05_病理学_node_001",
+      "target": "book_05_病理学_node_005",
+      "relation_type": "contains",
+      "description": "适应包括化生这一具体表现形式"
+    },
+    {
+      "source": "book_05_病理学_node_001",
+      "target": "book_05_病理学_node_006",
+      "relation_type": "parallel",
+      "description": "适应与细胞老化是细胞应对不同刺激的两种不同结局，适应为可逆，老化多不可逆"
+    },
+    {
+      "source": "book_05_病理学_node_002",
+      "target": "book_05_病理学_node_007",
+      "relation_type": "contains",
+      "description": "萎缩包括生理性萎缩这一亚型"
+    },
+    {
+      "source": "book_05_病理学_node_002",
+      "target": "book_05_病理学_node_008",
+      "relation_type": "contains",
+      "description": "萎缩包括病理性萎缩这一亚型"
+    },
+    {
+      "source": "book_05_病理学_node_003",
+      "target": "book_05_病理学_node_009",
+      "relation_type": "contains",
+      "description": "肥大包括代偿性肥大这一亚型"
+    },
+    {
+      "source": "book_05_病理学_node_003",
+      "target": "book_05_病理学_node_010",
+      "relation_type": "contains",
+      "description": "肥大包括内分泌性肥大这一亚型"
+    },
+    {
+      "source": "book_05_病理学_node_004",
+      "target": "book_05_病理学_node_011",
+      "relation_type": "contains",
+      "description": "增生包括再生性增生这一亚型"
+    },
+    {
+      "source": "book_05_病理学_node_004",
+      "target": "book_05_病理学_node_012",
+      "relation_type": "contains",
+      "description": "增生包括激素性增生这一亚型"
+    },
+    {
+      "source": "book_05_病理学_node_005",
+      "target": "book_05_病理学_node_013",
+      "relation_type": "contains",
+      "description": "化生包括鳞状上皮化生这一常见类型"
+    },
+    {
+      "source": "book_05_病理学_node_005",
+      "target": "book_05_病理学_node_014",
+      "relation_type": "contains",
+      "description": "化生包括肠上皮化生这一常见类型"
+    },
+    {
+      "source": "book_05_病理学_node_006",
+      "target": "book_05_病理学_node_015",
+      "relation_type": "contains",
+      "description": "细胞老化机制是细胞老化的内在原因"
+    },
+    {
+      "source": "book_05_病理学_node_002",
+      "target": "book_05_病理学_node_003",
+      "relation_type": "parallel",
+      "description": "萎缩和肥大是细胞体积变化的两种相反方向，同属适应性反应"
+    },
+    {
+      "source": "book_05_病理学_node_004",
+      "target": "book_05_病理学_node_003",
+      "relation_type": "parallel",
+      "description": "增生和肥大均可导致器官体积增大，但增生是细胞数量增多，肥大是细胞体积增大"
+    },
+    {
+      "source": "book_05_病理学_node_005",
+      "target": "book_05_病理学_node_013",
+      "relation_type": "applies_to",
+      "description": "鳞状上皮化生常见于慢性支气管炎等慢性刺激场景"
+    },
+    {
+      "source": "book_05_病理学_node_005",
+      "target": "book_05_病理学_node_014",
+      "relation_type": "applies_to",
+      "description": "肠上皮化生常见于慢性胃炎，与胃癌风险相关"
+    },
+    {
+      "source": "book_05_病理学_node_009",
+      "target": "book_05_病理学_node_003",
+      "relation_type": "prerequisite",
+      "description": "理解代偿性肥大需先掌握肥大的基本概念"
+    },
+    {
+      "source": "book_05_病理学_node_015",
+      "target": "book_05_病理学_node_006",
+      "relation_type": "prerequisite",
+      "description": "理解细胞老化机制是深入认识细胞老化过程的前提"
+    },
+    {
+      "source": "book_05_病理学_node_016",
+      "target": "book_05_病理学_node_017",
+      "relation_type": "prerequisite",
+      "description": "理解损伤原因是学习损伤机制的前提，机制解释了原因如何导致损伤。"
+    },
+    {
+      "source": "book_05_病理学_node_018",
+      "target": "book_05_病理学_node_016",
+      "relation_type": "contains",
+      "description": "缺氧是细胞和组织损伤的常见原因之一，属于原因的下位概念。"
+    },
+    {
+      "source": "book_05_病理学_node_019",
+      "target": "book_05_病理学_node_016",
+      "relation_type": "contains",
+      "description": "物理因素是细胞和组织损伤的原因之一。"
+    },
+    {
+      "source": "book_05_病理学_node_020",
+      "target": "book_05_病理学_node_016",
+      "relation_type": "contains",
+      "description": "化学因素是细胞和组织损伤的原因之一。"
+    },
+    {
+      "source": "book_05_病理学_node_021",
+      "target": "book_05_病理学_node_016",
+      "relation_type": "contains",
+      "description": "生物因素是细胞和组织损伤的原因之一。"
+    },
+    {
+      "source": "book_05_病理学_node_022",
+      "target": "book_05_病理学_node_016",
+      "relation_type": "contains",
+      "description": "免疫反应是细胞和组织损伤的原因之一。"
+    },
+    {
+      "source": "book_05_病理学_node_023",
+      "target": "book_05_病理学_node_016",
+      "relation_type": "contains",
+      "description": "遗传因素是细胞和组织损伤的原因之一。"
+    },
+    {
+      "source": "book_05_病理学_node_024",
+      "target": "book_05_病理学_node_016",
+      "relation_type": "contains",
+      "description": "营养失衡是细胞和组织损伤的原因之一。"
+    },
+    {
+      "source": "book_05_病理学_node_025",
+      "target": "book_05_病理学_node_016",
+      "relation_type": "contains",
+      "description": "衰老是细胞和组织损伤的原因之一。"
+    },
+    {
+      "source": "book_05_病理学_node_026",
+      "target": "book_05_病理学_node_017",
+      "relation_type": "contains",
+      "description": "ATP耗竭是细胞和组织损伤的核心机制之一。"
+    },
+    {
+      "source": "book_05_病理学_node_027",
+      "target": "book_05_病理学_node_017",
+      "relation_type": "contains",
+      "description": "氧自由基损伤是细胞和组织损伤的重要机制之一。"
+    },
+    {
+      "source": "book_05_病理学_node_028",
+      "target": "book_05_病理学_node_017",
+      "relation_type": "contains",
+      "description": "细胞内钙超载是细胞和组织损伤的关键机制之一。"
+    },
+    {
+      "source": "book_05_病理学_node_029",
+      "target": "book_05_病理学_node_017",
+      "relation_type": "contains",
+      "description": "膜损伤是细胞和组织损伤的机制之一。"
+    },
+    {
+      "source": "book_05_病理学_node_030",
+      "target": "book_05_病理学_node_017",
+      "relation_type": "contains",
+      "description": "蛋白质错误折叠是细胞和组织损伤的机制之一。"
+    },
+    {
+      "source": "book_05_病理学_node_018",
+      "target": "book_05_病理学_node_026",
+      "relation_type": "applies_to",
+      "description": "缺氧常导致ATP耗竭，因为氧是氧化磷酸化的关键底物。"
+    },
+    {
+      "source": "book_05_病理学_node_018",
+      "target": "book_05_病理学_node_027",
+      "relation_type": "applies_to",
+      "description": "缺氧再灌注时，氧自由基大量产生，加重损伤。"
+    },
+    {
+      "source": "book_05_病理学_node_026",
+      "target": "book_05_病理学_node_028",
+      "relation_type": "applies_to",
+      "description": "ATP耗竭导致钙泵失效，引起细胞内钙超载。"
+    },
+    {
+      "source": "book_05_病理学_node_028",
+      "target": "book_05_病理学_node_029",
+      "relation_type": "applies_to",
+      "description": "细胞内钙超载激活磷脂酶，破坏膜结构，导致膜损伤。"
+    },
+    {
+      "source": "book_05_病理学_node_027",
+      "target": "book_05_病理学_node_029",
+      "relation_type": "applies_to",
+      "description": "氧自由基通过脂质过氧化直接损伤细胞膜。"
+    },
+    {
+      "source": "book_05_病理学_node_018",
+      "target": "book_05_病理学_node_019",
+      "relation_type": "parallel",
+      "description": "缺氧和物理因素都是细胞损伤的常见原因，属于同一层级的不同类型。"
+    },
+    {
+      "source": "book_05_病理学_node_020",
+      "target": "book_05_病理学_node_021",
+      "relation_type": "parallel",
+      "description": "化学因素和生物因素都是外源性损伤原因，属于同一层级。"
+    },
+    {
+      "source": "book_05_病理学_node_026",
+      "target": "book_05_病理学_node_027",
+      "relation_type": "parallel",
+      "description": "ATP耗竭和氧自由基损伤是两种不同的损伤机制，常相互影响。"
+    },
+    {
+      "source": "book_05_病理学_node_031",
+      "target": "book_05_病理学_node_032",
+      "relation_type": "contains",
+      "description": "细胞可逆性损伤包含细胞水肿这一最常见的早期病理改变"
+    },
+    {
+      "source": "book_05_病理学_node_031",
+      "target": "book_05_病理学_node_033",
+      "relation_type": "contains",
+      "description": "细胞可逆性损伤包含脂肪变这一脂质代谢异常导致的病理改变"
+    },
+    {
+      "source": "book_05_病理学_node_031",
+      "target": "book_05_病理学_node_034",
+      "relation_type": "contains",
+      "description": "细胞可逆性损伤包含玻璃样变这一蛋白质蓄积性病理改变"
+    },
+    {
+      "source": "book_05_病理学_node_031",
+      "target": "book_05_病理学_node_035",
+      "relation_type": "contains",
+      "description": "细胞可逆性损伤包含淀粉样变这一特殊蛋白质沉积性病理改变"
+    },
+    {
+      "source": "book_05_病理学_node_031",
+      "target": "book_05_病理学_node_036",
+      "relation_type": "contains",
+      "description": "细胞可逆性损伤包含黏液样变这一间质成分异常积聚的病理改变"
+    },
+    {
+      "source": "book_05_病理学_node_031",
+      "target": "book_05_病理学_node_037",
+      "relation_type": "contains",
+      "description": "细胞可逆性损伤包含病理性色素沉着这一色素代谢异常改变"
+    },
+    {
+      "source": "book_05_病理学_node_031",
+      "target": "book_05_病理学_node_038",
+      "relation_type": "contains",
+      "description": "细胞可逆性损伤包含病理性钙化这一钙盐异常沉积的病理改变"
+    },
+    {
+      "source": "book_05_病理学_node_032",
+      "target": "book_05_病理学_node_033",
+      "relation_type": "parallel",
+      "description": "细胞水肿和脂肪变是两种不同代谢物蓄积的平行病理改变"
+    },
+    {
+      "source": "book_05_病理学_node_034",
+      "target": "book_05_病理学_node_035",
+      "relation_type": "parallel",
+      "description": "玻璃样变和淀粉样变均为蛋白质异常沉积，但化学成分和染色特性不同"
+    },
+    {
+      "source": "book_05_病理学_node_038",
+      "target": "book_05_病理学_node_039",
+      "relation_type": "contains",
+      "description": "病理性钙化包含营养不良性钙化这一局部组织损伤继发的类型"
+    },
+    {
+      "source": "book_05_病理学_node_038",
+      "target": "book_05_病理学_node_040",
+      "relation_type": "contains",
+      "description": "病理性钙化包含转移性钙化这一全身代谢障碍导致的类型"
+    },
+    {
+      "source": "book_05_病理学_node_039",
+      "target": "book_05_病理学_node_040",
+      "relation_type": "parallel",
+      "description": "营养不良性钙化和转移性钙化是病理性钙化的两种平行亚型，发病机制不同"
+    },
+    {
+      "source": "book_05_病理学_node_037",
+      "target": "book_05_病理学_node_041",
+      "relation_type": "contains",
+      "description": "病理性色素沉着包含含铁血黄素沉着这一常见内源性色素沉积"
+    },
+    {
+      "source": "book_05_病理学_node_037",
+      "target": "book_05_病理学_node_042",
+      "relation_type": "contains",
+      "description": "病理性色素沉着包含胆红素沉着这一与黄疸相关的色素沉积"
+    },
+    {
+      "source": "book_05_病理学_node_031",
+      "target": "book_05_病理学_node_039",
+      "relation_type": "applies_to",
+      "description": "细胞可逆性损伤的病理机制可解释营养不良性钙化常继发于坏死组织"
+    },
+    {
+      "source": "book_05_病理学_node_043",
+      "target": "book_05_病理学_node_044",
+      "relation_type": "contains",
+      "description": "细胞不可逆性损伤包含坏死这一经典死亡形式"
+    },
+    {
+      "source": "book_05_病理学_node_043",
+      "target": "book_05_病理学_node_045",
+      "relation_type": "contains",
+      "description": "细胞不可逆性损伤包含凋亡这一程序性死亡形式"
+    },
+    {
+      "source": "book_05_病理学_node_043",
+      "target": "book_05_病理学_node_046",
+      "relation_type": "contains",
+      "description": "细胞不可逆性损伤包含坏死性凋亡"
+    },
+    {
+      "source": "book_05_病理学_node_043",
+      "target": "book_05_病理学_node_047",
+      "relation_type": "contains",
+      "description": "细胞不可逆性损伤包含细胞焦亡"
+    },
+    {
+      "source": "book_05_病理学_node_043",
+      "target": "book_05_病理学_node_048",
+      "relation_type": "contains",
+      "description": "细胞不可逆性损伤包含铁死亡"
+    },
+    {
+      "source": "book_05_病理学_node_043",
+      "target": "book_05_病理学_node_049",
+      "relation_type": "contains",
+      "description": "细胞不可逆性损伤包含自噬导致的细胞死亡"
+    },
+    {
+      "source": "book_05_病理学_node_052",
+      "target": "book_05_病理学_node_045",
+      "relation_type": "contains",
+      "description": "程序性细胞死亡包含凋亡"
+    },
+    {
+      "source": "book_05_病理学_node_052",
+      "target": "book_05_病理学_node_046",
+      "relation_type": "contains",
+      "description": "程序性细胞死亡包含坏死性凋亡"
+    },
+    {
+      "source": "book_05_病理学_node_052",
+      "target": "book_05_病理学_node_047",
+      "relation_type": "contains",
+      "description": "程序性细胞死亡包含细胞焦亡"
+    },
+    {
+      "source": "book_05_病理学_node_044",
+      "target": "book_05_病理学_node_050",
+      "relation_type": "applies_to",
+      "description": "坏死导致细胞膜完整性破坏"
+    },
+    {
+      "source": "book_05_病理学_node_050",
+      "target": "book_05_病理学_node_051",
+      "relation_type": "applies_to",
+      "description": "细胞膜完整性破坏引发炎症反应"
+    },
+    {
+      "source": "book_05_病理学_node_047",
+      "target": "book_05_病理学_node_053",
+      "relation_type": "prerequisite",
+      "description": "细胞焦亡依赖炎症小体的激活"
+    },
+    {
+      "source": "book_05_病理学_node_048",
+      "target": "book_05_病理学_node_054",
+      "relation_type": "applies_to",
+      "description": "铁死亡的核心机制是脂质过氧化"
+    },
+    {
+      "source": "book_05_病理学_node_049",
+      "target": "book_05_病理学_node_055",
+      "relation_type": "applies_to",
+      "description": "自噬过程涉及溶酶体降解"
+    },
+    {
+      "source": "book_05_病理学_node_045",
+      "target": "book_05_病理学_node_044",
+      "relation_type": "parallel",
+      "description": "凋亡和坏死是两种形态和机制不同的细胞死亡方式"
+    },
+    {
+      "source": "book_05_病理学_node_046",
+      "target": "book_05_病理学_node_044",
+      "relation_type": "parallel",
+      "description": "坏死性凋亡与坏死在形态上相似，但机制不同"
+    },
+    {
+      "source": "book_05_病理学_node_046",
+      "target": "book_05_病理学_node_045",
+      "relation_type": "parallel",
+      "description": "坏死性凋亡与凋亡同属程序性死亡，但信号通路不同"
+    },
+    {
+      "source": "book_05_病理学_node_047",
+      "target": "book_05_病理学_node_044",
+      "relation_type": "parallel",
+      "description": "细胞焦亡与坏死均伴随炎症，但焦亡是程序性的"
+    },
+    {
+      "source": "book_05_病理学_node_048",
+      "target": "book_05_病理学_node_045",
+      "relation_type": "parallel",
+      "description": "铁死亡是非凋亡性死亡，与凋亡机制独立"
+    },
+    {
+      "source": "book_05_病理学_node_049",
+      "target": "book_05_病理学_node_045",
+      "relation_type": "parallel",
+      "description": "自噬与凋亡在细胞稳态调节中常相互影响"
+    },
+    {
+      "source": "book_05_病理学_node_056",
+      "target": "book_05_病理学_node_057",
+      "relation_type": "prerequisite",
+      "description": "理解细胞周期是掌握不同类型细胞再生潜能的基础"
+    },
+    {
+      "source": "book_05_病理学_node_057",
+      "target": "book_05_病理学_node_058",
+      "relation_type": "contains",
+      "description": "不同类型细胞的再生潜能包含不稳定细胞这一类别"
+    },
+    {
+      "source": "book_05_病理学_node_057",
+      "target": "book_05_病理学_node_059",
+      "relation_type": "contains",
+      "description": "不同类型细胞的再生潜能包含稳定细胞这一类别"
+    },
+    {
+      "source": "book_05_病理学_node_057",
+      "target": "book_05_病理学_node_060",
+      "relation_type": "contains",
+      "description": "不同类型细胞的再生潜能包含永久性细胞这一类别"
+    },
+    {
+      "source": "book_05_病理学_node_058",
+      "target": "book_05_病理学_node_059",
+      "relation_type": "parallel",
+      "description": "不稳定细胞和稳定细胞是再生潜能分类中的平行概念"
+    },
+    {
+      "source": "book_05_病理学_node_059",
+      "target": "book_05_病理学_node_060",
+      "relation_type": "parallel",
+      "description": "稳定细胞和永久性细胞是再生潜能分类中的平行概念"
+    },
+    {
+      "source": "book_05_病理学_node_061",
+      "target": "book_05_病理学_node_062",
+      "relation_type": "prerequisite",
+      "description": "理解干细胞的概念是掌握其在再生中作用的前提"
+    },
+    {
+      "source": "book_05_病理学_node_062",
+      "target": "book_05_病理学_node_063",
+      "relation_type": "contains",
+      "description": "干细胞在再生中的作用是组织再生机制的重要组成部分"
+    },
+    {
+      "source": "book_05_病理学_node_063",
+      "target": "book_05_病理学_node_064",
+      "relation_type": "contains",
+      "description": "组织再生的机制包含具体的再生过程"
+    },
+    {
+      "source": "book_05_病理学_node_065",
+      "target": "book_05_病理学_node_066",
+      "relation_type": "contains",
+      "description": "细胞再生的影响因素包含生长因子"
+    },
+    {
+      "source": "book_05_病理学_node_065",
+      "target": "book_05_病理学_node_067",
+      "relation_type": "contains",
+      "description": "细胞再生的影响因素包含细胞外基质"
+    },
+    {
+      "source": "book_05_病理学_node_065",
+      "target": "book_05_病理学_node_068",
+      "relation_type": "contains",
+      "description": "细胞再生的影响因素包含微环境"
+    },
+    {
+      "source": "book_05_病理学_node_066",
+      "target": "book_05_病理学_node_063",
+      "relation_type": "applies_to",
+      "description": "生长因子通过调控细胞增殖和分化，应用于组织再生机制"
+    },
+    {
+      "source": "book_05_病理学_node_067",
+      "target": "book_05_病理学_node_063",
+      "relation_type": "applies_to",
+      "description": "细胞外基质为细胞提供支架和信号，应用于组织再生过程"
+    },
+    {
+      "source": "book_05_病理学_node_068",
+      "target": "book_05_病理学_node_062",
+      "relation_type": "applies_to",
+      "description": "微环境影响干细胞的自我更新和分化，应用于干细胞在再生中的作用"
+    }
+  ],
+  "stats": {
+    "total_nodes": 68,
+    "total_relations": 92,
+    "chapters_processed": 5
+  }
+}

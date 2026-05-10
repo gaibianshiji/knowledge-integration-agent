@@ -1,6 +1,7 @@
 import httpx
 import json
 import os
+import asyncio
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -26,15 +27,22 @@ async def call_deepseek(prompt: str, system_prompt: str = "", max_tokens: int = 
         "temperature": 0.3
     }
 
-    async with httpx.AsyncClient(timeout=120.0) as client:
-        response = await client.post(
-            f"{DEEPSEEK_BASE_URL}/chat/completions",
-            headers=headers,
-            json=payload
-        )
-        response.raise_for_status()
-        data = response.json()
-        return data["choices"][0]["message"]["content"]
+    for attempt in range(3):
+        try:
+            async with httpx.AsyncClient(timeout=120.0) as client:
+                response = await client.post(
+                    f"{DEEPSEEK_BASE_URL}/chat/completions",
+                    headers=headers,
+                    json=payload
+                )
+                response.raise_for_status()
+                data = response.json()
+                return data["choices"][0]["message"]["content"]
+        except Exception as e:
+            if attempt < 2:
+                await asyncio.sleep(2 ** attempt)
+            else:
+                raise
 
 async def call_deepseek_messages(messages: list[dict], max_tokens: int = 4096) -> str:
     """Call DeepSeek with a full message list (for multi-turn conversations)"""
@@ -50,15 +58,22 @@ async def call_deepseek_messages(messages: list[dict], max_tokens: int = 4096) -
         "temperature": 0.3
     }
 
-    async with httpx.AsyncClient(timeout=120.0) as client:
-        response = await client.post(
-            f"{DEEPSEEK_BASE_URL}/chat/completions",
-            headers=headers,
-            json=payload
-        )
-        response.raise_for_status()
-        data = response.json()
-        return data["choices"][0]["message"]["content"]
+    for attempt in range(3):
+        try:
+            async with httpx.AsyncClient(timeout=120.0) as client:
+                response = await client.post(
+                    f"{DEEPSEEK_BASE_URL}/chat/completions",
+                    headers=headers,
+                    json=payload
+                )
+                response.raise_for_status()
+                data = response.json()
+                return data["choices"][0]["message"]["content"]
+        except Exception as e:
+            if attempt < 2:
+                await asyncio.sleep(2 ** attempt)
+            else:
+                raise
 
 async def extract_json_from_llm(prompt: str, system_prompt: str = "") -> dict | list:
     response = await call_deepseek(prompt, system_prompt)

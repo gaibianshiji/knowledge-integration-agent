@@ -189,7 +189,7 @@ async def upload_textbook(file: UploadFile = File(...)):
         }
         store_in_memory("parsed_textbooks", textbook_id, textbook)
     else:
-        return {"error": f"不支持的文件格式: {file_ext}"}
+        raise HTTPException(status_code=400, detail=f"不支持的文件格式: {file_ext}")
 
     return {
         "textbook_id": textbook_id,
@@ -210,4 +210,4 @@ async def get_textbook(textbook_id: str):
     textbook = get_parsed_textbook(textbook_id)
     if textbook:
         return textbook
-    return {"error": "未找到教材"}
+    raise HTTPException(status_code=404, detail="未找到教材")

@@ -602,7 +602,7 @@ sequenceDiagram
 系统使用 `asyncio.gather` 对同一教材的多个章节进行**并行 LLM 调用**：
 
 ```python
-async def extract_textbook_knowledge(textbook: dict, max_chapters: int = 5) -> dict:
+async def extract_textbook_knowledge(textbook: dict, max_chapters: int = 50) -> dict:
     chapters = textbook["chapters"][:max_chapters]
     tasks = [
         extract_chapter_knowledge(ch, textbook_id, textbook_name)

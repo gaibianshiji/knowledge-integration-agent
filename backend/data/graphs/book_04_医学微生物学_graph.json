@@ -1,0 +1,1445 @@
+{
+  "textbook_id": "book_04_医学微生物学",
+  "textbook_name": "医学微生物学",
+  "nodes": [
+    {
+      "id": "book_04_医学微生物学_node_001",
+      "name": "微生态失调",
+      "definition": "正常微生物群之间、微生物与宿主之间、微生物与外界环境之间的平衡被破坏，导致宿主生理功能紊乱的病理状态。",
+      "category": "核心概念",
+      "chapter": "第三节　微生态失调的防治",
+      "page": 19,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_002",
+      "name": "微生态失调的防治原则",
+      "definition": "针对微生态失调的病因和机制，采取恢复和维持微生态平衡的一系列措施和策略。",
+      "category": "核心概念",
+      "chapter": "第三节　微生态失调的防治",
+      "page": 19,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_003",
+      "name": "微生态平衡",
+      "definition": "正常微生物群与宿主和环境之间保持动态平衡的生理状态，是健康的基础。",
+      "category": "核心概念",
+      "chapter": "第三节　微生态失调的防治",
+      "page": 19,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_004",
+      "name": "正常微生物群",
+      "definition": "寄居在人体体表和腔道中的、对宿主无害甚至有益的微生物群落，是微生态平衡的核心组成部分。",
+      "category": "核心概念",
+      "chapter": "第三节　微生态失调的防治",
+      "page": 19,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_005",
+      "name": "益生菌",
+      "definition": "通过改善宿主肠道微生态平衡而发挥有益作用的活性微生物制剂，常用于防治微生态失调。",
+      "category": "治疗方法",
+      "chapter": "第三节　微生态失调的防治",
+      "page": 19,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_006",
+      "name": "益生元",
+      "definition": "不被宿主消化吸收但能选择性促进肠道有益菌生长繁殖的物质，如低聚果糖。",
+      "category": "治疗方法",
+      "chapter": "第三节　微生态失调的防治",
+      "page": 19,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_007",
+      "name": "抗生素相关性腹泻",
+      "definition": "因使用抗生素导致肠道菌群失调而引发的腹泻，是微生态失调的常见临床表现。",
+      "category": "临床表现",
+      "chapter": "第三节　微生态失调的防治",
+      "page": 19,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_008",
+      "name": "菌群失调",
+      "definition": "正常微生物群的种类、数量和比例发生异常改变，是微生态失调的核心病理变化。",
+      "category": "病理变化",
+      "chapter": "第三节　微生态失调的防治",
+      "page": 19,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_009",
+      "name": "抗生素滥用",
+      "definition": "不合理或过度使用抗生素，是导致菌群失调和微生态失调的最常见医源性原因。",
+      "category": "病理变化",
+      "chapter": "第三节　微生态失调的防治",
+      "page": 19,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_010",
+      "name": "粪菌移植",
+      "definition": "将健康供体的粪便菌群移植到患者肠道内，以重建正常肠道微生态的治疗方法。",
+      "category": "治疗方法",
+      "chapter": "第三节　微生态失调的防治",
+      "page": 19,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_011",
+      "name": "微生态调节剂",
+      "definition": "包括益生菌、益生元、合生元等，用于调节微生态平衡、防治微生态失调的生物制剂。",
+      "category": "治疗方法",
+      "chapter": "第三节　微生态失调的防治",
+      "page": 19,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_012",
+      "name": "宿主免疫力低下",
+      "definition": "宿主免疫功能减弱，是导致微生态失调的重要内源性因素，易诱发条件致病菌感染。",
+      "category": "病理变化",
+      "chapter": "第三节　微生态失调的防治",
+      "page": 19,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_013",
+      "name": "条件致病菌",
+      "definition": "在正常微生态平衡时不致病，但在菌群失调或宿主免疫力低下时引起感染的微生物。",
+      "category": "核心概念",
+      "chapter": "第三节　微生态失调的防治",
+      "page": 19,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_014",
+      "name": "微生态失调的预防",
+      "definition": "通过合理使用抗生素、增强宿主免疫力、维持正常菌群等措施，防止微生态失调的发生。",
+      "category": "治疗方法",
+      "chapter": "第三节　微生态失调的防治",
+      "page": 19,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_015",
+      "name": "合生元",
+      "definition": "益生菌与益生元的复合制剂，兼具两者的优点，能更有效地调节微生态平衡。",
+      "category": "治疗方法",
+      "chapter": "第三节　微生态失调的防治",
+      "page": 19,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_016",
+      "name": "微生物",
+      "definition": "广泛存在于自然界中，肉眼直接观察不到，须借助光学显微镜或电子显微镜放大数百倍甚至数万倍才能观察到的微小生物。",
+      "category": "核心概念",
+      "chapter": "第一节 微生物和病原微生物",
+      "page": 20,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_017",
+      "name": "真核细胞型微生物",
+      "definition": "最大的一类微生物，有典型的细胞结构，细胞器完整，细胞核分化程度高，有核膜和核仁，DNA为遗传物质。真菌属于此类。",
+      "category": "核心概念",
+      "chapter": "第一节 微生物和病原微生物",
+      "page": 20,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_018",
+      "name": "原核细胞型微生物",
+      "definition": "有细胞基本结构，仅有核糖体；细胞核分化程度低，为原始核质，呈裸露DNA团块结构，无核膜和核仁，DNA为遗传物质。包括古菌和细菌。",
+      "category": "核心概念",
+      "chapter": "第一节 微生物和病原微生物",
+      "page": 20,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_019",
+      "name": "非细胞型微生物",
+      "definition": "最小的一类微生物，无细胞结构，也无产生能量的酶系统，只能寄生在活细胞内生长增殖，只有一种类型的遗传物质（DNA或RNA）。病毒属于此类。",
+      "category": "核心概念",
+      "chapter": "第一节 微生物和病原微生物",
+      "page": 20,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_020",
+      "name": "古菌",
+      "definition": "原核细胞型微生物的一类，不能合成肽聚糖且具有独特的代谢方式，可在高盐或低温等极端环境下生存，在人体内也有分布，但尚未发现对人类的致病性。",
+      "category": "核心概念",
+      "chapter": "第一节 微生物和病原微生物",
+      "page": 20,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_021",
+      "name": "细菌",
+      "definition": "原核细胞型微生物的一类，具有细胞壁，与人体的健康密切相关，少数对人有致病性。部分细菌生物学性状比较特殊，如衣原体和立克次体等。",
+      "category": "核心概念",
+      "chapter": "第一节 微生物和病原微生物",
+      "page": 20,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_022",
+      "name": "病毒",
+      "definition": "属于非细胞型微生物，是最小的一类微生物，无细胞结构，只能寄生在活细胞内生长增殖，遗传物质为DNA或RNA。",
+      "category": "核心概念",
+      "chapter": "第一节 微生物和病原微生物",
+      "page": 20,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_023",
+      "name": "微生物群",
+      "definition": "定居在地球表面特定空间或生境的不同种类和数量的微生物。例如土壤微生物群数量最为庞大。",
+      "category": "核心概念",
+      "chapter": "第一节 微生物和病原微生物",
+      "page": 20,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_024",
+      "name": "微生物的分布特点",
+      "definition": "微生物种类繁多、在自然界广泛分布，江河、空气、土壤、人体体表及腔道中都有大量微生物存在。",
+      "category": "生理机制",
+      "chapter": "第一节 微生物和病原微生物",
+      "page": 20,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_025",
+      "name": "微生物的繁殖与变异特点",
+      "definition": "微生物具有繁殖迅速、容易变异等特点，如大肠埃希菌理论上24小时后可产生大量后代。",
+      "category": "生理机制",
+      "chapter": "第一节 微生物和病原微生物",
+      "page": 20,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_026",
+      "name": "微生物与生态环境平衡",
+      "definition": "微生物参与生物圈碳、氮等物质的循环，维持生态环境的平衡。例如土壤微生物将有机氮转化为无机氮，固氮菌固定空气中的氮。",
+      "category": "生理机制",
+      "chapter": "第一节 微生物和病原微生物",
+      "page": 20,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_027",
+      "name": "微生物在农业中的应用",
+      "definition": "微生物在农业中用于生产微生物饲料、肥料、农药、食品、能源和环保制剂等，如利用微生物分解有机物进行沤粪积肥。",
+      "category": "治疗方法",
+      "chapter": "第一节 微生物和病原微生物",
+      "page": 20,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_028",
+      "name": "微生物在工业中的应用",
+      "definition": "微生物在食品、采矿和新能源等领域应用广泛，如发酵生产抗生素、多元醇，冶金中用微生物浸矿提炼金属，石油工业中用于勘探和污染处理。",
+      "category": "治疗方法",
+      "chapter": "第一节 微生物和病原微生物",
+      "page": 20,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_029",
+      "name": "微生物在环境保护中的应用",
+      "definition": "微生物能够处理污水废气，降解有毒物质（如汞），通过新陈代谢中和废水中的碱，将有毒物质转化为无毒物质。",
+      "category": "治疗方法",
+      "chapter": "第一节 微生物和病原微生物",
+      "page": 20,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_030",
+      "name": "微生物与人类健康的关系",
+      "definition": "正常情况下，寄生在人体内的微生物无害，可帮助宿主消化吸收、合成营养物质、调节免疫代谢，并拮抗病原微生物入侵。",
+      "category": "生理机制",
+      "chapter": "第一节 微生物和病原微生物",
+      "page": 20,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_031",
+      "name": "微生物在生命科学中的应用",
+      "definition": "微生物常被用作研究对象或模式生物，在基因、翻译、基因调控等规律发现中起关键作用，为基因工程提供工具酶和载体系统。",
+      "category": "治疗方法",
+      "chapter": "第一节 微生物和病原微生物",
+      "page": 20,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_032",
+      "name": "病原微生物",
+      "definition": "少数具有致病性，能引起人类、动物和植物感染性疾病的微生物。如志贺菌、结核分枝杆菌、脊髓灰质炎病毒等。",
+      "category": "核心概念",
+      "chapter": "第一节 微生物和病原微生物",
+      "page": 20,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_033",
+      "name": "机会致病性微生物",
+      "definition": "正常情况下寄生在人体内不致病，但在特定情况下（如侵入其他部位）会导致人类疾病的微生物。例如大肠埃希菌侵入泌尿道或腹腔会引起感染。",
+      "category": "核心概念",
+      "chapter": "第一节 微生物和病原微生物",
+      "page": 20,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_034",
+      "name": "真菌",
+      "definition": "属于真核细胞型微生物，具有典型的细胞结构和完整的细胞器，细胞核分化程度高。",
+      "category": "核心概念",
+      "chapter": "第一节 微生物和病原微生物",
+      "page": 20,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_035",
+      "name": "微生物的致病性",
+      "definition": "少数微生物具有致病性，能引起人类、动物和植物感染性疾病，如人类痢疾、脊髓灰质炎、鸡霍乱、水稻白叶枯病等。",
+      "category": "病理变化",
+      "chapter": "第一节 微生物和病原微生物",
+      "page": 20,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_036",
+      "name": "微生物学",
+      "definition": "研究微生物的种类、分布、遗传变异及其与人类、动植物和自然界相互关系的科学，是生命科学的重要领域。",
+      "category": "核心概念",
+      "chapter": "第二节 微生物学和医学微生物学",
+      "page": 21,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_037",
+      "name": "医学微生物学",
+      "definition": "研究与医学相关的病原微生物的生物学特性、致病机制、人体抗感染免疫机制，以及感染性疾病的诊断和防治措施的学科。",
+      "category": "核心概念",
+      "chapter": "第二节 微生物学和医学微生物学",
+      "page": 21,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_038",
+      "name": "微生物分类学",
+      "definition": "研究微生物分类、命名和系统发育关系的分支学科。",
+      "category": "核心概念",
+      "chapter": "第二节 微生物学和医学微生物学",
+      "page": 21,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_039",
+      "name": "微生物生理学",
+      "definition": "研究微生物的代谢、生长、繁殖等生命活动规律的分支学科。",
+      "category": "核心概念",
+      "chapter": "第二节 微生物学和医学微生物学",
+      "page": 21,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_040",
+      "name": "微生物生态学",
+      "definition": "研究微生物与其生存环境之间相互作用关系的分支学科。",
+      "category": "核心概念",
+      "chapter": "第二节 微生物学和医学微生物学",
+      "page": 21,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_041",
+      "name": "微生物遗传学",
+      "definition": "研究微生物遗传物质的结构、功能、变异和遗传规律的分支学科。",
+      "category": "核心概念",
+      "chapter": "第二节 微生物学和医学微生物学",
+      "page": 21,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_042",
+      "name": "微生物基因组学",
+      "definition": "研究微生物基因组的结构、功能、进化和比较基因组学的分支学科。",
+      "category": "核心概念",
+      "chapter": "第二节 微生物学和医学微生物学",
+      "page": 21,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_043",
+      "name": "细菌学",
+      "definition": "以细菌为研究对象，研究其形态、结构、生理、遗传及致病性的分支学科。",
+      "category": "核心概念",
+      "chapter": "第二节 微生物学和医学微生物学",
+      "page": 21,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_044",
+      "name": "食品微生物学",
+      "definition": "研究食品中微生物的种类、活动规律及其对食品安全和加工影响的分支学科。",
+      "category": "核心概念",
+      "chapter": "第二节 微生物学和医学微生物学",
+      "page": 21,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_045",
+      "name": "农业微生物学",
+      "definition": "研究农业环境中微生物与作物、土壤及动物相互关系的分支学科。",
+      "category": "核心概念",
+      "chapter": "第二节 微生物学和医学微生物学",
+      "page": 21,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_046",
+      "name": "工业微生物学",
+      "definition": "研究微生物在工业发酵、生物转化及产品开发中应用的分支学科。",
+      "category": "核心概念",
+      "chapter": "第二节 微生物学和医学微生物学",
+      "page": 21,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_047",
+      "name": "病原微生物的生物学特性",
+      "definition": "病原微生物的形态、结构、代谢、抗原性及抵抗力等固有特征。",
+      "category": "核心概念",
+      "chapter": "第二节 微生物学和医学微生物学",
+      "page": 21,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_048",
+      "name": "致病机制",
+      "definition": "病原微生物引起宿主感染和疾病的分子与细胞机制，包括侵袭力、毒素等。",
+      "category": "病理变化",
+      "chapter": "第二节 微生物学和医学微生物学",
+      "page": 21,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_049",
+      "name": "抗感染免疫机制",
+      "definition": "人体免疫系统识别、清除病原微生物并维持免疫记忆的防御机制。",
+      "category": "生理机制",
+      "chapter": "第二节 微生物学和医学微生物学",
+      "page": 21,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_050",
+      "name": "感染性疾病的病原学诊断",
+      "definition": "通过微生物培养、抗原抗体检测、分子生物学等方法确定感染病原体的过程。",
+      "category": "治疗方法",
+      "chapter": "第二节 微生物学和医学微生物学",
+      "page": 21,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_051",
+      "name": "防治措施",
+      "definition": "针对病原微生物感染所采取的预防（如疫苗）和治疗（如抗生素）手段。",
+      "category": "治疗方法",
+      "chapter": "第二节 微生物学和医学微生物学",
+      "page": 21,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_052",
+      "name": "微生物群与人体健康",
+      "definition": "人体共生微生物群落的组成变化对健康状态和疾病发生的重要影响。",
+      "category": "核心概念",
+      "chapter": "第二节 微生物学和医学微生物学",
+      "page": 21,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_053",
+      "name": "基础医学",
+      "definition": "研究人体正常结构和功能、疾病发生机制及药物作用原理的医学基础学科群。",
+      "category": "核心概念",
+      "chapter": "第二节 微生物学和医学微生物学",
+      "page": 21,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_054",
+      "name": "医学微生物学发展三个时期",
+      "definition": "医学微生物学的发展过程大致分为三个时期：古代时期（17世纪中期以前）、实验微生物学时期（17世纪中期-20世纪中期）、现代微生物学时期（20世纪中期-现在）。",
+      "category": "核心概念",
+      "chapter": "医学微生物学发展简史",
+      "page": 22,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_055",
+      "name": "古代微生物学知识",
+      "definition": "古代人类虽未观察到具体微生物，但已利用微生物知识进行传染病防治，如人痘接种、煮沸消毒、隔离等。",
+      "category": "核心概念",
+      "chapter": "医学微生物学发展简史",
+      "page": 22,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_056",
+      "name": "人痘接种法",
+      "definition": "我国先民在明隆庆年间（1567-1572）开创的预防天花的方法，通过接种天花康复者的物质获得免疫力，后传至欧洲。",
+      "category": "治疗方法",
+      "chapter": "医学微生物学发展简史",
+      "page": 22,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_057",
+      "name": "列文虎克发现微生物",
+      "definition": "1676年，荷兰人列文虎克利用自制显微镜首次观察到微生物，为微生物的存在提供了科学依据。",
+      "category": "核心概念",
+      "chapter": "医学微生物学发展简史",
+      "page": 22,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_058",
+      "name": "巴斯德与微生物生理学",
+      "definition": "法国科学家巴斯德通过曲颈瓶实验证明发酵和腐败由微生物引起，推翻了自然发生说，开创了微生物生理学时代，并创立了巴氏消毒法。",
+      "category": "核心概念",
+      "chapter": "医学微生物学发展简史",
+      "page": 23,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_059",
+      "name": "郭霍法则",
+      "definition": "德国学者郭霍于1884年提出的确定病原微生物的准则：1) 在患者中查见，健康人无；2) 能分离纯培养；3) 接种易感动物产生同样病症；4) 能从实验动物中重新分离。",
+      "category": "核心概念",
+      "chapter": "医学微生物学发展简史",
+      "page": 23,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_060",
+      "name": "病毒的发现",
+      "definition": "1892年伊凡诺夫斯基发现烟草花叶病由滤过性因子引起，后贝杰林克明确该因子需在活细胞中增殖，命名为病毒，开启了病毒学时代。",
+      "category": "核心概念",
+      "chapter": "医学微生物学发展简史",
+      "page": 23,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_061",
+      "name": "免疫学的兴起",
+      "definition": "18世纪末琴纳创用牛痘预防天花，后巴斯德研制出多种疫苗，贝林格使用白喉抗毒素进行被动免疫治疗，免疫学逐渐形成独立学科。",
+      "category": "核心概念",
+      "chapter": "医学微生物学发展简史",
+      "page": 24,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_062",
+      "name": "吞噬细胞学说与体液抗体学说",
+      "definition": "19世纪末两种免疫学观点：梅契尼可夫主张吞噬细胞学说，艾利希主张体液抗体学说，两者为免疫学发展奠定了基础。",
+      "category": "核心概念",
+      "chapter": "医学微生物学发展简史",
+      "page": 24,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_063",
+      "name": "克隆选择学说",
+      "definition": "1958年伯内特提出的抗体生成学说，阐明了抗体产生机制、抗原识别、自身耐受和自身免疫等免疫生物学现象。",
+      "category": "核心概念",
+      "chapter": "医学微生物学发展简史",
+      "page": 24,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_064",
+      "name": "化学治疗剂和抗生素的发现",
+      "definition": "艾利希合成砷凡纳明（606）开创化学治疗时代；弗莱明发现青霉素，弗洛里和钱恩提纯青霉素；瓦克斯曼发现链霉素，为结核病治疗提供药物。",
+      "category": "核心概念",
+      "chapter": "医学微生物学发展简史",
+      "page": 24,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_065",
+      "name": "现代微生物学时期",
+      "definition": "20世纪中期至今，分子生物学、基因组学等新技术推动微生物学迅速发展，新病原体不断发现，微生物诊断、疫苗研发取得突破。",
+      "category": "核心概念",
+      "chapter": "医学微生物学发展简史",
+      "page": 24,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_066",
+      "name": "新现与再现病原体",
+      "definition": "自1973年以来发现的近40种新病原体，如幽门螺杆菌、SARS冠状病毒、SARS冠状病毒2型等，以及再现病原体对人类健康构成严重威胁。",
+      "category": "病理变化",
+      "chapter": "医学微生物学发展简史",
+      "page": 25,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_067",
+      "name": "微生物基因组学",
+      "definition": "1995年流感嗜血杆菌全基因组测序完成，开启了微生物基因组时代，结合蛋白质组学、代谢组学形成微生物系统生物学。",
+      "category": "核心概念",
+      "chapter": "医学微生物学发展简史",
+      "page": 25,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_068",
+      "name": "病原微生物诊断技术",
+      "definition": "从传统表型鉴定发展到基因型方法，如16S rDNA序列分析、PCR、全基因组测序、宏基因组测序等，提高了诊断的标准化和规范化水平。",
+      "category": "治疗方法",
+      "chapter": "医学微生物学发展简史",
+      "page": 25,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_069",
+      "name": "疫苗研发进展",
+      "definition": "疫苗类型从灭活疫苗发展到减毒活疫苗、亚单位疫苗、工程疫苗、核酸疫苗等，SARS-CoV-2 mRNA疫苗是疫苗研发的最新突破。",
+      "category": "治疗方法",
+      "chapter": "医学微生物学发展简史",
+      "page": 25,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_070",
+      "name": "中国学者贡献",
+      "definition": "汤飞凡分离沙眼衣原体，谢少文建立立克次体分离培养技术，朱既明裂解流感病毒为亚单位，我国在疫苗研制和计划免疫方面取得巨大成就。",
+      "category": "核心概念",
+      "chapter": "医学微生物学发展简史",
+      "page": 25,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_071",
+      "name": "全健康理念",
+      "definition": "强调将人类健康、动物健康和环境健康交叉融合，结合系统科学和人工智能，以应对新发传染病和微生物耐药性等挑战。",
+      "category": "核心概念",
+      "chapter": "医学微生物学发展简史",
+      "page": 25,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_072",
+      "name": "细菌（广义）",
+      "definition": "生物种系分类中细菌界成员，包括狭义细菌、立克次体、螺旋体等原核细胞型微生物。",
+      "category": "核心概念",
+      "chapter": "第一篇",
+      "page": 26,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_073",
+      "name": "细菌（狭义）",
+      "definition": "原核细胞型微生物中数量最大、具有肽聚糖细胞壁的细菌，不包括立克次体和螺旋体。",
+      "category": "核心概念",
+      "chapter": "第一篇",
+      "page": 26,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_074",
+      "name": "原核细胞型微生物",
+      "definition": "核分化程度低、无核膜和核仁、除核糖体外无其他细胞器的微生物。",
+      "category": "核心概念",
+      "chapter": "第一篇",
+      "page": 26,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_075",
+      "name": "细菌的遗传物质",
+      "definition": "DNA，为细菌的遗传物质，位于原始核质中。",
+      "category": "生理机制",
+      "chapter": "第一篇",
+      "page": 26,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_076",
+      "name": "肽聚糖",
+      "definition": "大多数细菌细胞壁中的特有成分，是细菌分类的重要标志。",
+      "category": "解剖结构",
+      "chapter": "第一篇",
+      "page": 26,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_077",
+      "name": "核糖体",
+      "definition": "细菌细胞内唯一的细胞器，参与蛋白质合成。",
+      "category": "解剖结构",
+      "chapter": "第一篇",
+      "page": 26,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_078",
+      "name": "假单胞菌门",
+      "definition": "与人类密切相关的九个细菌门之一，属于广义细菌。",
+      "category": "核心概念",
+      "chapter": "第一篇",
+      "page": 26,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_079",
+      "name": "芽胞杆菌门",
+      "definition": "与人类密切相关的九个细菌门之一，属于广义细菌。",
+      "category": "核心概念",
+      "chapter": "第一篇",
+      "page": 26,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_080",
+      "name": "螺旋体门",
+      "definition": "与人类密切相关的九个细菌门之一，在种系分类中属于细菌。",
+      "category": "核心概念",
+      "chapter": "第一篇",
+      "page": 26,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_081",
+      "name": "立克次体",
+      "definition": "在种系分类中属于细菌的原核细胞型微生物，过去曾与细菌分开。",
+      "category": "核心概念",
+      "chapter": "第一篇",
+      "page": 26,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_082",
+      "name": "细菌的生物学特性",
+      "definition": "本篇阐述内容之一，包括细菌的形态、结构、代谢、生长繁殖等。",
+      "category": "核心概念",
+      "chapter": "第一篇",
+      "page": 26,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_083",
+      "name": "细菌的致病性与免疫性",
+      "definition": "本篇阐述内容之一，研究细菌引起疾病的能力及机体免疫反应。",
+      "category": "临床表现",
+      "chapter": "第一篇",
+      "page": 26,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_084",
+      "name": "感染性疾病的检查方法",
+      "definition": "本篇阐述内容之一，用于诊断病原细菌所致感染的方法。",
+      "category": "治疗方法",
+      "chapter": "第一篇",
+      "page": 26,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    },
+    {
+      "id": "book_04_医学微生物学_node_085",
+      "name": "防治原则",
+      "definition": "本篇阐述内容之一，针对病原细菌感染的预防和治疗原则。",
+      "category": "治疗方法",
+      "chapter": "第一篇",
+      "page": 26,
+      "textbook_id": "book_04_医学微生物学",
+      "textbook_name": "医学微生物学"
+    }
+  ],
+  "relations": [
+    {
+      "source": "book_04_医学微生物学_node_001",
+      "target": "book_04_医学微生物学_node_003",
+      "relation_type": "prerequisite",
+      "description": "理解微生态失调必须先掌握微生态平衡的概念，因为失调是平衡被破坏的结果。"
+    },
+    {
+      "source": "book_04_医学微生物学_node_001",
+      "target": "book_04_医学微生物学_node_004",
+      "relation_type": "prerequisite",
+      "description": "理解微生态失调需要先了解正常微生物群，因为失调是正常微生物群状态的改变。"
+    },
+    {
+      "source": "book_04_医学微生物学_node_001",
+      "target": "book_04_医学微生物学_node_008",
+      "relation_type": "contains",
+      "description": "菌群失调是微生态失调的核心病理变化，属于其下位概念。"
+    },
+    {
+      "source": "book_04_医学微生物学_node_001",
+      "target": "book_04_医学微生物学_node_007",
+      "relation_type": "applies_to",
+      "description": "抗生素相关性腹泻是微生态失调的一种具体临床表现。"
+    },
+    {
+      "source": "book_04_医学微生物学_node_008",
+      "target": "book_04_医学微生物学_node_009",
+      "relation_type": "applies_to",
+      "description": "抗生素滥用是导致菌群失调的重要病因。"
+    },
+    {
+      "source": "book_04_医学微生物学_node_008",
+      "target": "book_04_医学微生物学_node_012",
+      "relation_type": "parallel",
+      "description": "菌群失调和宿主免疫力低下都是微生态失调的重要病理因素，两者常相互影响。"
+    },
+    {
+      "source": "book_04_医学微生物学_node_008",
+      "target": "book_04_医学微生物学_node_013",
+      "relation_type": "applies_to",
+      "description": "菌群失调为条件致病菌的过度生长和致病创造了条件。"
+    },
+    {
+      "source": "book_04_医学微生物学_node_002",
+      "target": "book_04_医学微生物学_node_014",
+      "relation_type": "contains",
+      "description": "预防是微生态失调防治原则的重要组成部分。"
+    },
+    {
+      "source": "book_04_医学微生物学_node_002",
+      "target": "book_04_医学微生物学_node_011",
+      "relation_type": "contains",
+      "description": "使用微生态调节剂是微生态失调防治原则中的核心治疗手段。"
+    },
+    {
+      "source": "book_04_医学微生物学_node_011",
+      "target": "book_04_医学微生物学_node_005",
+      "relation_type": "contains",
+      "description": "益生菌是微生态调节剂的一种主要类型。"
+    },
+    {
+      "source": "book_04_医学微生物学_node_011",
+      "target": "book_04_医学微生物学_node_006",
+      "relation_type": "contains",
+      "description": "益生元是微生态调节剂的一种主要类型。"
+    },
+    {
+      "source": "book_04_医学微生物学_node_011",
+      "target": "book_04_医学微生物学_node_015",
+      "relation_type": "contains",
+      "description": "合生元是微生态调节剂的一种复合类型。"
+    },
+    {
+      "source": "book_04_医学微生物学_node_005",
+      "target": "book_04_医学微生物学_node_006",
+      "relation_type": "parallel",
+      "description": "益生菌和益生元是微生态调节剂中并列的两类主要成分，作用机制不同但协同。"
+    },
+    {
+      "source": "book_04_医学微生物学_node_010",
+      "target": "book_04_医学微生物学_node_002",
+      "relation_type": "applies_to",
+      "description": "粪菌移植是微生态失调防治原则中针对严重菌群失调的一种特殊治疗方法。"
+    },
+    {
+      "source": "book_04_医学微生物学_node_009",
+      "target": "book_04_医学微生物学_node_007",
+      "relation_type": "applies_to",
+      "description": "抗生素滥用是抗生素相关性腹泻的直接原因。"
+    },
+    {
+      "source": "book_04_医学微生物学_node_016",
+      "target": "book_04_医学微生物学_node_017",
+      "relation_type": "contains",
+      "description": "微生物包含真核细胞型微生物"
+    },
+    {
+      "source": "book_04_医学微生物学_node_016",
+      "target": "book_04_医学微生物学_node_018",
+      "relation_type": "contains",
+      "description": "微生物包含原核细胞型微生物"
+    },
+    {
+      "source": "book_04_医学微生物学_node_016",
+      "target": "book_04_医学微生物学_node_019",
+      "relation_type": "contains",
+      "description": "微生物包含非细胞型微生物"
+    },
+    {
+      "source": "book_04_医学微生物学_node_018",
+      "target": "book_04_医学微生物学_node_020",
+      "relation_type": "contains",
+      "description": "原核细胞型微生物包含古菌"
+    },
+    {
+      "source": "book_04_医学微生物学_node_018",
+      "target": "book_04_医学微生物学_node_021",
+      "relation_type": "contains",
+      "description": "原核细胞型微生物包含细菌"
+    },
+    {
+      "source": "book_04_医学微生物学_node_019",
+      "target": "book_04_医学微生物学_node_022",
+      "relation_type": "contains",
+      "description": "非细胞型微生物包含病毒"
+    },
+    {
+      "source": "book_04_医学微生物学_node_017",
+      "target": "book_04_医学微生物学_node_034",
+      "relation_type": "contains",
+      "description": "真核细胞型微生物包含真菌"
+    },
+    {
+      "source": "book_04_医学微生物学_node_017",
+      "target": "book_04_医学微生物学_node_018",
+      "relation_type": "parallel",
+      "description": "真核细胞型微生物与原核细胞型微生物是并列的微生物分类"
+    },
+    {
+      "source": "book_04_医学微生物学_node_017",
+      "target": "book_04_医学微生物学_node_019",
+      "relation_type": "parallel",
+      "description": "真核细胞型微生物与非细胞型微生物是并列的微生物分类"
+    },
+    {
+      "source": "book_04_医学微生物学_node_018",
+      "target": "book_04_医学微生物学_node_019",
+      "relation_type": "parallel",
+      "description": "原核细胞型微生物与非细胞型微生物是并列的微生物分类"
+    },
+    {
+      "source": "book_04_医学微生物学_node_020",
+      "target": "book_04_医学微生物学_node_021",
+      "relation_type": "parallel",
+      "description": "古菌和细菌是原核细胞型微生物下的两个平行类别"
+    },
+    {
+      "source": "book_04_医学微生物学_node_016",
+      "target": "book_04_医学微生物学_node_023",
+      "relation_type": "contains",
+      "description": "微生物群是微生物在特定生境中的集合"
+    },
+    {
+      "source": "book_04_医学微生物学_node_016",
+      "target": "book_04_医学微生物学_node_024",
+      "relation_type": "applies_to",
+      "description": "微生物的分布特点描述了微生物在自然界中的存在情况"
+    },
+    {
+      "source": "book_04_医学微生物学_node_016",
+      "target": "book_04_医学微生物学_node_025",
+      "relation_type": "applies_to",
+      "description": "微生物的繁殖与变异特点是微生物的生物学特性"
+    },
+    {
+      "source": "book_04_医学微生物学_node_016",
+      "target": "book_04_医学微生物学_node_026",
+      "relation_type": "applies_to",
+      "description": "微生物在维持生态环境平衡中发挥重要作用"
+    },
+    {
+      "source": "book_04_医学微生物学_node_016",
+      "target": "book_04_医学微生物学_node_027",
+      "relation_type": "applies_to",
+      "description": "微生物在农业中有广泛应用"
+    },
+    {
+      "source": "book_04_医学微生物学_node_016",
+      "target": "book_04_医学微生物学_node_028",
+      "relation_type": "applies_to",
+      "description": "微生物在工业中有广泛应用"
+    },
+    {
+      "source": "book_04_医学微生物学_node_016",
+      "target": "book_04_医学微生物学_node_029",
+      "relation_type": "applies_to",
+      "description": "微生物在环境保护中有应用"
+    },
+    {
+      "source": "book_04_医学微生物学_node_016",
+      "target": "book_04_医学微生物学_node_030",
+      "relation_type": "applies_to",
+      "description": "微生物与人类健康关系密切"
+    },
+    {
+      "source": "book_04_医学微生物学_node_016",
+      "target": "book_04_医学微生物学_node_031",
+      "relation_type": "applies_to",
+      "description": "微生物在生命科学研究中作为模式生物"
+    },
+    {
+      "source": "book_04_医学微生物学_node_032",
+      "target": "book_04_医学微生物学_node_035",
+      "relation_type": "applies_to",
+      "description": "病原微生物具有致病性，能引起感染性疾病"
+    },
+    {
+      "source": "book_04_医学微生物学_node_033",
+      "target": "book_04_医学微生物学_node_035",
+      "relation_type": "applies_to",
+      "description": "机会致病性微生物在特定条件下具有致病性"
+    },
+    {
+      "source": "book_04_医学微生物学_node_032",
+      "target": "book_04_医学微生物学_node_033",
+      "relation_type": "parallel",
+      "description": "病原微生物和机会致病性微生物是微生物致病性的两种类型"
+    },
+    {
+      "source": "book_04_医学微生物学_node_016",
+      "target": "book_04_医学微生物学_node_032",
+      "relation_type": "contains",
+      "description": "微生物中包含具有致病性的病原微生物"
+    },
+    {
+      "source": "book_04_医学微生物学_node_016",
+      "target": "book_04_医学微生物学_node_033",
+      "relation_type": "contains",
+      "description": "微生物中包含机会致病性微生物"
+    },
+    {
+      "source": "book_04_医学微生物学_node_021",
+      "target": "book_04_医学微生物学_node_033",
+      "relation_type": "applies_to",
+      "description": "细菌中的大肠埃希菌是机会致病性微生物的典型例子"
+    },
+    {
+      "source": "book_04_医学微生物学_node_036",
+      "target": "book_04_医学微生物学_node_037",
+      "relation_type": "contains",
+      "description": "医学微生物学是微生物学在医学领域的重要分支学科。"
+    },
+    {
+      "source": "book_04_医学微生物学_node_036",
+      "target": "book_04_医学微生物学_node_038",
+      "relation_type": "contains",
+      "description": "微生物分类学是微生物学按研究层次划分的分支学科之一。"
+    },
+    {
+      "source": "book_04_医学微生物学_node_036",
+      "target": "book_04_医学微生物学_node_039",
+      "relation_type": "contains",
+      "description": "微生物生理学是微生物学按研究层次划分的分支学科之一。"
+    },
+    {
+      "source": "book_04_医学微生物学_node_036",
+      "target": "book_04_医学微生物学_node_040",
+      "relation_type": "contains",
+      "description": "微生物生态学是微生物学按研究层次划分的分支学科之一。"
+    },
+    {
+      "source": "book_04_医学微生物学_node_036",
+      "target": "book_04_医学微生物学_node_041",
+      "relation_type": "contains",
+      "description": "微生物遗传学是微生物学按研究层次划分的分支学科之一。"
+    },
+    {
+      "source": "book_04_医学微生物学_node_036",
+      "target": "book_04_医学微生物学_node_042",
+      "relation_type": "contains",
+      "description": "微生物基因组学是微生物学按研究层次划分的分支学科之一。"
+    },
+    {
+      "source": "book_04_医学微生物学_node_036",
+      "target": "book_04_医学微生物学_node_043",
+      "relation_type": "contains",
+      "description": "细菌学是微生物学按研究对象划分的分支学科之一。"
+    },
+    {
+      "source": "book_04_医学微生物学_node_036",
+      "target": "book_04_医学微生物学_node_044",
+      "relation_type": "contains",
+      "description": "食品微生物学是微生物学按研究和应用领域划分的分支学科之一。"
+    },
+    {
+      "source": "book_04_医学微生物学_node_036",
+      "target": "book_04_医学微生物学_node_045",
+      "relation_type": "contains",
+      "description": "农业微生物学是微生物学按研究和应用领域划分的分支学科之一。"
+    },
+    {
+      "source": "book_04_医学微生物学_node_036",
+      "target": "book_04_医学微生物学_node_046",
+      "relation_type": "contains",
+      "description": "工业微生物学是微生物学按研究和应用领域划分的分支学科之一。"
+    },
+    {
+      "source": "book_04_医学微生物学_node_037",
+      "target": "book_04_医学微生物学_node_047",
+      "relation_type": "contains",
+      "description": "病原微生物的生物学特性是医学微生物学研究的基础内容之一。"
+    },
+    {
+      "source": "book_04_医学微生物学_node_037",
+      "target": "book_04_医学微生物学_node_048",
+      "relation_type": "contains",
+      "description": "致病机制是医学微生物学研究的核心内容之一。"
+    },
+    {
+      "source": "book_04_医学微生物学_node_037",
+      "target": "book_04_医学微生物学_node_049",
+      "relation_type": "contains",
+      "description": "抗感染免疫机制是医学微生物学研究的核心内容之一。"
+    },
+    {
+      "source": "book_04_医学微生物学_node_037",
+      "target": "book_04_医学微生物学_node_050",
+      "relation_type": "contains",
+      "description": "感染性疾病的病原学诊断是医学微生物学应用的重要方面。"
+    },
+    {
+      "source": "book_04_医学微生物学_node_037",
+      "target": "book_04_医学微生物学_node_051",
+      "relation_type": "contains",
+      "description": "防治措施是医学微生物学研究的最终应用目标。"
+    },
+    {
+      "source": "book_04_医学微生物学_node_038",
+      "target": "book_04_医学微生物学_node_039",
+      "relation_type": "parallel",
+      "description": "微生物分类学和微生物生理学是微生物学中不同研究层次下的平行分支。"
+    },
+    {
+      "source": "book_04_医学微生物学_node_043",
+      "target": "book_04_医学微生物学_node_044",
+      "relation_type": "parallel",
+      "description": "细菌学和食品微生物学分别按研究对象和应用领域划分，属于不同维度的平行分支。"
+    },
+    {
+      "source": "book_04_医学微生物学_node_047",
+      "target": "book_04_医学微生物学_node_048",
+      "relation_type": "prerequisite",
+      "description": "理解病原微生物的生物学特性是研究其致病机制的前提。"
+    },
+    {
+      "source": "book_04_医学微生物学_node_048",
+      "target": "book_04_医学微生物学_node_049",
+      "relation_type": "prerequisite",
+      "description": "了解致病机制有助于理解人体抗感染免疫机制如何应对病原体。"
+    },
+    {
+      "source": "book_04_医学微生物学_node_049",
+      "target": "book_04_医学微生物学_node_050",
+      "relation_type": "prerequisite",
+      "description": "掌握抗感染免疫机制是设计病原学诊断方法的基础。"
+    },
+    {
+      "source": "book_04_医学微生物学_node_050",
+      "target": "book_04_医学微生物学_node_051",
+      "relation_type": "prerequisite",
+      "description": "准确的病原学诊断是制定有效防治措施的前提。"
+    },
+    {
+      "source": "book_04_医学微生物学_node_037",
+      "target": "book_04_医学微生物学_node_052",
+      "relation_type": "applies_to",
+      "description": "医学微生物学的理论拓展应用于解释微生物群变化对人体健康的影响。"
+    },
+    {
+      "source": "book_04_医学微生物学_node_037",
+      "target": "book_04_医学微生物学_node_053",
+      "relation_type": "applies_to",
+      "description": "医学微生物学作为基础医学的重要学科，其理论应用于临床各科感染性疾病的诊治。"
+    },
+    {
+      "source": "book_04_医学微生物学_node_052",
+      "target": "book_04_医学微生物学_node_048",
+      "relation_type": "applies_to",
+      "description": "微生物群变化的研究拓展了致病机制的理论，应用于疾病病因学。"
+    },
+    {
+      "source": "book_04_医学微生物学_node_054",
+      "target": "book_04_医学微生物学_node_055",
+      "relation_type": "contains",
+      "description": "医学微生物学发展三个时期包含古代时期，古代时期的核心是古代微生物学知识的应用。"
+    },
+    {
+      "source": "book_04_医学微生物学_node_054",
+      "target": "book_04_医学微生物学_node_057",
+      "relation_type": "contains",
+      "description": "医学微生物学发展三个时期包含实验微生物学时期，该时期以列文虎克发现微生物为起点。"
+    },
+    {
+      "source": "book_04_医学微生物学_node_054",
+      "target": "book_04_医学微生物学_node_065",
+      "relation_type": "contains",
+      "description": "医学微生物学发展三个时期包含现代微生物学时期，该时期以分子生物学和基因组学为特征。"
+    },
+    {
+      "source": "book_04_医学微生物学_node_055",
+      "target": "book_04_医学微生物学_node_056",
+      "relation_type": "contains",
+      "description": "古代微生物学知识包含人痘接种法，这是古代预防医学的重要实践。"
+    },
+    {
+      "source": "book_04_医学微生物学_node_057",
+      "target": "book_04_医学微生物学_node_058",
+      "relation_type": "prerequisite",
+      "description": "列文虎克发现微生物是巴斯德开创微生物生理学的前提，因为微生物的观察为后续研究提供了基础。"
+    },
+    {
+      "source": "book_04_医学微生物学_node_058",
+      "target": "book_04_医学微生物学_node_059",
+      "relation_type": "prerequisite",
+      "description": "巴斯德建立的微生物学方法为郭霍提出郭霍法则提供了实验基础和技术支持。"
+    },
+    {
+      "source": "book_04_医学微生物学_node_059",
+      "target": "book_04_医学微生物学_node_060",
+      "relation_type": "parallel",
+      "description": "郭霍法则用于发现细菌病原体，而病毒的发现则突破了该法则的局限，两者是微生物发现史上的平行进展。"
+    },
+    {
+      "source": "book_04_医学微生物学_node_061",
+      "target": "book_04_医学微生物学_node_062",
+      "relation_type": "contains",
+      "description": "免疫学的兴起包含吞噬细胞学说与体液抗体学说，这两种学说是免疫学早期发展的核心内容。"
+    },
+    {
+      "source": "book_04_医学微生物学_node_062",
+      "target": "book_04_医学微生物学_node_063",
+      "relation_type": "prerequisite",
+      "description": "吞噬细胞学说和体液抗体学说为克隆选择学说的提出奠定了理论基础。"
+    },
+    {
+      "source": "book_04_医学微生物学_node_064",
+      "target": "book_04_医学微生物学_node_061",
+      "relation_type": "parallel",
+      "description": "化学治疗剂和抗生素的发现与免疫学的兴起是实验微生物学时期的两大重要成就，共同推动了感染性疾病的治疗。"
+    },
+    {
+      "source": "book_04_医学微生物学_node_065",
+      "target": "book_04_医学微生物学_node_066",
+      "relation_type": "contains",
+      "description": "现代微生物学时期包含新现与再现病原体的发现，这是该时期的重要特征之一。"
+    },
+    {
+      "source": "book_04_医学微生物学_node_065",
+      "target": "book_04_医学微生物学_node_067",
+      "relation_type": "contains",
+      "description": "现代微生物学时期包含微生物基因组学的发展，这是分子生物学技术推动的结果。"
+    },
+    {
+      "source": "book_04_医学微生物学_node_067",
+      "target": "book_04_医学微生物学_node_068",
+      "relation_type": "applies_to",
+      "description": "微生物基因组学应用于病原微生物诊断技术，促进了基因型诊断方法的发展。"
+    },
+    {
+      "source": "book_04_医学微生物学_node_067",
+      "target": "book_04_医学微生物学_node_069",
+      "relation_type": "applies_to",
+      "description": "微生物基因组学应用于疫苗研发，推动了核酸疫苗等新型疫苗的出现。"
+    },
+    {
+      "source": "book_04_医学微生物学_node_069",
+      "target": "book_04_医学微生物学_node_066",
+      "relation_type": "applies_to",
+      "description": "疫苗研发进展应用于应对新现与再现病原体，如SARS-CoV-2 mRNA疫苗的研发。"
+    },
+    {
+      "source": "book_04_医学微生物学_node_070",
+      "target": "book_04_医学微生物学_node_065",
+      "relation_type": "contains",
+      "description": "中国学者的贡献是现代微生物学时期的重要组成部分，包括汤飞凡、谢少文等人的工作。"
+    },
+    {
+      "source": "book_04_医学微生物学_node_071",
+      "target": "book_04_医学微生物学_node_066",
+      "relation_type": "applies_to",
+      "description": "全健康理念应用于应对新现与再现病原体带来的挑战，强调多学科交叉融合。"
+    },
+    {
+      "source": "book_04_医学微生物学_node_072",
+      "target": "book_04_医学微生物学_node_073",
+      "relation_type": "contains",
+      "description": "广义细菌包含狭义细菌，后者是前者的一个子集。"
+    },
+    {
+      "source": "book_04_医学微生物学_node_072",
+      "target": "book_04_医学微生物学_node_081",
+      "relation_type": "contains",
+      "description": "广义细菌包含立克次体。"
+    },
+    {
+      "source": "book_04_医学微生物学_node_072",
+      "target": "book_04_医学微生物学_node_080",
+      "relation_type": "contains",
+      "description": "广义细菌包含螺旋体门。"
+    },
+    {
+      "source": "book_04_医学微生物学_node_073",
+      "target": "book_04_医学微生物学_node_076",
+      "relation_type": "applies_to",
+      "description": "狭义细菌具有肽聚糖细胞壁，肽聚糖是其结构特征。"
+    },
+    {
+      "source": "book_04_医学微生物学_node_074",
+      "target": "book_04_医学微生物学_node_072",
+      "relation_type": "contains",
+      "description": "原核细胞型微生物包括广义细菌。"
+    },
+    {
+      "source": "book_04_医学微生物学_node_074",
+      "target": "book_04_医学微生物学_node_075",
+      "relation_type": "applies_to",
+      "description": "原核细胞型微生物的遗传物质为DNA，位于原始核质。"
+    },
+    {
+      "source": "book_04_医学微生物学_node_074",
+      "target": "book_04_医学微生物学_node_077",
+      "relation_type": "applies_to",
+      "description": "原核细胞型微生物除核糖体外无其他细胞器。"
+    },
+    {
+      "source": "book_04_医学微生物学_node_073",
+      "target": "book_04_医学微生物学_node_076",
+      "relation_type": "applies_to",
+      "description": "狭义细菌细胞壁含有肽聚糖，是其分类标志。"
+    },
+    {
+      "source": "book_04_医学微生物学_node_078",
+      "target": "book_04_医学微生物学_node_072",
+      "relation_type": "parallel",
+      "description": "假单胞菌门与芽胞杆菌门、螺旋体门等同属广义细菌的平行分类。"
+    },
+    {
+      "source": "book_04_医学微生物学_node_079",
+      "target": "book_04_医学微生物学_node_072",
+      "relation_type": "parallel",
+      "description": "芽胞杆菌门与假单胞菌门、螺旋体门等同属广义细菌的平行分类。"
+    },
+    {
+      "source": "book_04_医学微生物学_node_080",
+      "target": "book_04_医学微生物学_node_072",
+      "relation_type": "parallel",
+      "description": "螺旋体门与假单胞菌门、芽胞杆菌门等同属广义细菌的平行分类。"
+    },
+    {
+      "source": "book_04_医学微生物学_node_081",
+      "target": "book_04_医学微生物学_node_073",
+      "relation_type": "parallel",
+      "description": "立克次体与狭义细菌在种系分类中同属细菌，但过去被分开。"
+    },
+    {
+      "source": "book_04_医学微生物学_node_082",
+      "target": "book_04_医学微生物学_node_083",
+      "relation_type": "prerequisite",
+      "description": "理解细菌的生物学特性是学习其致病性与免疫性的基础。"
+    },
+    {
+      "source": "book_04_医学微生物学_node_083",
+      "target": "book_04_医学微生物学_node_084",
+      "relation_type": "prerequisite",
+      "description": "掌握细菌的致病性与免疫性有助于设计检查方法。"
+    },
+    {
+      "source": "book_04_医学微生物学_node_084",
+      "target": "book_04_医学微生物学_node_085",
+      "relation_type": "prerequisite",
+      "description": "检查方法是制定防治原则的基础。"
+    }
+  ],
+  "stats": {
+    "total_nodes": 85,
+    "total_relations": 97,
+    "chapters_processed": 5
+  }
+}

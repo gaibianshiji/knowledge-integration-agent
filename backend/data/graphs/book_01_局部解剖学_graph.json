@@ -1,0 +1,1321 @@
+{
+  "textbook_id": "book_01_局部解剖学",
+  "textbook_name": "局部解剖学",
+  "nodes": [
+    {
+      "id": "book_01_局部解剖学_node_001",
+      "name": "局部解剖学",
+      "definition": "研究人体各局部由浅入深的层次结构、器官位置毗邻及其临床意义的学科。",
+      "category": "核心概念",
+      "chapter": "第一节 概述",
+      "page": 9,
+      "textbook_id": "book_01_局部解剖学",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_01_局部解剖学_node_002",
+      "name": "境界与分区",
+      "definition": "确定人体各局部的边界范围，并将其划分为更小的区域以便于描述和研究。",
+      "category": "核心概念",
+      "chapter": "第一节 概述",
+      "page": 9,
+      "textbook_id": "book_01_局部解剖学",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_01_局部解剖学_node_003",
+      "name": "表面解剖",
+      "definition": "通过观察和触摸体表标志（如骨性突起、肌性隆起、皮肤皱纹）来推断深部结构的位置。",
+      "category": "核心概念",
+      "chapter": "第一节 概述",
+      "page": 9,
+      "textbook_id": "book_01_局部解剖学",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_01_局部解剖学_node_004",
+      "name": "体表标志",
+      "definition": "位于体表，可用于定位深部器官、血管、神经等结构的固定解剖标志。",
+      "category": "解剖结构",
+      "chapter": "第一节 概述",
+      "page": 9,
+      "textbook_id": "book_01_局部解剖学",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_01_局部解剖学_node_005",
+      "name": "骨性标志",
+      "definition": "体表可触及的骨性突起或边缘，如髂前上棘、肩胛骨下角等。",
+      "category": "解剖结构",
+      "chapter": "第一节 概述",
+      "page": 9,
+      "textbook_id": "book_01_局部解剖学",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_01_局部解剖学_node_006",
+      "name": "肌性标志",
+      "definition": "体表可见或可触及的肌肉轮廓或肌腱，如肱二头肌、跟腱等。",
+      "category": "解剖结构",
+      "chapter": "第一节 概述",
+      "page": 9,
+      "textbook_id": "book_01_局部解剖学",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_01_局部解剖学_node_007",
+      "name": "体表投影",
+      "definition": "将深部器官或结构在体表用线条或点标记出来的位置。",
+      "category": "核心概念",
+      "chapter": "第一节 概述",
+      "page": 9,
+      "textbook_id": "book_01_局部解剖学",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_01_局部解剖学_node_008",
+      "name": "层次结构",
+      "definition": "人体各局部由皮肤、浅筋膜、深筋膜、肌肉、骨骼等按一定顺序排列的结构。",
+      "category": "核心概念",
+      "chapter": "第一节 概述",
+      "page": 9,
+      "textbook_id": "book_01_局部解剖学",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_01_局部解剖学_node_009",
+      "name": "器官毗邻",
+      "definition": "描述某一器官与周围其他器官、血管、神经等结构的位置关系。",
+      "category": "核心概念",
+      "chapter": "第一节 概述",
+      "page": 9,
+      "textbook_id": "book_01_局部解剖学",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_01_局部解剖学_node_010",
+      "name": "临床应用",
+      "definition": "将局部解剖学知识应用于临床诊断、手术入路、体格检查等实践。",
+      "category": "核心概念",
+      "chapter": "第一节 概述",
+      "page": 9,
+      "textbook_id": "book_01_局部解剖学",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_01_局部解剖学_node_011",
+      "name": "手术入路",
+      "definition": "根据局部解剖层次和结构设计的手术切口和路径，以安全到达目标器官。",
+      "category": "治疗方法",
+      "chapter": "第一节 概述",
+      "page": 9,
+      "textbook_id": "book_01_局部解剖学",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_01_局部解剖学_node_012",
+      "name": "体格检查",
+      "definition": "利用视、触、叩、听等物理方法，结合表面解剖知识检查患者。",
+      "category": "临床表现",
+      "chapter": "第一节 概述",
+      "page": 9,
+      "textbook_id": "book_01_局部解剖学",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_01_局部解剖学_node_013",
+      "name": "面部浅层结构",
+      "definition": "面部皮肤、浅筋膜、表情肌及浅层血管、神经等结构的总称。",
+      "category": "解剖结构",
+      "chapter": "第二节 面部",
+      "page": 11,
+      "textbook_id": "book_01_局部解剖学",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_01_局部解剖学_node_014",
+      "name": "面侧区",
+      "definition": "面部两侧的区域，包含腮腺、咬肌、面神经等深层结构。",
+      "category": "解剖结构",
+      "chapter": "第二节 面部",
+      "page": 13,
+      "textbook_id": "book_01_局部解剖学",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_01_局部解剖学_node_015",
+      "name": "面部的间隙",
+      "definition": "面部筋膜之间或筋膜与骨膜之间的潜在腔隙，是感染扩散的重要通道。",
+      "category": "解剖结构",
+      "chapter": "第二节 面部",
+      "page": 19,
+      "textbook_id": "book_01_局部解剖学",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_01_局部解剖学_node_016",
+      "name": "面部皮肤",
+      "definition": "覆盖于面部表面的皮肤，富含皮脂腺、汗腺，血供丰富。",
+      "category": "解剖结构",
+      "chapter": "第二节 面部",
+      "page": 11,
+      "textbook_id": "book_01_局部解剖学",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_01_局部解剖学_node_017",
+      "name": "浅筋膜",
+      "definition": "位于皮肤深面的疏松结缔组织，内含表情肌、血管、神经等。",
+      "category": "解剖结构",
+      "chapter": "第二节 面部",
+      "page": 11,
+      "textbook_id": "book_01_局部解剖学",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_01_局部解剖学_node_018",
+      "name": "表情肌",
+      "definition": "附着于面部皮肤的骨骼肌，收缩时牵动皮肤产生表情。",
+      "category": "解剖结构",
+      "chapter": "第二节 面部",
+      "page": 11,
+      "textbook_id": "book_01_局部解剖学",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_01_局部解剖学_node_019",
+      "name": "腮腺",
+      "definition": "位于面侧区、耳前下方的最大唾液腺，其浅面有皮肤和浅筋膜覆盖。",
+      "category": "解剖结构",
+      "chapter": "第二节 面部",
+      "page": 13,
+      "textbook_id": "book_01_局部解剖学",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_01_局部解剖学_node_020",
+      "name": "咬肌",
+      "definition": "位于面侧区、下颌支外侧的咀嚼肌，参与闭口运动。",
+      "category": "解剖结构",
+      "chapter": "第二节 面部",
+      "page": 13,
+      "textbook_id": "book_01_局部解剖学",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_01_局部解剖学_node_021",
+      "name": "面神经",
+      "definition": "第七对脑神经，支配面部表情肌的运动，并传导舌前2/3的味觉。",
+      "category": "解剖结构",
+      "chapter": "第二节 面部",
+      "page": 13,
+      "textbook_id": "book_01_局部解剖学",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_01_局部解剖学_node_022",
+      "name": "面动脉",
+      "definition": "颈外动脉的分支，在面部走行，供应面部浅层结构的血液。",
+      "category": "解剖结构",
+      "chapter": "第二节 面部",
+      "page": 11,
+      "textbook_id": "book_01_局部解剖学",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_01_局部解剖学_node_023",
+      "name": "腮腺咬肌筋膜",
+      "definition": "包绕腮腺和咬肌的深筋膜，形成腮腺鞘和咬肌筋膜。",
+      "category": "解剖结构",
+      "chapter": "第二节 面部",
+      "page": 13,
+      "textbook_id": "book_01_局部解剖学",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_01_局部解剖学_node_024",
+      "name": "咬肌间隙",
+      "definition": "位于咬肌与下颌支之间的潜在间隙，与翼下颌间隙相通。",
+      "category": "解剖结构",
+      "chapter": "第二节 面部",
+      "page": 19,
+      "textbook_id": "book_01_局部解剖学",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_01_局部解剖学_node_025",
+      "name": "翼下颌间隙",
+      "definition": "位于翼内肌与下颌支之间的间隙，内有下牙槽神经、血管通过。",
+      "category": "解剖结构",
+      "chapter": "第二节 面部",
+      "page": 19,
+      "textbook_id": "book_01_局部解剖学",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_01_局部解剖学_node_026",
+      "name": "眶下间隙",
+      "definition": "位于眶下缘下方、上颌骨前壁与表情肌之间的间隙。",
+      "category": "解剖结构",
+      "chapter": "第二节 面部",
+      "page": 19,
+      "textbook_id": "book_01_局部解剖学",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_01_局部解剖学_node_027",
+      "name": "面部静脉",
+      "definition": "收集面部浅层静脉血，经面总静脉汇入颈内静脉，与海绵窦有交通。",
+      "category": "解剖结构",
+      "chapter": "第二节 面部",
+      "page": 11,
+      "textbook_id": "book_01_局部解剖学",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_01_局部解剖学_node_028",
+      "name": "面部感染扩散",
+      "definition": "面部间隙内的感染可沿筋膜间隙或血管神经束向邻近区域蔓延。",
+      "category": "病理变化",
+      "chapter": "第二节 面部",
+      "page": 19,
+      "textbook_id": "book_01_局部解剖学",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_01_局部解剖学_node_029",
+      "name": "颅部",
+      "definition": "头部的重要组成部分，包含颅骨、脑及其被膜、血管和神经等结构。",
+      "category": "核心概念",
+      "chapter": "第三节 颅部",
+      "page": 20,
+      "textbook_id": "book_01_局部解剖学",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_01_局部解剖学_node_030",
+      "name": "颅底内面",
+      "definition": "颅腔的底部内侧面，分为颅前窝、颅中窝和颅后窝，是脑和神经血管的重要支撑结构。",
+      "category": "解剖结构",
+      "chapter": "第三节 颅部",
+      "page": 23,
+      "textbook_id": "book_01_局部解剖学",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_01_局部解剖学_node_031",
+      "name": "颅前窝",
+      "definition": "颅底内面前部区域，容纳大脑额叶，与眼眶和鼻腔相邻。",
+      "category": "解剖结构",
+      "chapter": "第三节 颅部",
+      "page": 23,
+      "textbook_id": "book_01_局部解剖学",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_01_局部解剖学_node_032",
+      "name": "颅中窝",
+      "definition": "颅底内面中部区域，容纳大脑颞叶，包含垂体窝、蝶骨等重要结构。",
+      "category": "解剖结构",
+      "chapter": "第三节 颅部",
+      "page": 23,
+      "textbook_id": "book_01_局部解剖学",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_01_局部解剖学_node_033",
+      "name": "颅后窝",
+      "definition": "颅底内面后部区域，容纳小脑、脑干和枕叶，包含枕骨大孔。",
+      "category": "解剖结构",
+      "chapter": "第三节 颅部",
+      "page": 23,
+      "textbook_id": "book_01_局部解剖学",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_01_局部解剖学_node_034",
+      "name": "颅骨",
+      "definition": "构成颅部的骨骼，包括脑颅骨和面颅骨，保护脑和感觉器官。",
+      "category": "解剖结构",
+      "chapter": "第三节 颅部",
+      "page": 20,
+      "textbook_id": "book_01_局部解剖学",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_01_局部解剖学_node_035",
+      "name": "脑",
+      "definition": "位于颅腔内的中枢神经系统主要部分，包括大脑、小脑和脑干。",
+      "category": "核心概念",
+      "chapter": "第三节 颅部",
+      "page": 20,
+      "textbook_id": "book_01_局部解剖学",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_01_局部解剖学_node_036",
+      "name": "脑膜",
+      "definition": "包裹脑的三层结缔组织膜，包括硬脑膜、蛛网膜和软脑膜，起保护和支持作用。",
+      "category": "解剖结构",
+      "chapter": "第三节 颅部",
+      "page": 20,
+      "textbook_id": "book_01_局部解剖学",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_01_局部解剖学_node_037",
+      "name": "硬脑膜",
+      "definition": "脑膜最外层，厚而坚韧，与颅骨内层紧密相连，形成硬脑膜窦。",
+      "category": "解剖结构",
+      "chapter": "第三节 颅部",
+      "page": 20,
+      "textbook_id": "book_01_局部解剖学",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_01_局部解剖学_node_038",
+      "name": "蛛网膜",
+      "definition": "脑膜中层，薄而透明，与软脑膜之间形成蛛网膜下隙，充满脑脊液。",
+      "category": "解剖结构",
+      "chapter": "第三节 颅部",
+      "page": 20,
+      "textbook_id": "book_01_局部解剖学",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_01_局部解剖学_node_039",
+      "name": "软脑膜",
+      "definition": "脑膜最内层，薄而富含血管，紧贴脑表面，随脑沟回起伏。",
+      "category": "解剖结构",
+      "chapter": "第三节 颅部",
+      "page": 20,
+      "textbook_id": "book_01_局部解剖学",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_01_局部解剖学_node_040",
+      "name": "硬脑膜窦",
+      "definition": "硬脑膜两层分离形成的静脉通道，收集脑静脉血回流至颈内静脉。",
+      "category": "解剖结构",
+      "chapter": "第三节 颅部",
+      "page": 20,
+      "textbook_id": "book_01_局部解剖学",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_01_局部解剖学_node_041",
+      "name": "蛛网膜下隙",
+      "definition": "蛛网膜与软脑膜之间的间隙，充满脑脊液，是脑脊液循环的重要通道。",
+      "category": "解剖结构",
+      "chapter": "第三节 颅部",
+      "page": 20,
+      "textbook_id": "book_01_局部解剖学",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_01_局部解剖学_node_042",
+      "name": "脑脊液",
+      "definition": "充满脑室和蛛网膜下隙的透明液体，由脉络丛产生，起缓冲和营养作用。",
+      "category": "生理机制",
+      "chapter": "第三节 颅部",
+      "page": 20,
+      "textbook_id": "book_01_局部解剖学",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_01_局部解剖学_node_043",
+      "name": "枕骨大孔",
+      "definition": "颅后窝底部的开口，连接颅腔和椎管，延髓和椎动脉由此通过。",
+      "category": "解剖结构",
+      "chapter": "第三节 颅部",
+      "page": 23,
+      "textbook_id": "book_01_局部解剖学",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_01_局部解剖学_node_044",
+      "name": "垂体窝",
+      "definition": "颅中窝蝶骨体上的凹陷，容纳脑垂体，是重要的内分泌结构。",
+      "category": "解剖结构",
+      "chapter": "第三节 颅部",
+      "page": 23,
+      "textbook_id": "book_01_局部解剖学",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_01_局部解剖学_node_045",
+      "name": "颅底骨折",
+      "definition": "颅底骨质因外伤断裂，可导致脑脊液漏、神经损伤等严重并发症。",
+      "category": "病理变化",
+      "chapter": "第三节 颅部",
+      "page": 20,
+      "textbook_id": "book_01_局部解剖学",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_01_局部解剖学_node_046",
+      "name": "颅内压增高",
+      "definition": "颅腔内容物（脑组织、脑脊液、血液）体积增加导致压力升高，可引发脑疝。",
+      "category": "病理变化",
+      "chapter": "第三节 颅部",
+      "page": 20,
+      "textbook_id": "book_01_局部解剖学",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_01_局部解剖学_node_047",
+      "name": "脑疝",
+      "definition": "颅内压增高导致脑组织移位，嵌入颅腔分隔或枕骨大孔，危及生命。",
+      "category": "病理变化",
+      "chapter": "第三节 颅部",
+      "page": 20,
+      "textbook_id": "book_01_局部解剖学",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_01_局部解剖学_node_048",
+      "name": "脑膜刺激征",
+      "definition": "脑膜受刺激（如炎症、出血）引起的临床表现，包括颈强直、Kernig征等。",
+      "category": "临床表现",
+      "chapter": "第三节 颅部",
+      "page": 20,
+      "textbook_id": "book_01_局部解剖学",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_01_局部解剖学_node_049",
+      "name": "头部解剖操作",
+      "definition": "局部解剖学中关于头部区域（包括面部和颅部）的解剖操作方法和步骤的总称。",
+      "category": "核心概念",
+      "chapter": "第四节 头部解剖操作",
+      "page": 14,
+      "textbook_id": "book_01_局部解剖学",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_01_局部解剖学_node_050",
+      "name": "解剖面部",
+      "definition": "头部解剖操作的一部分，涉及面部浅层结构、表情肌、血管神经等的解剖分离与观察。",
+      "category": "核心概念",
+      "chapter": "第四节 头部解剖操作",
+      "page": 30,
+      "textbook_id": "book_01_局部解剖学",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_01_局部解剖学_node_051",
+      "name": "解剖颅部",
+      "definition": "头部解剖操作的一部分，涉及颅骨、脑膜、脑及颅内外血管神经的解剖分离与观察。",
+      "category": "核心概念",
+      "chapter": "第四节 头部解剖操作",
+      "page": 33,
+      "textbook_id": "book_01_局部解剖学",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_01_局部解剖学_node_052",
+      "name": "面部浅层结构",
+      "definition": "面部皮肤、浅筋膜、表情肌及浅层血管神经等结构的总称，是解剖面部的首要层次。",
+      "category": "解剖结构",
+      "chapter": "第四节 头部解剖操作",
+      "page": 30,
+      "textbook_id": "book_01_局部解剖学",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_01_局部解剖学_node_053",
+      "name": "表情肌",
+      "definition": "位于面部浅筋膜内，起自颅骨或筋膜，止于皮肤，主要功能为表达情感的肌肉群。",
+      "category": "解剖结构",
+      "chapter": "第四节 头部解剖操作",
+      "page": 30,
+      "textbook_id": "book_01_局部解剖学",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_01_局部解剖学_node_054",
+      "name": "面动脉",
+      "definition": "颈外动脉的重要分支，在面部走行并供应面部软组织血液，是面部解剖的关键血管。",
+      "category": "解剖结构",
+      "chapter": "第四节 头部解剖操作",
+      "page": 30,
+      "textbook_id": "book_01_局部解剖学",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_01_局部解剖学_node_055",
+      "name": "面神经",
+      "definition": "第七对脑神经，主要支配面部表情肌的运动，其分支在面部解剖中需仔细分离保护。",
+      "category": "解剖结构",
+      "chapter": "第四节 头部解剖操作",
+      "page": 30,
+      "textbook_id": "book_01_局部解剖学",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_01_局部解剖学_node_056",
+      "name": "腮腺",
+      "definition": "最大的唾液腺，位于面侧部，其浅面及深面有重要的血管神经穿行，是面部解剖的重要标志。",
+      "category": "解剖结构",
+      "chapter": "第四节 头部解剖操作",
+      "page": 30,
+      "textbook_id": "book_01_局部解剖学",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_01_局部解剖学_node_057",
+      "name": "颅骨",
+      "definition": "构成颅部的骨性支架，分为脑颅骨和面颅骨，是保护脑组织的基础结构。",
+      "category": "解剖结构",
+      "chapter": "第四节 头部解剖操作",
+      "page": 33,
+      "textbook_id": "book_01_局部解剖学",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_01_局部解剖学_node_058",
+      "name": "脑膜",
+      "definition": "包裹脑组织的三层结缔组织膜，由外向内依次为硬脑膜、蛛网膜和软脑膜，具有保护和支持作用。",
+      "category": "解剖结构",
+      "chapter": "第四节 头部解剖操作",
+      "page": 33,
+      "textbook_id": "book_01_局部解剖学",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_01_局部解剖学_node_059",
+      "name": "硬脑膜",
+      "definition": "脑膜中最外层、最坚韧的一层，由两层组成，在某些部位形成静脉窦和大脑镰、小脑幕等结构。",
+      "category": "解剖结构",
+      "chapter": "第四节 头部解剖操作",
+      "page": 33,
+      "textbook_id": "book_01_局部解剖学",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_01_局部解剖学_node_060",
+      "name": "脑",
+      "definition": "位于颅腔内的高级神经中枢，包括端脑、间脑、小脑、脑干等部分，是解剖颅部的核心观察对象。",
+      "category": "解剖结构",
+      "chapter": "第四节 头部解剖操作",
+      "page": 33,
+      "textbook_id": "book_01_局部解剖学",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_01_局部解剖学_node_061",
+      "name": "颅内外血管",
+      "definition": "供应颅骨、脑膜及脑组织的动脉和静脉系统，包括颈内动脉、椎动脉及颅内静脉窦等。",
+      "category": "解剖结构",
+      "chapter": "第四节 头部解剖操作",
+      "page": 33,
+      "textbook_id": "book_01_局部解剖学",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_01_局部解剖学_node_062",
+      "name": "脑神经",
+      "definition": "与脑相连的12对周围神经，在颅底出颅，支配头颈部器官及部分躯干、四肢的感觉和运动。",
+      "category": "解剖结构",
+      "chapter": "第四节 头部解剖操作",
+      "page": 33,
+      "textbook_id": "book_01_局部解剖学",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_01_局部解剖学_node_063",
+      "name": "局部解剖操作原则",
+      "definition": "进行局部解剖时应遵循的基本原则，如层次分明、由浅入深、保护重要结构等。",
+      "category": "核心概念",
+      "chapter": "第四节 头部解剖操作",
+      "page": 14,
+      "textbook_id": "book_01_局部解剖学",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_01_局部解剖学_node_064",
+      "name": "局部解剖学",
+      "definition": "研究人体各局部由浅入深的层次结构、器官位置毗邻及其临床意义的学科。",
+      "category": "核心概念",
+      "chapter": "第一节 概述",
+      "page": 38,
+      "textbook_id": "book_01_局部解剖学",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_01_局部解剖学_node_065",
+      "name": "境界与分区",
+      "definition": "描述人体各局部（如头、颈、胸、腹等）的边界划分和内部区域细分。",
+      "category": "核心概念",
+      "chapter": "第一节 概述",
+      "page": 38,
+      "textbook_id": "book_01_局部解剖学",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_01_局部解剖学_node_066",
+      "name": "表面解剖",
+      "definition": "通过体表标志（骨性、肌性、皮纹等）来推断深部结构位置和关系的解剖学方法。",
+      "category": "核心概念",
+      "chapter": "第一节 概述",
+      "page": 38,
+      "textbook_id": "book_01_局部解剖学",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_01_局部解剖学_node_067",
+      "name": "体表标志",
+      "definition": "体表可见或可触及的骨性突起、肌性隆起、皮肤皱襞等，用于定位深部结构。",
+      "category": "解剖结构",
+      "chapter": "第一节 概述",
+      "page": 38,
+      "textbook_id": "book_01_局部解剖学",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_01_局部解剖学_node_068",
+      "name": "骨性标志",
+      "definition": "体表可触及的骨骼突起或边缘，如髂前上棘、胸骨角等。",
+      "category": "解剖结构",
+      "chapter": "第一节 概述",
+      "page": 38,
+      "textbook_id": "book_01_局部解剖学",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_01_局部解剖学_node_069",
+      "name": "肌性标志",
+      "definition": "体表可见或可触及的肌肉轮廓或肌腱，如胸锁乳突肌、肱二头肌。",
+      "category": "解剖结构",
+      "chapter": "第一节 概述",
+      "page": 38,
+      "textbook_id": "book_01_局部解剖学",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_01_局部解剖学_node_070",
+      "name": "皮纹与体表沟",
+      "definition": "皮肤表面的自然皱褶和凹陷，如腋前襞、腹股沟等，常作为分区界线。",
+      "category": "解剖结构",
+      "chapter": "第一节 概述",
+      "page": 38,
+      "textbook_id": "book_01_局部解剖学",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_01_局部解剖学_node_071",
+      "name": "人体分区",
+      "definition": "将人体划分为头、颈、胸、腹、盆、背、上肢、下肢等主要区域。",
+      "category": "核心概念",
+      "chapter": "第一节 概述",
+      "page": 38,
+      "textbook_id": "book_01_局部解剖学",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_01_局部解剖学_node_072",
+      "name": "局部层次结构",
+      "definition": "人体各局部由浅入深依次为皮肤、浅筋膜、深筋膜、肌肉、骨骼等层次。",
+      "category": "核心概念",
+      "chapter": "第一节 概述",
+      "page": 38,
+      "textbook_id": "book_01_局部解剖学",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_01_局部解剖学_node_073",
+      "name": "临床解剖学应用",
+      "definition": "将局部解剖知识用于手术入路、穿刺定位、体格检查等临床实践。",
+      "category": "治疗方法",
+      "chapter": "第一节 概述",
+      "page": 38,
+      "textbook_id": "book_01_局部解剖学",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_01_局部解剖学_node_074",
+      "name": "体表投影",
+      "definition": "深部器官或结构在体表的对应位置，如心脏的体表投影、肺尖的体表投影。",
+      "category": "临床表现",
+      "chapter": "第一节 概述",
+      "page": 38,
+      "textbook_id": "book_01_局部解剖学",
+      "textbook_name": "局部解剖学"
+    },
+    {
+      "id": "book_01_局部解剖学_node_075",
+      "name": "解剖学姿势",
+      "definition": "身体直立、面向前、上肢下垂、掌心向前、下肢并拢、足尖向前的标准姿势。",
+      "category": "核心概念",
+      "chapter": "第一节 概述",
+      "page": 38,
+      "textbook_id": "book_01_局部解剖学",
+      "textbook_name": "局部解剖学"
+    }
+  ],
+  "relations": [
+    {
+      "source": "book_01_局部解剖学_node_001",
+      "target": "book_01_局部解剖学_node_002",
+      "relation_type": "contains",
+      "description": "局部解剖学包含境界与分区这一基本研究方法。"
+    },
+    {
+      "source": "book_01_局部解剖学_node_001",
+      "target": "book_01_局部解剖学_node_003",
+      "relation_type": "contains",
+      "description": "局部解剖学包含表面解剖这一重要研究内容。"
+    },
+    {
+      "source": "book_01_局部解剖学_node_001",
+      "target": "book_01_局部解剖学_node_008",
+      "relation_type": "contains",
+      "description": "局部解剖学以研究层次结构为核心。"
+    },
+    {
+      "source": "book_01_局部解剖学_node_001",
+      "target": "book_01_局部解剖学_node_009",
+      "relation_type": "contains",
+      "description": "局部解剖学重点研究器官毗邻关系。"
+    },
+    {
+      "source": "book_01_局部解剖学_node_001",
+      "target": "book_01_局部解剖学_node_010",
+      "relation_type": "applies_to",
+      "description": "局部解剖学知识应用于临床实践。"
+    },
+    {
+      "source": "book_01_局部解剖学_node_002",
+      "target": "book_01_局部解剖学_node_008",
+      "relation_type": "prerequisite",
+      "description": "理解境界与分区是学习层次结构的基础。"
+    },
+    {
+      "source": "book_01_局部解剖学_node_003",
+      "target": "book_01_局部解剖学_node_004",
+      "relation_type": "contains",
+      "description": "表面解剖的研究对象包括体表标志。"
+    },
+    {
+      "source": "book_01_局部解剖学_node_004",
+      "target": "book_01_局部解剖学_node_005",
+      "relation_type": "contains",
+      "description": "体表标志包括骨性标志。"
+    },
+    {
+      "source": "book_01_局部解剖学_node_004",
+      "target": "book_01_局部解剖学_node_006",
+      "relation_type": "contains",
+      "description": "体表标志包括肌性标志。"
+    },
+    {
+      "source": "book_01_局部解剖学_node_003",
+      "target": "book_01_局部解剖学_node_007",
+      "relation_type": "contains",
+      "description": "表面解剖包括体表投影的确定。"
+    },
+    {
+      "source": "book_01_局部解剖学_node_005",
+      "target": "book_01_局部解剖学_node_006",
+      "relation_type": "parallel",
+      "description": "骨性标志和肌性标志是体表标志的两种并列类型。"
+    },
+    {
+      "source": "book_01_局部解剖学_node_002",
+      "target": "book_01_局部解剖学_node_003",
+      "relation_type": "parallel",
+      "description": "境界与分区和表面解剖是局部解剖学概述中两个并列的基础内容。"
+    },
+    {
+      "source": "book_01_局部解剖学_node_008",
+      "target": "book_01_局部解剖学_node_009",
+      "relation_type": "prerequisite",
+      "description": "理解层次结构是分析器官毗邻关系的前提。"
+    },
+    {
+      "source": "book_01_局部解剖学_node_010",
+      "target": "book_01_局部解剖学_node_011",
+      "relation_type": "applies_to",
+      "description": "临床应用包括设计手术入路。"
+    },
+    {
+      "source": "book_01_局部解剖学_node_010",
+      "target": "book_01_局部解剖学_node_012",
+      "relation_type": "applies_to",
+      "description": "临床应用包括指导体格检查。"
+    },
+    {
+      "source": "book_01_局部解剖学_node_003",
+      "target": "book_01_局部解剖学_node_012",
+      "relation_type": "applies_to",
+      "description": "表面解剖知识直接应用于体格检查。"
+    },
+    {
+      "source": "book_01_局部解剖学_node_007",
+      "target": "book_01_局部解剖学_node_011",
+      "relation_type": "applies_to",
+      "description": "体表投影知识用于确定手术切口位置。"
+    },
+    {
+      "source": "book_01_局部解剖学_node_013",
+      "target": "book_01_局部解剖学_node_016",
+      "relation_type": "contains",
+      "description": "面部浅层结构包含面部皮肤"
+    },
+    {
+      "source": "book_01_局部解剖学_node_013",
+      "target": "book_01_局部解剖学_node_017",
+      "relation_type": "contains",
+      "description": "面部浅层结构包含浅筋膜"
+    },
+    {
+      "source": "book_01_局部解剖学_node_013",
+      "target": "book_01_局部解剖学_node_018",
+      "relation_type": "contains",
+      "description": "面部浅层结构包含表情肌"
+    },
+    {
+      "source": "book_01_局部解剖学_node_013",
+      "target": "book_01_局部解剖学_node_022",
+      "relation_type": "contains",
+      "description": "面部浅层结构包含面动脉"
+    },
+    {
+      "source": "book_01_局部解剖学_node_013",
+      "target": "book_01_局部解剖学_node_027",
+      "relation_type": "contains",
+      "description": "面部浅层结构包含面部静脉"
+    },
+    {
+      "source": "book_01_局部解剖学_node_014",
+      "target": "book_01_局部解剖学_node_019",
+      "relation_type": "contains",
+      "description": "面侧区包含腮腺"
+    },
+    {
+      "source": "book_01_局部解剖学_node_014",
+      "target": "book_01_局部解剖学_node_020",
+      "relation_type": "contains",
+      "description": "面侧区包含咬肌"
+    },
+    {
+      "source": "book_01_局部解剖学_node_014",
+      "target": "book_01_局部解剖学_node_021",
+      "relation_type": "contains",
+      "description": "面侧区包含面神经"
+    },
+    {
+      "source": "book_01_局部解剖学_node_014",
+      "target": "book_01_局部解剖学_node_023",
+      "relation_type": "contains",
+      "description": "面侧区包含腮腺咬肌筋膜"
+    },
+    {
+      "source": "book_01_局部解剖学_node_015",
+      "target": "book_01_局部解剖学_node_024",
+      "relation_type": "contains",
+      "description": "面部的间隙包含咬肌间隙"
+    },
+    {
+      "source": "book_01_局部解剖学_node_015",
+      "target": "book_01_局部解剖学_node_025",
+      "relation_type": "contains",
+      "description": "面部的间隙包含翼下颌间隙"
+    },
+    {
+      "source": "book_01_局部解剖学_node_015",
+      "target": "book_01_局部解剖学_node_026",
+      "relation_type": "contains",
+      "description": "面部的间隙包含眶下间隙"
+    },
+    {
+      "source": "book_01_局部解剖学_node_013",
+      "target": "book_01_局部解剖学_node_014",
+      "relation_type": "parallel",
+      "description": "面部浅层结构与面侧区是面部不同层次和区域的解剖划分"
+    },
+    {
+      "source": "book_01_局部解剖学_node_014",
+      "target": "book_01_局部解剖学_node_015",
+      "relation_type": "parallel",
+      "description": "面侧区与面部的间隙是面部不同维度的解剖内容"
+    },
+    {
+      "source": "book_01_局部解剖学_node_016",
+      "target": "book_01_局部解剖学_node_017",
+      "relation_type": "prerequisite",
+      "description": "理解面部皮肤是理解浅筋膜层次的基础"
+    },
+    {
+      "source": "book_01_局部解剖学_node_017",
+      "target": "book_01_局部解剖学_node_018",
+      "relation_type": "contains",
+      "description": "浅筋膜内包含表情肌"
+    },
+    {
+      "source": "book_01_局部解剖学_node_019",
+      "target": "book_01_局部解剖学_node_023",
+      "relation_type": "applies_to",
+      "description": "腮腺被腮腺咬肌筋膜包裹形成腮腺鞘"
+    },
+    {
+      "source": "book_01_局部解剖学_node_020",
+      "target": "book_01_局部解剖学_node_023",
+      "relation_type": "applies_to",
+      "description": "咬肌被腮腺咬肌筋膜覆盖形成咬肌筋膜"
+    },
+    {
+      "source": "book_01_局部解剖学_node_024",
+      "target": "book_01_局部解剖学_node_025",
+      "relation_type": "parallel",
+      "description": "咬肌间隙和翼下颌间隙是面侧区深部相邻的潜在间隙"
+    },
+    {
+      "source": "book_01_局部解剖学_node_015",
+      "target": "book_01_局部解剖学_node_028",
+      "relation_type": "applies_to",
+      "description": "面部的间隙是面部感染扩散的解剖基础"
+    },
+    {
+      "source": "book_01_局部解剖学_node_027",
+      "target": "book_01_局部解剖学_node_028",
+      "relation_type": "applies_to",
+      "description": "面部静脉无瓣膜，与海绵窦交通，是感染向颅内扩散的途径"
+    },
+    {
+      "source": "book_01_局部解剖学_node_021",
+      "target": "book_01_局部解剖学_node_018",
+      "relation_type": "applies_to",
+      "description": "面神经支配表情肌的运动"
+    },
+    {
+      "source": "book_01_局部解剖学_node_022",
+      "target": "book_01_局部解剖学_node_013",
+      "relation_type": "applies_to",
+      "description": "面动脉供应面部浅层结构的血液"
+    },
+    {
+      "source": "book_01_局部解剖学_node_029",
+      "target": "book_01_局部解剖学_node_030",
+      "relation_type": "contains",
+      "description": "颅部包含颅底内面这一重要解剖区域。"
+    },
+    {
+      "source": "book_01_局部解剖学_node_030",
+      "target": "book_01_局部解剖学_node_031",
+      "relation_type": "contains",
+      "description": "颅底内面分为颅前窝、颅中窝和颅后窝。"
+    },
+    {
+      "source": "book_01_局部解剖学_node_030",
+      "target": "book_01_局部解剖学_node_032",
+      "relation_type": "contains",
+      "description": "颅底内面分为颅前窝、颅中窝和颅后窝。"
+    },
+    {
+      "source": "book_01_局部解剖学_node_030",
+      "target": "book_01_局部解剖学_node_033",
+      "relation_type": "contains",
+      "description": "颅底内面分为颅前窝、颅中窝和颅后窝。"
+    },
+    {
+      "source": "book_01_局部解剖学_node_031",
+      "target": "book_01_局部解剖学_node_032",
+      "relation_type": "parallel",
+      "description": "颅前窝和颅中窝是颅底内面相邻的平行区域。"
+    },
+    {
+      "source": "book_01_局部解剖学_node_032",
+      "target": "book_01_局部解剖学_node_033",
+      "relation_type": "parallel",
+      "description": "颅中窝和颅后窝是颅底内面相邻的平行区域。"
+    },
+    {
+      "source": "book_01_局部解剖学_node_029",
+      "target": "book_01_局部解剖学_node_034",
+      "relation_type": "contains",
+      "description": "颅部由颅骨构成。"
+    },
+    {
+      "source": "book_01_局部解剖学_node_029",
+      "target": "book_01_局部解剖学_node_035",
+      "relation_type": "contains",
+      "description": "颅部容纳脑。"
+    },
+    {
+      "source": "book_01_局部解剖学_node_035",
+      "target": "book_01_局部解剖学_node_036",
+      "relation_type": "applies_to",
+      "description": "脑被脑膜包裹和保护。"
+    },
+    {
+      "source": "book_01_局部解剖学_node_036",
+      "target": "book_01_局部解剖学_node_037",
+      "relation_type": "contains",
+      "description": "脑膜包括硬脑膜、蛛网膜和软脑膜。"
+    },
+    {
+      "source": "book_01_局部解剖学_node_036",
+      "target": "book_01_局部解剖学_node_038",
+      "relation_type": "contains",
+      "description": "脑膜包括硬脑膜、蛛网膜和软脑膜。"
+    },
+    {
+      "source": "book_01_局部解剖学_node_036",
+      "target": "book_01_局部解剖学_node_039",
+      "relation_type": "contains",
+      "description": "脑膜包括硬脑膜、蛛网膜和软脑膜。"
+    },
+    {
+      "source": "book_01_局部解剖学_node_037",
+      "target": "book_01_局部解剖学_node_040",
+      "relation_type": "contains",
+      "description": "硬脑膜形成硬脑膜窦。"
+    },
+    {
+      "source": "book_01_局部解剖学_node_038",
+      "target": "book_01_局部解剖学_node_041",
+      "relation_type": "contains",
+      "description": "蛛网膜与软脑膜之间形成蛛网膜下隙。"
+    },
+    {
+      "source": "book_01_局部解剖学_node_041",
+      "target": "book_01_局部解剖学_node_042",
+      "relation_type": "applies_to",
+      "description": "蛛网膜下隙充满脑脊液。"
+    },
+    {
+      "source": "book_01_局部解剖学_node_033",
+      "target": "book_01_局部解剖学_node_043",
+      "relation_type": "contains",
+      "description": "颅后窝包含枕骨大孔。"
+    },
+    {
+      "source": "book_01_局部解剖学_node_032",
+      "target": "book_01_局部解剖学_node_044",
+      "relation_type": "contains",
+      "description": "颅中窝包含垂体窝。"
+    },
+    {
+      "source": "book_01_局部解剖学_node_034",
+      "target": "book_01_局部解剖学_node_045",
+      "relation_type": "applies_to",
+      "description": "颅骨骨折可导致颅底骨折。"
+    },
+    {
+      "source": "book_01_局部解剖学_node_046",
+      "target": "book_01_局部解剖学_node_047",
+      "relation_type": "prerequisite",
+      "description": "颅内压增高是导致脑疝的前提条件。"
+    },
+    {
+      "source": "book_01_局部解剖学_node_036",
+      "target": "book_01_局部解剖学_node_048",
+      "relation_type": "applies_to",
+      "description": "脑膜受刺激可引起脑膜刺激征。"
+    },
+    {
+      "source": "book_01_局部解剖学_node_049",
+      "target": "book_01_局部解剖学_node_050",
+      "relation_type": "contains",
+      "description": "头部解剖操作包含解剖面部这一子操作步骤。"
+    },
+    {
+      "source": "book_01_局部解剖学_node_049",
+      "target": "book_01_局部解剖学_node_051",
+      "relation_type": "contains",
+      "description": "头部解剖操作包含解剖颅部这一子操作步骤。"
+    },
+    {
+      "source": "book_01_局部解剖学_node_050",
+      "target": "book_01_局部解剖学_node_051",
+      "relation_type": "parallel",
+      "description": "解剖面部和解剖颅部是头部解剖操作中两个并列的主要组成部分。"
+    },
+    {
+      "source": "book_01_局部解剖学_node_050",
+      "target": "book_01_局部解剖学_node_052",
+      "relation_type": "contains",
+      "description": "解剖面部操作中需要解剖和观察面部浅层结构。"
+    },
+    {
+      "source": "book_01_局部解剖学_node_050",
+      "target": "book_01_局部解剖学_node_053",
+      "relation_type": "contains",
+      "description": "解剖面部操作中需要识别和分离表情肌。"
+    },
+    {
+      "source": "book_01_局部解剖学_node_050",
+      "target": "book_01_局部解剖学_node_054",
+      "relation_type": "contains",
+      "description": "解剖面部操作中需要追踪和暴露面动脉。"
+    },
+    {
+      "source": "book_01_局部解剖学_node_050",
+      "target": "book_01_局部解剖学_node_055",
+      "relation_type": "contains",
+      "description": "解剖面部操作中需要仔细解剖和保护面神经分支。"
+    },
+    {
+      "source": "book_01_局部解剖学_node_050",
+      "target": "book_01_局部解剖学_node_056",
+      "relation_type": "contains",
+      "description": "解剖面部操作中需要解剖腮腺及其周围结构。"
+    },
+    {
+      "source": "book_01_局部解剖学_node_051",
+      "target": "book_01_局部解剖学_node_057",
+      "relation_type": "contains",
+      "description": "解剖颅部操作首先需要处理颅骨，如开颅。"
+    },
+    {
+      "source": "book_01_局部解剖学_node_051",
+      "target": "book_01_局部解剖学_node_058",
+      "relation_type": "contains",
+      "description": "解剖颅部操作中需要依次解剖和观察各层脑膜。"
+    },
+    {
+      "source": "book_01_局部解剖学_node_051",
+      "target": "book_01_局部解剖学_node_059",
+      "relation_type": "contains",
+      "description": "解剖颅部操作中硬脑膜是重点解剖结构之一。"
+    },
+    {
+      "source": "book_01_局部解剖学_node_051",
+      "target": "book_01_局部解剖学_node_060",
+      "relation_type": "contains",
+      "description": "解剖颅部操作的最终目的是暴露和观察脑。"
+    },
+    {
+      "source": "book_01_局部解剖学_node_051",
+      "target": "book_01_局部解剖学_node_061",
+      "relation_type": "contains",
+      "description": "解剖颅部操作中需要解剖和观察颅内外血管。"
+    },
+    {
+      "source": "book_01_局部解剖学_node_051",
+      "target": "book_01_局部解剖学_node_062",
+      "relation_type": "contains",
+      "description": "解剖颅部操作中需要识别和追踪脑神经。"
+    },
+    {
+      "source": "book_01_局部解剖学_node_063",
+      "target": "book_01_局部解剖学_node_049",
+      "relation_type": "applies_to",
+      "description": "局部解剖操作原则应用于头部解剖操作的全过程。"
+    },
+    {
+      "source": "book_01_局部解剖学_node_052",
+      "target": "book_01_局部解剖学_node_053",
+      "relation_type": "contains",
+      "description": "面部浅层结构包含表情肌。"
+    },
+    {
+      "source": "book_01_局部解剖学_node_058",
+      "target": "book_01_局部解剖学_node_059",
+      "relation_type": "contains",
+      "description": "脑膜包含硬脑膜作为其最外层结构。"
+    },
+    {
+      "source": "book_01_局部解剖学_node_050",
+      "target": "book_01_局部解剖学_node_051",
+      "relation_type": "prerequisite",
+      "description": "通常建议先完成解剖面部操作，再进行解剖颅部操作，以保持层次和结构的完整性。"
+    },
+    {
+      "source": "book_01_局部解剖学_node_064",
+      "target": "book_01_局部解剖学_node_065",
+      "relation_type": "contains",
+      "description": "局部解剖学包含境界与分区的概念，用于界定研究范围。"
+    },
+    {
+      "source": "book_01_局部解剖学_node_064",
+      "target": "book_01_局部解剖学_node_066",
+      "relation_type": "contains",
+      "description": "局部解剖学包含表面解剖方法，用于体表定位。"
+    },
+    {
+      "source": "book_01_局部解剖学_node_064",
+      "target": "book_01_局部解剖学_node_072",
+      "relation_type": "contains",
+      "description": "局部解剖学核心研究内容之一是局部层次结构。"
+    },
+    {
+      "source": "book_01_局部解剖学_node_065",
+      "target": "book_01_局部解剖学_node_071",
+      "relation_type": "contains",
+      "description": "境界与分区具体表现为人体各主要区域的划分。"
+    },
+    {
+      "source": "book_01_局部解剖学_node_066",
+      "target": "book_01_局部解剖学_node_067",
+      "relation_type": "contains",
+      "description": "表面解剖依赖体表标志进行定位。"
+    },
+    {
+      "source": "book_01_局部解剖学_node_067",
+      "target": "book_01_局部解剖学_node_068",
+      "relation_type": "contains",
+      "description": "骨性标志是体表标志的重要类别。"
+    },
+    {
+      "source": "book_01_局部解剖学_node_067",
+      "target": "book_01_局部解剖学_node_069",
+      "relation_type": "contains",
+      "description": "肌性标志是体表标志的重要类别。"
+    },
+    {
+      "source": "book_01_局部解剖学_node_067",
+      "target": "book_01_局部解剖学_node_070",
+      "relation_type": "contains",
+      "description": "皮纹与体表沟是体表标志的类别之一。"
+    },
+    {
+      "source": "book_01_局部解剖学_node_066",
+      "target": "book_01_局部解剖学_node_074",
+      "relation_type": "applies_to",
+      "description": "表面解剖方法用于确定深部器官的体表投影。"
+    },
+    {
+      "source": "book_01_局部解剖学_node_064",
+      "target": "book_01_局部解剖学_node_073",
+      "relation_type": "applies_to",
+      "description": "局部解剖学知识应用于临床解剖学实践。"
+    },
+    {
+      "source": "book_01_局部解剖学_node_075",
+      "target": "book_01_局部解剖学_node_064",
+      "relation_type": "prerequisite",
+      "description": "掌握解剖学姿势是学习局部解剖学的前提。"
+    },
+    {
+      "source": "book_01_局部解剖学_node_065",
+      "target": "book_01_局部解剖学_node_066",
+      "relation_type": "parallel",
+      "description": "境界与分区和表面解剖是局部解剖学概述中并列的两个核心内容。"
+    },
+    {
+      "source": "book_01_局部解剖学_node_068",
+      "target": "book_01_局部解剖学_node_069",
+      "relation_type": "parallel",
+      "description": "骨性标志和肌性标志是体表标志中并列的两大类。"
+    },
+    {
+      "source": "book_01_局部解剖学_node_072",
+      "target": "book_01_局部解剖学_node_073",
+      "relation_type": "applies_to",
+      "description": "理解局部层次结构是进行临床手术入路等操作的基础。"
+    },
+    {
+      "source": "book_01_局部解剖学_node_071",
+      "target": "book_01_局部解剖学_node_065",
+      "relation_type": "prerequisite",
+      "description": "了解人体分区是理解具体境界与分区的前提。"
+    }
+  ],
+  "stats": {
+    "total_nodes": 75,
+    "total_relations": 93,
+    "chapters_processed": 5
+  }
+}

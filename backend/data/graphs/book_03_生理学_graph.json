@@ -1,0 +1,1191 @@
+{
+  "textbook_id": "book_03_生理学",
+  "textbook_name": "生理学",
+  "nodes": [
+    {
+      "id": "book_03_生理学_node_001",
+      "name": "血糖稳态",
+      "definition": "机体通过神经和激素调节维持血糖浓度相对稳定的状态，是内环境稳态的重要组成部分。",
+      "category": "核心概念",
+      "chapter": "第九章第二节",
+      "page": 14,
+      "textbook_id": "book_03_生理学",
+      "textbook_name": "生理学"
+    },
+    {
+      "id": "book_03_生理学_node_002",
+      "name": "激素调节",
+      "definition": "通过内分泌腺或内分泌细胞分泌的激素对机体生理功能进行的调节方式，在血糖稳态中起关键作用。",
+      "category": "生理机制",
+      "chapter": "第九章第二节",
+      "page": 14,
+      "textbook_id": "book_03_生理学",
+      "textbook_name": "生理学"
+    },
+    {
+      "id": "book_03_生理学_node_003",
+      "name": "胰岛素",
+      "definition": "由胰岛β细胞分泌的降血糖激素，通过促进组织摄取、利用和储存葡萄糖来降低血糖。",
+      "category": "核心概念",
+      "chapter": "第九章第二节",
+      "page": 14,
+      "textbook_id": "book_03_生理学",
+      "textbook_name": "生理学"
+    },
+    {
+      "id": "book_03_生理学_node_004",
+      "name": "胰高血糖素",
+      "definition": "由胰岛α细胞分泌的升血糖激素，通过促进肝糖原分解和糖异生来升高血糖。",
+      "category": "核心概念",
+      "chapter": "第九章第二节",
+      "page": 14,
+      "textbook_id": "book_03_生理学",
+      "textbook_name": "生理学"
+    },
+    {
+      "id": "book_03_生理学_node_005",
+      "name": "糖原分解",
+      "definition": "肝糖原或肌糖原分解为葡萄糖的过程，是升高血糖的重要途径之一。",
+      "category": "生理机制",
+      "chapter": "第九章第二节",
+      "page": 14,
+      "textbook_id": "book_03_生理学",
+      "textbook_name": "生理学"
+    },
+    {
+      "id": "book_03_生理学_node_006",
+      "name": "糖异生",
+      "definition": "非糖物质（如乳酸、氨基酸）转化为葡萄糖或糖原的过程，主要在肝脏进行。",
+      "category": "生理机制",
+      "chapter": "第九章第二节",
+      "page": 14,
+      "textbook_id": "book_03_生理学",
+      "textbook_name": "生理学"
+    },
+    {
+      "id": "book_03_生理学_node_007",
+      "name": "血糖调节的负反馈机制",
+      "definition": "血糖升高时刺激胰岛素分泌，降低血糖；血糖降低时刺激胰高血糖素分泌，升高血糖，形成负反馈调节。",
+      "category": "生理机制",
+      "chapter": "第九章第二节",
+      "page": 14,
+      "textbook_id": "book_03_生理学",
+      "textbook_name": "生理学"
+    },
+    {
+      "id": "book_03_生理学_node_008",
+      "name": "肾上腺素",
+      "definition": "由肾上腺髓质分泌的升血糖激素，通过促进糖原分解和抑制胰岛素分泌来升高血糖。",
+      "category": "核心概念",
+      "chapter": "第九章第二节",
+      "page": 14,
+      "textbook_id": "book_03_生理学",
+      "textbook_name": "生理学"
+    },
+    {
+      "id": "book_03_生理学_node_009",
+      "name": "生长激素",
+      "definition": "由腺垂体分泌的激素，具有拮抗胰岛素作用，可升高血糖水平。",
+      "category": "核心概念",
+      "chapter": "第九章第二节",
+      "page": 14,
+      "textbook_id": "book_03_生理学",
+      "textbook_name": "生理学"
+    },
+    {
+      "id": "book_03_生理学_node_010",
+      "name": "皮质醇",
+      "definition": "由肾上腺皮质分泌的糖皮质激素，通过促进糖异生和抑制葡萄糖利用来升高血糖。",
+      "category": "核心概念",
+      "chapter": "第九章第二节",
+      "page": 14,
+      "textbook_id": "book_03_生理学",
+      "textbook_name": "生理学"
+    },
+    {
+      "id": "book_03_生理学_node_011",
+      "name": "血糖稳态的激素调节网络",
+      "definition": "多种激素（胰岛素、胰高血糖素、肾上腺素等）协同或拮抗，共同维持血糖稳态的复杂调节系统。",
+      "category": "生理机制",
+      "chapter": "第九章第二节",
+      "page": 14,
+      "textbook_id": "book_03_生理学",
+      "textbook_name": "生理学"
+    },
+    {
+      "id": "book_03_生理学_node_012",
+      "name": "内环境稳态",
+      "definition": "机体通过调节机制维持内环境理化性质相对恒定的状态，血糖稳态是其重要组成部分。",
+      "category": "核心概念",
+      "chapter": "第九章第二节",
+      "page": 14,
+      "textbook_id": "book_03_生理学",
+      "textbook_name": "生理学"
+    },
+    {
+      "id": "book_03_生理学_node_013",
+      "name": "胰岛素抵抗",
+      "definition": "靶细胞对胰岛素敏感性降低，导致胰岛素降血糖作用减弱，是2型糖尿病的重要病理基础。",
+      "category": "病理变化",
+      "chapter": "第九章第二节",
+      "page": 14,
+      "textbook_id": "book_03_生理学",
+      "textbook_name": "生理学"
+    },
+    {
+      "id": "book_03_生理学_node_014",
+      "name": "糖尿病",
+      "definition": "以高血糖为特征的代谢性疾病，主要由于胰岛素分泌不足或胰岛素抵抗引起。",
+      "category": "临床表现",
+      "chapter": "第九章第二节",
+      "page": 14,
+      "textbook_id": "book_03_生理学",
+      "textbook_name": "生理学"
+    },
+    {
+      "id": "book_03_生理学_node_015",
+      "name": "科学思维能力",
+      "definition": "运用科学方法进行逻辑推理、分析和解决问题的能力，在理解血糖调节机制中需要强化。",
+      "category": "核心概念",
+      "chapter": "第九章第二节",
+      "page": 14,
+      "textbook_id": "book_03_生理学",
+      "textbook_name": "生理学"
+    },
+    {
+      "id": "book_03_生理学_node_016",
+      "name": "理化公式在生理学中的应用",
+      "definition": "将物理、化学公式引入生理学分析，如用扩散公式解释葡萄糖跨膜转运，强化理科思维。",
+      "category": "治疗方法",
+      "chapter": "第九章第二节",
+      "page": 14,
+      "textbook_id": "book_03_生理学",
+      "textbook_name": "生理学"
+    },
+    {
+      "id": "book_03_生理学_node_017",
+      "name": "血糖稳态",
+      "definition": "机体通过激素调节维持血糖浓度相对稳定的生理状态。",
+      "category": "核心概念",
+      "chapter": "第十一章第六节",
+      "page": 14,
+      "textbook_id": "book_03_生理学",
+      "textbook_name": "生理学"
+    },
+    {
+      "id": "book_03_生理学_node_018",
+      "name": "生长发育",
+      "definition": "机体从受精卵到成熟过程中，在激素调控下发生的形态和功能变化。",
+      "category": "核心概念",
+      "chapter": "第十一章第六节",
+      "page": 14,
+      "textbook_id": "book_03_生理学",
+      "textbook_name": "生理学"
+    },
+    {
+      "id": "book_03_生理学_node_019",
+      "name": "激素",
+      "definition": "由内分泌腺或内分泌细胞分泌的高效生物活性物质，对生理功能起调节作用。",
+      "category": "核心概念",
+      "chapter": "第十一章第六节",
+      "page": 14,
+      "textbook_id": "book_03_生理学",
+      "textbook_name": "生理学"
+    },
+    {
+      "id": "book_03_生理学_node_020",
+      "name": "胰岛素",
+      "definition": "由胰岛β细胞分泌的降血糖激素，促进葡萄糖摄取和利用。",
+      "category": "生理机制",
+      "chapter": "第十一章第六节",
+      "page": 14,
+      "textbook_id": "book_03_生理学",
+      "textbook_name": "生理学"
+    },
+    {
+      "id": "book_03_生理学_node_021",
+      "name": "胰高血糖素",
+      "definition": "由胰岛α细胞分泌的升血糖激素，促进糖原分解和糖异生。",
+      "category": "生理机制",
+      "chapter": "第十一章第六节",
+      "page": 14,
+      "textbook_id": "book_03_生理学",
+      "textbook_name": "生理学"
+    },
+    {
+      "id": "book_03_生理学_node_022",
+      "name": "生长激素",
+      "definition": "由腺垂体分泌的促进生长发育的激素，对骨骼和软组织生长有重要作用。",
+      "category": "生理机制",
+      "chapter": "第十一章第六节",
+      "page": 14,
+      "textbook_id": "book_03_生理学",
+      "textbook_name": "生理学"
+    },
+    {
+      "id": "book_03_生理学_node_023",
+      "name": "甲状腺激素",
+      "definition": "由甲状腺分泌的调节代谢和生长发育的激素，促进脑和骨骼成熟。",
+      "category": "生理机制",
+      "chapter": "第十一章第六节",
+      "page": 14,
+      "textbook_id": "book_03_生理学",
+      "textbook_name": "生理学"
+    },
+    {
+      "id": "book_03_生理学_node_024",
+      "name": "糖皮质激素",
+      "definition": "由肾上腺皮质分泌的调节糖代谢和应激反应的激素，具有升血糖作用。",
+      "category": "生理机制",
+      "chapter": "第十一章第六节",
+      "page": 14,
+      "textbook_id": "book_03_生理学",
+      "textbook_name": "生理学"
+    },
+    {
+      "id": "book_03_生理学_node_025",
+      "name": "肾上腺素",
+      "definition": "由肾上腺髓质分泌的激素，在应激时升高血糖并促进分解代谢。",
+      "category": "生理机制",
+      "chapter": "第十一章第六节",
+      "page": 14,
+      "textbook_id": "book_03_生理学",
+      "textbook_name": "生理学"
+    },
+    {
+      "id": "book_03_生理学_node_026",
+      "name": "针刺镇痛生理学原理",
+      "definition": "通过针刺刺激激活内源性镇痛系统，释放阿片肽等物质产生镇痛效应的机制。",
+      "category": "生理机制",
+      "chapter": "第十一章第六节",
+      "page": 14,
+      "textbook_id": "book_03_生理学",
+      "textbook_name": "生理学"
+    },
+    {
+      "id": "book_03_生理学_node_027",
+      "name": "中国科学家科学贡献",
+      "definition": "中国科学家在生理学领域的重要发现，如针刺镇痛机制等，体现创新精神。",
+      "category": "核心概念",
+      "chapter": "第十一章第六节",
+      "page": 14,
+      "textbook_id": "book_03_生理学",
+      "textbook_name": "生理学"
+    },
+    {
+      "id": "book_03_生理学_node_028",
+      "name": "临床案例分析",
+      "definition": "基于真实或模拟临床病例，引导学生将生理学知识应用于疾病诊断和治疗的练习。",
+      "category": "教学方法",
+      "chapter": "第十一章第六节",
+      "page": 15,
+      "textbook_id": "book_03_生理学",
+      "textbook_name": "生理学"
+    },
+    {
+      "id": "book_03_生理学_node_029",
+      "name": "基础与临床紧密联系",
+      "definition": "强调生理学基础知识与临床实践相结合，提升医学生的综合诊疗能力。",
+      "category": "核心概念",
+      "chapter": "第十一章第六节",
+      "page": 15,
+      "textbook_id": "book_03_生理学",
+      "textbook_name": "生理学"
+    },
+    {
+      "id": "book_03_生理学_node_030",
+      "name": "立体化教材",
+      "definition": "融合纸质教材与数字资源（动画、视频、微课等）的新型教材形式。",
+      "category": "教学方法",
+      "chapter": "第十一章第六节",
+      "page": 15,
+      "textbook_id": "book_03_生理学",
+      "textbook_name": "生理学"
+    },
+    {
+      "id": "book_03_生理学_node_031",
+      "name": "思维导图",
+      "definition": "以图形化方式梳理知识框架的工具，帮助学习者构建系统认知。",
+      "category": "教学方法",
+      "chapter": "第十一章第六节",
+      "page": 15,
+      "textbook_id": "book_03_生理学",
+      "textbook_name": "生理学"
+    },
+    {
+      "id": "book_03_生理学_node_032",
+      "name": "目标测试",
+      "definition": "每章配套的选择题资源，用于检验学习效果和巩固知识点。",
+      "category": "教学方法",
+      "chapter": "第十一章第六节",
+      "page": 15,
+      "textbook_id": "book_03_生理学",
+      "textbook_name": "生理学"
+    },
+    {
+      "id": "book_03_生理学_node_033",
+      "name": "生理学的研究对象",
+      "definition": "生理学是研究生物体及其各组成部分正常功能活动规律的科学，研究对象是生命活动的现象和过程。",
+      "category": "核心概念",
+      "chapter": "第一节　生理学的研究对象和任务",
+      "page": 1,
+      "textbook_id": "book_03_生理学",
+      "textbook_name": "生理学"
+    },
+    {
+      "id": "book_03_生理学_node_034",
+      "name": "生理学的研究任务",
+      "definition": "生理学的主要任务是揭示生命活动的规律、机制及其调节方式，阐明机体功能活动的原理。",
+      "category": "核心概念",
+      "chapter": "第一节　生理学的研究对象和任务",
+      "page": 1,
+      "textbook_id": "book_03_生理学",
+      "textbook_name": "生理学"
+    },
+    {
+      "id": "book_03_生理学_node_035",
+      "name": "生理学与医学的关系",
+      "definition": "生理学是医学的基础学科，为临床医学提供正常功能的理论依据，医学实践又推动生理学发展。",
+      "category": "核心概念",
+      "chapter": "第一节　生理学的研究对象和任务",
+      "page": 1,
+      "textbook_id": "book_03_生理学",
+      "textbook_name": "生理学"
+    },
+    {
+      "id": "book_03_生理学_node_036",
+      "name": "生理学的认识层次",
+      "definition": "生理学研究从整体、器官系统、细胞分子等多个层次进行，以全面理解生命活动。",
+      "category": "核心概念",
+      "chapter": "第一节　生理学的研究对象和任务",
+      "page": 2,
+      "textbook_id": "book_03_生理学",
+      "textbook_name": "生理学"
+    },
+    {
+      "id": "book_03_生理学_node_037",
+      "name": "整体水平研究",
+      "definition": "在完整机体水平上研究各器官系统功能活动的协调与整合，以及机体与环境的相互作用。",
+      "category": "核心概念",
+      "chapter": "第一节　生理学的研究对象和任务",
+      "page": 2,
+      "textbook_id": "book_03_生理学",
+      "textbook_name": "生理学"
+    },
+    {
+      "id": "book_03_生理学_node_038",
+      "name": "器官系统水平研究",
+      "definition": "研究各器官和系统的功能活动规律、机制及其相互关系，如心脏的泵血功能、呼吸系统的气体交换等。",
+      "category": "核心概念",
+      "chapter": "第一节　生理学的研究对象和任务",
+      "page": 2,
+      "textbook_id": "book_03_生理学",
+      "textbook_name": "生理学"
+    },
+    {
+      "id": "book_03_生理学_node_039",
+      "name": "细胞分子水平研究",
+      "definition": "从细胞和分子层面研究生命活动的基本机制，如离子通道、信号转导、基因表达调控等。",
+      "category": "核心概念",
+      "chapter": "第一节　生理学的研究对象和任务",
+      "page": 2,
+      "textbook_id": "book_03_生理学",
+      "textbook_name": "生理学"
+    },
+    {
+      "id": "book_03_生理学_node_040",
+      "name": "生命活动的规律",
+      "definition": "生理学要揭示的生命现象中普遍存在的内在联系和变化法则，如稳态维持、反馈调节等。",
+      "category": "核心概念",
+      "chapter": "第一节　生理学的研究对象和任务",
+      "page": 1,
+      "textbook_id": "book_03_生理学",
+      "textbook_name": "生理学"
+    },
+    {
+      "id": "book_03_生理学_node_041",
+      "name": "生命活动的机制",
+      "definition": "指生命现象发生的内在过程、原理和调控方式，如神经冲动的产生与传导机制。",
+      "category": "核心概念",
+      "chapter": "第一节　生理学的研究对象和任务",
+      "page": 1,
+      "textbook_id": "book_03_生理学",
+      "textbook_name": "生理学"
+    },
+    {
+      "id": "book_03_生理学_node_042",
+      "name": "生命活动的调节方式",
+      "definition": "机体通过神经调节、体液调节和自身调节等方式维持内环境稳态和适应环境变化。",
+      "category": "核心概念",
+      "chapter": "第一节　生理学的研究对象和任务",
+      "page": 1,
+      "textbook_id": "book_03_生理学",
+      "textbook_name": "生理学"
+    },
+    {
+      "id": "book_03_生理学_node_043",
+      "name": "正常功能活动",
+      "definition": "指机体在健康状态下各系统、器官、细胞所表现出的典型生理功能，是生理学研究的基础参照。",
+      "category": "核心概念",
+      "chapter": "第一节　生理学的研究对象和任务",
+      "page": 1,
+      "textbook_id": "book_03_生理学",
+      "textbook_name": "生理学"
+    },
+    {
+      "id": "book_03_生理学_node_044",
+      "name": "临床医学的基础",
+      "definition": "生理学为临床医学提供正常功能的理论框架，是理解疾病发生机制和制定治疗方案的前提。",
+      "category": "核心概念",
+      "chapter": "第一节　生理学的研究对象和任务",
+      "page": 1,
+      "textbook_id": "book_03_生理学",
+      "textbook_name": "生理学"
+    },
+    {
+      "id": "book_03_生理学_node_045",
+      "name": "生理学研究方法",
+      "definition": "研究生命体正常生命活动规律的各种科学方法的总称，是生理学发展的基础。",
+      "category": "核心概念",
+      "chapter": "第二节　生理学的常用研究方法",
+      "page": 3,
+      "textbook_id": "book_03_生理学",
+      "textbook_name": "生理学"
+    },
+    {
+      "id": "book_03_生理学_node_046",
+      "name": "动物实验",
+      "definition": "利用动物模型进行生理学研究的实验方法，是生理学研究中最重要的手段之一。",
+      "category": "核心概念",
+      "chapter": "第二节　生理学的常用研究方法",
+      "page": 4,
+      "textbook_id": "book_03_生理学",
+      "textbook_name": "生理学"
+    },
+    {
+      "id": "book_03_生理学_node_047",
+      "name": "人体生理研究",
+      "definition": "直接在人体上进行的生理学实验或观察，用于研究人体正常功能。",
+      "category": "核心概念",
+      "chapter": "第二节　生理学的常用研究方法",
+      "page": 4,
+      "textbook_id": "book_03_生理学",
+      "textbook_name": "生理学"
+    },
+    {
+      "id": "book_03_生理学_node_048",
+      "name": "急性动物实验",
+      "definition": "在麻醉或破坏大脑状态下，短时间内对动物进行手术或观察的实验方法。",
+      "category": "生理机制",
+      "chapter": "第二节　生理学的常用研究方法",
+      "page": 4,
+      "textbook_id": "book_03_生理学",
+      "textbook_name": "生理学"
+    },
+    {
+      "id": "book_03_生理学_node_049",
+      "name": "慢性动物实验",
+      "definition": "在动物清醒、正常生活状态下，长期观察其生理功能的实验方法。",
+      "category": "生理机制",
+      "chapter": "第二节　生理学的常用研究方法",
+      "page": 4,
+      "textbook_id": "book_03_生理学",
+      "textbook_name": "生理学"
+    },
+    {
+      "id": "book_03_生理学_node_050",
+      "name": "离体实验",
+      "definition": "将动物的器官、组织或细胞从体内取出，在人工环境中进行研究的实验方法。",
+      "category": "生理机制",
+      "chapter": "第二节　生理学的常用研究方法",
+      "page": 4,
+      "textbook_id": "book_03_生理学",
+      "textbook_name": "生理学"
+    },
+    {
+      "id": "book_03_生理学_node_051",
+      "name": "在体实验",
+      "definition": "在动物或人体完整、活着的状态下进行的实验研究。",
+      "category": "生理机制",
+      "chapter": "第二节　生理学的常用研究方法",
+      "page": 4,
+      "textbook_id": "book_03_生理学",
+      "textbook_name": "生理学"
+    },
+    {
+      "id": "book_03_生理学_node_052",
+      "name": "人体无创研究",
+      "definition": "不侵入人体内部，通过体表测量或成像技术研究人体生理功能的方法。",
+      "category": "临床表现",
+      "chapter": "第二节　生理学的常用研究方法",
+      "page": 4,
+      "textbook_id": "book_03_生理学",
+      "textbook_name": "生理学"
+    },
+    {
+      "id": "book_03_生理学_node_053",
+      "name": "人体有创研究",
+      "definition": "通过穿刺、插管等侵入性手段，在人体内进行生理参数测量的研究方法。",
+      "category": "临床表现",
+      "chapter": "第二节　生理学的常用研究方法",
+      "page": 4,
+      "textbook_id": "book_03_生理学",
+      "textbook_name": "生理学"
+    },
+    {
+      "id": "book_03_生理学_node_054",
+      "name": "电生理学方法",
+      "definition": "利用电学仪器记录生物电活动（如心电、脑电、神经动作电位）的研究方法。",
+      "category": "生理机制",
+      "chapter": "第二节　生理学的常用研究方法",
+      "page": 4,
+      "textbook_id": "book_03_生理学",
+      "textbook_name": "生理学"
+    },
+    {
+      "id": "book_03_生理学_node_055",
+      "name": "生物化学方法",
+      "definition": "通过分析体液、组织中的化学成分和代谢产物来研究生理功能的方法。",
+      "category": "生理机制",
+      "chapter": "第二节　生理学的常用研究方法",
+      "page": 4,
+      "textbook_id": "book_03_生理学",
+      "textbook_name": "生理学"
+    },
+    {
+      "id": "book_03_生理学_node_056",
+      "name": "分子生物学方法",
+      "definition": "从基因、蛋白质等分子水平研究生理功能机制的方法，如基因敲除、转基因技术。",
+      "category": "生理机制",
+      "chapter": "第二节　生理学的常用研究方法",
+      "page": 4,
+      "textbook_id": "book_03_生理学",
+      "textbook_name": "生理学"
+    },
+    {
+      "id": "book_03_生理学_node_057",
+      "name": "影像学方法",
+      "definition": "利用超声、CT、MRI、PET等成像技术，无创地观察活体器官结构和功能的方法。",
+      "category": "临床表现",
+      "chapter": "第二节　生理学的常用研究方法",
+      "page": 4,
+      "textbook_id": "book_03_生理学",
+      "textbook_name": "生理学"
+    },
+    {
+      "id": "book_03_生理学_node_058",
+      "name": "动物模型",
+      "definition": "为模拟人类生理或病理状态而建立的实验动物系统，是动物实验的基础。",
+      "category": "核心概念",
+      "chapter": "第二节　生理学的常用研究方法",
+      "page": 4,
+      "textbook_id": "book_03_生理学",
+      "textbook_name": "生理学"
+    },
+    {
+      "id": "book_03_生理学_node_059",
+      "name": "伦理审查",
+      "definition": "对人体和动物实验进行伦理规范审查的过程，确保研究符合道德和法律要求。",
+      "category": "核心概念",
+      "chapter": "第二节　生理学的常用研究方法",
+      "page": 4,
+      "textbook_id": "book_03_生理学",
+      "textbook_name": "生理学"
+    },
+    {
+      "id": "book_03_生理学_node_060",
+      "name": "生命活动的基本特征",
+      "definition": "生物体生命活动所共有的基本属性，包括新陈代谢、兴奋性、适应性、生殖和衰老等。",
+      "category": "核心概念",
+      "chapter": "第三节　生命活动的基本特征",
+      "page": 16,
+      "textbook_id": "book_03_生理学",
+      "textbook_name": "生理学"
+    },
+    {
+      "id": "book_03_生理学_node_061",
+      "name": "新陈代谢",
+      "definition": "生物体与外界环境进行物质和能量交换，以及体内物质和能量的转化过程，是生命活动的基础。",
+      "category": "核心概念",
+      "chapter": "第三节　生命活动的基本特征",
+      "page": 16,
+      "textbook_id": "book_03_生理学",
+      "textbook_name": "生理学"
+    },
+    {
+      "id": "book_03_生理学_node_062",
+      "name": "兴奋性",
+      "definition": "生物体对刺激产生反应（如产生动作电位或收缩）的能力或特性，是生命活动的基本表现。",
+      "category": "核心概念",
+      "chapter": "第三节　生命活动的基本特征",
+      "page": 16,
+      "textbook_id": "book_03_生理学",
+      "textbook_name": "生理学"
+    },
+    {
+      "id": "book_03_生理学_node_063",
+      "name": "适应性",
+      "definition": "生物体根据环境变化调整自身功能或结构，以维持生存和正常功能的能力。",
+      "category": "核心概念",
+      "chapter": "第三节　生命活动的基本特征",
+      "page": 16,
+      "textbook_id": "book_03_生理学",
+      "textbook_name": "生理学"
+    },
+    {
+      "id": "book_03_生理学_node_064",
+      "name": "生殖",
+      "definition": "生物体产生后代以延续种系的过程，是生命延续的基本特征。",
+      "category": "核心概念",
+      "chapter": "第三节　生命活动的基本特征",
+      "page": 16,
+      "textbook_id": "book_03_生理学",
+      "textbook_name": "生理学"
+    },
+    {
+      "id": "book_03_生理学_node_065",
+      "name": "衰老",
+      "definition": "生物体随年龄增长而出现的结构和功能逐渐衰退的过程，是生命周期的终末阶段。",
+      "category": "核心概念",
+      "chapter": "第三节　生命活动的基本特征",
+      "page": 16,
+      "textbook_id": "book_03_生理学",
+      "textbook_name": "生理学"
+    },
+    {
+      "id": "book_03_生理学_node_066",
+      "name": "物质代谢",
+      "definition": "新陈代谢中涉及物质合成与分解的过程，包括合成代谢和分解代谢。",
+      "category": "生理机制",
+      "chapter": "第三节　生命活动的基本特征",
+      "page": 16,
+      "textbook_id": "book_03_生理学",
+      "textbook_name": "生理学"
+    },
+    {
+      "id": "book_03_生理学_node_067",
+      "name": "能量代谢",
+      "definition": "新陈代谢中伴随物质转化而发生的能量释放、转移和利用的过程。",
+      "category": "生理机制",
+      "chapter": "第三节　生命活动的基本特征",
+      "page": 16,
+      "textbook_id": "book_03_生理学",
+      "textbook_name": "生理学"
+    },
+    {
+      "id": "book_03_生理学_node_068",
+      "name": "刺激",
+      "definition": "能引起生物体发生反应的环境变化或内部变化，是兴奋性产生的前提。",
+      "category": "核心概念",
+      "chapter": "第三节　生命活动的基本特征",
+      "page": 16,
+      "textbook_id": "book_03_生理学",
+      "textbook_name": "生理学"
+    },
+    {
+      "id": "book_03_生理学_node_069",
+      "name": "反应",
+      "definition": "生物体接受刺激后所发生的功能或形态变化，如肌肉收缩、腺体分泌等。",
+      "category": "生理机制",
+      "chapter": "第三节　生命活动的基本特征",
+      "page": 16,
+      "textbook_id": "book_03_生理学",
+      "textbook_name": "生理学"
+    },
+    {
+      "id": "book_03_生理学_node_070",
+      "name": "种系延续",
+      "definition": "通过生殖过程使物种的遗传信息得以代代相传，维持物种的持续存在。",
+      "category": "核心概念",
+      "chapter": "第三节　生命活动的基本特征",
+      "page": 16,
+      "textbook_id": "book_03_生理学",
+      "textbook_name": "生理学"
+    },
+    {
+      "id": "book_03_生理学_node_071",
+      "name": "生命周期",
+      "definition": "生物体从出生、生长、成熟、衰老到死亡的全过程，涵盖所有基本特征。",
+      "category": "核心概念",
+      "chapter": "第三节　生命活动的基本特征",
+      "page": 16,
+      "textbook_id": "book_03_生理学",
+      "textbook_name": "生理学"
+    }
+  ],
+  "relations": [
+    {
+      "source": "book_03_生理学_node_001",
+      "target": "book_03_生理学_node_012",
+      "relation_type": "contains",
+      "description": "血糖稳态是内环境稳态的重要组成部分"
+    },
+    {
+      "source": "book_03_生理学_node_001",
+      "target": "book_03_生理学_node_002",
+      "relation_type": "applies_to",
+      "description": "激素调节是维持血糖稳态的核心机制"
+    },
+    {
+      "source": "book_03_生理学_node_003",
+      "target": "book_03_生理学_node_004",
+      "relation_type": "parallel",
+      "description": "胰岛素和胰高血糖素是血糖调节中作用相反的一对激素"
+    },
+    {
+      "source": "book_03_生理学_node_003",
+      "target": "book_03_生理学_node_001",
+      "relation_type": "applies_to",
+      "description": "胰岛素通过降低血糖参与血糖稳态的维持"
+    },
+    {
+      "source": "book_03_生理学_node_004",
+      "target": "book_03_生理学_node_001",
+      "relation_type": "applies_to",
+      "description": "胰高血糖素通过升高血糖参与血糖稳态的维持"
+    },
+    {
+      "source": "book_03_生理学_node_007",
+      "target": "book_03_生理学_node_001",
+      "relation_type": "applies_to",
+      "description": "负反馈机制是血糖稳态调节的基本方式"
+    },
+    {
+      "source": "book_03_生理学_node_005",
+      "target": "book_03_生理学_node_004",
+      "relation_type": "applies_to",
+      "description": "胰高血糖素通过促进糖原分解来升高血糖"
+    },
+    {
+      "source": "book_03_生理学_node_006",
+      "target": "book_03_生理学_node_004",
+      "relation_type": "applies_to",
+      "description": "胰高血糖素通过促进糖异生来升高血糖"
+    },
+    {
+      "source": "book_03_生理学_node_008",
+      "target": "book_03_生理学_node_001",
+      "relation_type": "applies_to",
+      "description": "肾上腺素在应激状态下参与血糖稳态的调节"
+    },
+    {
+      "source": "book_03_生理学_node_009",
+      "target": "book_03_生理学_node_001",
+      "relation_type": "applies_to",
+      "description": "生长激素通过拮抗胰岛素作用参与血糖调节"
+    },
+    {
+      "source": "book_03_生理学_node_010",
+      "target": "book_03_生理学_node_001",
+      "relation_type": "applies_to",
+      "description": "皮质醇通过促进糖异生参与血糖稳态的维持"
+    },
+    {
+      "source": "book_03_生理学_node_011",
+      "target": "book_03_生理学_node_001",
+      "relation_type": "contains",
+      "description": "血糖稳态的激素调节网络是维持血糖稳态的完整系统"
+    },
+    {
+      "source": "book_03_生理学_node_003",
+      "target": "book_03_生理学_node_013",
+      "relation_type": "prerequisite",
+      "description": "理解胰岛素作用是理解胰岛素抵抗的基础"
+    },
+    {
+      "source": "book_03_生理学_node_013",
+      "target": "book_03_生理学_node_014",
+      "relation_type": "prerequisite",
+      "description": "胰岛素抵抗是导致2型糖尿病的重要机制"
+    },
+    {
+      "source": "book_03_生理学_node_015",
+      "target": "book_03_生理学_node_016",
+      "relation_type": "parallel",
+      "description": "科学思维能力和理化公式应用都是培养创新精神的重要方法"
+    },
+    {
+      "source": "book_03_生理学_node_016",
+      "target": "book_03_生理学_node_001",
+      "relation_type": "applies_to",
+      "description": "理化公式可用于分析血糖转运和代谢的定量关系"
+    },
+    {
+      "source": "book_03_生理学_node_017",
+      "target": "book_03_生理学_node_019",
+      "relation_type": "prerequisite",
+      "description": "理解血糖稳态需要先掌握激素的基本概念和调节作用。"
+    },
+    {
+      "source": "book_03_生理学_node_018",
+      "target": "book_03_生理学_node_019",
+      "relation_type": "prerequisite",
+      "description": "理解生长发育需要先掌握激素的调控功能。"
+    },
+    {
+      "source": "book_03_生理学_node_020",
+      "target": "book_03_生理学_node_017",
+      "relation_type": "applies_to",
+      "description": "胰岛素是维持血糖稳态的关键降血糖激素。"
+    },
+    {
+      "source": "book_03_生理学_node_021",
+      "target": "book_03_生理学_node_017",
+      "relation_type": "applies_to",
+      "description": "胰高血糖素是维持血糖稳态的关键升血糖激素。"
+    },
+    {
+      "source": "book_03_生理学_node_022",
+      "target": "book_03_生理学_node_018",
+      "relation_type": "applies_to",
+      "description": "生长激素是促进生长发育的主要激素之一。"
+    },
+    {
+      "source": "book_03_生理学_node_023",
+      "target": "book_03_生理学_node_018",
+      "relation_type": "applies_to",
+      "description": "甲状腺激素对脑和骨骼的生长发育至关重要。"
+    },
+    {
+      "source": "book_03_生理学_node_024",
+      "target": "book_03_生理学_node_017",
+      "relation_type": "applies_to",
+      "description": "糖皮质激素通过促进糖异生等途径升高血糖，影响血糖稳态。"
+    },
+    {
+      "source": "book_03_生理学_node_025",
+      "target": "book_03_生理学_node_017",
+      "relation_type": "applies_to",
+      "description": "肾上腺素在应激时快速升高血糖，参与血糖稳态调节。"
+    },
+    {
+      "source": "book_03_生理学_node_020",
+      "target": "book_03_生理学_node_021",
+      "relation_type": "parallel",
+      "description": "胰岛素和胰高血糖素是作用相反的平行激素，共同调节血糖。"
+    },
+    {
+      "source": "book_03_生理学_node_022",
+      "target": "book_03_生理学_node_023",
+      "relation_type": "parallel",
+      "description": "生长激素和甲状腺激素在生长发育中具有协同作用，属于平行概念。"
+    },
+    {
+      "source": "book_03_生理学_node_026",
+      "target": "book_03_生理学_node_027",
+      "relation_type": "contains",
+      "description": "针刺镇痛生理学原理是中国科学家科学贡献的重要体现。"
+    },
+    {
+      "source": "book_03_生理学_node_028",
+      "target": "book_03_生理学_node_029",
+      "relation_type": "applies_to",
+      "description": "临床案例分析是实现基础与临床紧密联系的教学方法。"
+    },
+    {
+      "source": "book_03_生理学_node_030",
+      "target": "book_03_生理学_node_031",
+      "relation_type": "contains",
+      "description": "立体化教材包含思维导图等数字资源，辅助知识梳理。"
+    },
+    {
+      "source": "book_03_生理学_node_030",
+      "target": "book_03_生理学_node_032",
+      "relation_type": "contains",
+      "description": "立体化教材包含目标测试资源，用于学习检验。"
+    },
+    {
+      "source": "book_03_生理学_node_017",
+      "target": "book_03_生理学_node_018",
+      "relation_type": "parallel",
+      "description": "血糖稳态和生长发育是本章两个并列的核心生理主题。"
+    },
+    {
+      "source": "book_03_生理学_node_033",
+      "target": "book_03_生理学_node_034",
+      "relation_type": "parallel",
+      "description": "研究对象和研究任务是生理学学科的两个基本方面，研究对象回答'研究什么'，研究任务回答'研究为了什么'"
+    },
+    {
+      "source": "book_03_生理学_node_033",
+      "target": "book_03_生理学_node_043",
+      "relation_type": "contains",
+      "description": "生理学的研究对象具体包括对正常功能活动的研究，正常功能活动是研究对象的核心内容"
+    },
+    {
+      "source": "book_03_生理学_node_034",
+      "target": "book_03_生理学_node_040",
+      "relation_type": "contains",
+      "description": "揭示生命活动的规律是生理学研究任务的重要组成部分"
+    },
+    {
+      "source": "book_03_生理学_node_034",
+      "target": "book_03_生理学_node_041",
+      "relation_type": "contains",
+      "description": "阐明生命活动的机制是生理学研究任务的核心内容之一"
+    },
+    {
+      "source": "book_03_生理学_node_034",
+      "target": "book_03_生理学_node_042",
+      "relation_type": "contains",
+      "description": "研究生命活动的调节方式是生理学研究任务的关键组成部分"
+    },
+    {
+      "source": "book_03_生理学_node_035",
+      "target": "book_03_生理学_node_044",
+      "relation_type": "applies_to",
+      "description": "生理学与医学的关系具体体现在生理学作为临床医学的基础，为医学实践提供理论支撑"
+    },
+    {
+      "source": "book_03_生理学_node_036",
+      "target": "book_03_生理学_node_037",
+      "relation_type": "contains",
+      "description": "生理学的认识层次包含整体水平研究这一重要层面"
+    },
+    {
+      "source": "book_03_生理学_node_036",
+      "target": "book_03_生理学_node_038",
+      "relation_type": "contains",
+      "description": "生理学的认识层次包含器官系统水平研究这一中间层面"
+    },
+    {
+      "source": "book_03_生理学_node_036",
+      "target": "book_03_生理学_node_039",
+      "relation_type": "contains",
+      "description": "生理学的认识层次包含细胞分子水平研究这一微观层面"
+    },
+    {
+      "source": "book_03_生理学_node_037",
+      "target": "book_03_生理学_node_038",
+      "relation_type": "prerequisite",
+      "description": "理解整体水平的功能协调需要先掌握器官系统水平的功能知识"
+    },
+    {
+      "source": "book_03_生理学_node_038",
+      "target": "book_03_生理学_node_039",
+      "relation_type": "prerequisite",
+      "description": "深入理解器官系统功能需要先了解细胞分子水平的基本机制"
+    },
+    {
+      "source": "book_03_生理学_node_037",
+      "target": "book_03_生理学_node_039",
+      "relation_type": "parallel",
+      "description": "整体水平研究和细胞分子水平研究是生理学认识层次的两端，相互补充"
+    },
+    {
+      "source": "book_03_生理学_node_035",
+      "target": "book_03_生理学_node_033",
+      "relation_type": "applies_to",
+      "description": "生理学与医学的关系建立在生理学研究对象的基础上，医学应用生理学对正常功能的研究成果"
+    },
+    {
+      "source": "book_03_生理学_node_035",
+      "target": "book_03_生理学_node_034",
+      "relation_type": "applies_to",
+      "description": "生理学的研究任务通过医学实践得到验证和推动，医学是生理学研究成果的重要应用领域"
+    },
+    {
+      "source": "book_03_生理学_node_045",
+      "target": "book_03_生理学_node_046",
+      "relation_type": "contains",
+      "description": "生理学研究方法包含动物实验这一重要分支。"
+    },
+    {
+      "source": "book_03_生理学_node_045",
+      "target": "book_03_生理学_node_047",
+      "relation_type": "contains",
+      "description": "生理学研究方法包含人体生理研究这一分支。"
+    },
+    {
+      "source": "book_03_生理学_node_046",
+      "target": "book_03_生理学_node_048",
+      "relation_type": "contains",
+      "description": "动物实验包含急性动物实验这一具体类型。"
+    },
+    {
+      "source": "book_03_生理学_node_046",
+      "target": "book_03_生理学_node_049",
+      "relation_type": "contains",
+      "description": "动物实验包含慢性动物实验这一具体类型。"
+    },
+    {
+      "source": "book_03_生理学_node_046",
+      "target": "book_03_生理学_node_050",
+      "relation_type": "contains",
+      "description": "动物实验包含离体实验这一具体类型。"
+    },
+    {
+      "source": "book_03_生理学_node_046",
+      "target": "book_03_生理学_node_051",
+      "relation_type": "contains",
+      "description": "动物实验包含在体实验这一具体类型。"
+    },
+    {
+      "source": "book_03_生理学_node_047",
+      "target": "book_03_生理学_node_052",
+      "relation_type": "contains",
+      "description": "人体生理研究包含人体无创研究这一方法。"
+    },
+    {
+      "source": "book_03_生理学_node_047",
+      "target": "book_03_生理学_node_053",
+      "relation_type": "contains",
+      "description": "人体生理研究包含人体有创研究这一方法。"
+    },
+    {
+      "source": "book_03_生理学_node_048",
+      "target": "book_03_生理学_node_049",
+      "relation_type": "parallel",
+      "description": "急性动物实验和慢性动物实验是动物实验的两种并列类型，按时间长短区分。"
+    },
+    {
+      "source": "book_03_生理学_node_050",
+      "target": "book_03_生理学_node_051",
+      "relation_type": "parallel",
+      "description": "离体实验和在体实验是动物实验的两种并列类型，按实验环境区分。"
+    },
+    {
+      "source": "book_03_生理学_node_052",
+      "target": "book_03_生理学_node_053",
+      "relation_type": "parallel",
+      "description": "人体无创研究和有创研究是人体研究的两种并列方法，按侵入性区分。"
+    },
+    {
+      "source": "book_03_生理学_node_054",
+      "target": "book_03_生理学_node_055",
+      "relation_type": "parallel",
+      "description": "电生理学方法和生物化学方法是生理学研究中不同技术层面的并列方法。"
+    },
+    {
+      "source": "book_03_生理学_node_055",
+      "target": "book_03_生理学_node_056",
+      "relation_type": "parallel",
+      "description": "生物化学方法和分子生物学方法在分子层面有重叠，但侧重点不同，属于并列关系。"
+    },
+    {
+      "source": "book_03_生理学_node_046",
+      "target": "book_03_生理学_node_058",
+      "relation_type": "prerequisite",
+      "description": "建立动物模型是进行动物实验的前提条件。"
+    },
+    {
+      "source": "book_03_生理学_node_047",
+      "target": "book_03_生理学_node_059",
+      "relation_type": "prerequisite",
+      "description": "进行人体生理研究前必须通过伦理审查。"
+    },
+    {
+      "source": "book_03_生理学_node_046",
+      "target": "book_03_生理学_node_059",
+      "relation_type": "prerequisite",
+      "description": "动物实验也必须遵循伦理审查原则。"
+    },
+    {
+      "source": "book_03_生理学_node_057",
+      "target": "book_03_生理学_node_052",
+      "relation_type": "applies_to",
+      "description": "影像学方法是人体无创研究的重要应用技术。"
+    },
+    {
+      "source": "book_03_生理学_node_054",
+      "target": "book_03_生理学_node_051",
+      "relation_type": "applies_to",
+      "description": "电生理学方法常用于在体实验，记录生物电信号。"
+    },
+    {
+      "source": "book_03_生理学_node_060",
+      "target": "book_03_生理学_node_061",
+      "relation_type": "contains",
+      "description": "生命活动的基本特征包含新陈代谢作为其核心组成部分。"
+    },
+    {
+      "source": "book_03_生理学_node_060",
+      "target": "book_03_生理学_node_062",
+      "relation_type": "contains",
+      "description": "生命活动的基本特征包含兴奋性作为其基本表现。"
+    },
+    {
+      "source": "book_03_生理学_node_060",
+      "target": "book_03_生理学_node_063",
+      "relation_type": "contains",
+      "description": "生命活动的基本特征包含适应性作为其生存能力。"
+    },
+    {
+      "source": "book_03_生理学_node_060",
+      "target": "book_03_生理学_node_064",
+      "relation_type": "contains",
+      "description": "生命活动的基本特征包含生殖作为其延续方式。"
+    },
+    {
+      "source": "book_03_生理学_node_060",
+      "target": "book_03_生理学_node_065",
+      "relation_type": "contains",
+      "description": "生命活动的基本特征包含衰老作为其终末阶段。"
+    },
+    {
+      "source": "book_03_生理学_node_061",
+      "target": "book_03_生理学_node_066",
+      "relation_type": "contains",
+      "description": "新陈代谢包含物质代谢作为其物质转化部分。"
+    },
+    {
+      "source": "book_03_生理学_node_061",
+      "target": "book_03_生理学_node_067",
+      "relation_type": "contains",
+      "description": "新陈代谢包含能量代谢作为其能量转化部分。"
+    },
+    {
+      "source": "book_03_生理学_node_066",
+      "target": "book_03_生理学_node_067",
+      "relation_type": "parallel",
+      "description": "物质代谢和能量代谢是新陈代谢中相互关联的两个平行方面。"
+    },
+    {
+      "source": "book_03_生理学_node_062",
+      "target": "book_03_生理学_node_068",
+      "relation_type": "prerequisite",
+      "description": "理解兴奋性需要先掌握刺激的概念，因为刺激是引发兴奋性的前提。"
+    },
+    {
+      "source": "book_03_生理学_node_062",
+      "target": "book_03_生理学_node_069",
+      "relation_type": "applies_to",
+      "description": "兴奋性应用于反应过程，即生物体对刺激产生反应的能力。"
+    },
+    {
+      "source": "book_03_生理学_node_068",
+      "target": "book_03_生理学_node_069",
+      "relation_type": "prerequisite",
+      "description": "刺激是引起反应的前提条件，没有刺激则无反应。"
+    },
+    {
+      "source": "book_03_生理学_node_064",
+      "target": "book_03_生理学_node_070",
+      "relation_type": "applies_to",
+      "description": "生殖是实现种系延续的具体应用和方式。"
+    },
+    {
+      "source": "book_03_生理学_node_065",
+      "target": "book_03_生理学_node_071",
+      "relation_type": "contains",
+      "description": "衰老是生命周期中的一个重要阶段。"
+    },
+    {
+      "source": "book_03_生理学_node_061",
+      "target": "book_03_生理学_node_062",
+      "relation_type": "prerequisite",
+      "description": "新陈代谢是兴奋性的基础，没有新陈代谢，生物体无法产生兴奋性。"
+    },
+    {
+      "source": "book_03_生理学_node_063",
+      "target": "book_03_生理学_node_061",
+      "relation_type": "applies_to",
+      "description": "适应性依赖于新陈代谢的调节，以适应环境变化。"
+    }
+  ],
+  "stats": {
+    "total_nodes": 71,
+    "total_relations": 78,
+    "chapters_processed": 5
+  }
+}

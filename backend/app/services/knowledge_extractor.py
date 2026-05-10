@@ -91,7 +91,7 @@ async def extract_chapter_knowledge(chapter: dict, textbook_id: str, textbook_na
         print(f"提取章节 {chapter['title']} 知识点失败: {e}")
         return {"nodes": [], "relations": []}
 
-async def extract_textbook_knowledge(textbook: dict, max_chapters: int = 5) -> dict:
+async def extract_textbook_knowledge(textbook: dict, max_chapters: int = 50) -> dict:
     textbook_id = textbook["textbook_id"]
     textbook_name = textbook["title"]
     chapters = textbook["chapters"][:max_chapters]

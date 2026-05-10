@@ -22,15 +22,10 @@ yarn-error.log*
 .env.local
 .env.*.local
 
-# Data (不要上传教材PDF)
+# Data (不要上传教材PDF和上传文件)
 data/textbooks/*.pdf
 *.pdf
 backend/data/uploads/
-backend/data/chunks/
-backend/data/index/
-backend/data/integration/
-backend/data/parsed/
-backend/data/graphs/
 textbooks/
 
 # IDE

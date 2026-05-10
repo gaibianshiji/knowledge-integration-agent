@@ -65,8 +65,7 @@ async def get_embeddings_batch(texts: list[str]) -> list[list[float]]:
                 results.append(data["data"][0]["embedding"])
         except Exception as e:
             print(f"Failed to get embedding: {e}")
-            # Return a zero vector as fallback
-            results.append([0.0] * 1024)
+            raise
     return results
 
 def cosine_similarity(vec1: list[float], vec2: list[float]) -> float:

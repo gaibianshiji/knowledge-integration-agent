@@ -75,7 +75,7 @@ async def align_knowledge_nodes(graphs: list[dict]) -> dict:
 
     # Process candidates in batches
     batch_size = 5
-    for batch_start in range(0, min(len(candidate_pairs), 20), batch_size):
+    for batch_start in range(0, len(candidate_pairs), batch_size):
         batch = candidate_pairs[batch_start:batch_start + batch_size]
 
         pairs_text = ""

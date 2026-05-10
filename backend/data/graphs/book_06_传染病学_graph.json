@@ -1,0 +1,1425 @@
+{
+  "textbook_id": "book_06_传染病学",
+  "textbook_name": "传染病学",
+  "nodes": [
+    {
+      "id": "book_06_传染病学_node_001",
+      "name": "感染",
+      "definition": "病原体与人体之间相互作用、相互斗争的过程，是传染病学的基本概念。",
+      "category": "核心概念",
+      "chapter": "第一节　感染与免疫",
+      "page": 2,
+      "textbook_id": "book_06_传染病学",
+      "textbook_name": "传染病学"
+    },
+    {
+      "id": "book_06_传染病学_node_002",
+      "name": "感染过程的表现",
+      "definition": "病原体侵入人体后，根据病原体与宿主相互作用的结果，呈现的不同临床表现形式。",
+      "category": "核心概念",
+      "chapter": "第一节　感染与免疫",
+      "page": 2,
+      "textbook_id": "book_06_传染病学",
+      "textbook_name": "传染病学"
+    },
+    {
+      "id": "book_06_传染病学_node_003",
+      "name": "病原体",
+      "definition": "能引起宿主疾病的微生物或寄生虫，是感染过程的启动因素。",
+      "category": "核心概念",
+      "chapter": "第一节　感染与免疫",
+      "page": 2,
+      "textbook_id": "book_06_传染病学",
+      "textbook_name": "传染病学"
+    },
+    {
+      "id": "book_06_传染病学_node_004",
+      "name": "免疫应答",
+      "definition": "机体免疫系统识别和清除病原体等抗原性异物的过程，包括非特异性免疫和特异性免疫。",
+      "category": "生理机制",
+      "chapter": "第一节　感染与免疫",
+      "page": 4,
+      "textbook_id": "book_06_传染病学",
+      "textbook_name": "传染病学"
+    },
+    {
+      "id": "book_06_传染病学_node_005",
+      "name": "隐性感染",
+      "definition": "感染过程中，病原体侵入人体后，仅引起机体产生特异性免疫应答，不出现或仅出现不明显的临床症状。",
+      "category": "临床表现",
+      "chapter": "第一节　感染与免疫",
+      "page": 2,
+      "textbook_id": "book_06_传染病学",
+      "textbook_name": "传染病学"
+    },
+    {
+      "id": "book_06_传染病学_node_006",
+      "name": "显性感染",
+      "definition": "感染过程中，病原体侵入人体后，不仅引起免疫应答，还导致组织损伤和病理改变，出现明显的临床症状。",
+      "category": "临床表现",
+      "chapter": "第一节　感染与免疫",
+      "page": 2,
+      "textbook_id": "book_06_传染病学",
+      "textbook_name": "传染病学"
+    },
+    {
+      "id": "book_06_传染病学_node_007",
+      "name": "病原携带状态",
+      "definition": "感染过程中，病原体在人体内持续存在并排出体外，但宿主不出现临床症状。",
+      "category": "临床表现",
+      "chapter": "第一节　感染与免疫",
+      "page": 2,
+      "textbook_id": "book_06_传染病学",
+      "textbook_name": "传染病学"
+    },
+    {
+      "id": "book_06_传染病学_node_008",
+      "name": "潜伏性感染",
+      "definition": "感染过程中，病原体潜伏在体内某些部位，当机体免疫力下降时，病原体被激活而致病。",
+      "category": "临床表现",
+      "chapter": "第一节　感染与免疫",
+      "page": 2,
+      "textbook_id": "book_06_传染病学",
+      "textbook_name": "传染病学"
+    },
+    {
+      "id": "book_06_传染病学_node_009",
+      "name": "病原体的致病作用",
+      "definition": "病原体通过其毒力、侵袭力、数量及变异性等因素，对宿主造成损害的能力。",
+      "category": "病理变化",
+      "chapter": "第一节　感染与免疫",
+      "page": 4,
+      "textbook_id": "book_06_传染病学",
+      "textbook_name": "传染病学"
+    },
+    {
+      "id": "book_06_传染病学_node_010",
+      "name": "毒力",
+      "definition": "病原体产生毒素（如内毒素、外毒素）的能力，是致病作用的重要因素。",
+      "category": "核心概念",
+      "chapter": "第一节　感染与免疫",
+      "page": 4,
+      "textbook_id": "book_06_传染病学",
+      "textbook_name": "传染病学"
+    },
+    {
+      "id": "book_06_传染病学_node_011",
+      "name": "侵袭力",
+      "definition": "病原体突破宿主防御屏障、在体内定植、繁殖和扩散的能力。",
+      "category": "核心概念",
+      "chapter": "第一节　感染与免疫",
+      "page": 4,
+      "textbook_id": "book_06_传染病学",
+      "textbook_name": "传染病学"
+    },
+    {
+      "id": "book_06_传染病学_node_012",
+      "name": "非特异性免疫",
+      "definition": "机体先天具有的、对多种病原体均有效的防御机制，包括屏障结构、吞噬细胞和体液因子等。",
+      "category": "生理机制",
+      "chapter": "第一节　感染与免疫",
+      "page": 4,
+      "textbook_id": "book_06_传染病学",
+      "textbook_name": "传染病学"
+    },
+    {
+      "id": "book_06_传染病学_node_013",
+      "name": "特异性免疫",
+      "definition": "机体在接触特定抗原后产生的、针对该抗原的专一性防御机制，包括细胞免疫和体液免疫。",
+      "category": "生理机制",
+      "chapter": "第一节　感染与免疫",
+      "page": 4,
+      "textbook_id": "book_06_传染病学",
+      "textbook_name": "传染病学"
+    },
+    {
+      "id": "book_06_传染病学_node_014",
+      "name": "细胞免疫",
+      "definition": "由T淋巴细胞介导的免疫应答，主要针对细胞内寄生的病原体。",
+      "category": "生理机制",
+      "chapter": "第一节　感染与免疫",
+      "page": 4,
+      "textbook_id": "book_06_传染病学",
+      "textbook_name": "传染病学"
+    },
+    {
+      "id": "book_06_传染病学_node_015",
+      "name": "体液免疫",
+      "definition": "由B淋巴细胞产生抗体介导的免疫应答，主要针对细胞外寄生的病原体。",
+      "category": "生理机制",
+      "chapter": "第一节　感染与免疫",
+      "page": 4,
+      "textbook_id": "book_06_传染病学",
+      "textbook_name": "传染病学"
+    },
+    {
+      "id": "book_06_传染病学_node_016",
+      "name": "传染病的发生与发展",
+      "definition": "描述病原体侵入人体后，在体内定位、繁殖、扩散以及引起宿主免疫反应和病理变化的整个过程。",
+      "category": "核心概念",
+      "chapter": "传染病的发病机制",
+      "page": 13,
+      "textbook_id": "book_06_传染病学",
+      "textbook_name": "传染病学"
+    },
+    {
+      "id": "book_06_传染病学_node_017",
+      "name": "组织损伤的发生机制",
+      "definition": "病原体或其产物（如毒素）直接或间接（通过免疫反应）导致宿主组织细胞结构和功能破坏的病理过程。",
+      "category": "病理变化",
+      "chapter": "传染病的发病机制",
+      "page": 13,
+      "textbook_id": "book_06_传染病学",
+      "textbook_name": "传染病学"
+    },
+    {
+      "id": "book_06_传染病学_node_018",
+      "name": "重要的病理生理变化",
+      "definition": "传染病过程中，机体在器官、系统水平出现的功能性或代谢性改变，如发热、炎症、休克等。",
+      "category": "生理机制",
+      "chapter": "传染病的发病机制",
+      "page": 12,
+      "textbook_id": "book_06_传染病学",
+      "textbook_name": "传染病学"
+    },
+    {
+      "id": "book_06_传染病学_node_019",
+      "name": "病原体入侵",
+      "definition": "病原体（细菌、病毒等）通过特定途径（呼吸道、消化道等）进入宿主机体的初始步骤。",
+      "category": "核心概念",
+      "chapter": "传染病的发病机制",
+      "page": 13,
+      "textbook_id": "book_06_传染病学",
+      "textbook_name": "传染病学"
+    },
+    {
+      "id": "book_06_传染病学_node_020",
+      "name": "病原体定位与繁殖",
+      "definition": "病原体在宿主体内特定组织或细胞中定居并大量复制增殖的过程。",
+      "category": "核心概念",
+      "chapter": "传染病的发病机制",
+      "page": 13,
+      "textbook_id": "book_06_传染病学",
+      "textbook_name": "传染病学"
+    },
+    {
+      "id": "book_06_传染病学_node_021",
+      "name": "病原体扩散",
+      "definition": "病原体从原发部位通过血液、淋巴或直接蔓延等方式向全身或远处器官播散的过程。",
+      "category": "核心概念",
+      "chapter": "传染病的发病机制",
+      "page": 13,
+      "textbook_id": "book_06_传染病学",
+      "textbook_name": "传染病学"
+    },
+    {
+      "id": "book_06_传染病学_node_022",
+      "name": "直接损伤",
+      "definition": "病原体（如病毒在细胞内增殖）或其分泌的毒素直接破坏宿主细胞的结构和功能。",
+      "category": "病理变化",
+      "chapter": "传染病的发病机制",
+      "page": 13,
+      "textbook_id": "book_06_传染病学",
+      "textbook_name": "传染病学"
+    },
+    {
+      "id": "book_06_传染病学_node_023",
+      "name": "免疫病理损伤",
+      "definition": "宿主免疫系统在清除病原体过程中，过度或异常的免疫反应（如超敏反应、自身免疫）导致的组织损伤。",
+      "category": "病理变化",
+      "chapter": "传染病的发病机制",
+      "page": 13,
+      "textbook_id": "book_06_传染病学",
+      "textbook_name": "传染病学"
+    },
+    {
+      "id": "book_06_传染病学_node_024",
+      "name": "炎症反应",
+      "definition": "机体对病原体感染的一种防御性反应，表现为局部血管扩张、渗出和白细胞浸润，是重要的病理生理变化。",
+      "category": "生理机制",
+      "chapter": "传染病的发病机制",
+      "page": 12,
+      "textbook_id": "book_06_传染病学",
+      "textbook_name": "传染病学"
+    },
+    {
+      "id": "book_06_传染病学_node_025",
+      "name": "发热",
+      "definition": "病原体或其产物（如内毒素）刺激机体产生致热原，导致体温调定点上移而引起的体温升高。",
+      "category": "临床表现",
+      "chapter": "传染病的发病机制",
+      "page": 12,
+      "textbook_id": "book_06_传染病学",
+      "textbook_name": "传染病学"
+    },
+    {
+      "id": "book_06_传染病学_node_026",
+      "name": "休克",
+      "definition": "严重感染时，病原体毒素或炎症介质导致有效循环血量锐减、微循环障碍和组织灌注不足的危急病理生理状态。",
+      "category": "病理变化",
+      "chapter": "传染病的发病机制",
+      "page": 12,
+      "textbook_id": "book_06_传染病学",
+      "textbook_name": "传染病学"
+    },
+    {
+      "id": "book_06_传染病学_node_027",
+      "name": "毒素作用",
+      "definition": "细菌等病原体释放的内毒素或外毒素，直接作用于靶细胞或诱导炎症介质释放，引起组织损伤和功能障碍。",
+      "category": "病理变化",
+      "chapter": "传染病的发病机制",
+      "page": 13,
+      "textbook_id": "book_06_传染病学",
+      "textbook_name": "传染病学"
+    },
+    {
+      "id": "book_06_传染病学_node_028",
+      "name": "传染病的流行过程",
+      "definition": "传染病在人群中发生、传播和终止的过程，包括传染源、传播途径和易感人群三个基本环节。",
+      "category": "核心概念",
+      "chapter": "第三节　传染病的流行过程及影响因素",
+      "page": 7,
+      "textbook_id": "book_06_传染病学",
+      "textbook_name": "传染病学"
+    },
+    {
+      "id": "book_06_传染病学_node_029",
+      "name": "传染源",
+      "definition": "体内有病原体生长、繁殖并能排出病原体的人和动物，包括患者、隐性感染者、病原携带者和受感染的动物。",
+      "category": "核心概念",
+      "chapter": "第三节　传染病的流行过程及影响因素",
+      "page": 7,
+      "textbook_id": "book_06_传染病学",
+      "textbook_name": "传染病学"
+    },
+    {
+      "id": "book_06_传染病学_node_030",
+      "name": "传播途径",
+      "definition": "病原体从传染源排出后，侵入新易感宿主前，在外界环境中所经历的途径，如空气、水、食物、接触、虫媒等。",
+      "category": "核心概念",
+      "chapter": "第三节　传染病的流行过程及影响因素",
+      "page": 7,
+      "textbook_id": "book_06_传染病学",
+      "textbook_name": "传染病学"
+    },
+    {
+      "id": "book_06_传染病学_node_031",
+      "name": "易感人群",
+      "definition": "对某种传染病缺乏特异性免疫力而容易感染的人群，其易感性受年龄、遗传、免疫状态等因素影响。",
+      "category": "核心概念",
+      "chapter": "第三节　传染病的流行过程及影响因素",
+      "page": 7,
+      "textbook_id": "book_06_传染病学",
+      "textbook_name": "传染病学"
+    },
+    {
+      "id": "book_06_传染病学_node_032",
+      "name": "流行过程的基本条件",
+      "definition": "传染病流行必须具备的三个基本环节：传染源、传播途径和易感人群，三者缺一不可。",
+      "category": "核心概念",
+      "chapter": "第三节　传染病的流行过程及影响因素",
+      "page": 7,
+      "textbook_id": "book_06_传染病学",
+      "textbook_name": "传染病学"
+    },
+    {
+      "id": "book_06_传染病学_node_033",
+      "name": "患者作为传染源",
+      "definition": "感染病原体后出现临床症状的个体，是重要的传染源，尤其在潜伏期和发病期排毒量高。",
+      "category": "病理变化",
+      "chapter": "第三节　传染病的流行过程及影响因素",
+      "page": 7,
+      "textbook_id": "book_06_传染病学",
+      "textbook_name": "传染病学"
+    },
+    {
+      "id": "book_06_传染病学_node_034",
+      "name": "隐性感染者",
+      "definition": "感染病原体后无明显临床症状但能排出病原体的个体，常成为难以控制的传染源。",
+      "category": "病理变化",
+      "chapter": "第三节　传染病的流行过程及影响因素",
+      "page": 7,
+      "textbook_id": "book_06_传染病学",
+      "textbook_name": "传染病学"
+    },
+    {
+      "id": "book_06_传染病学_node_035",
+      "name": "病原携带者",
+      "definition": "无临床症状但携带并排出病原体的个体，包括潜伏期携带者、恢复期携带者和健康携带者。",
+      "category": "病理变化",
+      "chapter": "第三节　传染病的流行过程及影响因素",
+      "page": 7,
+      "textbook_id": "book_06_传染病学",
+      "textbook_name": "传染病学"
+    },
+    {
+      "id": "book_06_传染病学_node_036",
+      "name": "空气传播",
+      "definition": "通过飞沫、飞沫核或尘埃传播病原体的方式，常见于呼吸道传染病如流感、麻疹。",
+      "category": "生理机制",
+      "chapter": "第三节　传染病的流行过程及影响因素",
+      "page": 7,
+      "textbook_id": "book_06_传染病学",
+      "textbook_name": "传染病学"
+    },
+    {
+      "id": "book_06_传染病学_node_037",
+      "name": "水与食物传播",
+      "definition": "通过被污染的水或食物传播病原体的方式，常见于肠道传染病如霍乱、伤寒。",
+      "category": "生理机制",
+      "chapter": "第三节　传染病的流行过程及影响因素",
+      "page": 7,
+      "textbook_id": "book_06_传染病学",
+      "textbook_name": "传染病学"
+    },
+    {
+      "id": "book_06_传染病学_node_038",
+      "name": "接触传播",
+      "definition": "通过直接或间接接触传播病原体的方式，包括性传播、皮肤接触传播等。",
+      "category": "生理机制",
+      "chapter": "第三节　传染病的流行过程及影响因素",
+      "page": 7,
+      "textbook_id": "book_06_传染病学",
+      "textbook_name": "传染病学"
+    },
+    {
+      "id": "book_06_传染病学_node_039",
+      "name": "虫媒传播",
+      "definition": "通过节肢动物（如蚊、蝇、蚤）叮咬或机械携带传播病原体的方式，如疟疾、登革热。",
+      "category": "生理机制",
+      "chapter": "第三节　传染病的流行过程及影响因素",
+      "page": 7,
+      "textbook_id": "book_06_传染病学",
+      "textbook_name": "传染病学"
+    },
+    {
+      "id": "book_06_传染病学_node_040",
+      "name": "影响流行过程的因素",
+      "definition": "影响传染病流行过程发生和发展的各种因素，包括自然因素和社会因素。",
+      "category": "核心概念",
+      "chapter": "第三节　传染病的流行过程及影响因素",
+      "page": 8,
+      "textbook_id": "book_06_传染病学",
+      "textbook_name": "传染病学"
+    },
+    {
+      "id": "book_06_传染病学_node_041",
+      "name": "自然因素",
+      "definition": "影响传染病流行的自然环境因素，如气候、地理、季节、温度、湿度等。",
+      "category": "核心概念",
+      "chapter": "第三节　传染病的流行过程及影响因素",
+      "page": 8,
+      "textbook_id": "book_06_传染病学",
+      "textbook_name": "传染病学"
+    },
+    {
+      "id": "book_06_传染病学_node_042",
+      "name": "社会因素",
+      "definition": "影响传染病流行的社会环境因素，如人口流动、卫生条件、医疗水平、生活习惯、经济状况等。",
+      "category": "核心概念",
+      "chapter": "第三节　传染病的流行过程及影响因素",
+      "page": 8,
+      "textbook_id": "book_06_传染病学",
+      "textbook_name": "传染病学"
+    },
+    {
+      "id": "book_06_传染病学_node_043",
+      "name": "传染病的基本特征",
+      "definition": "传染病区别于其他疾病的特有属性，包括病原体、传染性、流行病学特征和感染后免疫。",
+      "category": "核心概念",
+      "chapter": "第四节　传染病的特征",
+      "page": 9,
+      "textbook_id": "book_06_传染病学",
+      "textbook_name": "传染病学"
+    },
+    {
+      "id": "book_06_传染病学_node_044",
+      "name": "病原体",
+      "definition": "导致传染病的微生物或寄生虫，是传染病发生的必要因素。",
+      "category": "核心概念",
+      "chapter": "第四节　传染病的特征",
+      "page": 9,
+      "textbook_id": "book_06_传染病学",
+      "textbook_name": "传染病学"
+    },
+    {
+      "id": "book_06_传染病学_node_045",
+      "name": "传染性",
+      "definition": "病原体从一个宿主传播到另一个宿主的能力，是传染病的基本特征之一。",
+      "category": "核心概念",
+      "chapter": "第四节　传染病的特征",
+      "page": 9,
+      "textbook_id": "book_06_传染病学",
+      "textbook_name": "传染病学"
+    },
+    {
+      "id": "book_06_传染病学_node_046",
+      "name": "流行病学特征",
+      "definition": "传染病在人群中发生、传播和分布的规律，包括流行性、季节性、地方性等。",
+      "category": "核心概念",
+      "chapter": "第四节　传染病的特征",
+      "page": 9,
+      "textbook_id": "book_06_传染病学",
+      "textbook_name": "传染病学"
+    },
+    {
+      "id": "book_06_传染病学_node_047",
+      "name": "感染后免疫",
+      "definition": "人体感染病原体后产生的特异性免疫力，可防止同种病原体的再次感染。",
+      "category": "生理机制",
+      "chapter": "第四节　传染病的特征",
+      "page": 9,
+      "textbook_id": "book_06_传染病学",
+      "textbook_name": "传染病学"
+    },
+    {
+      "id": "book_06_传染病学_node_048",
+      "name": "流行性",
+      "definition": "传染病在特定时间和地区内发病率显著高于常态的现象，是流行病学特征之一。",
+      "category": "临床表现",
+      "chapter": "第四节　传染病的特征",
+      "page": 9,
+      "textbook_id": "book_06_传染病学",
+      "textbook_name": "传染病学"
+    },
+    {
+      "id": "book_06_传染病学_node_049",
+      "name": "季节性",
+      "definition": "某些传染病在特定季节发病率升高的现象，与气候、媒介生物活动等因素相关。",
+      "category": "临床表现",
+      "chapter": "第四节　传染病的特征",
+      "page": 9,
+      "textbook_id": "book_06_传染病学",
+      "textbook_name": "传染病学"
+    },
+    {
+      "id": "book_06_传染病学_node_050",
+      "name": "地方性",
+      "definition": "某些传染病局限于特定地理区域的现象，与当地自然和社会条件有关。",
+      "category": "临床表现",
+      "chapter": "第四节　传染病的特征",
+      "page": 9,
+      "textbook_id": "book_06_传染病学",
+      "textbook_name": "传染病学"
+    },
+    {
+      "id": "book_06_传染病学_node_051",
+      "name": "传染病的临床特点",
+      "definition": "传染病在发生、发展和转归过程中表现出的临床规律，包括病程阶段性、发热、皮疹等。",
+      "category": "核心概念",
+      "chapter": "第四节　传染病的特征",
+      "page": 10,
+      "textbook_id": "book_06_传染病学",
+      "textbook_name": "传染病学"
+    },
+    {
+      "id": "book_06_传染病学_node_052",
+      "name": "病程阶段性",
+      "definition": "传染病按时间顺序分为潜伏期、前驱期、症状明显期和恢复期等阶段。",
+      "category": "临床表现",
+      "chapter": "第四节　传染病的特征",
+      "page": 10,
+      "textbook_id": "book_06_传染病学",
+      "textbook_name": "传染病学"
+    },
+    {
+      "id": "book_06_传染病学_node_053",
+      "name": "潜伏期",
+      "definition": "从病原体侵入人体到出现临床症状的时期，是传染病早期诊断和检疫的重要依据。",
+      "category": "临床表现",
+      "chapter": "第四节　传染病的特征",
+      "page": 10,
+      "textbook_id": "book_06_传染病学",
+      "textbook_name": "传染病学"
+    },
+    {
+      "id": "book_06_传染病学_node_054",
+      "name": "前驱期",
+      "definition": "从出现非特异性症状（如发热、乏力）到典型症状出现前的时期。",
+      "category": "临床表现",
+      "chapter": "第四节　传染病的特征",
+      "page": 10,
+      "textbook_id": "book_06_传染病学",
+      "textbook_name": "传染病学"
+    },
+    {
+      "id": "book_06_传染病学_node_055",
+      "name": "症状明显期",
+      "definition": "传染病典型症状和体征充分表现的时期，是诊断和治疗的关键阶段。",
+      "category": "临床表现",
+      "chapter": "第四节　传染病的特征",
+      "page": 10,
+      "textbook_id": "book_06_传染病学",
+      "textbook_name": "传染病学"
+    },
+    {
+      "id": "book_06_传染病学_node_056",
+      "name": "恢复期",
+      "definition": "症状逐渐消退、生理功能恢复的时期，部分患者可能遗留后遗症。",
+      "category": "临床表现",
+      "chapter": "第四节　传染病的特征",
+      "page": 10,
+      "textbook_id": "book_06_传染病学",
+      "textbook_name": "传染病学"
+    },
+    {
+      "id": "book_06_传染病学_node_057",
+      "name": "发热",
+      "definition": "传染病最常见的全身症状，可表现为稽留热、弛张热、间歇热等热型。",
+      "category": "临床表现",
+      "chapter": "第四节　传染病的特征",
+      "page": 10,
+      "textbook_id": "book_06_传染病学",
+      "textbook_name": "传染病学"
+    },
+    {
+      "id": "book_06_传染病学_node_058",
+      "name": "皮疹",
+      "definition": "传染病常见的皮肤表现，包括斑疹、丘疹、疱疹等，对诊断有重要价值。",
+      "category": "临床表现",
+      "chapter": "第四节　传染病的特征",
+      "page": 10,
+      "textbook_id": "book_06_传染病学",
+      "textbook_name": "传染病学"
+    },
+    {
+      "id": "book_06_传染病学_node_059",
+      "name": "毒血症状",
+      "definition": "病原体毒素引起的全身性中毒表现，如头痛、肌肉酸痛、意识障碍等。",
+      "category": "临床表现",
+      "chapter": "第四节　传染病的特征",
+      "page": 10,
+      "textbook_id": "book_06_传染病学",
+      "textbook_name": "传染病学"
+    },
+    {
+      "id": "book_06_传染病学_node_060",
+      "name": "传染病的诊断",
+      "definition": "综合临床、流行病学及实验室资料对传染病进行判断和确认的过程。",
+      "category": "核心概念",
+      "chapter": "第五节 传染病的诊断",
+      "page": 12,
+      "textbook_id": "book_06_传染病学",
+      "textbook_name": "传染病学"
+    },
+    {
+      "id": "book_06_传染病学_node_061",
+      "name": "临床资料",
+      "definition": "通过问诊、体格检查获得的患者症状、体征等临床表现信息。",
+      "category": "核心概念",
+      "chapter": "第五节 传染病的诊断",
+      "page": 12,
+      "textbook_id": "book_06_传染病学",
+      "textbook_name": "传染病学"
+    },
+    {
+      "id": "book_06_传染病学_node_062",
+      "name": "流行病学资料",
+      "definition": "包括患者的接触史、旅行史、疫苗接种史、发病季节、地区流行情况等信息。",
+      "category": "核心概念",
+      "chapter": "第五节 传染病的诊断",
+      "page": 12,
+      "textbook_id": "book_06_传染病学",
+      "textbook_name": "传染病学"
+    },
+    {
+      "id": "book_06_传染病学_node_063",
+      "name": "实验室及其他检查资料",
+      "definition": "通过病原学、血清学、分子生物学及影像学等检查获得的客观证据。",
+      "category": "核心概念",
+      "chapter": "第五节 传染病的诊断",
+      "page": 12,
+      "textbook_id": "book_06_传染病学",
+      "textbook_name": "传染病学"
+    },
+    {
+      "id": "book_06_传染病学_node_064",
+      "name": "问诊",
+      "definition": "医生通过与患者或家属交谈获取病史和症状信息的方法。",
+      "category": "临床表现",
+      "chapter": "第五节 传染病的诊断",
+      "page": 12,
+      "textbook_id": "book_06_传染病学",
+      "textbook_name": "传染病学"
+    },
+    {
+      "id": "book_06_传染病学_node_065",
+      "name": "体格检查",
+      "definition": "医生通过视、触、叩、听等物理方法检查患者身体，发现体征。",
+      "category": "临床表现",
+      "chapter": "第五节 传染病的诊断",
+      "page": 12,
+      "textbook_id": "book_06_传染病学",
+      "textbook_name": "传染病学"
+    },
+    {
+      "id": "book_06_传染病学_node_066",
+      "name": "症状",
+      "definition": "患者主观感受到的不适或异常，如发热、头痛、乏力等。",
+      "category": "临床表现",
+      "chapter": "第五节 传染病的诊断",
+      "page": 12,
+      "textbook_id": "book_06_传染病学",
+      "textbook_name": "传染病学"
+    },
+    {
+      "id": "book_06_传染病学_node_067",
+      "name": "体征",
+      "definition": "医生通过检查发现的客观异常表现，如皮疹、肝脾肿大、淋巴结肿大等。",
+      "category": "临床表现",
+      "chapter": "第五节 传染病的诊断",
+      "page": 12,
+      "textbook_id": "book_06_传染病学",
+      "textbook_name": "传染病学"
+    },
+    {
+      "id": "book_06_传染病学_node_068",
+      "name": "接触史",
+      "definition": "患者与传染源（患者、动物、污染物）接触的历史。",
+      "category": "流行病学资料",
+      "chapter": "第五节 传染病的诊断",
+      "page": 12,
+      "textbook_id": "book_06_传染病学",
+      "textbook_name": "传染病学"
+    },
+    {
+      "id": "book_06_传染病学_node_069",
+      "name": "旅行史",
+      "definition": "患者近期到过传染病流行地区或疫区的历史。",
+      "category": "流行病学资料",
+      "chapter": "第五节 传染病的诊断",
+      "page": 12,
+      "textbook_id": "book_06_传染病学",
+      "textbook_name": "传染病学"
+    },
+    {
+      "id": "book_06_传染病学_node_070",
+      "name": "疫苗接种史",
+      "definition": "患者既往接种相关疫苗的情况，用于评估免疫状态。",
+      "category": "流行病学资料",
+      "chapter": "第五节 传染病的诊断",
+      "page": 12,
+      "textbook_id": "book_06_传染病学",
+      "textbook_name": "传染病学"
+    },
+    {
+      "id": "book_06_传染病学_node_071",
+      "name": "病原学检查",
+      "definition": "直接检测病原体（如细菌、病毒、寄生虫）的方法，包括涂片、培养等。",
+      "category": "实验室及其他检查资料",
+      "chapter": "第五节 传染病的诊断",
+      "page": 12,
+      "textbook_id": "book_06_传染病学",
+      "textbook_name": "传染病学"
+    },
+    {
+      "id": "book_06_传染病学_node_072",
+      "name": "血清学检查",
+      "definition": "检测患者血清中特异性抗体或抗原的方法，用于诊断感染。",
+      "category": "实验室及其他检查资料",
+      "chapter": "第五节 传染病的诊断",
+      "page": 12,
+      "textbook_id": "book_06_传染病学",
+      "textbook_name": "传染病学"
+    },
+    {
+      "id": "book_06_传染病学_node_073",
+      "name": "分子生物学检查",
+      "definition": "利用PCR等分子技术检测病原体核酸的方法，具有高灵敏度和特异性。",
+      "category": "实验室及其他检查资料",
+      "chapter": "第五节 传染病的诊断",
+      "page": 12,
+      "textbook_id": "book_06_传染病学",
+      "textbook_name": "传染病学"
+    },
+    {
+      "id": "book_06_传染病学_node_074",
+      "name": "影像学检查",
+      "definition": "使用X线、CT、超声等影像技术辅助诊断传染病相关病变。",
+      "category": "实验室及其他检查资料",
+      "chapter": "第五节 传染病的诊断",
+      "page": 12,
+      "textbook_id": "book_06_传染病学",
+      "textbook_name": "传染病学"
+    }
+  ],
+  "relations": [
+    {
+      "source": "book_06_传染病学_node_001",
+      "target": "book_06_传染病学_node_002",
+      "relation_type": "contains",
+      "description": "感染的概念是理解感染过程表现的基础，感染过程的表现是感染的具体化结果。"
+    },
+    {
+      "source": "book_06_传染病学_node_001",
+      "target": "book_06_传染病学_node_003",
+      "relation_type": "contains",
+      "description": "感染过程的核心要素包括病原体，感染是病原体与宿主相互作用的过程。"
+    },
+    {
+      "source": "book_06_传染病学_node_001",
+      "target": "book_06_传染病学_node_004",
+      "relation_type": "contains",
+      "description": "感染过程的核心要素包括免疫应答，感染是病原体与宿主免疫系统相互作用的过程。"
+    },
+    {
+      "source": "book_06_传染病学_node_002",
+      "target": "book_06_传染病学_node_005",
+      "relation_type": "contains",
+      "description": "隐性感染是感染过程表现的一种类型。"
+    },
+    {
+      "source": "book_06_传染病学_node_002",
+      "target": "book_06_传染病学_node_006",
+      "relation_type": "contains",
+      "description": "显性感染是感染过程表现的一种类型。"
+    },
+    {
+      "source": "book_06_传染病学_node_002",
+      "target": "book_06_传染病学_node_007",
+      "relation_type": "contains",
+      "description": "病原携带状态是感染过程表现的一种类型。"
+    },
+    {
+      "source": "book_06_传染病学_node_002",
+      "target": "book_06_传染病学_node_008",
+      "relation_type": "contains",
+      "description": "潜伏性感染是感染过程表现的一种类型。"
+    },
+    {
+      "source": "book_06_传染病学_node_005",
+      "target": "book_06_传染病学_node_006",
+      "relation_type": "parallel",
+      "description": "隐性感染和显性感染是感染过程表现的两种不同结果，互为对立面。"
+    },
+    {
+      "source": "book_06_传染病学_node_007",
+      "target": "book_06_传染病学_node_008",
+      "relation_type": "parallel",
+      "description": "病原携带状态和潜伏性感染都是病原体持续存在但无临床症状的状态，但机制不同。"
+    },
+    {
+      "source": "book_06_传染病学_node_003",
+      "target": "book_06_传染病学_node_009",
+      "relation_type": "contains",
+      "description": "病原体是致病作用的主体，致病作用是病原体对宿主的作用。"
+    },
+    {
+      "source": "book_06_传染病学_node_009",
+      "target": "book_06_传染病学_node_010",
+      "relation_type": "contains",
+      "description": "毒力是病原体致病作用的重要组成部分。"
+    },
+    {
+      "source": "book_06_传染病学_node_009",
+      "target": "book_06_传染病学_node_011",
+      "relation_type": "contains",
+      "description": "侵袭力是病原体致病作用的重要组成部分。"
+    },
+    {
+      "source": "book_06_传染病学_node_010",
+      "target": "book_06_传染病学_node_011",
+      "relation_type": "parallel",
+      "description": "毒力和侵袭力是病原体致病作用的两个并列关键因素。"
+    },
+    {
+      "source": "book_06_传染病学_node_004",
+      "target": "book_06_传染病学_node_012",
+      "relation_type": "contains",
+      "description": "免疫应答包括非特异性免疫和特异性免疫。"
+    },
+    {
+      "source": "book_06_传染病学_node_004",
+      "target": "book_06_传染病学_node_013",
+      "relation_type": "contains",
+      "description": "免疫应答包括非特异性免疫和特异性免疫。"
+    },
+    {
+      "source": "book_06_传染病学_node_012",
+      "target": "book_06_传染病学_node_013",
+      "relation_type": "parallel",
+      "description": "非特异性免疫和特异性免疫是免疫应答的两大类型，共同构成防御体系。"
+    },
+    {
+      "source": "book_06_传染病学_node_013",
+      "target": "book_06_传染病学_node_014",
+      "relation_type": "contains",
+      "description": "特异性免疫包括细胞免疫和体液免疫。"
+    },
+    {
+      "source": "book_06_传染病学_node_013",
+      "target": "book_06_传染病学_node_015",
+      "relation_type": "contains",
+      "description": "特异性免疫包括细胞免疫和体液免疫。"
+    },
+    {
+      "source": "book_06_传染病学_node_014",
+      "target": "book_06_传染病学_node_015",
+      "relation_type": "parallel",
+      "description": "细胞免疫和体液免疫是特异性免疫的两种并列方式。"
+    },
+    {
+      "source": "book_06_传染病学_node_009",
+      "target": "book_06_传染病学_node_004",
+      "relation_type": "applies_to",
+      "description": "病原体的致病作用与免疫应答相互作用，决定感染过程的表现。"
+    },
+    {
+      "source": "book_06_传染病学_node_016",
+      "target": "book_06_传染病学_node_019",
+      "relation_type": "contains",
+      "description": "传染病的发生与发展过程起始于病原体入侵"
+    },
+    {
+      "source": "book_06_传染病学_node_016",
+      "target": "book_06_传染病学_node_020",
+      "relation_type": "contains",
+      "description": "传染病的发生与发展包括病原体定位与繁殖阶段"
+    },
+    {
+      "source": "book_06_传染病学_node_016",
+      "target": "book_06_传染病学_node_021",
+      "relation_type": "contains",
+      "description": "传染病的发生与发展包括病原体扩散阶段"
+    },
+    {
+      "source": "book_06_传染病学_node_017",
+      "target": "book_06_传染病学_node_022",
+      "relation_type": "contains",
+      "description": "组织损伤的发生机制包括直接损伤这一途径"
+    },
+    {
+      "source": "book_06_传染病学_node_017",
+      "target": "book_06_传染病学_node_023",
+      "relation_type": "contains",
+      "description": "组织损伤的发生机制包括免疫病理损伤这一途径"
+    },
+    {
+      "source": "book_06_传染病学_node_017",
+      "target": "book_06_传染病学_node_027",
+      "relation_type": "contains",
+      "description": "组织损伤的发生机制包括毒素作用这一途径"
+    },
+    {
+      "source": "book_06_传染病学_node_018",
+      "target": "book_06_传染病学_node_024",
+      "relation_type": "contains",
+      "description": "重要的病理生理变化包括炎症反应"
+    },
+    {
+      "source": "book_06_传染病学_node_018",
+      "target": "book_06_传染病学_node_025",
+      "relation_type": "contains",
+      "description": "重要的病理生理变化包括发热"
+    },
+    {
+      "source": "book_06_传染病学_node_018",
+      "target": "book_06_传染病学_node_026",
+      "relation_type": "contains",
+      "description": "重要的病理生理变化包括休克"
+    },
+    {
+      "source": "book_06_传染病学_node_019",
+      "target": "book_06_传染病学_node_020",
+      "relation_type": "prerequisite",
+      "description": "病原体必须先入侵宿主，才能进行定位与繁殖"
+    },
+    {
+      "source": "book_06_传染病学_node_020",
+      "target": "book_06_传染病学_node_021",
+      "relation_type": "prerequisite",
+      "description": "病原体在局部繁殖后，才可能向全身扩散"
+    },
+    {
+      "source": "book_06_传染病学_node_016",
+      "target": "book_06_传染病学_node_017",
+      "relation_type": "applies_to",
+      "description": "传染病的发生与发展过程必然导致组织损伤的发生"
+    },
+    {
+      "source": "book_06_传染病学_node_016",
+      "target": "book_06_传染病学_node_018",
+      "relation_type": "applies_to",
+      "description": "传染病的发生与发展过程会引发重要的病理生理变化"
+    },
+    {
+      "source": "book_06_传染病学_node_022",
+      "target": "book_06_传染病学_node_023",
+      "relation_type": "parallel",
+      "description": "直接损伤和免疫病理损伤是组织损伤的两种并列机制"
+    },
+    {
+      "source": "book_06_传染病学_node_024",
+      "target": "book_06_传染病学_node_025",
+      "relation_type": "parallel",
+      "description": "炎症反应和发热是传染病中常见的并列病理生理变化"
+    },
+    {
+      "source": "book_06_传染病学_node_025",
+      "target": "book_06_传染病学_node_026",
+      "relation_type": "parallel",
+      "description": "发热和休克是传染病不同严重程度的病理生理表现"
+    },
+    {
+      "source": "book_06_传染病学_node_028",
+      "target": "book_06_传染病学_node_032",
+      "relation_type": "contains",
+      "description": "传染病的流行过程包含流行过程的基本条件这一核心概念"
+    },
+    {
+      "source": "book_06_传染病学_node_032",
+      "target": "book_06_传染病学_node_029",
+      "relation_type": "contains",
+      "description": "流行过程的基本条件包含传染源这一基本环节"
+    },
+    {
+      "source": "book_06_传染病学_node_032",
+      "target": "book_06_传染病学_node_030",
+      "relation_type": "contains",
+      "description": "流行过程的基本条件包含传播途径这一基本环节"
+    },
+    {
+      "source": "book_06_传染病学_node_032",
+      "target": "book_06_传染病学_node_031",
+      "relation_type": "contains",
+      "description": "流行过程的基本条件包含易感人群这一基本环节"
+    },
+    {
+      "source": "book_06_传染病学_node_029",
+      "target": "book_06_传染病学_node_033",
+      "relation_type": "contains",
+      "description": "传染源包括患者作为传染源这一类型"
+    },
+    {
+      "source": "book_06_传染病学_node_029",
+      "target": "book_06_传染病学_node_034",
+      "relation_type": "contains",
+      "description": "传染源包括隐性感染者这一类型"
+    },
+    {
+      "source": "book_06_传染病学_node_029",
+      "target": "book_06_传染病学_node_035",
+      "relation_type": "contains",
+      "description": "传染源包括病原携带者这一类型"
+    },
+    {
+      "source": "book_06_传染病学_node_030",
+      "target": "book_06_传染病学_node_036",
+      "relation_type": "contains",
+      "description": "传播途径包括空气传播这一方式"
+    },
+    {
+      "source": "book_06_传染病学_node_030",
+      "target": "book_06_传染病学_node_037",
+      "relation_type": "contains",
+      "description": "传播途径包括水与食物传播这一方式"
+    },
+    {
+      "source": "book_06_传染病学_node_030",
+      "target": "book_06_传染病学_node_038",
+      "relation_type": "contains",
+      "description": "传播途径包括接触传播这一方式"
+    },
+    {
+      "source": "book_06_传染病学_node_030",
+      "target": "book_06_传染病学_node_039",
+      "relation_type": "contains",
+      "description": "传播途径包括虫媒传播这一方式"
+    },
+    {
+      "source": "book_06_传染病学_node_028",
+      "target": "book_06_传染病学_node_040",
+      "relation_type": "parallel",
+      "description": "传染病的流行过程与影响流行过程的因素为并列关系，共同构成传染病流行学内容"
+    },
+    {
+      "source": "book_06_传染病学_node_040",
+      "target": "book_06_传染病学_node_041",
+      "relation_type": "contains",
+      "description": "影响流行过程的因素包括自然因素"
+    },
+    {
+      "source": "book_06_传染病学_node_040",
+      "target": "book_06_传染病学_node_042",
+      "relation_type": "contains",
+      "description": "影响流行过程的因素包括社会因素"
+    },
+    {
+      "source": "book_06_传染病学_node_041",
+      "target": "book_06_传染病学_node_036",
+      "relation_type": "applies_to",
+      "description": "自然因素如气候、季节可影响空气传播的效率"
+    },
+    {
+      "source": "book_06_传染病学_node_042",
+      "target": "book_06_传染病学_node_037",
+      "relation_type": "applies_to",
+      "description": "社会因素如卫生条件、人口流动可影响水与食物传播的流行"
+    },
+    {
+      "source": "book_06_传染病学_node_029",
+      "target": "book_06_传染病学_node_030",
+      "relation_type": "prerequisite",
+      "description": "理解传染源是掌握传播途径的前提，因为传播途径依赖于传染源排出的病原体"
+    },
+    {
+      "source": "book_06_传染病学_node_030",
+      "target": "book_06_传染病学_node_031",
+      "relation_type": "prerequisite",
+      "description": "理解传播途径是分析易感人群感染风险的前提"
+    },
+    {
+      "source": "book_06_传染病学_node_043",
+      "target": "book_06_传染病学_node_044",
+      "relation_type": "contains",
+      "description": "病原体是传染病基本特征的核心要素之一"
+    },
+    {
+      "source": "book_06_传染病学_node_043",
+      "target": "book_06_传染病学_node_045",
+      "relation_type": "contains",
+      "description": "传染性是传染病基本特征的重要组成部分"
+    },
+    {
+      "source": "book_06_传染病学_node_043",
+      "target": "book_06_传染病学_node_046",
+      "relation_type": "contains",
+      "description": "流行病学特征是传染病基本特征之一"
+    },
+    {
+      "source": "book_06_传染病学_node_043",
+      "target": "book_06_传染病学_node_047",
+      "relation_type": "contains",
+      "description": "感染后免疫是传染病基本特征之一"
+    },
+    {
+      "source": "book_06_传染病学_node_046",
+      "target": "book_06_传染病学_node_048",
+      "relation_type": "contains",
+      "description": "流行性是流行病学特征的具体表现"
+    },
+    {
+      "source": "book_06_传染病学_node_046",
+      "target": "book_06_传染病学_node_049",
+      "relation_type": "contains",
+      "description": "季节性是流行病学特征的具体表现"
+    },
+    {
+      "source": "book_06_传染病学_node_046",
+      "target": "book_06_传染病学_node_050",
+      "relation_type": "contains",
+      "description": "地方性是流行病学特征的具体表现"
+    },
+    {
+      "source": "book_06_传染病学_node_051",
+      "target": "book_06_传染病学_node_052",
+      "relation_type": "contains",
+      "description": "病程阶段性是传染病临床特点的核心内容"
+    },
+    {
+      "source": "book_06_传染病学_node_052",
+      "target": "book_06_传染病学_node_053",
+      "relation_type": "contains",
+      "description": "潜伏期是病程阶段性的第一个阶段"
+    },
+    {
+      "source": "book_06_传染病学_node_052",
+      "target": "book_06_传染病学_node_054",
+      "relation_type": "contains",
+      "description": "前驱期是病程阶段性的第二个阶段"
+    },
+    {
+      "source": "book_06_传染病学_node_052",
+      "target": "book_06_传染病学_node_055",
+      "relation_type": "contains",
+      "description": "症状明显期是病程阶段性的第三个阶段"
+    },
+    {
+      "source": "book_06_传染病学_node_052",
+      "target": "book_06_传染病学_node_056",
+      "relation_type": "contains",
+      "description": "恢复期是病程阶段性的最后一个阶段"
+    },
+    {
+      "source": "book_06_传染病学_node_051",
+      "target": "book_06_传染病学_node_057",
+      "relation_type": "contains",
+      "description": "发热是传染病临床特点的重要表现"
+    },
+    {
+      "source": "book_06_传染病学_node_051",
+      "target": "book_06_传染病学_node_058",
+      "relation_type": "contains",
+      "description": "皮疹是传染病临床特点的重要表现"
+    },
+    {
+      "source": "book_06_传染病学_node_051",
+      "target": "book_06_传染病学_node_059",
+      "relation_type": "contains",
+      "description": "毒血症状是传染病临床特点的重要表现"
+    },
+    {
+      "source": "book_06_传染病学_node_043",
+      "target": "book_06_传染病学_node_051",
+      "relation_type": "parallel",
+      "description": "基本特征和临床特点是传染病特征的两个平行方面"
+    },
+    {
+      "source": "book_06_传染病学_node_053",
+      "target": "book_06_传染病学_node_054",
+      "relation_type": "prerequisite",
+      "description": "潜伏期结束后才进入前驱期"
+    },
+    {
+      "source": "book_06_传染病学_node_054",
+      "target": "book_06_传染病学_node_055",
+      "relation_type": "prerequisite",
+      "description": "前驱期结束后才进入症状明显期"
+    },
+    {
+      "source": "book_06_传染病学_node_055",
+      "target": "book_06_传染病学_node_056",
+      "relation_type": "prerequisite",
+      "description": "症状明显期结束后才进入恢复期"
+    },
+    {
+      "source": "book_06_传染病学_node_044",
+      "target": "book_06_传染病学_node_045",
+      "relation_type": "prerequisite",
+      "description": "病原体的存在是传染性产生的前提"
+    },
+    {
+      "source": "book_06_传染病学_node_045",
+      "target": "book_06_传染病学_node_046",
+      "relation_type": "prerequisite",
+      "description": "传染性是形成流行病学特征的基础"
+    },
+    {
+      "source": "book_06_传染病学_node_047",
+      "target": "book_06_传染病学_node_056",
+      "relation_type": "applies_to",
+      "description": "感染后免疫在恢复期逐渐形成并发挥作用"
+    },
+    {
+      "source": "book_06_传染病学_node_060",
+      "target": "book_06_传染病学_node_061",
+      "relation_type": "contains",
+      "description": "传染病的诊断包含临床资料这一组成部分"
+    },
+    {
+      "source": "book_06_传染病学_node_060",
+      "target": "book_06_传染病学_node_062",
+      "relation_type": "contains",
+      "description": "传染病的诊断包含流行病学资料这一组成部分"
+    },
+    {
+      "source": "book_06_传染病学_node_060",
+      "target": "book_06_传染病学_node_063",
+      "relation_type": "contains",
+      "description": "传染病的诊断包含实验室及其他检查资料这一组成部分"
+    },
+    {
+      "source": "book_06_传染病学_node_061",
+      "target": "book_06_传染病学_node_064",
+      "relation_type": "contains",
+      "description": "临床资料的获取包含问诊方法"
+    },
+    {
+      "source": "book_06_传染病学_node_061",
+      "target": "book_06_传染病学_node_065",
+      "relation_type": "contains",
+      "description": "临床资料的获取包含体格检查方法"
+    },
+    {
+      "source": "book_06_传染病学_node_061",
+      "target": "book_06_传染病学_node_066",
+      "relation_type": "contains",
+      "description": "临床资料包含症状信息"
+    },
+    {
+      "source": "book_06_传染病学_node_061",
+      "target": "book_06_传染病学_node_067",
+      "relation_type": "contains",
+      "description": "临床资料包含体征信息"
+    },
+    {
+      "source": "book_06_传染病学_node_062",
+      "target": "book_06_传染病学_node_068",
+      "relation_type": "contains",
+      "description": "流行病学资料包含接触史"
+    },
+    {
+      "source": "book_06_传染病学_node_062",
+      "target": "book_06_传染病学_node_069",
+      "relation_type": "contains",
+      "description": "流行病学资料包含旅行史"
+    },
+    {
+      "source": "book_06_传染病学_node_062",
+      "target": "book_06_传染病学_node_070",
+      "relation_type": "contains",
+      "description": "流行病学资料包含疫苗接种史"
+    },
+    {
+      "source": "book_06_传染病学_node_063",
+      "target": "book_06_传染病学_node_071",
+      "relation_type": "contains",
+      "description": "实验室及其他检查资料包含病原学检查"
+    },
+    {
+      "source": "book_06_传染病学_node_063",
+      "target": "book_06_传染病学_node_072",
+      "relation_type": "contains",
+      "description": "实验室及其他检查资料包含血清学检查"
+    },
+    {
+      "source": "book_06_传染病学_node_063",
+      "target": "book_06_传染病学_node_073",
+      "relation_type": "contains",
+      "description": "实验室及其他检查资料包含分子生物学检查"
+    },
+    {
+      "source": "book_06_传染病学_node_063",
+      "target": "book_06_传染病学_node_074",
+      "relation_type": "contains",
+      "description": "实验室及其他检查资料包含影像学检查"
+    },
+    {
+      "source": "book_06_传染病学_node_061",
+      "target": "book_06_传染病学_node_062",
+      "relation_type": "parallel",
+      "description": "临床资料和流行病学资料是传染病诊断中并列的两类重要信息来源"
+    },
+    {
+      "source": "book_06_传染病学_node_061",
+      "target": "book_06_传染病学_node_063",
+      "relation_type": "parallel",
+      "description": "临床资料和实验室检查资料是传染病诊断中并列的两类重要信息来源"
+    },
+    {
+      "source": "book_06_传染病学_node_062",
+      "target": "book_06_传染病学_node_063",
+      "relation_type": "parallel",
+      "description": "流行病学资料和实验室检查资料是传染病诊断中并列的两类重要信息来源"
+    },
+    {
+      "source": "book_06_传染病学_node_064",
+      "target": "book_06_传染病学_node_065",
+      "relation_type": "parallel",
+      "description": "问诊和体格检查是获取临床资料的两种并列方法"
+    },
+    {
+      "source": "book_06_传染病学_node_066",
+      "target": "book_06_传染病学_node_067",
+      "relation_type": "parallel",
+      "description": "症状和体征是临床资料中并列的两个方面"
+    },
+    {
+      "source": "book_06_传染病学_node_068",
+      "target": "book_06_传染病学_node_069",
+      "relation_type": "parallel",
+      "description": "接触史和旅行史是流行病学资料中并列的两个重要项目"
+    },
+    {
+      "source": "book_06_传染病学_node_071",
+      "target": "book_06_传染病学_node_072",
+      "relation_type": "parallel",
+      "description": "病原学检查和血清学检查是实验室检查中并列的两种方法"
+    },
+    {
+      "source": "book_06_传染病学_node_073",
+      "target": "book_06_传染病学_node_074",
+      "relation_type": "parallel",
+      "description": "分子生物学检查和影像学检查是实验室及其他检查中并列的两种方法"
+    },
+    {
+      "source": "book_06_传染病学_node_062",
+      "target": "book_06_传染病学_node_060",
+      "relation_type": "prerequisite",
+      "description": "掌握流行病学资料是进行传染病诊断的前提之一"
+    },
+    {
+      "source": "book_06_传染病学_node_061",
+      "target": "book_06_传染病学_node_060",
+      "relation_type": "prerequisite",
+      "description": "掌握临床资料是进行传染病诊断的前提之一"
+    },
+    {
+      "source": "book_06_传染病学_node_063",
+      "target": "book_06_传染病学_node_060",
+      "relation_type": "prerequisite",
+      "description": "掌握实验室及其他检查资料是进行传染病诊断的前提之一"
+    },
+    {
+      "source": "book_06_传染病学_node_064",
+      "target": "book_06_传染病学_node_061",
+      "relation_type": "prerequisite",
+      "description": "掌握问诊方法是获取临床资料的前提"
+    },
+    {
+      "source": "book_06_传染病学_node_065",
+      "target": "book_06_传染病学_node_061",
+      "relation_type": "prerequisite",
+      "description": "掌握体格检查方法是获取临床资料的前提"
+    },
+    {
+      "source": "book_06_传染病学_node_068",
+      "target": "book_06_传染病学_node_062",
+      "relation_type": "prerequisite",
+      "description": "了解接触史是获取流行病学资料的前提"
+    },
+    {
+      "source": "book_06_传染病学_node_069",
+      "target": "book_06_传染病学_node_062",
+      "relation_type": "prerequisite",
+      "description": "了解旅行史是获取流行病学资料的前提"
+    },
+    {
+      "source": "book_06_传染病学_node_070",
+      "target": "book_06_传染病学_node_062",
+      "relation_type": "prerequisite",
+      "description": "了解疫苗接种史是获取流行病学资料的前提"
+    },
+    {
+      "source": "book_06_传染病学_node_071",
+      "target": "book_06_传染病学_node_063",
+      "relation_type": "prerequisite",
+      "description": "进行病原学检查是获取实验室检查资料的前提"
+    },
+    {
+      "source": "book_06_传染病学_node_072",
+      "target": "book_06_传染病学_node_063",
+      "relation_type": "prerequisite",
+      "description": "进行血清学检查是获取实验室检查资料的前提"
+    },
+    {
+      "source": "book_06_传染病学_node_073",
+      "target": "book_06_传染病学_node_063",
+      "relation_type": "prerequisite",
+      "description": "进行分子生物学检查是获取实验室检查资料的前提"
+    },
+    {
+      "source": "book_06_传染病学_node_074",
+      "target": "book_06_传染病学_node_063",
+      "relation_type": "prerequisite",
+      "description": "进行影像学检查是获取其他检查资料的前提"
+    },
+    {
+      "source": "book_06_传染病学_node_061",
+      "target": "book_06_传染病学_node_063",
+      "relation_type": "applies_to",
+      "description": "临床资料为选择实验室检查项目提供依据"
+    },
+    {
+      "source": "book_06_传染病学_node_062",
+      "target": "book_06_传染病学_node_063",
+      "relation_type": "applies_to",
+      "description": "流行病学资料为实验室检查的方向提供指导"
+    }
+  ],
+  "stats": {
+    "total_nodes": 74,
+    "total_relations": 112,
+    "chapters_processed": 5
+  }
+}

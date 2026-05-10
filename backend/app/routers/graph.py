@@ -5,7 +5,7 @@ from app.services.knowledge_extractor import extract_textbook_knowledge, get_tex
 router = APIRouter()
 
 @router.post("/build/{textbook_id}")
-async def build_graph(textbook_id: str, max_chapters: int = 5):
+async def build_graph(textbook_id: str, max_chapters: int = 50):
     textbook = get_parsed_textbook(textbook_id)
     if not textbook:
         return {"error": "未找到教材，请先上传"}

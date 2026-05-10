@@ -1,5 +1,6 @@
 import json
 import numpy as np
+import jieba
 from pathlib import Path
 from rank_bm25 import BM25Okapi
 from app.services.llm_service import call_deepseek
@@ -61,10 +62,6 @@ async def build_index(textbooks: list[dict]) -> dict:
     for tb in new_textbooks:
         new_chunks.extend(chunk_textbook(tb))
 
-    # Limit per build to avoid timeout
-    if len(new_chunks) > 500:
-        new_chunks = new_chunks[:500]
-
     if not new_chunks:
         return {"status": "no_chunks", "count": len(chunks_data), "new": 0}
 
@@ -72,15 +69,17 @@ async def build_index(textbooks: list[dict]) -> dict:
     texts = [c["content"] for c in new_chunks]
     new_embeddings = []
 
+    valid_chunks = []
     for i, text in enumerate(texts):
         try:
             embedding = await get_embedding(text)
             new_embeddings.append(embedding)
+            valid_chunks.append(new_chunks[i])
             if (i + 1) % 50 == 0:
                 print(f"Processed {i + 1}/{len(texts)} embeddings")
         except Exception as e:
-            print(f"Failed to get embedding for chunk {i}: {e}")
-            new_embeddings.append([0.0] * 1024)
+            print(f"Failed to get embedding for chunk {i}, skipping: {e}")
+    new_chunks = valid_chunks
 
     new_embeddings_arr = np.array(new_embeddings, dtype='float32')
 
@@ -121,8 +120,8 @@ def _build_bm25_index():
     """Build BM25 index from chunks for hybrid retrieval"""
     global bm25_index
     if chunks_data:
-        # Simple character-level tokenization for Chinese
-        tokenized = [list(c["content"]) for c in chunks_data]
+        # Chinese word segmentation using jieba
+        tokenized = [list(jieba.cut(c["content"])) for c in chunks_data]
         bm25_index = BM25Okapi(tokenized)
 
 async def search(query: str, top_k: int = 5) -> list[dict]:
@@ -145,7 +144,7 @@ async def search(query: str, top_k: int = 5) -> list[dict]:
 
     # BM25 scores (hybrid retrieval)
     if bm25_index is not None:
-        query_tokens = list(query)
+        query_tokens = list(jieba.cut(query))
         bm25_scores = bm25_index.get_scores(query_tokens)
         # Normalize BM25 scores to [0, 1]
         bm25_max = np.max(bm25_scores) if np.max(bm25_scores) > 0 else 1
