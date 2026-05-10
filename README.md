@@ -24,16 +24,29 @@ AI全栈极速黑客松参赛作品 - 用AI帮教师把7本教材变成不到30%
 
 ## 快速开始
 
+### Docker 一键部署（推荐）
+
+```bash
+git clone https://github.com/gaibianshiji/knowledge-integration-agent.git
+cd knowledge-integration-agent
+cp .env.example .env
+# 编辑 .env 文件填入 API Key
+docker-compose up -d
+```
+
+访问 http://localhost:7860
+
 ### 环境要求
 
 - Python 3.10+
 - Node.js 18+
 - DeepSeek API Key
+- 通义千问 API Key（用于 Embedding）
 
 ### 1. 克隆仓库
 
 ```bash
-git clone https://github.com/yourusername/knowledge-integration-agent.git
+git clone https://github.com/gaibianshiji/knowledge-integration-agent.git
 cd knowledge-integration-agent
 ```
 
@@ -41,7 +54,7 @@ cd knowledge-integration-agent
 
 ```bash
 cp .env.example .env
-# 编辑 .env 文件，填入你的 DeepSeek API Key
+# 编辑 .env 文件，填入你的 API Key
 ```
 
 ### 3. 安装后端依赖

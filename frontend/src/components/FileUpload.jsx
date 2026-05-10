@@ -51,7 +51,7 @@ export default function FileUpload({ textbooks, onUpload, onBuildGraph, onBuildA
           ref={fileInputRef}
           type="file"
           multiple
-          accept=".pdf,.md,.txt"
+          accept=".pdf,.md,.txt,.docx"
           onChange={handleFileSelect}
           style={{ display: 'none' }}
         />

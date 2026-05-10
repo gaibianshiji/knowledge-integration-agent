@@ -4,6 +4,7 @@ import * as d3 from 'd3'
 export default function KnowledgeGraph({ data, onNodeSelect, integrationResult }) {
   const svgRef = useRef(null)
   const [searchTerm, setSearchTerm] = useState('')
+  const [filterTextbook, setFilterTextbook] = useState('')
   const simulationRef = useRef(null)
   const highlightedRef = useRef(new Set())
 
@@ -188,6 +189,22 @@ export default function KnowledgeGraph({ data, onNodeSelect, integrationResult }
         .attr('stroke-width', 2)
     }
 
+    window._graphFilter = (textbookName) => {
+      if (!textbookName) {
+        // Show all nodes and links
+        node.style('opacity', 1)
+        link.style('opacity', 0.7)
+        return
+      }
+      // Dim nodes not from selected textbook
+      node.style('opacity', d => d.textbook_name === textbookName ? 1 : 0.15)
+      link.style('opacity', d => {
+        const src = typeof d.source === 'object' ? d.source : nodeMap.get(d.source)
+        const tgt = typeof d.target === 'object' ? d.target : nodeMap.get(d.target)
+        return (src?.textbook_name === textbookName || tgt?.textbook_name === textbookName) ? 0.7 : 0.05
+      })
+    }
+
     return () => {
       simulation.stop()
     }
@@ -196,6 +213,9 @@ export default function KnowledgeGraph({ data, onNodeSelect, integrationResult }
   useEffect(() => {
     if (window._graphSearch) window._graphSearch(searchTerm)
   }, [searchTerm])
+
+  // Get unique textbook names for filter
+  const textbookNames = [...new Set(data.nodes.map(n => n.textbook_name).filter(Boolean))]
 
   return (
     <div className="graph-container">
@@ -206,6 +226,21 @@ export default function KnowledgeGraph({ data, onNodeSelect, integrationResult }
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
         />
+        {textbookNames.length > 1 && (
+          <select
+            value={filterTextbook}
+            onChange={(e) => {
+              setFilterTextbook(e.target.value)
+              if (window._graphFilter) window._graphFilter(e.target.value)
+            }}
+            style={{ marginLeft: '8px', padding: '4px 8px', borderRadius: '4px', background: 'var(--bg-tertiary)', color: 'var(--text-primary)', border: '1px solid var(--border)', fontSize: '12px' }}
+          >
+            <option value="">全部教材</option>
+            {textbookNames.map(name => (
+              <option key={name} value={name}>{name}</option>
+            ))}
+          </select>
+        )}
       </div>
 
       <svg ref={svgRef} style={{ width: '100%', height: '100%' }}></svg>

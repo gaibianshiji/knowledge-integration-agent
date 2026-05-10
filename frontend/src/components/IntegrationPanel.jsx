@@ -1,6 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 export default function IntegrationPanel({ onRunIntegration, integrationResult, loading, selectedNode }) {
+  const [showComparison, setShowComparison] = useState(false)
+
   return (
     <div>
       {selectedNode && (
@@ -54,6 +56,47 @@ export default function IntegrationPanel({ onRunIntegration, integrationResult, 
               </div>
               <div className="label">压缩比</div>
             </div>
+          </div>
+
+          {/* Before/After Comparison Toggle */}
+          <div style={{ margin: '12px 0' }}>
+            <button
+              className="btn"
+              onClick={() => setShowComparison(!showComparison)}
+              style={{ width: '100%', background: 'var(--bg-tertiary)', color: 'var(--text-primary)', fontSize: '12px' }}
+            >
+              {showComparison ? '隐藏' : '显示'}整合前后对比
+            </button>
+            {showComparison && (
+              <div style={{ marginTop: '8px', padding: '12px', background: 'var(--bg-tertiary)', borderRadius: '8px', fontSize: '12px' }}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '8px' }}>
+                  <span>整合前</span>
+                  <span style={{ fontWeight: 700 }}>{integrationResult.stats?.original || 0} 个知识点</span>
+                </div>
+                <div style={{ background: 'var(--bg-secondary)', borderRadius: '4px', height: '20px', overflow: 'hidden' }}>
+                  <div style={{ background: 'var(--accent)', height: '100%', width: '100%' }}></div>
+                </div>
+                <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: '8px', marginBottom: '8px' }}>
+                  <span>整合后</span>
+                  <span style={{ fontWeight: 700 }}>{integrationResult.stats?.merged || 0} 个知识点</span>
+                </div>
+                <div style={{ background: 'var(--bg-secondary)', borderRadius: '4px', height: '20px', overflow: 'hidden' }}>
+                  <div style={{
+                    background: '#22c55e',
+                    height: '100%',
+                    width: `${integrationResult.stats?.original ? (integrationResult.stats.merged / integrationResult.stats.original * 100) : 100}%`
+                  }}></div>
+                </div>
+                <div style={{ marginTop: '8px', textAlign: 'center', color: 'var(--text-secondary)' }}>
+                  节点减少 {integrationResult.stats?.original && integrationResult.stats?.merged
+                    ? integrationResult.stats.original - integrationResult.stats.merged
+                    : 0} 个，
+                  压缩比 {integrationResult.stats?.compression_ratio
+                    ? `${(integrationResult.stats.compression_ratio * 100).toFixed(1)}%`
+                    : '-'}
+                </div>
+              </div>
+            )}
           </div>
 
           {integrationResult.decisions && integrationResult.decisions.length > 0 && (

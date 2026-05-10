@@ -87,6 +87,27 @@ async def upload_textbook_from_url(req: TextbookUrlRequest):
             "chapters": chapters
         }
         store_in_memory("parsed_textbooks", textbook_id, textbook)
+    elif file_ext == '.docx':
+        from docx import Document
+        doc = Document(str(save_path))
+        full_text = "\n".join([p.text for p in doc.paragraphs if p.text.strip()])
+        chapters = [{
+            "chapter_id": "ch_00",
+            "title": original_filename,
+            "page_start": 1,
+            "page_end": 1,
+            "content": full_text,
+            "char_count": len(full_text)
+        }]
+        textbook = {
+            "textbook_id": textbook_id,
+            "filename": original_filename,
+            "title": Path(original_filename).stem,
+            "total_pages": 1,
+            "total_chars": len(full_text),
+            "chapters": chapters
+        }
+        store_in_memory("parsed_textbooks", textbook_id, textbook)
     else:
         raise HTTPException(status_code=400, detail=f"不支持的文件格式: {file_ext}")
 
@@ -145,7 +166,27 @@ async def upload_textbook(file: UploadFile = File(...)):
             "total_chars": len(text),
             "chapters": chapters
         }
-        # Store in memory
+        store_in_memory("parsed_textbooks", textbook_id, textbook)
+    elif file_ext == '.docx':
+        from docx import Document
+        doc = Document(str(save_path))
+        full_text = "\n".join([p.text for p in doc.paragraphs if p.text.strip()])
+        chapters = [{
+            "chapter_id": "ch_00",
+            "title": file.filename,
+            "page_start": 1,
+            "page_end": 1,
+            "content": full_text,
+            "char_count": len(full_text)
+        }]
+        textbook = {
+            "textbook_id": textbook_id,
+            "filename": file.filename,
+            "title": Path(file.filename).stem,
+            "total_pages": 1,
+            "total_chars": len(full_text),
+            "chapters": chapters
+        }
         store_in_memory("parsed_textbooks", textbook_id, textbook)
     else:
         return {"error": f"不支持的文件格式: {file_ext}"}

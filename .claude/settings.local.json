@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pkill -f \"uvicorn app.main:app\")",
+      "Bash(rm -rf data/graphs/*)",
+      "Bash(uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload)",
+      "Bash(taskkill //F //PID 4208)"
+    ]
+  }
+}
