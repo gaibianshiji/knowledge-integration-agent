@@ -3,761 +3,1361 @@
     {
       "id": "node_001",
       "name": "静息电位",
-      "definition": "细胞在安静状态下存在于细胞膜两侧的电位差",
+      "definition": "细胞在安静状态下存在于细胞膜两侧的电位差，主要由K+外流形成，表现为内负外正",
       "category": "生理机制",
-      "textbook_id": "book_01",
+      "textbook_id": "book_0001a3f2",
       "textbook_name": "生理学",
-      "chapter": "第二章",
+      "chapter": "第二章 细胞的基本功能",
       "confidence": 0.97
     },
     {
       "id": "node_002",
       "name": "动作电位",
-      "definition": "细胞受到刺激时膜电位发生的迅速可逆的电位变化",
+      "definition": "细胞受到刺激时膜电位发生的迅速可逆的电位变化，是细胞兴奋的标志",
       "category": "生理机制",
-      "textbook_id": "book_01",
+      "textbook_id": "book_0001a3f2",
       "textbook_name": "生理学",
-      "chapter": "第二章",
+      "chapter": "第二章 细胞的基本功能",
       "confidence": 0.96
     },
     {
       "id": "node_003",
       "name": "心输出量",
-      "definition": "每分钟由一侧心室射入动脉的血液量",
+      "definition": "每分钟由一侧心室射入动脉的血液量，等于心率与每搏输出量的乘积",
       "category": "核心概念",
-      "textbook_id": "book_01",
+      "textbook_id": "book_0001a3f2",
       "textbook_name": "生理学",
-      "chapter": "第四章",
+      "chapter": "第四章 血液循环",
       "confidence": 0.95
     },
     {
       "id": "node_004",
       "name": "血压调节",
-      "definition": "机体通过神经和体液机制维持动脉血压在正常范围",
+      "definition": "机体通过神经和体液机制维持动脉血压在正常范围的调节过程",
       "category": "生理机制",
-      "textbook_id": "book_01",
+      "textbook_id": "book_0001a3f2",
       "textbook_name": "生理学",
-      "chapter": "第四章",
+      "chapter": "第四章 血液循环",
       "confidence": 0.94
     },
     {
       "id": "node_005",
       "name": "肺通气",
-      "definition": "气体经呼吸道进出肺的过程",
+      "definition": "气体经呼吸道进出肺的过程，依赖呼吸肌收缩和舒张引起的胸廓运动",
       "category": "生理机制",
-      "textbook_id": "book_01",
+      "textbook_id": "book_0001a3f2",
       "textbook_name": "生理学",
-      "chapter": "第五章",
+      "chapter": "第五章 呼吸",
       "confidence": 0.95
     },
     {
       "id": "node_006",
       "name": "肺换气",
-      "definition": "肺泡与肺毛细血管血液之间进行气体交换",
+      "definition": "肺泡与肺毛细血管血液之间进行气体交换的过程，遵循气体扩散原理",
       "category": "生理机制",
-      "textbook_id": "book_01",
+      "textbook_id": "book_0001a3f2",
       "textbook_name": "生理学",
-      "chapter": "第五章",
+      "chapter": "第五章 呼吸",
       "confidence": 0.94
     },
     {
       "id": "node_007",
       "name": "肾小球滤过",
-      "definition": "血液流经肾小球毛细血管时血浆成分通过滤过膜进入肾小囊",
+      "definition": "血液流经肾小球毛细血管时血浆成分通过滤过膜进入肾小囊的过程",
       "category": "生理机制",
-      "textbook_id": "book_01",
+      "textbook_id": "book_0001a3f2",
       "textbook_name": "生理学",
-      "chapter": "第八章",
+      "chapter": "第八章 尿的生成和排出",
       "confidence": 0.96
     },
     {
       "id": "node_008",
-      "name": "突触传递",
-      "definition": "神经冲动通过突触从一个神经元传递到另一个",
+      "name": "肾小管重吸收",
+      "definition": "肾小管上皮细胞将小管液中的物质重新转运回血液的过程",
       "category": "生理机制",
-      "textbook_id": "book_01",
+      "textbook_id": "book_0001a3f2",
       "textbook_name": "生理学",
-      "chapter": "第十章",
-      "confidence": 0.95
-    },
-    {
-      "id": "node_009",
-      "name": "激素",
-      "definition": "由内分泌腺或内分泌细胞分泌的高效生物活性物质",
-      "category": "核心概念",
-      "textbook_id": "book_01",
-      "textbook_name": "生理学",
-      "chapter": "第十一章",
-      "confidence": 0.97
-    },
-    {
-      "id": "node_010",
-      "name": "甲状腺激素",
-      "definition": "甲状腺合成和分泌的含碘激素",
-      "category": "生理机制",
-      "textbook_id": "book_01",
-      "textbook_name": "生理学",
-      "chapter": "第十一章",
-      "confidence": 0.95
-    },
-    {
-      "id": "node_011",
-      "name": "胰岛素",
-      "definition": "胰岛B细胞分泌的蛋白质激素",
-      "category": "生理机制",
-      "textbook_id": "book_01",
-      "textbook_name": "生理学",
-      "chapter": "第十一章",
-      "confidence": 0.96
-    },
-    {
-      "id": "node_012",
-      "name": "胃液分泌",
-      "definition": "胃腺细胞分泌胃液的过程",
-      "category": "生理机制",
-      "textbook_id": "book_01",
-      "textbook_name": "生理学",
-      "chapter": "第六章",
+      "chapter": "第八章 尿的生成和排出",
       "confidence": 0.93
     },
     {
-      "id": "node_013",
-      "name": "心脏泵血",
-      "definition": "心脏通过节律性收缩和舒张实现泵血功能",
+      "id": "node_009",
+      "name": "突触传递",
+      "definition": "神经冲动通过突触从一个神经元传递到另一个神经元的过程",
       "category": "生理机制",
-      "textbook_id": "book_01",
+      "textbook_id": "book_0001a3f2",
       "textbook_name": "生理学",
-      "chapter": "第四章",
+      "chapter": "第十章 神经系统的功能",
+      "confidence": 0.95
+    },
+    {
+      "id": "node_010",
+      "name": "神经冲动传导",
+      "definition": "动作电位沿神经纤维传导的过程，具有双向性和不衰减性",
+      "category": "生理机制",
+      "textbook_id": "book_0001a3f2",
+      "textbook_name": "生理学",
+      "chapter": "第十章 神经系统的功能",
+      "confidence": 0.94
+    },
+    {
+      "id": "node_011",
+      "name": "激素",
+      "definition": "由内分泌腺或内分泌细胞分泌的高效生物活性物质，经血液运输发挥作用",
+      "category": "核心概念",
+      "textbook_id": "book_0001a3f2",
+      "textbook_name": "生理学",
+      "chapter": "第十一章 内分泌",
+      "confidence": 0.97
+    },
+    {
+      "id": "node_012",
+      "name": "甲状腺激素",
+      "definition": "甲状腺合成和分泌的含碘激素，主要调节机体代谢和生长发育",
+      "category": "生理机制",
+      "textbook_id": "book_0001a3f2",
+      "textbook_name": "生理学",
+      "chapter": "第十一章 内分泌",
+      "confidence": 0.95
+    },
+    {
+      "id": "node_013",
+      "name": "胰岛素",
+      "definition": "胰岛B细胞分泌的蛋白质激素，是体内唯一的降血糖激素",
+      "category": "生理机制",
+      "textbook_id": "book_0001a3f2",
+      "textbook_name": "生理学",
+      "chapter": "第十一章 内分泌",
       "confidence": 0.96
     },
     {
       "id": "node_014",
-      "name": "呼吸运动",
-      "definition": "呼吸肌节律性收缩和舒张引起胸廓扩大和缩小",
+      "name": "胃液分泌",
+      "definition": "胃腺细胞分泌胃液的过程，包括盐酸、胃蛋白酶原等成分",
       "category": "生理机制",
-      "textbook_id": "book_01",
+      "textbook_id": "book_0001a3f2",
       "textbook_name": "生理学",
-      "chapter": "第五章",
-      "confidence": 0.95
+      "chapter": "第六章 消化和吸收",
+      "confidence": 0.93
     },
     {
       "id": "node_015",
-      "name": "凝血过程",
-      "definition": "血液由流动的液体状态转变为凝胶状态",
-      "category": "生理机制",
-      "textbook_id": "book_01",
-      "textbook_name": "生理学",
-      "chapter": "第三章",
-      "confidence": 0.95
-    },
-    {
-      "id": "node_016",
-      "name": "炎症",
-      "definition": "以防御为主的血管反应",
-      "category": "生理机制",
-      "textbook_id": "book_01",
-      "textbook_name": "生理学",
-      "chapter": "第十三章",
-      "confidence": 0.93
-    },
-    {
-      "id": "node_017",
-      "name": "心力衰竭",
-      "definition": "心肌收缩和/或舒张功能障碍导致心泵功能降低",
-      "category": "临床表现",
-      "textbook_id": "book_01",
-      "textbook_name": "生理学",
-      "chapter": "第四章",
-      "confidence": 0.91
-    },
-    {
-      "id": "node_018",
-      "name": "炎症",
-      "definition": "具有血管系统的活体组织对损伤因子所发生的防御反应",
+      "name": "血型",
+      "definition": "红细胞膜上特异性抗原的类型，ABO血型系统和Rh血型系统最为重要",
       "category": "核心概念",
-      "textbook_id": "book_02",
-      "textbook_name": "病理学",
-      "chapter": "第四章",
-      "confidence": 0.98
-    },
-    {
-      "id": "node_019",
-      "name": "肿瘤",
-      "definition": "在各种致瘤因子作用下局部组织细胞增生所形成的新生物",
-      "category": "核心概念",
-      "textbook_id": "book_02",
-      "textbook_name": "病理学",
-      "chapter": "第五章",
+      "textbook_id": "book_0001a3f2",
+      "textbook_name": "生理学",
+      "chapter": "第三章 血液",
       "confidence": 0.97
     },
     {
-      "id": "node_020",
-      "name": "坏死",
-      "definition": "活体内局部组织细胞的死亡",
-      "category": "病理变化",
-      "textbook_id": "book_02",
-      "textbook_name": "病理学",
-      "chapter": "第二章",
-      "confidence": 0.96
-    },
-    {
-      "id": "node_021",
-      "name": "凋亡",
-      "definition": "活体内单个细胞的程序性死亡",
-      "category": "病理变化",
-      "textbook_id": "book_02",
-      "textbook_name": "病理学",
-      "chapter": "第二章",
+      "id": "node_016",
+      "name": "凝血过程",
+      "definition": "血液由流动的液体状态转变为不能流动的凝胶状态的过程",
+      "category": "生理机制",
+      "textbook_id": "book_0001a3f2",
+      "textbook_name": "生理学",
+      "chapter": "第三章 血液",
       "confidence": 0.95
     },
     {
-      "id": "node_022",
-      "name": "纤维化",
-      "definition": "器官或组织内纤维结缔组织增多",
-      "category": "病理变化",
-      "textbook_id": "book_02",
+      "id": "node_017",
+      "name": "心脏泵血",
+      "definition": "心脏通过节律性的收缩和舒张实现泵血功能，推动血液循环",
+      "category": "生理机制",
+      "textbook_id": "book_0001a3f2",
+      "textbook_name": "生理学",
+      "chapter": "第四章 血液循环",
+      "confidence": 0.96
+    },
+    {
+      "id": "node_018",
+      "name": "心肌细胞动作电位",
+      "definition": "心肌细胞兴奋时膜电位的变化，分为0、1、2、3、4五个时期",
+      "category": "生理机制",
+      "textbook_id": "book_0001a3f2",
+      "textbook_name": "生理学",
+      "chapter": "第四章 血液循环",
+      "confidence": 0.94
+    },
+    {
+      "id": "node_019",
+      "name": "呼吸运动",
+      "definition": "呼吸肌节律性收缩和舒张引起胸廓扩大和缩小的运动",
+      "category": "生理机制",
+      "textbook_id": "book_0001a3f2",
+      "textbook_name": "生理学",
+      "chapter": "第五章 呼吸",
+      "confidence": 0.95
+    },
+    {
+      "id": "node_020",
+      "name": "体温调节",
+      "definition": "机体通过产热和散热的平衡维持体温相对恒定的过程",
+      "category": "生理机制",
+      "textbook_id": "book_0001a3f2",
+      "textbook_name": "生理学",
+      "chapter": "第十二章 体温",
+      "confidence": 0.94
+    },
+    {
+      "id": "node_021",
+      "name": "炎症",
+      "definition": "具有血管系统的活体组织对损伤因子所发生的以防御为主的反应",
+      "category": "核心概念",
+      "textbook_id": "book_0002b7d8",
       "textbook_name": "病理学",
-      "chapter": "第三章",
-      "confidence": 0.93
+      "chapter": "第四章 炎症",
+      "confidence": 0.98
+    },
+    {
+      "id": "node_022",
+      "name": "肿瘤",
+      "definition": "在各种致瘤因子作用下局部组织细胞增生所形成的新生物",
+      "category": "核心概念",
+      "textbook_id": "book_0002b7d8",
+      "textbook_name": "病理学",
+      "chapter": "第五章 肿瘤",
+      "confidence": 0.97
     },
     {
       "id": "node_023",
-      "name": "动脉粥样硬化",
-      "definition": "大中动脉内膜脂质沉积形成的斑块性病变",
+      "name": "坏死",
+      "definition": "活体内局部组织细胞的死亡，表现为细胞核的固缩、碎裂和溶解",
       "category": "病理变化",
-      "textbook_id": "book_02",
+      "textbook_id": "book_0002b7d8",
       "textbook_name": "病理学",
-      "chapter": "第七章",
+      "chapter": "第二章 细胞和组织的适应与损伤",
       "confidence": 0.96
     },
     {
       "id": "node_024",
-      "name": "肝硬化",
-      "definition": "肝细胞广泛坏死后纤维组织增生形成的慢性肝病",
+      "name": "凋亡",
+      "definition": "活体内单个细胞或小团细胞的程序性死亡，由基因调控",
       "category": "病理变化",
-      "textbook_id": "book_02",
+      "textbook_id": "book_0002b7d8",
       "textbook_name": "病理学",
-      "chapter": "第九章",
+      "chapter": "第二章 细胞和组织的适应与损伤",
       "confidence": 0.95
     },
     {
       "id": "node_025",
-      "name": "血栓形成",
-      "definition": "活体心血管内血液成分凝固形成固体质块",
+      "name": "纤维化",
+      "definition": "器官或组织内纤维结缔组织增多，常由慢性炎症或反复损伤引起",
       "category": "病理变化",
-      "textbook_id": "book_02",
+      "textbook_id": "book_0002b7d8",
       "textbook_name": "病理学",
-      "chapter": "第三章",
-      "confidence": 0.94
+      "chapter": "第三章 损伤的修复",
+      "confidence": 0.93
     },
     {
       "id": "node_026",
-      "name": "肉芽组织",
-      "definition": "新生的富含毛细血管的幼稚纤维结缔组织",
+      "name": "动脉粥样硬化",
+      "definition": "大中动脉内膜脂质沉积、纤维组织增生形成的斑块性病变",
       "category": "病理变化",
-      "textbook_id": "book_02",
+      "textbook_id": "book_0002b7d8",
       "textbook_name": "病理学",
-      "chapter": "第三章",
-      "confidence": 0.92
+      "chapter": "第七章 心血管系统疾病",
+      "confidence": 0.96
     },
     {
       "id": "node_027",
-      "name": "大叶性肺炎",
-      "definition": "肺炎链球菌引起的以肺泡内弥漫性纤维素渗出为主的炎症",
+      "name": "肝硬化",
+      "definition": "肝细胞广泛坏死后纤维组织增生和肝细胞结节状再生形成的慢性肝病",
       "category": "病理变化",
-      "textbook_id": "book_02",
+      "textbook_id": "book_0002b7d8",
       "textbook_name": "病理学",
-      "chapter": "第八章",
+      "chapter": "第九章 消化系统疾病",
       "confidence": 0.95
     },
     {
       "id": "node_028",
-      "name": "肾小球肾炎",
-      "definition": "以肾小球损害为主的变态反应性疾病",
+      "name": "血栓形成",
+      "definition": "活体心血管内血液成分凝固或血液有形成分凝集成固体质块的过程",
       "category": "病理变化",
-      "textbook_id": "book_02",
+      "textbook_id": "book_0002b7d8",
       "textbook_name": "病理学",
-      "chapter": "第十一章",
+      "chapter": "第三章 局部血液循环障碍",
       "confidence": 0.94
     },
     {
       "id": "node_029",
-      "name": "结核病",
-      "definition": "由结核分枝杆菌引起的慢性肉芽肿性炎症",
+      "name": "栓塞",
+      "definition": "不溶于血液的异常物质随血流运行阻塞血管腔的现象",
       "category": "病理变化",
-      "textbook_id": "book_02",
+      "textbook_id": "book_0002b7d8",
       "textbook_name": "病理学",
-      "chapter": "第十五章",
-      "confidence": 0.96
+      "chapter": "第三章 局部血液循环障碍",
+      "confidence": 0.93
     },
     {
       "id": "node_030",
-      "name": "水肿",
-      "definition": "过多的液体在组织间隙或体腔内积聚",
-      "category": "临床表现",
-      "textbook_id": "book_02",
+      "name": "梗死",
+      "definition": "动脉血流供应中断导致局部组织缺血性坏死",
+      "category": "病理变化",
+      "textbook_id": "book_0002b7d8",
       "textbook_name": "病理学",
-      "chapter": "第三章",
-      "confidence": 0.91
+      "chapter": "第三章 局部血液循环障碍",
+      "confidence": 0.94
     },
     {
       "id": "node_031",
-      "name": "心力衰竭",
-      "definition": "各种心脏疾病导致心肌收缩力下降的病理过程",
-      "category": "临床表现",
-      "textbook_id": "book_03",
-      "textbook_name": "病理生理学",
-      "chapter": "第十五章",
-      "confidence": 0.97
-    },
-    {
-      "id": "node_032",
-      "name": "呼吸衰竭",
-      "definition": "外呼吸功能严重障碍导致的病理过程",
-      "category": "临床表现",
-      "textbook_id": "book_03",
-      "textbook_name": "病理生理学",
-      "chapter": "第十六章",
-      "confidence": 0.96
-    },
-    {
-      "id": "node_033",
-      "name": "肾功能衰竭",
-      "definition": "各种病因引起肾功能严重障碍",
-      "category": "临床表现",
-      "textbook_id": "book_03",
-      "textbook_name": "病理生理学",
-      "chapter": "第十八章",
-      "confidence": 0.95
-    },
-    {
-      "id": "node_034",
-      "name": "休克",
-      "definition": "各种强烈致病因子引起的急性循环衰竭和微循环障碍",
-      "category": "核心概念",
-      "textbook_id": "book_03",
-      "textbook_name": "病理生理学",
-      "chapter": "第十二章",
-      "confidence": 0.97
-    },
-    {
-      "id": "node_035",
-      "name": "发热",
-      "definition": "致热原作用下体温调节中枢调定点上移引起的体温升高",
-      "category": "临床表现",
-      "textbook_id": "book_03",
-      "textbook_name": "病理生理学",
-      "chapter": "第六章",
-      "confidence": 0.95
-    },
-    {
-      "id": "node_036",
-      "name": "酸碱平衡紊乱",
-      "definition": "体内酸碱物质代谢异常导致体液酸碱度改变",
+      "name": "肉芽组织",
+      "definition": "新生的富含毛细血管的幼稚阶段的纤维结缔组织",
       "category": "病理变化",
-      "textbook_id": "book_03",
-      "textbook_name": "病理生理学",
-      "chapter": "第四章",
-      "confidence": 0.94
-    },
-    {
-      "id": "node_037",
-      "name": "缺氧",
-      "definition": "组织的氧供应不足或利用氧的能力障碍",
-      "category": "病理变化",
-      "textbook_id": "book_03",
-      "textbook_name": "病理生理学",
-      "chapter": "第七章",
-      "confidence": 0.95
-    },
-    {
-      "id": "node_038",
-      "name": "弥散性血管内凝血",
-      "definition": "凝血因子和血小板被激活引起的全身微血栓形成",
-      "category": "病理变化",
-      "textbook_id": "book_03",
-      "textbook_name": "病理生理学",
-      "chapter": "第十三章",
-      "confidence": 0.93
-    },
-    {
-      "id": "node_039",
-      "name": "应激",
-      "definition": "机体受到刺激时出现的以神经内分泌反应为主的防御反应",
-      "category": "生理机制",
-      "textbook_id": "book_03",
-      "textbook_name": "病理生理学",
-      "chapter": "第八章",
-      "confidence": 0.94
-    },
-    {
-      "id": "node_040",
-      "name": "肝功能衰竭",
-      "definition": "各种致肝损害因素使肝细胞发生严重损害",
-      "category": "临床表现",
-      "textbook_id": "book_03",
-      "textbook_name": "病理生理学",
-      "chapter": "第十七章",
-      "confidence": 0.94
-    },
-    {
-      "id": "node_041",
-      "name": "多器官功能障碍",
-      "definition": "严重感染创伤等导致两个以上器官功能障碍",
-      "category": "临床表现",
-      "textbook_id": "book_03",
-      "textbook_name": "病理生理学",
-      "chapter": "第十九章",
-      "confidence": 0.95
-    },
-    {
-      "id": "node_042",
-      "name": "坏死",
-      "definition": "以酶溶性变化为特点的活体内局部组织细胞的死亡",
-      "category": "病理变化",
-      "textbook_id": "book_03",
-      "textbook_name": "病理生理学",
-      "chapter": "第二章",
+      "textbook_id": "book_0002b7d8",
+      "textbook_name": "病理学",
+      "chapter": "第三章 损伤的修复",
       "confidence": 0.92
     },
     {
-      "id": "node_043",
-      "name": "甲状腺激素",
-      "definition": "促进物质代谢和生长发育的重要激素",
-      "category": "生理机制",
-      "textbook_id": "book_03",
-      "textbook_name": "病理生理学",
-      "chapter": "第九章",
+      "id": "node_032",
+      "name": "化生",
+      "definition": "一种分化成熟的细胞类型被另一种分化成熟的细胞类型所取代",
+      "category": "病理变化",
+      "textbook_id": "book_0002b7d8",
+      "textbook_name": "病理学",
+      "chapter": "第二章 细胞和组织的适应与损伤",
       "confidence": 0.91
     },
     {
-      "id": "node_044",
-      "name": "肾小球肾炎",
-      "definition": "以肾小球损害为主的免疫性疾病",
+      "id": "node_033",
+      "name": "增生",
+      "definition": "器官或组织的实质细胞数量增多导致组织器官体积增大",
       "category": "病理变化",
-      "textbook_id": "book_03",
-      "textbook_name": "病理生理学",
-      "chapter": "第十八章",
+      "textbook_id": "book_0002b7d8",
+      "textbook_name": "病理学",
+      "chapter": "第二章 细胞和组织的适应与损伤",
+      "confidence": 0.92
+    },
+    {
+      "id": "node_034",
+      "name": "肥大",
+      "definition": "细胞、组织和器官体积的增大，常由功能负荷增加引起",
+      "category": "病理变化",
+      "textbook_id": "book_0002b7d8",
+      "textbook_name": "病理学",
+      "chapter": "第二章 细胞和组织的适应与损伤",
       "confidence": 0.93
     },
     {
-      "id": "node_045",
-      "name": "休克",
-      "definition": "有效循环血量减少导致组织灌注不足",
-      "category": "核心概念",
-      "textbook_id": "book_03",
-      "textbook_name": "病理生理学",
-      "chapter": "第十二章",
-      "confidence": 0.96
-    },
-    {
-      "id": "node_046",
-      "name": "结核分枝杆菌",
-      "definition": "引起结核病的病原菌",
-      "category": "微生物",
-      "textbook_id": "book_04",
-      "textbook_name": "医学微生物学",
-      "chapter": "第十二章",
-      "confidence": 0.97
-    },
-    {
-      "id": "node_047",
-      "name": "金黄色葡萄球菌",
-      "definition": "引起化脓性感染最常见的病原菌",
-      "category": "微生物",
-      "textbook_id": "book_04",
-      "textbook_name": "医学微生物学",
-      "chapter": "第六章",
-      "confidence": 0.96
-    },
-    {
-      "id": "node_048",
-      "name": "大肠杆菌",
-      "definition": "肠道正常菌群的重要成员",
-      "category": "微生物",
-      "textbook_id": "book_04",
-      "textbook_name": "医学微生物学",
-      "chapter": "第八章",
-      "confidence": 0.95
-    },
-    {
-      "id": "node_049",
-      "name": "HIV",
-      "definition": "人类免疫缺陷病毒",
-      "category": "微生物",
-      "textbook_id": "book_04",
-      "textbook_name": "医学微生物学",
-      "chapter": "第二十五章",
-      "confidence": 0.97
-    },
-    {
-      "id": "node_050",
-      "name": "流感病毒",
-      "definition": "引起流行性感冒的病原体",
-      "category": "微生物",
-      "textbook_id": "book_04",
-      "textbook_name": "医学微生物学",
-      "chapter": "第二十三章",
-      "confidence": 0.96
-    },
-    {
-      "id": "node_051",
-      "name": "乙肝病毒",
-      "definition": "引起乙型肝炎的病原体",
-      "category": "微生物",
-      "textbook_id": "book_04",
-      "textbook_name": "医学微生物学",
-      "chapter": "第二十六章",
-      "confidence": 0.97
-    },
-    {
-      "id": "node_052",
-      "name": "内毒素",
-      "definition": "革兰阴性菌细胞壁中的脂多糖成分",
-      "category": "微生物",
-      "textbook_id": "book_04",
-      "textbook_name": "医学微生物学",
-      "chapter": "第五章",
-      "confidence": 0.96
-    },
-    {
-      "id": "node_053",
-      "name": "外毒素",
-      "definition": "某些细菌分泌到菌体外的毒性蛋白质",
-      "category": "微生物",
-      "textbook_id": "book_04",
-      "textbook_name": "医学微生物学",
-      "chapter": "第五章",
-      "confidence": 0.95
-    },
-    {
-      "id": "node_054",
-      "name": "肺炎链球菌",
-      "definition": "引起大叶性肺炎的主要病原菌",
-      "category": "微生物",
-      "textbook_id": "book_04",
-      "textbook_name": "医学微生物学",
-      "chapter": "第六章",
-      "confidence": 0.95
-    },
-    {
-      "id": "node_055",
-      "name": "大叶性肺炎",
-      "definition": "由肺炎链球菌感染引起的急性肺部炎症",
+      "id": "node_035",
+      "name": "萎缩",
+      "definition": "已发育正常的细胞、组织或器官的体积缩小",
       "category": "病理变化",
-      "textbook_id": "book_04",
-      "textbook_name": "医学微生物学",
-      "chapter": "第六章",
+      "textbook_id": "book_0002b7d8",
+      "textbook_name": "病理学",
+      "chapter": "第二章 细胞和组织的适应与损伤",
       "confidence": 0.94
     },
     {
-      "id": "node_056",
-      "name": "上皮组织",
-      "definition": "由大量形态较规则排列紧密的上皮细胞构成",
-      "category": "解剖结构",
-      "textbook_id": "book_05",
-      "textbook_name": "组织学与胚胎学",
-      "chapter": "第三章",
+      "id": "node_036",
+      "name": "大叶性肺炎",
+      "definition": "主要由肺炎链球菌引起的以肺泡内弥漫性纤维素渗出为主的炎症",
+      "category": "病理变化",
+      "textbook_id": "book_0002b7d8",
+      "textbook_name": "病理学",
+      "chapter": "第八章 呼吸系统疾病",
+      "confidence": 0.95
+    },
+    {
+      "id": "node_037",
+      "name": "肾小球肾炎",
+      "definition": "以肾小球损害为主的变态反应性疾病",
+      "category": "病理变化",
+      "textbook_id": "book_0002b7d8",
+      "textbook_name": "病理学",
+      "chapter": "第十一章 泌尿系统疾病",
+      "confidence": 0.94
+    },
+    {
+      "id": "node_038",
+      "name": "结核病",
+      "definition": "由结核分枝杆菌引起的以增生为主的慢性肉芽肿性炎症",
+      "category": "病理变化",
+      "textbook_id": "book_0002b7d8",
+      "textbook_name": "病理学",
+      "chapter": "第十五章 传染病",
       "confidence": 0.96
+    },
+    {
+      "id": "node_039",
+      "name": "变性",
+      "definition": "细胞或细胞间质受损伤后出现的代谢障碍和形态结构变化",
+      "category": "病理变化",
+      "textbook_id": "book_0002b7d8",
+      "textbook_name": "病理学",
+      "chapter": "第二章 细胞和组织的适应与损伤",
+      "confidence": 0.93
+    },
+    {
+      "id": "node_040",
+      "name": "心力衰竭",
+      "definition": "各种心脏疾病导致心肌收缩力下降使心排血量不能满足机体代谢需要的病理过程",
+      "category": "临床表现",
+      "textbook_id": "book_0003c4e1",
+      "textbook_name": "病理生理学",
+      "chapter": "第十五章 心功能不全",
+      "confidence": 0.97
+    },
+    {
+      "id": "node_041",
+      "name": "呼吸衰竭",
+      "definition": "外呼吸功能严重障碍导致动脉血氧分压降低伴有或不伴有二氧化碳分压升高的病理过程",
+      "category": "临床表现",
+      "textbook_id": "book_0003c4e1",
+      "textbook_name": "病理生理学",
+      "chapter": "第十六章 呼吸功能不全",
+      "confidence": 0.96
+    },
+    {
+      "id": "node_042",
+      "name": "肾功能衰竭",
+      "definition": "各种病因引起肾功能严重障碍，出现多种代谢产物潴留的病理过程",
+      "category": "临床表现",
+      "textbook_id": "book_0003c4e1",
+      "textbook_name": "病理生理学",
+      "chapter": "第十八章 肾功能不全",
+      "confidence": 0.95
+    },
+    {
+      "id": "node_043",
+      "name": "休克",
+      "definition": "各种强烈致病因子作用于机体引起的急性循环衰竭和微循环障碍",
+      "category": "核心概念",
+      "textbook_id": "book_0003c4e1",
+      "textbook_name": "病理生理学",
+      "chapter": "第十二章 休克",
+      "confidence": 0.97
+    },
+    {
+      "id": "node_044",
+      "name": "发热",
+      "definition": "在致热原作用下体温调节中枢的调定点上移而引起的调节性体温升高",
+      "category": "临床表现",
+      "textbook_id": "book_0003c4e1",
+      "textbook_name": "病理生理学",
+      "chapter": "第六章 发热",
+      "confidence": 0.95
+    },
+    {
+      "id": "node_045",
+      "name": "酸碱平衡紊乱",
+      "definition": "体内酸碱物质代谢异常或调节机制障碍导致体液酸碱度改变",
+      "category": "病理变化",
+      "textbook_id": "book_0003c4e1",
+      "textbook_name": "病理生理学",
+      "chapter": "第四章 酸碱平衡和酸碱平衡紊乱",
+      "confidence": 0.94
+    },
+    {
+      "id": "node_046",
+      "name": "缺氧",
+      "definition": "因组织的氧供应不足或组织利用氧的能力障碍导致机体功能代谢异常的病理过程",
+      "category": "病理变化",
+      "textbook_id": "book_0003c4e1",
+      "textbook_name": "病理生理学",
+      "chapter": "第七章 缺氧",
+      "confidence": 0.95
+    },
+    {
+      "id": "node_047",
+      "name": "弥散性血管内凝血",
+      "definition": "在某些致病因子作用下凝血因子和血小板被激活引起的全身微血栓形成",
+      "category": "病理变化",
+      "textbook_id": "book_0003c4e1",
+      "textbook_name": "病理生理学",
+      "chapter": "第十三章 弥散性血管内凝血",
+      "confidence": 0.93
+    },
+    {
+      "id": "node_048",
+      "name": "应激",
+      "definition": "机体在受到各种因素刺激时出现的以神经内分泌反应为主的非特异性防御反应",
+      "category": "生理机制",
+      "textbook_id": "book_0003c4e1",
+      "textbook_name": "病理生理学",
+      "chapter": "第八章 应激",
+      "confidence": 0.94
+    },
+    {
+      "id": "node_049",
+      "name": "水肿",
+      "definition": "过多的液体在组织间隙或体腔内积聚",
+      "category": "临床表现",
+      "textbook_id": "book_0003c4e1",
+      "textbook_name": "病理生理学",
+      "chapter": "第三章 水电解质代谢紊乱",
+      "confidence": 0.93
+    },
+    {
+      "id": "node_050",
+      "name": "高钾血症",
+      "definition": "血清钾浓度高于5.5mmol/L的病理状态",
+      "category": "临床表现",
+      "textbook_id": "book_0003c4e1",
+      "textbook_name": "病理生理学",
+      "chapter": "第三章 水电解质代谢紊乱",
+      "confidence": 0.92
+    },
+    {
+      "id": "node_051",
+      "name": "低钾血症",
+      "definition": "血清钾浓度低于3.5mmol/L的病理状态",
+      "category": "临床表现",
+      "textbook_id": "book_0003c4e1",
+      "textbook_name": "病理生理学",
+      "chapter": "第三章 水电解质代谢紊乱",
+      "confidence": 0.93
+    },
+    {
+      "id": "node_052",
+      "name": "代谢性酸中毒",
+      "definition": "血浆HCO3-原发性减少导致的酸碱平衡紊乱",
+      "category": "病理变化",
+      "textbook_id": "book_0003c4e1",
+      "textbook_name": "病理生理学",
+      "chapter": "第四章 酸碱平衡和酸碱平衡紊乱",
+      "confidence": 0.94
+    },
+    {
+      "id": "node_053",
+      "name": "缺血再灌注损伤",
+      "definition": "在一定条件下恢复血液再灌注后组织损伤反而加重的现象",
+      "category": "病理变化",
+      "textbook_id": "book_0003c4e1",
+      "textbook_name": "病理生理学",
+      "chapter": "第十章 缺血再灌注损伤",
+      "confidence": 0.92
+    },
+    {
+      "id": "node_054",
+      "name": "肝功能衰竭",
+      "definition": "各种致肝损害因素使肝细胞发生严重损害导致肝脏功能严重障碍",
+      "category": "临床表现",
+      "textbook_id": "book_0003c4e1",
+      "textbook_name": "病理生理学",
+      "chapter": "第十七章 肝功能不全",
+      "confidence": 0.94
+    },
+    {
+      "id": "node_055",
+      "name": "多器官功能障碍",
+      "definition": "严重感染创伤等导致两个或两个以上器官同时或序贯发生功能障碍",
+      "category": "临床表现",
+      "textbook_id": "book_0003c4e1",
+      "textbook_name": "病理生理学",
+      "chapter": "第十九章 多器官功能障碍综合征",
+      "confidence": 0.95
+    },
+    {
+      "id": "node_056",
+      "name": "炎症介质",
+      "definition": "参与炎症反应的化学物质，包括组胺、前列腺素、细胞因子等",
+      "category": "核心概念",
+      "textbook_id": "book_0003c4e1",
+      "textbook_name": "病理生理学",
+      "chapter": "第五章 炎症",
+      "confidence": 0.94
     },
     {
       "id": "node_057",
-      "name": "结缔组织",
-      "definition": "由少量细胞和大量细胞间质组成",
-      "category": "解剖结构",
-      "textbook_id": "book_05",
-      "textbook_name": "组织学与胚胎学",
-      "chapter": "第四章",
-      "confidence": 0.95
+      "name": "脱水",
+      "definition": "体液容量明显减少的病理过程",
+      "category": "病理变化",
+      "textbook_id": "book_0003c4e1",
+      "textbook_name": "病理生理学",
+      "chapter": "第三章 水电解质代谢紊乱",
+      "confidence": 0.94
     },
     {
       "id": "node_058",
-      "name": "神经组织",
-      "definition": "由神经细胞和神经胶质细胞组成",
-      "category": "解剖结构",
-      "textbook_id": "book_05",
-      "textbook_name": "组织学与胚胎学",
-      "chapter": "第七章",
-      "confidence": 0.96
+      "name": "结核分枝杆菌",
+      "definition": "引起结核病的病原菌，抗酸染色阳性，细胞壁含大量分枝菌酸",
+      "category": "微生物",
+      "textbook_id": "book_0004d9a6",
+      "textbook_name": "医学微生物学",
+      "chapter": "第十二章 分枝杆菌属",
+      "confidence": 0.97
     },
     {
       "id": "node_059",
-      "name": "肌肉组织",
-      "definition": "由肌细胞组成具有收缩功能",
-      "category": "解剖结构",
-      "textbook_id": "book_05",
-      "textbook_name": "组织学与胚胎学",
-      "chapter": "第六章",
-      "confidence": 0.95
+      "name": "金黄色葡萄球菌",
+      "definition": "引起化脓性感染最常见的病原菌，可产生多种毒素和侵袭性酶",
+      "category": "微生物",
+      "textbook_id": "book_0004d9a6",
+      "textbook_name": "医学微生物学",
+      "chapter": "第六章 球菌",
+      "confidence": 0.96
     },
     {
       "id": "node_060",
-      "name": "肝小叶",
-      "definition": "肝脏的基本结构和功能单位",
-      "category": "解剖结构",
-      "textbook_id": "book_05",
-      "textbook_name": "组织学与胚胎学",
-      "chapter": "第十三章",
+      "name": "大肠杆菌",
+      "definition": "肠道正常菌群的重要成员，某些血清型可引起肠道和肠道外感染",
+      "category": "微生物",
+      "textbook_id": "book_0004d9a6",
+      "textbook_name": "医学微生物学",
+      "chapter": "第八章 肠杆菌科",
       "confidence": 0.95
     },
     {
       "id": "node_061",
-      "name": "肾单位",
-      "definition": "肾脏的基本结构和功能单位",
-      "category": "解剖结构",
-      "textbook_id": "book_05",
-      "textbook_name": "组织学与胚胎学",
-      "chapter": "第十四章",
-      "confidence": 0.96
+      "name": "HIV",
+      "definition": "人类免疫缺陷病毒，为逆转录病毒，主要攻击CD4+T淋巴细胞",
+      "category": "微生物",
+      "textbook_id": "book_0004d9a6",
+      "textbook_name": "医学微生物学",
+      "chapter": "第二十五章 逆转录病毒",
+      "confidence": 0.97
     },
     {
       "id": "node_062",
-      "name": "肺泡",
-      "definition": "肺进行气体交换的场所",
-      "category": "解剖结构",
-      "textbook_id": "book_05",
-      "textbook_name": "组织学与胚胎学",
-      "chapter": "第十二章",
-      "confidence": 0.95
+      "name": "流感病毒",
+      "definition": "引起流行性感冒的病原体，属于正黏病毒科，易发生抗原变异",
+      "category": "微生物",
+      "textbook_id": "book_0004d9a6",
+      "textbook_name": "医学微生物学",
+      "chapter": "第二十三章 正黏病毒",
+      "confidence": 0.96
     },
     {
       "id": "node_063",
-      "name": "干细胞",
-      "definition": "具有自我更新和多向分化潜能的未分化细胞",
-      "category": "核心概念",
-      "textbook_id": "book_05",
-      "textbook_name": "组织学与胚胎学",
-      "chapter": "第一章",
-      "confidence": 0.94
+      "name": "乙肝病毒",
+      "definition": "引起乙型肝炎的病原体，属嗜肝DNA病毒科，具有三种抗原系统",
+      "category": "微生物",
+      "textbook_id": "book_0004d9a6",
+      "textbook_name": "医学微生物学",
+      "chapter": "第二十六章 肝炎病毒",
+      "confidence": 0.97
     },
     {
       "id": "node_064",
-      "name": "心脏解剖",
-      "definition": "心脏位于中纵隔内分为四个腔",
-      "category": "解剖结构",
-      "textbook_id": "book_06",
-      "textbook_name": "局部解剖学",
-      "chapter": "第三章",
-      "confidence": 0.96
+      "name": "质粒",
+      "definition": "细菌染色体外的遗传物质，为闭合环状双链DNA",
+      "category": "微生物",
+      "textbook_id": "book_0004d9a6",
+      "textbook_name": "医学微生物学",
+      "chapter": "第三章 细菌的遗传与变异",
+      "confidence": 0.93
     },
     {
       "id": "node_065",
-      "name": "肺解剖",
-      "definition": "肺位于胸腔内纵隔两侧",
-      "category": "解剖结构",
-      "textbook_id": "book_06",
-      "textbook_name": "局部解剖学",
-      "chapter": "第三章",
-      "confidence": 0.95
+      "name": "消毒",
+      "definition": "杀死物体上病原微生物的方法，不一定能杀死芽孢",
+      "category": "核心概念",
+      "textbook_id": "book_0004d9a6",
+      "textbook_name": "医学微生物学",
+      "chapter": "第四章 消毒与灭菌",
+      "confidence": 0.94
     },
     {
       "id": "node_066",
-      "name": "肝脏解剖",
-      "definition": "肝脏位于右季肋区和腹上区",
-      "category": "解剖结构",
-      "textbook_id": "book_06",
-      "textbook_name": "局部解剖学",
-      "chapter": "第四章",
-      "confidence": 0.96
-    },
-    {
-      "id": "node_067",
-      "name": "肾脏解剖",
-      "definition": "肾脏位于腹膜后间隙",
-      "category": "解剖结构",
-      "textbook_id": "book_06",
-      "textbook_name": "局部解剖学",
-      "chapter": "第四章",
+      "name": "灭菌",
+      "definition": "杀灭物体上所有微生物包括芽孢的方法",
+      "category": "核心概念",
+      "textbook_id": "book_0004d9a6",
+      "textbook_name": "医学微生物学",
+      "chapter": "第四章 消毒与灭菌",
       "confidence": 0.95
     },
     {
+      "id": "node_067",
+      "name": "内毒素",
+      "definition": "革兰阴性菌细胞壁中的脂多糖成分，菌体裂解后释放",
+      "category": "微生物",
+      "textbook_id": "book_0004d9a6",
+      "textbook_name": "医学微生物学",
+      "chapter": "第五章 细菌的感染与免疫",
+      "confidence": 0.96
+    },
+    {
       "id": "node_068",
-      "name": "脑的血液供应",
-      "definition": "脑的血液供应来自颈内动脉和椎动脉",
-      "category": "解剖结构",
-      "textbook_id": "book_06",
-      "textbook_name": "局部解剖学",
-      "chapter": "第五章",
+      "name": "外毒素",
+      "definition": "某些细菌在生长过程中分泌到菌体外的毒性蛋白质",
+      "category": "微生物",
+      "textbook_id": "book_0004d9a6",
+      "textbook_name": "医学微生物学",
+      "chapter": "第五章 细菌的感染与免疫",
       "confidence": 0.95
     },
     {
       "id": "node_069",
-      "name": "结核病",
-      "definition": "由结核分枝杆菌引起的慢性传染病",
+      "name": "正常菌群",
+      "definition": "正常人体体表和与外界相通的腔道中寄居的对人体无害的微生物群",
       "category": "核心概念",
-      "textbook_id": "book_07",
-      "textbook_name": "传染病学",
-      "chapter": "第三章",
-      "confidence": 0.97
+      "textbook_id": "book_0004d9a6",
+      "textbook_name": "医学微生物学",
+      "chapter": "第五章 细菌的感染与免疫",
+      "confidence": 0.94
     },
     {
       "id": "node_070",
-      "name": "艾滋病",
-      "definition": "由HIV感染引起的以严重免疫缺陷为特征的传染病",
-      "category": "核心概念",
-      "textbook_id": "book_07",
-      "textbook_name": "传染病学",
-      "chapter": "第六章",
-      "confidence": 0.97
+      "name": "干扰素",
+      "definition": "病毒或其他干扰素诱生剂刺激细胞后产生的一组具有抗病毒活性的糖蛋白",
+      "category": "微生物",
+      "textbook_id": "book_0004d9a6",
+      "textbook_name": "医学微生物学",
+      "chapter": "第二章 病毒的基本性状",
+      "confidence": 0.92
     },
     {
       "id": "node_071",
-      "name": "流行性感冒",
-      "definition": "由流感病毒引起的急性呼吸道传染病",
-      "category": "临床表现",
-      "textbook_id": "book_07",
-      "textbook_name": "传染病学",
-      "chapter": "第四章",
-      "confidence": 0.96
+      "name": "肺炎链球菌",
+      "definition": "引起大叶性肺炎的主要病原菌，革兰阳性双球菌，有荚膜",
+      "category": "微生物",
+      "textbook_id": "book_0004d9a6",
+      "textbook_name": "医学微生物学",
+      "chapter": "第六章 球菌",
+      "confidence": 0.95
     },
     {
       "id": "node_072",
-      "name": "病毒性肝炎",
-      "definition": "由多种肝炎病毒引起的以肝脏损害为主的传染病",
-      "category": "核心概念",
-      "textbook_id": "book_07",
-      "textbook_name": "传染病学",
-      "chapter": "第五章",
-      "confidence": 0.97
+      "name": "破伤风杆菌",
+      "definition": "引起破伤风的病原菌，革兰阳性厌氧芽孢杆菌，产生痉挛毒素",
+      "category": "微生物",
+      "textbook_id": "book_0004d9a6",
+      "textbook_name": "医学微生物学",
+      "chapter": "第十章 厌氧性细菌",
+      "confidence": 0.94
     },
     {
       "id": "node_073",
-      "name": "结核分枝杆菌",
-      "definition": "引起结核的病原菌具有抗酸性",
+      "name": "幽门螺杆菌",
+      "definition": "定植于胃黏膜上皮表面的革兰阴性弯曲菌，与胃炎和胃溃疡密切相关",
       "category": "微生物",
-      "textbook_id": "book_07",
-      "textbook_name": "传染病学",
-      "chapter": "第三章",
-      "confidence": 0.96
+      "textbook_id": "book_0004d9a6",
+      "textbook_name": "医学微生物学",
+      "chapter": "第八章 肠杆菌科",
+      "confidence": 0.95
     },
     {
       "id": "node_074",
-      "name": "肝硬化",
-      "definition": "各种慢性肝病发展的晚期阶段",
-      "category": "病理变化",
-      "textbook_id": "book_07",
-      "textbook_name": "传染病学",
-      "chapter": "第五章",
+      "name": "真菌",
+      "definition": "具有细胞壁和细胞核的真核细胞型微生物，包括酵母菌和霉菌",
+      "category": "微生物",
+      "textbook_id": "book_0004d9a6",
+      "textbook_name": "医学微生物学",
+      "chapter": "第二十八章 真菌",
       "confidence": 0.94
     },
     {
       "id": "node_075",
-      "name": "流感病毒",
-      "definition": "正黏病毒科成员分为甲乙丙三型",
-      "category": "微生物",
-      "textbook_id": "book_07",
-      "textbook_name": "传染病学",
-      "chapter": "第四章",
-      "confidence": 0.95
+      "name": "上皮组织",
+      "definition": "由大量形态较规则排列紧密的上皮细胞和极少量细胞间质构成",
+      "category": "解剖结构",
+      "textbook_id": "book_0005e2f3",
+      "textbook_name": "组织学与胚胎学",
+      "chapter": "第三章 上皮组织",
+      "confidence": 0.96
     },
     {
       "id": "node_076",
-      "name": "HIV",
-      "definition": "主要传播途径为性传播血液传播和母婴传播",
-      "category": "微生物",
-      "textbook_id": "book_07",
+      "name": "结缔组织",
+      "definition": "由少量细胞和大量细胞间质组成，起连接支持营养和保护作用",
+      "category": "解剖结构",
+      "textbook_id": "book_0005e2f3",
+      "textbook_name": "组织学与胚胎学",
+      "chapter": "第四章 结缔组织",
+      "confidence": 0.95
+    },
+    {
+      "id": "node_077",
+      "name": "神经组织",
+      "definition": "由神经细胞和神经胶质细胞组成，是神经系统的主要构成成分",
+      "category": "解剖结构",
+      "textbook_id": "book_0005e2f3",
+      "textbook_name": "组织学与胚胎学",
+      "chapter": "第七章 神经组织",
+      "confidence": 0.96
+    },
+    {
+      "id": "node_078",
+      "name": "肌肉组织",
+      "definition": "由肌细胞组成，具有收缩功能，分为骨骼肌心肌和平滑肌",
+      "category": "解剖结构",
+      "textbook_id": "book_0005e2f3",
+      "textbook_name": "组织学与胚胎学",
+      "chapter": "第六章 肌组织",
+      "confidence": 0.95
+    },
+    {
+      "id": "node_079",
+      "name": "血脑屏障",
+      "definition": "脑内毛细血管与脑组织之间的屏障结构，由毛细血管内皮等构成",
+      "category": "解剖结构",
+      "textbook_id": "book_0005e2f3",
+      "textbook_name": "组织学与胚胎学",
+      "chapter": "第七章 神经组织",
+      "confidence": 0.93
+    },
+    {
+      "id": "node_080",
+      "name": "肝小叶",
+      "definition": "肝脏的基本结构和功能单位，由中央静脉和呈放射状排列的肝板构成",
+      "category": "解剖结构",
+      "textbook_id": "book_0005e2f3",
+      "textbook_name": "组织学与胚胎学",
+      "chapter": "第十三章 消化系统",
+      "confidence": 0.95
+    },
+    {
+      "id": "node_081",
+      "name": "肾单位",
+      "definition": "肾脏的基本结构和功能单位，由肾小体和肾小管组成",
+      "category": "解剖结构",
+      "textbook_id": "book_0005e2f3",
+      "textbook_name": "组织学与胚胎学",
+      "chapter": "第十四章 泌尿系统",
+      "confidence": 0.96
+    },
+    {
+      "id": "node_082",
+      "name": "肺泡",
+      "definition": "肺进行气体交换的场所，由I型和II型肺泡上皮细胞构成",
+      "category": "解剖结构",
+      "textbook_id": "book_0005e2f3",
+      "textbook_name": "组织学与胚胎学",
+      "chapter": "第十二章 呼吸系统",
+      "confidence": 0.95
+    },
+    {
+      "id": "node_083",
+      "name": "卵裂",
+      "definition": "受精卵早期进行的快速有丝分裂，细胞数目增多但总体积不增大",
+      "category": "生理机制",
+      "textbook_id": "book_0005e2f3",
+      "textbook_name": "组织学与胚胎学",
+      "chapter": "第二十章 胚胎学总论",
+      "confidence": 0.93
+    },
+    {
+      "id": "node_084",
+      "name": "胚泡",
+      "definition": "卵裂形成的囊状结构，由滋养层和内细胞群组成",
+      "category": "解剖结构",
+      "textbook_id": "book_0005e2f3",
+      "textbook_name": "组织学与胚胎学",
+      "chapter": "第二十章 胚胎学总论",
+      "confidence": 0.92
+    },
+    {
+      "id": "node_085",
+      "name": "胎盘",
+      "definition": "由胎儿的丛密绒毛膜和母体的基蜕膜共同构成的圆盘状结构",
+      "category": "解剖结构",
+      "textbook_id": "book_0005e2f3",
+      "textbook_name": "组织学与胚胎学",
+      "chapter": "第二十一章 胚胎学各论",
+      "confidence": 0.95
+    },
+    {
+      "id": "node_086",
+      "name": "干细胞",
+      "definition": "具有自我更新和多向分化潜能的未分化细胞",
+      "category": "核心概念",
+      "textbook_id": "book_0005e2f3",
+      "textbook_name": "组织学与胚胎学",
+      "chapter": "第一章 组织学绪论",
+      "confidence": 0.94
+    },
+    {
+      "id": "node_087",
+      "name": "毛细血管",
+      "definition": "管壁最薄管径最小的血管，由内皮细胞和基膜构成",
+      "category": "解剖结构",
+      "textbook_id": "book_0005e2f3",
+      "textbook_name": "组织学与胚胎学",
+      "chapter": "第九章 循环系统",
+      "confidence": 0.94
+    },
+    {
+      "id": "node_088",
+      "name": "淋巴结",
+      "definition": "外周免疫器官，位于淋巴回流通路上，具有滤过淋巴液和免疫应答功能",
+      "category": "解剖结构",
+      "textbook_id": "book_0005e2f3",
+      "textbook_name": "组织学与胚胎学",
+      "chapter": "第十章 免疫系统",
+      "confidence": 0.93
+    },
+    {
+      "id": "node_089",
+      "name": "脾脏",
+      "definition": "人体最大的淋巴器官，位于左季肋区，具有滤血和免疫功能",
+      "category": "解剖结构",
+      "textbook_id": "book_0005e2f3",
+      "textbook_name": "组织学与胚胎学",
+      "chapter": "第十章 免疫系统",
+      "confidence": 0.94
+    },
+    {
+      "id": "node_090",
+      "name": "突触结构",
+      "definition": "突触由突触前膜、突触间隙和突触后膜三部分组成",
+      "category": "解剖结构",
+      "textbook_id": "book_0005e2f3",
+      "textbook_name": "组织学与胚胎学",
+      "chapter": "第七章 神经组织",
+      "confidence": 0.94
+    },
+    {
+      "id": "node_091",
+      "name": "心脏解剖",
+      "definition": "心脏位于中纵隔内，呈圆锥形，分为左右心房和左右心室四个腔",
+      "category": "解剖结构",
+      "textbook_id": "book_0006f8b5",
+      "textbook_name": "局部解剖学",
+      "chapter": "第三章 胸部",
+      "confidence": 0.96
+    },
+    {
+      "id": "node_092",
+      "name": "肺解剖",
+      "definition": "肺位于胸腔内纵隔两侧，左肺分为两叶，右肺分为三叶",
+      "category": "解剖结构",
+      "textbook_id": "book_0006f8b5",
+      "textbook_name": "局部解剖学",
+      "chapter": "第三章 胸部",
+      "confidence": 0.95
+    },
+    {
+      "id": "node_093",
+      "name": "肝脏解剖",
+      "definition": "肝脏位于右季肋区和腹上区，是人体最大的实质性脏器",
+      "category": "解剖结构",
+      "textbook_id": "book_0006f8b5",
+      "textbook_name": "局部解剖学",
+      "chapter": "第四章 腹部",
+      "confidence": 0.96
+    },
+    {
+      "id": "node_094",
+      "name": "脑的血液供应",
+      "definition": "脑的血液供应来自颈内动脉和椎动脉，构成大脑动脉环",
+      "category": "解剖结构",
+      "textbook_id": "book_0006f8b5",
+      "textbook_name": "局部解剖学",
+      "chapter": "第五章 头颈部",
+      "confidence": 0.95
+    },
+    {
+      "id": "node_095",
+      "name": "肾脏解剖",
+      "definition": "肾脏位于腹膜后间隙，左肾平第11胸椎至第2腰椎高度",
+      "category": "解剖结构",
+      "textbook_id": "book_0006f8b5",
+      "textbook_name": "局部解剖学",
+      "chapter": "第四章 腹部",
+      "confidence": 0.95
+    },
+    {
+      "id": "node_096",
+      "name": "臂丛神经",
+      "definition": "由第5-8颈神经前支和第1胸神经前支组成，支配上肢运动和感觉",
+      "category": "解剖结构",
+      "textbook_id": "book_0006f8b5",
+      "textbook_name": "局部解剖学",
+      "chapter": "第二章 上肢",
+      "confidence": 0.94
+    },
+    {
+      "id": "node_097",
+      "name": "股三角",
+      "definition": "位于大腿前面上部的三角形区域，内有股神经股动脉和股静脉通过",
+      "category": "解剖结构",
+      "textbook_id": "book_0006f8b5",
+      "textbook_name": "局部解剖学",
+      "chapter": "第六章 下肢",
+      "confidence": 0.93
+    },
+    {
+      "id": "node_098",
+      "name": "甲状腺解剖",
+      "definition": "甲状腺位于颈前区，呈H形，由左右两个侧叶和峡部组成",
+      "category": "解剖结构",
+      "textbook_id": "book_0006f8b5",
+      "textbook_name": "局部解剖学",
+      "chapter": "第五章 头颈部",
+      "confidence": 0.94
+    },
+    {
+      "id": "node_099",
+      "name": "肝门静脉",
+      "definition": "收集腹腔不成对脏器血液的静脉干，由肠系膜上静脉和脾静脉汇合而成",
+      "category": "解剖结构",
+      "textbook_id": "book_0006f8b5",
+      "textbook_name": "局部解剖学",
+      "chapter": "第四章 腹部",
+      "confidence": 0.95
+    },
+    {
+      "id": "node_100",
+      "name": "腹股沟管",
+      "definition": "位于腹股沟韧带内侧半上方的肌筋膜裂隙，男性有精索通过",
+      "category": "解剖结构",
+      "textbook_id": "book_0006f8b5",
+      "textbook_name": "局部解剖学",
+      "chapter": "第六章 下肢",
+      "confidence": 0.92
+    },
+    {
+      "id": "node_101",
+      "name": "蛛网膜下隙",
+      "definition": "蛛网膜与软脑膜之间的腔隙，充满脑脊液",
+      "category": "解剖结构",
+      "textbook_id": "book_0006f8b5",
+      "textbook_name": "局部解剖学",
+      "chapter": "第五章 头颈部",
+      "confidence": 0.93
+    },
+    {
+      "id": "node_102",
+      "name": "纵隔",
+      "definition": "左右两侧纵隔胸膜之间的所有器官和组织的总称",
+      "category": "解剖结构",
+      "textbook_id": "book_0006f8b5",
+      "textbook_name": "局部解剖学",
+      "chapter": "第三章 胸部",
+      "confidence": 0.94
+    },
+    {
+      "id": "node_103",
+      "name": "腹膜",
+      "definition": "覆盖于腹盆腔壁内面和脏器表面的一层薄而光滑的浆膜",
+      "category": "解剖结构",
+      "textbook_id": "book_0006f8b5",
+      "textbook_name": "局部解剖学",
+      "chapter": "第四章 腹部",
+      "confidence": 0.94
+    },
+    {
+      "id": "node_104",
+      "name": "颈椎",
+      "definition": "脊柱颈部的椎骨，共7个，横突有横突孔，有椎动脉通过",
+      "category": "解剖结构",
+      "textbook_id": "book_0006f8b5",
+      "textbook_name": "局部解剖学",
+      "chapter": "第五章 头颈部",
+      "confidence": 0.93
+    },
+    {
+      "id": "node_105",
+      "name": "胸导管",
+      "definition": "全身最大的淋巴导管，起自乳糜池，注入左静脉角",
+      "category": "解剖结构",
+      "textbook_id": "book_0006f8b5",
+      "textbook_name": "局部解剖学",
+      "chapter": "第一章 绪论",
+      "confidence": 0.91
+    },
+    {
+      "id": "node_106",
+      "name": "坐骨神经",
+      "definition": "全身最粗大的神经，经梨状肌下孔出骨盆，支配大腿后侧和小腿",
+      "category": "解剖结构",
+      "textbook_id": "book_0006f8b5",
+      "textbook_name": "局部解剖学",
+      "chapter": "第六章 下肢",
+      "confidence": 0.95
+    },
+    {
+      "id": "node_107",
+      "name": "结核病",
+      "definition": "由结核分枝杆菌引起的慢性传染病，以肺结核最常见",
+      "category": "核心概念",
+      "textbook_id": "book_0007a1c9",
       "textbook_name": "传染病学",
-      "chapter": "第六章",
+      "chapter": "第三章 结核病",
+      "confidence": 0.97
+    },
+    {
+      "id": "node_108",
+      "name": "艾滋病",
+      "definition": "由人类免疫缺陷病毒感染引起的以严重免疫缺陷为特征的传染病",
+      "category": "核心概念",
+      "textbook_id": "book_0007a1c9",
+      "textbook_name": "传染病学",
+      "chapter": "第六章 艾滋病",
+      "confidence": 0.97
+    },
+    {
+      "id": "node_109",
+      "name": "流行性感冒",
+      "definition": "由流感病毒引起的急性呼吸道传染病，传染性强",
+      "category": "临床表现",
+      "textbook_id": "book_0007a1c9",
+      "textbook_name": "传染病学",
+      "chapter": "第四章 流行性感冒",
+      "confidence": 0.96
+    },
+    {
+      "id": "node_110",
+      "name": "病毒性肝炎",
+      "definition": "由多种肝炎病毒引起的以肝脏损害为主的传染病",
+      "category": "核心概念",
+      "textbook_id": "book_0007a1c9",
+      "textbook_name": "传染病学",
+      "chapter": "第五章 病毒性肝炎",
+      "confidence": 0.97
+    },
+    {
+      "id": "node_111",
+      "name": "细菌性痢疾",
+      "definition": "由志贺菌引起的肠道传染病，以腹痛腹泻里急后重为主要表现",
+      "category": "临床表现",
+      "textbook_id": "book_0007a1c9",
+      "textbook_name": "传染病学",
+      "chapter": "第七章 细菌性痢疾",
+      "confidence": 0.95
+    },
+    {
+      "id": "node_112",
+      "name": "疟疾",
+      "definition": "由疟原虫引起的寄生虫病，经按蚊叮咬传播",
+      "category": "临床表现",
+      "textbook_id": "book_0007a1c9",
+      "textbook_name": "传染病学",
+      "chapter": "第九章 疟疾",
+      "confidence": 0.94
+    },
+    {
+      "id": "node_113",
+      "name": "伤寒",
+      "definition": "由伤寒沙门菌引起的急性肠道传染病，以持续高热和全身中毒症状为特征",
+      "category": "临床表现",
+      "textbook_id": "book_0007a1c9",
+      "textbook_name": "传染病学",
+      "chapter": "第八章 伤寒",
+      "confidence": 0.95
+    },
+    {
+      "id": "node_114",
+      "name": "流行性乙型脑炎",
+      "definition": "由乙型脑炎病毒引起的以脑实质炎症为主要病变的急性传染病",
+      "category": "临床表现",
+      "textbook_id": "book_0007a1c9",
+      "textbook_name": "传染病学",
+      "chapter": "第十一章 流行性乙型脑炎",
+      "confidence": 0.94
+    },
+    {
+      "id": "node_115",
+      "name": "传染病的流行过程",
+      "definition": "传染病在人群中发生和传播的过程，包括传染源传播途径和易感人群三个环节",
+      "category": "核心概念",
+      "textbook_id": "book_0007a1c9",
+      "textbook_name": "传染病学",
+      "chapter": "第二章 传染病的流行过程",
+      "confidence": 0.96
+    },
+    {
+      "id": "node_116",
+      "name": "隔离",
+      "definition": "将传染病患者或病原携带者安置在指定场所进行治疗和管理的措施",
+      "category": "治疗方法",
+      "textbook_id": "book_0007a1c9",
+      "textbook_name": "传染病学",
+      "chapter": "第一章 总论",
+      "confidence": 0.94
+    },
+    {
+      "id": "node_117",
+      "name": "预防接种",
+      "definition": "将抗原或抗体输入机体使人体获得对某种疾病的特异性免疫力",
+      "category": "治疗方法",
+      "textbook_id": "book_0007a1c9",
+      "textbook_name": "传染病学",
+      "chapter": "第一章 总论",
+      "confidence": 0.95
+    },
+    {
+      "id": "node_118",
+      "name": "手足口病",
+      "definition": "由肠道病毒引起的传染病，以手足口腔等部位皮疹为主要特征",
+      "category": "临床表现",
+      "textbook_id": "book_0007a1c9",
+      "textbook_name": "传染病学",
+      "chapter": "第十三章 手足口病",
+      "confidence": 0.93
+    },
+    {
+      "id": "node_119",
+      "name": "霍乱",
+      "definition": "由霍乱弧菌引起的烈性肠道传染病，以剧烈呕吐和腹泻为特征",
+      "category": "临床表现",
+      "textbook_id": "book_0007a1c9",
+      "textbook_name": "传染病学",
+      "chapter": "第十章 霍乱",
+      "confidence": 0.96
+    },
+    {
+      "id": "node_120",
+      "name": "狂犬病",
+      "definition": "由狂犬病毒引起的以中枢神经系统损害为主的人畜共患传染病",
+      "category": "临床表现",
+      "textbook_id": "book_0007a1c9",
+      "textbook_name": "传染病学",
+      "chapter": "第十四章 狂犬病",
+      "confidence": 0.95
+    },
+    {
+      "id": "node_121",
+      "name": "传染性非典型肺炎",
+      "definition": "由SARS冠状病毒引起的急性呼吸系统传染病",
+      "category": "临床表现",
+      "textbook_id": "book_0007a1c9",
+      "textbook_name": "传染病学",
+      "chapter": "第十二章 传染性非典型肺炎",
+      "confidence": 0.95
+    },
+    {
+      "id": "node_122",
+      "name": "炎症",
+      "definition": "活体组织对损伤因子的防御反应，包括变质渗出和增生三种基本病变",
+      "category": "病理变化",
+      "textbook_id": "book_0002b7d8",
+      "textbook_name": "病理学",
+      "chapter": "第四章 炎症",
+      "confidence": 0.97
+    },
+    {
+      "id": "node_123",
+      "name": "炎症",
+      "definition": "以防御为主的血管反应，包括血管扩张通透性增加和白细胞渗出",
+      "category": "生理机制",
+      "textbook_id": "book_0001a3f2",
+      "textbook_name": "生理学",
+      "chapter": "第十三章 免疫",
+      "confidence": 0.93
+    },
+    {
+      "id": "node_124",
+      "name": "心力衰竭",
+      "definition": "心肌收缩和或舒张功能障碍导致心泵功能降低的综合征",
+      "category": "临床表现",
+      "textbook_id": "book_0001a3f2",
+      "textbook_name": "生理学",
+      "chapter": "第四章 血液循环",
+      "confidence": 0.91
+    },
+    {
+      "id": "node_125",
+      "name": "结核分枝杆菌",
+      "definition": "引起结核的病原菌，具有抗酸性，生长缓慢，对干燥抵抗力强",
+      "category": "微生物",
+      "textbook_id": "book_0007a1c9",
+      "textbook_name": "传染病学",
+      "chapter": "第三章 结核病",
+      "confidence": 0.96
+    },
+    {
+      "id": "node_126",
+      "name": "坏死",
+      "definition": "以酶溶性变化为特点的活体内局部组织细胞的死亡",
+      "category": "病理变化",
+      "textbook_id": "book_0003c4e1",
+      "textbook_name": "病理生理学",
+      "chapter": "第二章 细胞损伤",
+      "confidence": 0.92
+    },
+    {
+      "id": "node_127",
+      "name": "肝硬化",
+      "definition": "各种慢性肝病发展的晚期阶段，以弥漫性肝纤维化和假小叶形成为特征",
+      "category": "病理变化",
+      "textbook_id": "book_0007a1c9",
+      "textbook_name": "传染病学",
+      "chapter": "第五章 病毒性肝炎",
+      "confidence": 0.94
+    },
+    {
+      "id": "node_128",
+      "name": "甲状腺激素",
+      "definition": "促进物质代谢和生长发育的重要激素，过多或过少均引起疾病",
+      "category": "生理机制",
+      "textbook_id": "book_0003c4e1",
+      "textbook_name": "病理生理学",
+      "chapter": "第九章 内分泌系统疾病",
+      "confidence": 0.91
+    },
+    {
+      "id": "node_129",
+      "name": "肾小球肾炎",
+      "definition": "以肾小球损害为主的免疫性疾病，可由多种病因引起",
+      "category": "病理变化",
+      "textbook_id": "book_0003c4e1",
+      "textbook_name": "病理生理学",
+      "chapter": "第十八章 肾功能不全",
+      "confidence": 0.93
+    },
+    {
+      "id": "node_130",
+      "name": "大叶性肺炎",
+      "definition": "以肺泡内纤维素渗出为主的急性炎症，好发于青壮年",
+      "category": "病理变化",
+      "textbook_id": "book_0004d9a6",
+      "textbook_name": "医学微生物学",
+      "chapter": "第六章 球菌",
+      "confidence": 0.94
+    },
+    {
+      "id": "node_131",
+      "name": "流感病毒",
+      "definition": "正黏病毒科成员，分为甲乙丙三型，甲型变异频繁",
+      "category": "微生物",
+      "textbook_id": "book_0007a1c9",
+      "textbook_name": "传染病学",
+      "chapter": "第四章 流行性感冒",
+      "confidence": 0.95
+    },
+    {
+      "id": "node_132",
+      "name": "HIV",
+      "definition": "人类免疫缺陷病毒，主要传播途径为性传播血液传播和母婴传播",
+      "category": "微生物",
+      "textbook_id": "book_0007a1c9",
+      "textbook_name": "传染病学",
+      "chapter": "第六章 艾滋病",
+      "confidence": 0.96
+    },
+    {
+      "id": "node_133",
+      "name": "缺氧",
+      "definition": "当组织得不到充足的氧或不能充分利用氧时所发生的病理过程",
+      "category": "病理变化",
+      "textbook_id": "book_0003c4e1",
+      "textbook_name": "病理生理学",
+      "chapter": "第七章 缺氧",
+      "confidence": 0.94
+    },
+    {
+      "id": "node_134",
+      "name": "血栓形成",
+      "definition": "在活体的心脏和血管内血液发生凝固形成固体质块的过程",
+      "category": "病理变化",
+      "textbook_id": "book_0003c4e1",
+      "textbook_name": "病理生理学",
+      "chapter": "第十三章 弥散性血管内凝血",
+      "confidence": 0.92
+    },
+    {
+      "id": "node_135",
+      "name": "水肿",
+      "definition": "过多的液体在组织间隙或体腔内积聚的病理状态",
+      "category": "临床表现",
+      "textbook_id": "book_0002b7d8",
+      "textbook_name": "病理学",
+      "chapter": "第三章 局部血液循环障碍",
+      "confidence": 0.91
+    },
+    {
+      "id": "node_136",
+      "name": "休克",
+      "definition": "有效循环血量减少导致组织灌注不足的病理过程",
+      "category": "核心概念",
+      "textbook_id": "book_0003c4e1",
+      "textbook_name": "病理生理学",
+      "chapter": "第十二章 休克",
       "confidence": 0.96
     }
   ],
@@ -766,518 +1366,518 @@
       "decision_id": "merge_001",
       "action": "merge",
       "affected_nodes": [
-        "node_016",
-        "node_018"
+        "node_021",
+        "node_122"
       ],
-      "result_node": "node_016",
-      "reason": "跨教材炎症概念合并",
-      "confidence": 0.93
+      "result_node": "node_021",
+      "reason": "两处对炎症的定义互补，合并后形成更完整的概念描述：炎症是活体组织对损伤因子的防御反应，包括血管反应和组织病变",
+      "confidence": 0.95
     },
     {
       "decision_id": "merge_002",
       "action": "merge",
       "affected_nodes": [
-        "node_017",
-        "node_031"
+        "node_021",
+        "node_123"
       ],
-      "result_node": "node_017",
-      "reason": "跨教材心力衰竭概念合并",
-      "confidence": 0.82
+      "result_node": "node_021",
+      "reason": "病理学和生理学对炎症的定义侧重点不同，合并后保留病理学定义作为主体，补充血管反应描述",
+      "confidence": 0.93
     },
     {
       "decision_id": "merge_003",
       "action": "merge",
       "affected_nodes": [
-        "node_046",
-        "node_049"
+        "node_040",
+        "node_124"
       ],
-      "result_node": "node_046",
-      "reason": "跨教材结核分枝杆菌概念合并",
-      "confidence": 0.87
+      "result_node": "node_040",
+      "reason": "病理生理学对心力衰竭的定义更完整和准确，生理学中的描述可作为补充，合并后以病理生理学定义为主",
+      "confidence": 0.94
     },
     {
       "decision_id": "merge_004",
       "action": "merge",
       "affected_nodes": [
-        "node_024",
-        "node_066"
+        "node_065",
+        "node_125"
       ],
-      "result_node": "node_024",
-      "reason": "跨教材肝硬化概念合并",
-      "confidence": 0.86
+      "result_node": "node_065",
+      "reason": "医学微生物学和传染病学均涉及结核分枝杆菌，微生物学侧重生物学特性，传染病学侧重临床意义，合并后更全面",
+      "confidence": 0.92
     },
     {
       "decision_id": "merge_005",
       "action": "merge",
       "affected_nodes": [
-        "node_010",
-        "node_043"
+        "node_022",
+        "node_126"
       ],
-      "result_node": "node_010",
-      "reason": "跨教材甲状腺激素概念合并",
-      "confidence": 0.95
+      "result_node": "node_022",
+      "reason": "病理学和病理生理学对坏死的定义基本一致，均强调酶溶性变化和局部组织细胞死亡，合并去重",
+      "confidence": 0.96
     },
     {
       "decision_id": "merge_006",
       "action": "merge",
       "affected_nodes": [
-        "node_028",
-        "node_044"
+        "node_007",
+        "node_127"
       ],
-      "result_node": "node_028",
-      "reason": "跨教材肾小球肾炎概念合并",
-      "confidence": 0.94
+      "result_node": "node_007",
+      "reason": "病理学描述肝硬化的病理形态学改变，传染病学补充病毒性肝炎导致肝硬化的临床背景，合并更完整",
+      "confidence": 0.91
     },
     {
       "decision_id": "merge_007",
       "action": "merge",
       "affected_nodes": [
-        "node_027",
-        "node_055"
+        "node_012",
+        "node_128"
       ],
-      "result_node": "node_027",
-      "reason": "跨教材大叶性肺炎概念合并",
-      "confidence": 0.97
+      "result_node": "node_012",
+      "reason": "生理学描述甲状腺激素的正常生理功能，病理生理学补充其功能异常的后果，合并后涵盖正常与异常",
+      "confidence": 0.88
     },
     {
       "decision_id": "merge_008",
       "action": "merge",
       "affected_nodes": [
-        "node_005",
-        "node_014"
+        "node_038",
+        "node_129"
       ],
-      "result_node": "node_005",
-      "reason": "肺通气和呼吸运动合并",
-      "confidence": 0.83
+      "result_node": "node_038",
+      "reason": "病理学和病理生理学对肾小球肾炎的描述角度不同，合并后既包括病理形态又包括功能影响",
+      "confidence": 0.9
     },
     {
       "decision_id": "merge_009",
       "action": "merge",
       "affected_nodes": [
-        "node_030",
-        "node_068"
+        "node_037",
+        "node_130"
       ],
-      "result_node": "node_030",
-      "reason": "跨教材水肿概念合并",
-      "confidence": 0.89
+      "result_node": "node_037",
+      "reason": "病理学描述大叶性肺炎的病理分期，微生物学补充病原学信息，合并后形成完整疾病描述",
+      "confidence": 0.93
     },
     {
       "decision_id": "merge_010",
       "action": "merge",
       "affected_nodes": [
-        "node_020",
-        "node_042"
+        "node_070",
+        "node_131"
       ],
-      "result_node": "node_020",
-      "reason": "跨教材坏死概念合并",
-      "confidence": 0.83
+      "result_node": "node_070",
+      "reason": "微生物学侧重流感病毒的生物学特性，传染病学侧重流行病学和临床表现，合并后信息更完整",
+      "confidence": 0.94
     },
     {
       "decision_id": "merge_011",
       "action": "merge",
       "affected_nodes": [
-        "node_034",
-        "node_045"
+        "node_069",
+        "node_132"
       ],
-      "result_node": "node_034",
-      "reason": "跨教材休克概念合并",
-      "confidence": 0.86
+      "result_node": "node_069",
+      "reason": "微生物学描述HIV的分子生物学特性，传染病学补充传播途径和临床意义，合并更全面",
+      "confidence": 0.95
     },
     {
       "decision_id": "merge_012",
       "action": "merge",
       "affected_nodes": [
-        "node_037",
-        "node_032"
+        "node_048",
+        "node_133"
       ],
-      "result_node": "node_037",
-      "reason": "跨教材缺氧概念合并",
-      "confidence": 0.91
+      "result_node": "node_048",
+      "reason": "两处对缺氧的定义高度一致，均为组织供氧不足导致的病理过程，合并去重",
+      "confidence": 0.97
     },
     {
       "decision_id": "merge_013",
       "action": "merge",
       "affected_nodes": [
-        "node_049",
-        "node_071"
+        "node_009",
+        "node_134"
       ],
-      "result_node": "node_049",
-      "reason": "跨教材流感病毒概念合并",
-      "confidence": 0.82
+      "result_node": "node_009",
+      "reason": "病理学描述血栓形成的基本过程，病理生理学补充其与DIC的关联，合并后概念更完整",
+      "confidence": 0.91
     },
     {
       "decision_id": "merge_014",
       "action": "merge",
       "affected_nodes": [
-        "node_049",
-        "node_072"
+        "node_051",
+        "node_135"
       ],
-      "result_node": "node_049",
-      "reason": "跨教材HIV概念合并",
+      "result_node": "node_051",
+      "reason": "病理生理学侧重水肿的发生机制，病理学侧重病理形态改变，合并后机制和形态描述互补",
+      "confidence": 0.89
+    },
+    {
+      "decision_id": "merge_015",
+      "action": "merge",
+      "affected_nodes": [
+        "node_041",
+        "node_136"
+      ],
+      "result_node": "node_041",
+      "reason": "两处对休克的定义核心一致，合并后统一表述，避免重复",
+      "confidence": 0.96
+    },
+    {
+      "decision_id": "merge_016",
+      "action": "merge",
+      "affected_nodes": [
+        "node_005",
+        "node_019"
+      ],
+      "result_node": "node_005",
+      "reason": "肺通气和呼吸运动本质描述同一过程，肺通气是结果，呼吸运动是机制，合并后定义更准确",
+      "confidence": 0.92
+    },
+    {
+      "decision_id": "merge_017",
+      "action": "merge",
+      "affected_nodes": [
+        "node_003",
+        "node_017"
+      ],
+      "result_node": "node_003",
+      "reason": "心输出量和心脏泵血功能密切相关，心输出量是心脏泵血功能的量化指标，合并后概念更具体",
+      "confidence": 0.9
+    },
+    {
+      "decision_id": "merge_018",
+      "action": "merge",
+      "affected_nodes": [
+        "node_013",
+        "node_014"
+      ],
+      "result_node": "node_013",
+      "reason": "胰岛素和胃液分泌虽属不同系统，但均为消化代谢的重要调节因素，合并为消化代谢调节专题",
       "confidence": 0.85
     },
     {
-      "decision_id": "keep_001",
+      "decision_id": "merge_019",
+      "action": "merge",
+      "affected_nodes": [
+        "node_024",
+        "node_025"
+      ],
+      "result_node": "node_024",
+      "reason": "化生和增生都是细胞适应性变化的重要形式，合并后统一描述组织适应性改变",
+      "confidence": 0.84
+    },
+    {
+      "decision_id": "merge_020",
+      "action": "merge",
+      "affected_nodes": [
+        "node_052",
+        "node_054"
+      ],
+      "result_node": "node_052",
+      "reason": "弥散性血管内凝血和血栓形成均为凝血功能异常，合并后系统描述凝血障碍的病理生理",
+      "confidence": 0.88
+    },
+    {
+      "decision_id": "merge_021",
+      "action": "merge",
+      "affected_nodes": [
+        "node_045",
+        "node_055"
+      ],
+      "result_node": "node_045",
+      "reason": "炎症介质在发热过程中发挥重要作用，合并后说明发热与炎症介质的关联",
+      "confidence": 0.87
+    },
+    {
+      "decision_id": "merge_022",
+      "action": "merge",
+      "affected_nodes": [
+        "node_056",
+        "node_057"
+      ],
+      "result_node": "node_056",
+      "reason": "缺血再灌注损伤和肝功能衰竭均涉及细胞损伤机制，合并为多器官损伤专题",
+      "confidence": 0.83
+    },
+    {
+      "decision_id": "merge_023",
+      "action": "merge",
+      "affected_nodes": [
+        "node_072",
+        "node_073"
+      ],
+      "result_node": "node_072",
+      "reason": "消毒和灭菌均为控制微生物的方法，合并后系统对比两种方法的异同",
+      "confidence": 0.9
+    },
+    {
+      "decision_id": "merge_024",
+      "action": "merge",
+      "affected_nodes": [
+        "node_074",
+        "node_075"
+      ],
+      "result_node": "node_074",
+      "reason": "内毒素和外毒素均为细菌毒素，合并后系统对比两种毒素的特性和作用机制",
+      "confidence": 0.89
+    },
+    {
+      "decision_id": "merge_025",
+      "action": "merge",
+      "affected_nodes": [
+        "node_079",
+        "node_080"
+      ],
+      "result_node": "node_079",
+      "reason": "肺炎链球菌和幽门螺杆菌均为常见致病菌，合并为临床重要致病菌专题",
+      "confidence": 0.82
+    },
+    {
+      "decision_id": "merge_026",
+      "action": "merge",
+      "affected_nodes": [
+        "node_086",
+        "node_087"
+      ],
+      "result_node": "node_086",
+      "reason": "上皮组织和结缔组织均为基本组织，合并后系统描述四大基本组织的特点",
+      "confidence": 0.86
+    },
+    {
+      "decision_id": "merge_027",
+      "action": "merge",
+      "affected_nodes": [
+        "node_092",
+        "node_093"
+      ],
+      "result_node": "node_092",
+      "reason": "胚泡和胎盘均为胚胎发育的重要结构，合并后描述胚胎发育的连续过程",
+      "confidence": 0.88
+    },
+    {
+      "decision_id": "merge_028",
+      "action": "merge",
+      "affected_nodes": [
+        "node_095",
+        "node_096"
+      ],
+      "result_node": "node_095",
+      "reason": "毛细血管和淋巴结均为循环系统的重要组成部分，合并后描述脉管系统的微细结构",
+      "confidence": 0.85
+    },
+    {
+      "decision_id": "merge_029",
+      "action": "merge",
+      "affected_nodes": [
+        "node_101",
+        "node_102"
+      ],
+      "result_node": "node_101",
+      "reason": "臂丛神经和股三角均涉及四肢的重要神经血管结构，合并为四肢神经血管解剖专题",
+      "confidence": 0.84
+    },
+    {
+      "decision_id": "merge_030",
+      "action": "merge",
+      "affected_nodes": [
+        "node_107",
+        "node_113"
+      ],
+      "result_node": "node_107",
+      "reason": "腹膜和消化管壁结构均涉及腹腔脏器的组织层次，合并后描述腹腔脏器的完整结构",
+      "confidence": 0.86
+    },
+    {
+      "decision_id": "merge_031",
       "action": "keep",
       "affected_nodes": [
         "node_001",
         "node_002"
       ],
       "result_node": "node_001",
-      "reason": "静息电位和动作电位为不同概念",
-      "confidence": 0.9
+      "reason": "静息电位和动作电位是细胞电活动的两种不同状态，前者是安静状态电位，后者是兴奋时的电位变化，为不同概念应独立保留",
+      "confidence": 0.95
     },
     {
-      "decision_id": "keep_002",
+      "decision_id": "merge_032",
       "action": "keep",
       "affected_nodes": [
         "node_006",
-        "node_061"
+        "node_007"
       ],
       "result_node": "node_006",
-      "reason": "肺换气和肺泡结构与功能不同层面",
-      "confidence": 0.88
+      "reason": "肺换气是气体交换的生理过程，肝硬化是消化系统的病理变化，两者属于完全不同的系统，必须分别保留",
+      "confidence": 0.97
     },
     {
-      "decision_id": "keep_003",
+      "decision_id": "merge_033",
+      "action": "keep",
+      "affected_nodes": [
+        "node_010",
+        "node_011"
+      ],
+      "result_node": "node_010",
+      "reason": "激素是内分泌物质的总称，甲状腺激素是其中一种，总论与各论应分别保留",
+      "confidence": 0.93
+    },
+    {
+      "decision_id": "merge_034",
+      "action": "keep",
+      "affected_nodes": [
+        "node_015",
+        "node_016"
+      ],
+      "result_node": "node_015",
+      "reason": "血型和凝血过程是血液系统的两个不同方面，抗原特性与止血机制应分别保留",
+      "confidence": 0.94
+    },
+    {
+      "decision_id": "merge_035",
       "action": "keep",
       "affected_nodes": [
         "node_020",
         "node_021"
       ],
       "result_node": "node_020",
-      "reason": "凋亡和纤维化为不同病理变化",
-      "confidence": 0.82
-    },
-    {
-      "decision_id": "keep_004",
-      "action": "keep",
-      "affected_nodes": [
-        "node_022",
-        "node_023"
-      ],
-      "result_node": "node_022",
-      "reason": "动脉粥样硬化和肝硬化为不同疾病",
-      "confidence": 0.89
-    },
-    {
-      "decision_id": "keep_005",
-      "action": "keep",
-      "affected_nodes": [
-        "node_047",
-        "node_048"
-      ],
-      "result_node": "node_047",
-      "reason": "金黄色葡萄球菌和大肠杆菌为不同微生物",
-      "confidence": 0.93
-    },
-    {
-      "decision_id": "keep_006",
-      "action": "keep",
-      "affected_nodes": [
-        "node_056",
-        "node_057"
-      ],
-      "result_node": "node_056",
-      "reason": "神经组织和肌肉组织为不同组织类型",
-      "confidence": 0.78
-    },
-    {
-      "decision_id": "keep_007",
-      "action": "keep",
-      "affected_nodes": [
-        "node_058",
-        "node_059"
-      ],
-      "result_node": "node_058",
-      "reason": "内毒素和外毒素应分别保留",
-      "confidence": 0.93
-    },
-    {
-      "decision_id": "keep_008",
-      "action": "keep",
-      "affected_nodes": [
-        "node_063",
-        "node_064"
-      ],
-      "result_node": "node_063",
-      "reason": "肝小叶和肾单位为不同结构",
-      "confidence": 0.91
-    },
-    {
-      "decision_id": "keep_009",
-      "action": "keep",
-      "affected_nodes": [
-        "node_069",
-        "node_070"
-      ],
-      "result_node": "node_069",
-      "reason": "肝脏解剖和肾脏解剖为不同器官",
-      "confidence": 0.84
-    },
-    {
-      "decision_id": "keep_010",
-      "action": "keep",
-      "affected_nodes": [
-        "node_073",
-        "node_074"
-      ],
-      "result_node": "node_073",
-      "reason": "艾滋病和流行性感冒为不同疾病",
-      "confidence": 0.81
-    },
-    {
-      "decision_id": "keep_011",
-      "action": "keep",
-      "affected_nodes": [
-        "node_075",
-        "node_076"
-      ],
-      "result_node": "node_075",
-      "reason": "病毒性肝炎和结核分枝杆菌为不同概念",
+      "reason": "肿瘤和炎症是病理学的两大核心概念，虽然炎症可促进肿瘤发生，但本质不同应分别保留",
       "confidence": 0.96
     },
     {
-      "decision_id": "keep_012",
+      "decision_id": "merge_036",
       "action": "keep",
       "affected_nodes": [
-        "node_025",
-        "node_026"
+        "node_023",
+        "node_024"
       ],
-      "result_node": "node_025",
-      "reason": "血栓形成和肉芽组织为不同病理变化",
-      "confidence": 0.84
-    },
-    {
-      "decision_id": "merge_027",
-      "action": "merge",
-      "affected_nodes": [
-        "node_012",
-        "node_049"
-      ],
-      "result_node": "node_012",
-      "reason": "语义相似概念整合",
-      "confidence": 0.82
-    },
-    {
-      "decision_id": "merge_028",
-      "action": "merge",
-      "affected_nodes": [
-        "node_045",
-        "node_034"
-      ],
-      "result_node": "node_045",
-      "reason": "语义相似概念整合",
-      "confidence": 0.93
-    },
-    {
-      "decision_id": "merge_029",
-      "action": "merge",
-      "affected_nodes": [
-        "node_059",
-        "node_069"
-      ],
-      "result_node": "node_059",
-      "reason": "语义相似概念整合",
-      "confidence": 0.82
-    },
-    {
-      "decision_id": "merge_030",
-      "action": "merge",
-      "affected_nodes": [
-        "node_049",
-        "node_011"
-      ],
-      "result_node": "node_049",
-      "reason": "语义相似概念整合",
-      "confidence": 0.89
-    },
-    {
-      "decision_id": "merge_031",
-      "action": "merge",
-      "affected_nodes": [
-        "node_047",
-        "node_074"
-      ],
-      "result_node": "node_047",
-      "reason": "语义相似概念整合",
-      "confidence": 0.83
-    },
-    {
-      "decision_id": "merge_032",
-      "action": "merge",
-      "affected_nodes": [
-        "node_009",
-        "node_006"
-      ],
-      "result_node": "node_009",
-      "reason": "语义相似概念整合",
-      "confidence": 0.91
-    },
-    {
-      "decision_id": "merge_033",
-      "action": "merge",
-      "affected_nodes": [
-        "node_038",
-        "node_011"
-      ],
-      "result_node": "node_038",
-      "reason": "语义相似概念整合",
-      "confidence": 0.94
-    },
-    {
-      "decision_id": "merge_034",
-      "action": "merge",
-      "affected_nodes": [
-        "node_013",
-        "node_049"
-      ],
-      "result_node": "node_013",
-      "reason": "语义相似概念整合",
-      "confidence": 0.84
-    },
-    {
-      "decision_id": "merge_035",
-      "action": "merge",
-      "affected_nodes": [
-        "node_047",
-        "node_021"
-      ],
-      "result_node": "node_047",
-      "reason": "语义相似概念整合",
-      "confidence": 0.86
-    },
-    {
-      "decision_id": "merge_036",
-      "action": "merge",
-      "affected_nodes": [
-        "node_027",
-        "node_035"
-      ],
-      "result_node": "node_027",
-      "reason": "语义相似概念整合",
-      "confidence": 0.91
+      "result_node": "node_023",
+      "reason": "凋亡和化生是两种不同的细胞适应性变化，凋亡是程序性死亡，化生是细胞类型转换，应分别保留",
+      "confidence": 0.92
     },
     {
       "decision_id": "merge_037",
-      "action": "merge",
+      "action": "keep",
       "affected_nodes": [
-        "node_010",
-        "node_022"
+        "node_028",
+        "node_029"
       ],
-      "result_node": "node_010",
-      "reason": "语义相似概念整合",
-      "confidence": 0.89
+      "result_node": "node_028",
+      "reason": "栓塞和梗死是因果关系的两种不同病理过程，栓塞可导致梗死，但两者是独立的病理概念",
+      "confidence": 0.91
     },
     {
       "decision_id": "merge_038",
-      "action": "merge",
+      "action": "keep",
       "affected_nodes": [
-        "node_032",
-        "node_021"
+        "node_030",
+        "node_031"
       ],
-      "result_node": "node_032",
-      "reason": "语义相似概念整合",
-      "confidence": 0.87
+      "result_node": "node_030",
+      "reason": "肉芽组织和纤维化是修复过程的不同阶段，肉芽组织是早期修复，纤维化是晚期修复结果",
+      "confidence": 0.9
     },
     {
       "decision_id": "merge_039",
-      "action": "merge",
+      "action": "keep",
       "affected_nodes": [
-        "node_035",
-        "node_072"
+        "node_033",
+        "node_034"
       ],
-      "result_node": "node_035",
-      "reason": "语义相似概念整合",
-      "confidence": 0.84
+      "result_node": "node_033",
+      "reason": "动脉粥样硬化和萎缩属于心血管系统和细胞适应的不同层面，应分别保留",
+      "confidence": 0.89
     },
     {
       "decision_id": "merge_040",
-      "action": "merge",
+      "action": "keep",
       "affected_nodes": [
         "node_042",
-        "node_008"
+        "node_043"
       ],
       "result_node": "node_042",
-      "reason": "语义相似概念整合",
-      "confidence": 0.84
-    },
-    {
-      "decision_id": "merge_041",
-      "action": "merge",
-      "affected_nodes": [
-        "node_005",
-        "node_041"
-      ],
-      "result_node": "node_005",
-      "reason": "语义相似概念整合",
-      "confidence": 0.86
-    },
-    {
-      "decision_id": "merge_042",
-      "action": "merge",
-      "affected_nodes": [
-        "node_009",
-        "node_028"
-      ],
-      "result_node": "node_009",
-      "reason": "语义相似概念整合",
+      "reason": "呼吸衰竭和肾功能衰竭是不同器官的功能障碍，虽然可互为因果，但应分别保留",
       "confidence": 0.95
     },
     {
-      "decision_id": "merge_043",
-      "action": "merge",
+      "decision_id": "merge_041",
+      "action": "keep",
       "affected_nodes": [
-        "node_073",
+        "node_062",
+        "node_063"
+      ],
+      "result_node": "node_062",
+      "reason": "大肠杆菌和HIV分别是细菌和病毒的代表，属于不同类型的微生物，应分别保留",
+      "confidence": 0.96
+    },
+    {
+      "decision_id": "merge_042",
+      "action": "keep",
+      "affected_nodes": [
+        "node_088",
+        "node_089"
+      ],
+      "result_node": "node_088",
+      "reason": "神经组织和肌肉组织是不同的基本组织类型，结构和功能各有特点，应分别保留",
+      "confidence": 0.94
+    },
+    {
+      "decision_id": "merge_043",
+      "action": "remove",
+      "affected_nodes": [
+        "node_136",
         "node_041"
       ],
-      "result_node": "node_073",
-      "reason": "语义相似概念整合",
-      "confidence": 0.83
+      "result_node": "node_041",
+      "reason": "该节点为休克的重复定义，与病理生理学中休克概念高度重复，属于数据冗余，应移除",
+      "confidence": 0.96
     },
     {
       "decision_id": "merge_044",
-      "action": "merge",
+      "action": "remove",
       "affected_nodes": [
-        "node_064",
-        "node_051"
+        "node_123",
+        "node_021"
       ],
-      "result_node": "node_064",
-      "reason": "语义相似概念整合",
+      "result_node": "node_021",
+      "reason": "生理学对炎症的描述已通过合并纳入病理学炎症节点，该重复条目应移除",
       "confidence": 0.94
     },
     {
       "decision_id": "merge_045",
-      "action": "merge",
+      "action": "remove",
       "affected_nodes": [
-        "node_059",
-        "node_019"
+        "node_126",
+        "node_022"
       ],
-      "result_node": "node_059",
-      "reason": "语义相似概念整合",
-      "confidence": 0.84
+      "result_node": "node_022",
+      "reason": "病理生理学中坏死的描述与病理学高度重叠，合并后该条目冗余，应移除",
+      "confidence": 0.93
     },
     {
       "decision_id": "merge_046",
-      "action": "merge",
+      "action": "remove",
       "affected_nodes": [
-        "node_032",
-        "node_072"
+        "node_133",
+        "node_048"
       ],
-      "result_node": "node_032",
-      "reason": "语义相似概念整合",
-      "confidence": 0.89
+      "result_node": "node_048",
+      "reason": "缺氧条目在病理生理学中重复出现，合并后移除重复条目",
+      "confidence": 0.95
     },
     {
       "decision_id": "merge_047",
-      "action": "merge",
+      "action": "remove",
       "affected_nodes": [
-        "node_075",
-        "node_055"
+        "node_134",
+        "node_009"
       ],
-      "result_node": "node_075",
-      "reason": "语义相似概念整合",
-      "confidence": 0.94
+      "result_node": "node_009",
+      "reason": "血栓形成概念在病理生理学中重复定义，合并后该冗余条目应移除",
+      "confidence": 0.92
     }
   ],
   "conflicts": [
@@ -1286,11 +1886,18 @@
       "sources": [
         {
           "textbook": "生理学",
-          "definition": "以防御为主的血管反应"
+          "definition": "以防御为主的血管反应，包括血管扩张通透性增加和白细胞渗出",
+          "node_id": "node_123"
         },
         {
           "textbook": "病理学",
-          "definition": "对损伤因子所发生的防御反应"
+          "definition": "具有血管系统的活体组织对损伤因子所发生的以防御为主的反应，包括变质渗出和增生",
+          "node_id": "node_021"
+        },
+        {
+          "textbook": "病理生理学",
+          "definition": "以血管反应为中心的防御反应，强调炎症介质的释放和作用",
+          "node_id": "node_045"
         }
       ],
       "type": "definition_conflict"
@@ -1300,11 +1907,13 @@
       "sources": [
         {
           "textbook": "病理生理学",
-          "definition": "急性循环衰竭和微循环障碍"
+          "definition": "各种强烈致病因子作用于机体引起的急性循环衰竭和微循环障碍",
+          "node_id": "node_041"
         },
         {
-          "textbook": "病理学",
-          "definition": "有效循环血量急剧减少"
+          "textbook": "病理生理学",
+          "definition": "有效循环血量减少导致组织灌注不足的病理过程",
+          "node_id": "node_136"
         }
       ],
       "type": "definition_conflict"
@@ -1314,11 +1923,13 @@
       "sources": [
         {
           "textbook": "病理学",
-          "definition": "肝细胞广泛坏死后纤维组织增生"
+          "definition": "肝细胞广泛坏死后纤维组织增生和肝细胞结节状再生形成的慢性肝病",
+          "node_id": "node_007"
         },
         {
           "textbook": "传染病学",
-          "definition": "弥漫性肝纤维化和假小叶形成"
+          "definition": "各种慢性肝病发展的晚期阶段，以弥漫性肝纤维化和假小叶形成为特征",
+          "node_id": "node_127"
         }
       ],
       "type": "definition_conflict"
@@ -1328,11 +1939,13 @@
       "sources": [
         {
           "textbook": "病理学",
-          "definition": "细胞核的固缩碎裂和溶解"
+          "definition": "活体内局部组织细胞的死亡，表现为细胞核的固缩碎裂和溶解",
+          "node_id": "node_022"
         },
         {
           "textbook": "病理生理学",
-          "definition": "以酶溶性变化为特点"
+          "definition": "以酶溶性变化为特点的活体内局部组织细胞的死亡",
+          "node_id": "node_126"
         }
       ],
       "type": "definition_conflict"
@@ -1342,11 +1955,13 @@
       "sources": [
         {
           "textbook": "病理学",
-          "definition": "肺炎链球菌引起的纤维素渗出"
+          "definition": "主要由肺炎链球菌引起的以肺泡内弥漫性纤维素渗出为主的炎症",
+          "node_id": "node_037"
         },
         {
-          "textbook": "微生物学",
-          "definition": "肺炎链球菌感染引起的急性肺部炎症"
+          "textbook": "医学微生物学",
+          "definition": "由肺炎链球菌感染引起的急性肺部炎症，以肺泡内大量纤维素渗出为特征",
+          "node_id": "node_130"
         }
       ],
       "type": "definition_conflict"
@@ -1356,11 +1971,13 @@
       "sources": [
         {
           "textbook": "生理学",
-          "definition": "调节机体代谢和生长发育"
+          "definition": "甲状腺合成和分泌的含碘激素，主要调节机体代谢和生长发育",
+          "node_id": "node_012"
         },
         {
           "textbook": "病理生理学",
-          "definition": "过多或过少均引起疾病"
+          "definition": "促进物质代谢和生长发育的重要激素，过多或过少均引起疾病",
+          "node_id": "node_128"
         }
       ],
       "type": "definition_conflict"
@@ -1370,11 +1987,13 @@
       "sources": [
         {
           "textbook": "病理生理学",
-          "definition": "组织的氧供应不足"
+          "definition": "因组织的氧供应不足或组织利用氧的能力障碍导致机体功能代谢异常的病理过程",
+          "node_id": "node_048"
         },
         {
           "textbook": "病理生理学",
-          "definition": "组织得不到充足的氧"
+          "definition": "当组织得不到充足的氧或不能充分利用氧时所发生的病理过程",
+          "node_id": "node_133"
         }
       ],
       "type": "definition_conflict"
@@ -1382,8 +2001,8 @@
   ],
   "stats": {
     "original": 452,
-    "merged": 76,
+    "merged": 136,
     "decisions_count": 47,
-    "compression_ratio": 0.168
+    "compression_ratio": 0.301
   }
 }
