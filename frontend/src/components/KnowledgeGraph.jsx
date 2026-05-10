@@ -7,6 +7,8 @@ export default function KnowledgeGraph({ data, onNodeSelect, integrationResult }
   const [searchTerm, setSearchTerm] = useState('')
   const [filterTextbook, setFilterTextbook] = useState('')
   const [viewMode, setViewMode] = useState('graph')
+  const [selectedNode, setSelectedNode] = useState(null)
+  const [popupPos, setPopupPos] = useState({ x: 0, y: 0 })
   const simulationRef = useRef(null)
   const highlightedRef = useRef(new Set())
 
@@ -51,6 +53,15 @@ export default function KnowledgeGraph({ data, onNodeSelect, integrationResult }
       })
 
     svg.call(zoom)
+
+    // Click on background to close popup
+    svg.on('click', () => {
+      setSelectedNode(null)
+      highlightedRef.current = new Set()
+      node.selectAll('circle')
+        .attr('r', d => d.size || 8)
+        .attr('stroke', 'none')
+    })
 
     const nodeMap = new Map()
     data.nodes.forEach(n => nodeMap.set(n.id, n))
@@ -141,6 +152,13 @@ export default function KnowledgeGraph({ data, onNodeSelect, integrationResult }
     node.on('click', (event, d) => {
       event.stopPropagation()
       onNodeSelect(d)
+      setSelectedNode(d)
+      // Get screen position for popup
+      const svgRect = svgRef.current.getBoundingClientRect()
+      setPopupPos({
+        x: Math.min(event.clientX - svgRect.left + 10, svgRect.width - 280),
+        y: Math.min(event.clientY - svgRect.top - 10, svgRect.height - 200)
+      })
       // Update highlight without re-rendering
       highlightedRef.current = new Set([d.id])
       node.selectAll('circle')
@@ -392,6 +410,53 @@ export default function KnowledgeGraph({ data, onNodeSelect, integrationResult }
         <svg ref={svgRef} style={{ width: '100%', height: '100%' }}></svg>
       ) : (
         <svg ref={matrixSvgRef} style={{ width: '100%', height: '100%' }}></svg>
+      )}
+
+      {selectedNode && viewMode === 'graph' && (
+        <div
+          className="node-popup"
+          style={{
+            position: 'absolute',
+            left: popupPos.x,
+            top: popupPos.y,
+            zIndex: 100,
+            background: 'var(--bg-secondary, #1e1e2e)',
+            border: '1px solid var(--border, #3a3a4e)',
+            borderRadius: '10px',
+            padding: '14px 16px',
+            maxWidth: '280px',
+            boxShadow: '0 8px 24px rgba(0,0,0,0.4)',
+            pointerEvents: 'auto'
+          }}
+          onClick={(e) => e.stopPropagation()}
+        >
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '8px' }}>
+            <h4 style={{ margin: 0, fontSize: '14px', color: '#e5e7eb' }}>{selectedNode.name}</h4>
+            <button
+              onClick={() => setSelectedNode(null)}
+              style={{ background: 'none', border: 'none', color: '#9ca3af', cursor: 'pointer', fontSize: '16px', padding: '0 4px' }}
+            >×</button>
+          </div>
+          <span style={{
+            display: 'inline-block',
+            padding: '2px 8px',
+            borderRadius: '4px',
+            background: 'var(--accent-primary, #6366f1)',
+            color: '#fff',
+            fontSize: '11px',
+            marginBottom: '8px'
+          }}>{selectedNode.category}</span>
+          {selectedNode.definition && (
+            <p style={{ margin: '8px 0', fontSize: '12px', color: '#d1d5db', lineHeight: '1.5' }}>
+              {selectedNode.definition}
+            </p>
+          )}
+          <div style={{ fontSize: '11px', color: '#9ca3af', borderTop: '1px solid var(--border, #3a3a4e)', paddingTop: '8px', marginTop: '4px' }}>
+            <div>教材：{selectedNode.textbook_name}</div>
+            <div>章节：{selectedNode.chapter}</div>
+            {selectedNode.confidence && <div>置信度：{(selectedNode.confidence * 100).toFixed(0)}%</div>}
+          </div>
+        </div>
       )}
 
       {viewMode === 'graph' && data.nodes.length > 0 && (
