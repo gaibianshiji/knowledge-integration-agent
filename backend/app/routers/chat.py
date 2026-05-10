@@ -31,7 +31,16 @@ async def chat_message(request: ChatRequest):
 {context}
 请用专业但易懂的语言回答。"""
 
-    response = await call_deepseek(request.message, system_prompt)
+    # Build messages with history
+    messages = [{"role": "system", "content": system_prompt}]
+    for msg in request.history[-10:]:  # Keep last 10 messages for context
+        if isinstance(msg, dict) and "role" in msg and "content" in msg:
+            messages.append({"role": msg["role"], "content": msg["content"]})
+    messages.append({"role": "user", "content": request.message})
+
+    # Use multi-turn capable call
+    from app.services.llm_service import call_deepseek_messages
+    response = await call_deepseek_messages(messages)
 
     return {
         "response": response,
@@ -39,6 +48,35 @@ async def chat_message(request: ChatRequest):
     }
 
 @router.post("/adjust")
-async def adjust_integration(decision_id: str, action: str, reason: str):
-    result = await adjust_decision(decision_id, action, reason)
-    return result
+async def adjust_integration(request: ChatRequest):
+    """Allow teacher to adjust integration decisions via natural language"""
+    integration = get_integration_result()
+    if not integration:
+        return {"response": "当前没有整合结果，请先执行跨教材整合。", "success": False}
+
+    system_prompt = """你是一个学科知识整合助手。教师要调整整合方案。
+请根据教师的要求，判断需要修改哪些整合决策，并输出JSON格式的调整指令。
+
+输出格式：
+{"adjustments": [{"decision_id": "xxx", "new_action": "keep/merge/remove", "reason": "教师要求..."}]}
+
+如果没有找到匹配的决策，返回 {"adjustments": []}"""
+
+    from app.services.llm_service import extract_json_from_llm
+    adjustments = await extract_json_from_llm(request.message, system_prompt)
+
+    applied = []
+    for adj in adjustments.get("adjustments", []):
+        result = await adjust_decision(
+            adj.get("decision_id", ""),
+            adj.get("new_action", "keep"),
+            adj.get("reason", "教师手动调整")
+        )
+        if result.get("success"):
+            applied.append(adj.get("decision_id"))
+
+    return {
+        "response": f"已应用 {len(applied)} 项调整。" if applied else "未找到匹配的决策，请检查决策ID。",
+        "adjustments_applied": len(applied),
+        "success": len(applied) > 0
+    }

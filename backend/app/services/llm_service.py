@@ -36,6 +36,30 @@ async def call_deepseek(prompt: str, system_prompt: str = "", max_tokens: int = 
         data = response.json()
         return data["choices"][0]["message"]["content"]
 
+async def call_deepseek_messages(messages: list[dict], max_tokens: int = 4096) -> str:
+    """Call DeepSeek with a full message list (for multi-turn conversations)"""
+    headers = {
+        "Authorization": f"Bearer {DEEPSEEK_API_KEY}",
+        "Content-Type": "application/json"
+    }
+
+    payload = {
+        "model": "deepseek-chat",
+        "messages": messages,
+        "max_tokens": max_tokens,
+        "temperature": 0.3
+    }
+
+    async with httpx.AsyncClient(timeout=120.0) as client:
+        response = await client.post(
+            f"{DEEPSEEK_BASE_URL}/chat/completions",
+            headers=headers,
+            json=payload
+        )
+        response.raise_for_status()
+        data = response.json()
+        return data["choices"][0]["message"]["content"]
+
 async def extract_json_from_llm(prompt: str, system_prompt: str = "") -> dict | list:
     response = await call_deepseek(prompt, system_prompt)
     response = response.strip()

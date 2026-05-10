@@ -110,8 +110,18 @@ export default function KnowledgeGraph({ data, onNodeSelect, integrationResult }
         })
       )
 
+    // Calculate node frequency (how many textbooks it appears in)
+    const nameCount = new Map()
+    data.nodes.forEach(n => {
+      const name = n.name || n.id
+      nameCount.set(name, (nameCount.get(name) || 0) + 1)
+    })
+
     node.append('circle')
-      .attr('r', d => d.size || 8)
+      .attr('r', d => {
+        const count = nameCount.get(d.name || d.id) || 1
+        return Math.min(20, 4 + Math.log2(count + 1) * 5)
+      })
       .attr('fill', d => d.color || '#6366f1')
       .attr('stroke', 'none')
       .attr('stroke-width', 2)

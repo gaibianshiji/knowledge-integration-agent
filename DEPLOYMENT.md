@@ -18,7 +18,7 @@
 
 4. **添加环境变量**：
    - 点击 "Variables" 标签
-   - 添加: `DEEPSEEK_API_KEY` = `sk-aa0aeaf480484648a8a93d672d76334d`
+   - 添加: `DEEPSEEK_API_KEY` = 你的 DeepSeek API Key
 
 5. **部署**：
    - Railway会自动部署
