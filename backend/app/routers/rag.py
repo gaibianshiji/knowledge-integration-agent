@@ -1,4 +1,4 @@
-from fastapi import APIRouter
+from fastapi import APIRouter, HTTPException
 from app.services.rag_service import build_index, query_rag, get_index_status
 from app.services.pdf_parser import list_parsed_textbooks, get_parsed_textbook
 
@@ -14,13 +14,15 @@ async def index_textbooks():
             textbooks.append(tb)
 
     if not textbooks:
-        return {"error": "未找到已解析的教材"}
+        raise HTTPException(status_code=404, detail="未找到已解析的教材")
 
     result = await build_index(textbooks)
     return result
 
 @router.post("/query")
 async def rag_query(question: str):
+    if not question.strip():
+        raise HTTPException(status_code=400, detail="问题不能为空")
     result = await query_rag(question)
     return result
 

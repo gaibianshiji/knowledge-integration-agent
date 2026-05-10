@@ -1,4 +1,4 @@
-from fastapi import APIRouter
+from fastapi import APIRouter, HTTPException
 from app.services.knowledge_extractor import get_textbook_graph
 from app.services.pdf_parser import list_parsed_textbooks
 from app.services.integration_service import align_knowledge_nodes, get_integration_result
@@ -16,7 +16,7 @@ async def run_integration():
             graphs.append(graph)
 
     if len(graphs) < 2:
-        return {"error": "需要至少2本教材的知识图谱才能进行整合"}
+        raise HTTPException(status_code=400, detail="需要至少2本教材的知识图谱才能进行整合")
 
     result = await align_knowledge_nodes(graphs)
     return {
@@ -30,13 +30,13 @@ async def get_result():
     result = get_integration_result()
     if result:
         return result
-    return {"error": "未找到整合结果，请先执行整合"}
+    raise HTTPException(status_code=404, detail="未找到整合结果，请先执行整合")
 
 @router.get("/report")
 async def get_report():
     result = get_integration_result()
     if not result:
-        return {"error": "未找到整合结果"}
+        raise HTTPException(status_code=404, detail="未找到整合结果")
 
     stats = result["stats"]
     decisions = result["decisions"]
