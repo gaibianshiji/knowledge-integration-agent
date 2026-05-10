@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react'
+import React, { useEffect, useRef, useState, useCallback } from 'react'
 import * as d3 from 'd3'
 
 export default function KnowledgeGraph({ data, onNodeSelect, integrationResult }) {
@@ -12,18 +12,18 @@ export default function KnowledgeGraph({ data, onNodeSelect, integrationResult }
   const simulationRef = useRef(null)
   const highlightedRef = useRef(new Set())
 
-  useEffect(() => {
-    if (!data || !data.nodes || data.nodes.length === 0) return
+  const renderGraph = useCallback(() => {
+    if (!svgRef.current || !data || !data.nodes || data.nodes.length === 0) return
 
     const svg = d3.select(svgRef.current)
     const width = svgRef.current.clientWidth
     const height = svgRef.current.clientHeight
+    if (width === 0 || height === 0) return
 
     svg.selectAll('*').remove()
 
     const g = svg.append('g')
 
-    // Add arrow markers for each relationship type
     const defs = svg.append('defs')
     const arrowTypes = [
       { id: 'arrow-prerequisite', color: '#ef4444' },
@@ -54,7 +54,6 @@ export default function KnowledgeGraph({ data, onNodeSelect, integrationResult }
 
     svg.call(zoom)
 
-    // Click on background to close popup
     svg.on('click', () => {
       setSelectedNode(null)
       highlightedRef.current = new Set()
@@ -75,7 +74,6 @@ export default function KnowledgeGraph({ data, onNodeSelect, integrationResult }
       target: typeof l.target === 'string' ? l.target : l.target.id
     }))
 
-    // Relationship type styles
     const relStyles = {
       prerequisite: { color: '#ef4444', dash: '5,5', width: 2 },
       parallel: { color: '#22c55e', dash: 'none', width: 1.5 },
@@ -89,18 +87,9 @@ export default function KnowledgeGraph({ data, onNodeSelect, integrationResult }
     const link = linkG.selectAll('line')
       .data(validLinks)
       .join('line')
-      .attr('stroke', d => {
-        const style = relStyles[d.type] || relStyles.parallel
-        return style.color
-      })
-      .attr('stroke-width', d => {
-        const style = relStyles[d.type] || relStyles.parallel
-        return style.width
-      })
-      .attr('stroke-dasharray', d => {
-        const style = relStyles[d.type] || relStyles.parallel
-        return style.dash
-      })
+      .attr('stroke', d => (relStyles[d.type] || relStyles.parallel).color)
+      .attr('stroke-width', d => (relStyles[d.type] || relStyles.parallel).width)
+      .attr('stroke-dasharray', d => (relStyles[d.type] || relStyles.parallel).dash)
       .attr('stroke-opacity', 0.7)
       .attr('marker-end', d => `url(#arrow-${d.type || 'default'})`)
 
@@ -124,7 +113,6 @@ export default function KnowledgeGraph({ data, onNodeSelect, integrationResult }
         })
       )
 
-    // Calculate node frequency (how many textbooks it appears in)
     const nameCount = new Map()
     data.nodes.forEach(n => {
       const name = n.name || n.id
@@ -153,13 +141,11 @@ export default function KnowledgeGraph({ data, onNodeSelect, integrationResult }
       event.stopPropagation()
       onNodeSelect(d)
       setSelectedNode(d)
-      // Get screen position for popup
       const svgRect = svgRef.current.getBoundingClientRect()
       setPopupPos({
         x: Math.min(event.clientX - svgRect.left + 10, svgRect.width - 280),
         y: Math.min(event.clientY - svgRect.top - 10, svgRect.height - 200)
       })
-      // Update highlight without re-rendering
       highlightedRef.current = new Set([d.id])
       node.selectAll('circle')
         .attr('r', nd => highlightedRef.current.has(nd.id) ? 14 : (nd.size || 8))
@@ -182,27 +168,20 @@ export default function KnowledgeGraph({ data, onNodeSelect, integrationResult }
         .attr('y1', d => d.source.y)
         .attr('x2', d => d.target.x)
         .attr('y2', d => d.target.y)
-
       node.attr('transform', d => `translate(${d.x},${d.y})`)
     })
 
     window._graphSearch = (term) => {
       if (!term) {
         highlightedRef.current = new Set()
-        node.selectAll('circle')
-          .attr('r', d => d.size || 8)
-          .attr('stroke', 'none')
+        node.selectAll('circle').attr('r', d => d.size || 8).attr('stroke', 'none')
         return
       }
-
       const matches = new Set()
       data.nodes.forEach(n => {
-        if (n.name.includes(term) || n.definition?.includes(term)) {
-          matches.add(n.id)
-        }
+        if (n.name.includes(term) || n.definition?.includes(term)) matches.add(n.id)
       })
       highlightedRef.current = matches
-
       node.selectAll('circle')
         .attr('r', d => matches.has(d.id) ? 14 : 6)
         .attr('stroke', d => matches.has(d.id) ? '#fbbf24' : 'none')
@@ -211,12 +190,10 @@ export default function KnowledgeGraph({ data, onNodeSelect, integrationResult }
 
     window._graphFilter = (textbookName) => {
       if (!textbookName) {
-        // Show all nodes and links
         node.style('opacity', 1)
         link.style('opacity', 0.7)
         return
       }
-      // Dim nodes not from selected textbook
       node.style('opacity', d => d.textbook_name === textbookName ? 1 : 0.15)
       link.style('opacity', d => {
         const src = typeof d.source === 'object' ? d.source : nodeMap.get(d.source)
@@ -225,10 +202,17 @@ export default function KnowledgeGraph({ data, onNodeSelect, integrationResult }
       })
     }
 
-    return () => {
-      simulation.stop()
+    return () => simulation.stop()
+  }, [data, onNodeSelect])
+
+  // Render graph when viewMode changes to 'graph' or data changes
+  useEffect(() => {
+    if (viewMode === 'graph') {
+      // Small delay to let the SVG mount and get dimensions
+      const timer = setTimeout(renderGraph, 50)
+      return () => clearTimeout(timer)
     }
-  }, [data])
+  }, [viewMode, renderGraph])
 
   useEffect(() => {
     if (window._graphSearch) window._graphSearch(searchTerm)
@@ -238,130 +222,125 @@ export default function KnowledgeGraph({ data, onNodeSelect, integrationResult }
   useEffect(() => {
     if (viewMode !== 'matrix' || !data || !data.nodes || data.nodes.length === 0) return
 
-    const svg = d3.select(matrixSvgRef.current)
-    const containerWidth = matrixSvgRef.current.clientWidth || 900
-    const containerHeight = matrixSvgRef.current.clientHeight || 600
+    const renderMatrix = () => {
+      if (!matrixSvgRef.current) return
+      const containerWidth = matrixSvgRef.current.clientWidth || 900
+      const containerHeight = matrixSvgRef.current.clientHeight || 600
+      if (containerWidth === 0) return
 
-    svg.selectAll('*').remove()
+      const svg = d3.select(matrixSvgRef.current)
+      svg.selectAll('*').remove()
 
-    // Get unique textbook names
-    const textbooks = [...new Set(data.nodes.map(n => n.textbook_name).filter(Boolean))]
-    if (textbooks.length === 0) return
+      const textbooks = [...new Set(data.nodes.map(n => n.textbook_name).filter(Boolean))]
+      if (textbooks.length === 0) return
 
-    // Count concept frequency across all textbooks
-    const conceptFreq = new Map()
-    data.nodes.forEach(n => {
-      const name = n.name || n.id
-      conceptFreq.set(name, (conceptFreq.get(name) || 0) + 1)
-    })
-
-    // Get top 20 concepts by frequency
-    const topConcepts = [...conceptFreq.entries()]
-      .sort((a, b) => b[1] - a[1])
-      .slice(0, 20)
-      .map(([name]) => name)
-
-    if (topConcepts.length === 0) return
-
-    // Build presence matrix: concept x textbook
-    const matrix = []
-    topConcepts.forEach((concept, yi) => {
-      textbooks.forEach((textbook, xi) => {
-        const present = data.nodes.some(n => (n.name || n.id) === concept && n.textbook_name === textbook)
-        matrix.push({ xi, yi, value: present ? 1 : 0, concept, textbook })
+      const conceptFreq = new Map()
+      data.nodes.forEach(n => {
+        const name = n.name || n.id
+        conceptFreq.set(name, (conceptFreq.get(name) || 0) + 1)
       })
-    })
 
-    // Layout
-    const margin = { top: 120, right: 30, bottom: 30, left: 150 }
-    const plotWidth = containerWidth - margin.left - margin.right
-    const plotHeight = containerHeight - margin.top - margin.bottom
-    const cellWidth = plotWidth / textbooks.length
-    const cellHeight = plotHeight / topConcepts.length
+      const topConcepts = [...conceptFreq.entries()]
+        .sort((a, b) => b[1] - a[1])
+        .slice(0, 20)
+        .map(([name]) => name)
 
-    const g = svg.append('g').attr('transform', `translate(${margin.left},${margin.top})`)
+      if (topConcepts.length === 0) return
 
-    // Color scale
-    const colorScale = d3.scaleSequential()
-      .domain([0, 1])
-      .interpolator(d3.interpolateBlues)
+      const matrix = []
+      topConcepts.forEach((concept, yi) => {
+        textbooks.forEach((textbook, xi) => {
+          const present = data.nodes.some(n => (n.name || n.id) === concept && n.textbook_name === textbook)
+          matrix.push({ xi, yi, value: present ? 1 : 0, concept, textbook })
+        })
+      })
 
-    // Draw cells
-    g.selectAll('rect')
-      .data(matrix)
-      .join('rect')
-      .attr('x', d => d.xi * cellWidth)
-      .attr('y', d => d.yi * cellHeight)
-      .attr('width', Math.max(cellWidth - 1, 1))
-      .attr('height', Math.max(cellHeight - 1, 1))
-      .attr('rx', 2)
-      .attr('fill', d => d.value ? colorScale(0.85) : '#1a1a2e')
-      .attr('stroke', '#2a2a3e')
-      .attr('stroke-width', 0.5)
-      .append('title')
-      .text(d => `${d.concept} / ${d.textbook}: ${d.value ? '存在' : '不存在'}`)
+      const margin = { top: 120, right: 30, bottom: 30, left: 150 }
+      const plotWidth = containerWidth - margin.left - margin.right
+      const plotHeight = containerHeight - margin.top - margin.bottom
+      const cellWidth = plotWidth / textbooks.length
+      const cellHeight = plotHeight / topConcepts.length
 
-    // X axis - textbook names (rotated)
-    g.selectAll('.x-label')
-      .data(textbooks)
-      .join('text')
-      .attr('class', 'x-label')
-      .attr('x', (d, i) => i * cellWidth + cellWidth / 2)
-      .attr('y', -8)
-      .attr('text-anchor', 'start')
-      .attr('font-size', '10px')
-      .attr('fill', '#9ca3af')
-      .attr('transform', (d, i) => `rotate(-45, ${i * cellWidth + cellWidth / 2}, -8)`)
-      .text(d => d.length > 12 ? d.slice(0, 12) + '...' : d)
+      const g = svg.append('g').attr('transform', `translate(${margin.left},${margin.top})`)
 
-    // Y axis - concept names
-    g.selectAll('.y-label')
-      .data(topConcepts)
-      .join('text')
-      .attr('class', 'y-label')
-      .attr('x', -8)
-      .attr('y', (d, i) => i * cellHeight + cellHeight / 2 + 4)
-      .attr('text-anchor', 'end')
-      .attr('font-size', '11px')
-      .attr('fill', '#9ca3af')
-      .text(d => d.length > 16 ? d.slice(0, 16) + '...' : d)
+      const colorScale = d3.scaleSequential()
+        .domain([0, 1])
+        .interpolator(d3.interpolateBlues)
 
-    // Title
-    svg.append('text')
-      .attr('x', containerWidth / 2)
-      .attr('y', 24)
-      .attr('text-anchor', 'middle')
-      .attr('font-size', '14px')
-      .attr('font-weight', '600')
-      .attr('fill', '#e5e7eb')
-      .text('知识概念-教材 矩阵热力图')
-
-    // Legend
-    const legendG = svg.append('g').attr('transform', `translate(${margin.left}, 45)`)
-    const legendData = [
-      { label: '存在', color: colorScale(0.85) },
-      { label: '不存在', color: '#1a1a2e' }
-    ]
-    legendData.forEach((item, i) => {
-      legendG.append('rect')
-        .attr('x', i * 100)
-        .attr('y', 0)
-        .attr('width', 14)
-        .attr('height', 14)
+      g.selectAll('rect')
+        .data(matrix)
+        .join('rect')
+        .attr('x', d => d.xi * cellWidth)
+        .attr('y', d => d.yi * cellHeight)
+        .attr('width', Math.max(cellWidth - 1, 1))
+        .attr('height', Math.max(cellHeight - 1, 1))
         .attr('rx', 2)
-        .attr('fill', item.color)
+        .attr('fill', d => d.value ? colorScale(0.85) : '#1a1a2e')
         .attr('stroke', '#2a2a3e')
-      legendG.append('text')
-        .attr('x', i * 100 + 20)
-        .attr('y', 11)
+        .attr('stroke-width', 0.5)
+        .append('title')
+        .text(d => `${d.concept} / ${d.textbook}: ${d.value ? '存在' : '不存在'}`)
+
+      g.selectAll('.x-label')
+        .data(textbooks)
+        .join('text')
+        .attr('class', 'x-label')
+        .attr('x', (d, i) => i * cellWidth + cellWidth / 2)
+        .attr('y', -8)
+        .attr('text-anchor', 'start')
+        .attr('font-size', '10px')
+        .attr('fill', '#9ca3af')
+        .attr('transform', (d, i) => `rotate(-45, ${i * cellWidth + cellWidth / 2}, -8)`)
+        .text(d => d.length > 12 ? d.slice(0, 12) + '...' : d)
+
+      g.selectAll('.y-label')
+        .data(topConcepts)
+        .join('text')
+        .attr('class', 'y-label')
+        .attr('x', -8)
+        .attr('y', (d, i) => i * cellHeight + cellHeight / 2 + 4)
+        .attr('text-anchor', 'end')
         .attr('font-size', '11px')
         .attr('fill', '#9ca3af')
-        .text(item.label)
-    })
+        .text(d => d.length > 16 ? d.slice(0, 16) + '...' : d)
 
+      svg.append('text')
+        .attr('x', containerWidth / 2)
+        .attr('y', 24)
+        .attr('text-anchor', 'middle')
+        .attr('font-size', '14px')
+        .attr('font-weight', '600')
+        .attr('fill', '#e5e7eb')
+        .text('知识概念-教材 矩阵热力图')
+
+      const legendG = svg.append('g').attr('transform', `translate(${margin.left}, 45)`)
+      const legendData = [
+        { label: '存在', color: colorScale(0.85) },
+        { label: '不存在', color: '#1a1a2e' }
+      ]
+      legendData.forEach((item, i) => {
+        legendG.append('rect')
+          .attr('x', i * 100)
+          .attr('y', 0)
+          .attr('width', 14)
+          .attr('height', 14)
+          .attr('rx', 2)
+          .attr('fill', item.color)
+          .attr('stroke', '#2a2a3e')
+        legendG.append('text')
+          .attr('x', i * 100 + 20)
+          .attr('y', 11)
+          .attr('font-size', '11px')
+          .attr('fill', '#9ca3af')
+          .text(item.label)
+      })
+    }
+
+    // Delay to let SVG mount and get dimensions
+    const timer = setTimeout(renderMatrix, 50)
+    return () => clearTimeout(timer)
   }, [viewMode, data])
 
-  // Get unique textbook names for filter
   const textbookNames = [...new Set(data.nodes.map(n => n.textbook_name).filter(Boolean))]
 
   return (
@@ -389,7 +368,10 @@ export default function KnowledgeGraph({ data, onNodeSelect, integrationResult }
           </select>
         )}
         <button
-          onClick={() => setViewMode(viewMode === 'graph' ? 'matrix' : 'graph')}
+          onClick={() => {
+            setSelectedNode(null)
+            setViewMode(viewMode === 'graph' ? 'matrix' : 'graph')
+          }}
           style={{
             marginLeft: '8px',
             padding: '4px 10px',
@@ -481,7 +463,7 @@ export default function KnowledgeGraph({ data, onNodeSelect, integrationResult }
           <div style={{ marginTop: '8px', borderTop: '1px solid var(--border)', paddingTop: '8px' }}>
             <div style={{ fontWeight: 600, marginBottom: '4px', fontSize: '11px' }}>教材</div>
             {[...new Set(data.nodes.map(n => n.textbook_name))].slice(0, 7).map((name, i) => {
-              const colors = ['#6366f1', '#22c55e', '#f59e0b', '#ef4444', '#ec4899', '#14b8a6', '#8b5cf6']
+              const colors = ['#6366f1', '#22c55e', '#f59e0b', '#ef4444', '#ec4899', '14b8a6', '#8b5cf6']
               return (
                 <div key={i} className="legend-item">
                   <div className="legend-color" style={{ background: colors[i % colors.length] }}></div>
