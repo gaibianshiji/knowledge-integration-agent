@@ -11,7 +11,7 @@ from app.utils import get_data_dir, store_in_memory
 router = APIRouter()
 
 UPLOAD_DIR = get_data_dir("uploads")
-MAX_FILE_SIZE = 4 * 1024 * 1024  # 4MB
+MAX_FILE_SIZE = 100 * 1024 * 1024  # 100MB
 
 class BlobUploadRequest(BaseModel):
     filename: str
@@ -128,7 +128,7 @@ async def upload_textbook(file: UploadFile = File(...)):
 
     content = await file.read()
     if len(content) > MAX_FILE_SIZE:
-        raise HTTPException(status_code=413, detail="文件超过 4MB 限制，请使用大文件上传（Vercel Blob）。")
+        raise HTTPException(status_code=413, detail="文件超过 100MB 限制。")
 
     # Try to save to disk, fall back to /tmp
     save_path = None
