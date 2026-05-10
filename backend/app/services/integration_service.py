@@ -46,8 +46,32 @@ async def align_knowledge_nodes(graphs: list[dict]) -> dict:
     candidate_pairs.sort(key=lambda x: x[2], reverse=True)
 
     decisions = []
+    conflicts = []
     merged_nodes = list(all_nodes)
     merged_set = set()
+
+    # Detect knowledge conflicts: same name, different definitions from different textbooks
+    name_groups = {}
+    for idx, node in enumerate(all_nodes):
+        name = node.get("name", "")
+        if name not in name_groups:
+            name_groups[name] = []
+        name_groups[name].append((idx, node))
+
+    for name, group in name_groups.items():
+        if len(group) < 2:
+            continue
+        textbooks = set(n.get("textbook_id", "") for _, n in group)
+        if len(textbooks) < 2:
+            continue
+        # Same concept from different textbooks - check if definitions differ
+        defs = [n.get("definition", "")[:100] for _, n in group]
+        if len(set(defs)) > 1:  # Different definitions
+            conflicts.append({
+                "concept": name,
+                "sources": [{"textbook": n.get("textbook_name", ""), "definition": n.get("definition", "")[:150], "node_id": n.get("id", "")} for _, n in group],
+                "type": "definition_conflict"
+            })
 
     # Process candidates in batches
     batch_size = 5
@@ -111,6 +135,7 @@ async def align_knowledge_nodes(graphs: list[dict]) -> dict:
     result = {
         "merged_nodes": final_nodes,
         "decisions": decisions,
+        "conflicts": conflicts,
         "stats": stats
     }
 

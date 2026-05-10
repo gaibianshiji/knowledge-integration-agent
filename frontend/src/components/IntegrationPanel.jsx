@@ -99,6 +99,27 @@ export default function IntegrationPanel({ onRunIntegration, integrationResult, 
             )}
           </div>
 
+          {integrationResult.conflicts && integrationResult.conflicts.length > 0 && (
+            <>
+              <h4 style={{ fontSize: '13px', marginBottom: '12px', color: '#f59e0b' }}>知识冲突检测</h4>
+              <div className="decision-list">
+                {integrationResult.conflicts.map((c, i) => (
+                  <div key={i} className="decision-item" style={{ borderLeft: '3px solid #f59e0b' }}>
+                    <span className="action" style={{ background: '#f59e0b', color: '#000' }}>冲突</span>
+                    <div style={{ marginTop: '4px', fontWeight: 600 }}>{c.concept}</div>
+                    <div style={{ marginTop: '4px', fontSize: '11px', color: 'var(--text-secondary)' }}>
+                      {c.sources?.map((s, j) => (
+                        <div key={j} style={{ marginBottom: '4px' }}>
+                          {s.textbook}: {s.definition}
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </>
+          )}
+
           {integrationResult.decisions && integrationResult.decisions.length > 0 && (
             <>
               <h4 style={{ fontSize: '13px', marginBottom: '12px' }}>整合决策</h4>
