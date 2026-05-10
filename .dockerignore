@@ -1,0 +1,10 @@
+node_modules
+__pycache__
+*.pyc
+.env
+.git
+.vercel
+.worktrees
+data/textbooks
+textbooks
+*.pdf

@@ -1,4 +1,4 @@
-FROM python:3.11-slim
+FROM modelscope-registry.cn-beijing.cr.aliyuncs.com/modelscope-repo/python:3.10
 
 # Install Node.js
 RUN apt-get update && apt-get install -y curl && \
@@ -6,7 +6,7 @@ RUN apt-get update && apt-get install -y curl && \
     apt-get install -y nodejs && \
     apt-get clean && rm -rf /var/lib/apt/lists/*
 
-WORKDIR /app
+WORKDIR /home/user/app
 
 # Install Python dependencies
 COPY backend/requirements.txt ./requirements.txt
@@ -25,7 +25,7 @@ RUN mkdir -p backend/data/parsed backend/data/graphs backend/data/chunks backend
 # Copy .env
 COPY .env.example ./backend/.env
 
-WORKDIR /app/backend
+WORKDIR /home/user/app/backend
 
 EXPOSE 7860
 
