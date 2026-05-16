@@ -5,200 +5,100 @@
     {
       "id": "book_02_组织学与胚胎学_node_001",
       "name": "组织学",
-      "definition": "研究机体微细结构及其相关功能的科学，是医学基础学科之一。",
+      "definition": "研究机体微细结构及其相关功能的科学，包括细胞、组织和器官系统的微观结构。",
       "category": "核心概念",
       "chapter": "第1章 组织学绪论",
-      "page": 2,
+      "confidence": 0.98,
       "textbook_id": "book_02_组织学与胚胎学",
       "textbook_name": "组织学与胚胎学"
     },
     {
       "id": "book_02_组织学与胚胎学_node_002",
-      "name": "光学显微镜技术",
-      "definition": "使用光学显微镜观察组织切片，是组织学最基本的研究技术。",
+      "name": "组织学发展简史",
+      "definition": "组织学从17世纪显微镜发明至今的发展历程，包括光学显微镜和电子显微镜技术的应用。",
       "category": "核心概念",
       "chapter": "第1章 组织学绪论",
-      "page": 3,
+      "confidence": 0.9,
       "textbook_id": "book_02_组织学与胚胎学",
       "textbook_name": "组织学与胚胎学"
     },
     {
       "id": "book_02_组织学与胚胎学_node_003",
-      "name": "电子显微镜技术",
-      "definition": "使用电子显微镜观察组织的超微结构，分辨率远高于光镜。",
-      "category": "核心概念",
+      "name": "光学显微镜技术",
+      "definition": "利用可见光通过透镜系统放大标本，观察组织切片和细胞结构的技术。",
+      "category": "治疗方法",
       "chapter": "第1章 组织学绪论",
-      "page": 4,
+      "confidence": 0.95,
       "textbook_id": "book_02_组织学与胚胎学",
       "textbook_name": "组织学与胚胎学"
     },
     {
       "id": "book_02_组织学与胚胎学_node_004",
-      "name": "组织化学技术",
-      "definition": "利用化学反应在组织切片上显示特定化学成分的技术。",
-      "category": "核心概念",
+      "name": "电子显微镜技术",
+      "definition": "利用电子束代替光束，通过电磁透镜放大标本，观察超微结构的技术。",
+      "category": "治疗方法",
       "chapter": "第1章 组织学绪论",
-      "page": 4,
+      "confidence": 0.95,
       "textbook_id": "book_02_组织学与胚胎学",
       "textbook_name": "组织学与胚胎学"
     },
     {
       "id": "book_02_组织学与胚胎学_node_005",
-      "name": "上皮组织",
-      "definition": "由大量紧密排列的上皮细胞和少量细胞间质构成，覆盖体表或衬于管腔。",
-      "category": "核心概念",
-      "chapter": "第2章 上皮组织",
-      "page": 9,
+      "name": "组织化学技术",
+      "definition": "通过化学试剂与组织成分反应，在组织切片上定位和定性特定物质的技术。",
+      "category": "治疗方法",
+      "chapter": "第1章 组织学绪论",
+      "confidence": 0.92,
       "textbook_id": "book_02_组织学与胚胎学",
       "textbook_name": "组织学与胚胎学"
     },
     {
       "id": "book_02_组织学与胚胎学_node_006",
-      "name": "被覆上皮",
-      "definition": "覆盖于身体表面或衬于体腔、管状器官内表面的上皮组织。",
-      "category": "核心概念",
-      "chapter": "第2章 上皮组织",
-      "page": 9,
+      "name": "图像分析技术",
+      "definition": "利用计算机对组织学图像进行定量分析，测量细胞数量、面积、密度等参数的技术。",
+      "category": "治疗方法",
+      "chapter": "第1章 组织学绪论",
+      "confidence": 0.88,
       "textbook_id": "book_02_组织学与胚胎学",
       "textbook_name": "组织学与胚胎学"
     },
     {
       "id": "book_02_组织学与胚胎学_node_007",
-      "name": "腺上皮",
-      "definition": "以分泌功能为主的上皮，构成腺体。",
-      "category": "核心概念",
-      "chapter": "第2章 上皮组织",
-      "page": 13,
+      "name": "细胞培养和组织工程技术",
+      "definition": "在体外培养细胞并构建组织或器官，用于研究发育、疾病和再生医学的技术。",
+      "category": "治疗方法",
+      "chapter": "第1章 组织学绪论",
+      "confidence": 0.9,
       "textbook_id": "book_02_组织学与胚胎学",
       "textbook_name": "组织学与胚胎学"
     },
     {
       "id": "book_02_组织学与胚胎学_node_008",
-      "name": "结缔组织",
-      "definition": "由少量细胞和大量细胞间质构成，具有连接、支持、营养、保护等功能。",
-      "category": "核心概念",
-      "chapter": "第3章 结缔组织",
-      "page": 20,
+      "name": "组织芯片技术",
+      "definition": "将多个微小组织样本排列在单一载玻片上，实现高通量分析的技术。",
+      "category": "治疗方法",
+      "chapter": "第1章 组织学绪论",
+      "confidence": 0.85,
       "textbook_id": "book_02_组织学与胚胎学",
       "textbook_name": "组织学与胚胎学"
     },
     {
       "id": "book_02_组织学与胚胎学_node_009",
-      "name": "疏松结缔组织",
-      "definition": "细胞种类多、纤维少、基质丰富，是结缔组织中最常见的一种。",
-      "category": "核心概念",
-      "chapter": "第3章 结缔组织",
-      "page": 20,
+      "name": "类器官技术",
+      "definition": "利用干细胞在体外三维培养形成微型器官样结构，模拟器官发育和疾病的技术。",
+      "category": "治疗方法",
+      "chapter": "第1章 组织学绪论",
+      "confidence": 0.88,
       "textbook_id": "book_02_组织学与胚胎学",
       "textbook_name": "组织学与胚胎学"
     },
     {
       "id": "book_02_组织学与胚胎学_node_010",
-      "name": "软骨组织",
-      "definition": "由软骨细胞和基质构成，是软骨的主要成分。",
-      "category": "解剖结构",
-      "chapter": "第4章 软骨和骨",
-      "page": 29,
-      "textbook_id": "book_02_组织学与胚胎学",
-      "textbook_name": "组织学与胚胎学"
-    },
-    {
-      "id": "book_02_组织学与胚胎学_node_011",
-      "name": "骨组织",
-      "definition": "由骨细胞和钙化的细胞间质构成，是骨的主要成分。",
-      "category": "解剖结构",
-      "chapter": "第4章 软骨和骨",
-      "page": 31,
-      "textbook_id": "book_02_组织学与胚胎学",
-      "textbook_name": "组织学与胚胎学"
-    },
-    {
-      "id": "book_02_组织学与胚胎学_node_012",
-      "name": "血液",
-      "definition": "流动于心血管系统中的结缔组织，由血浆和血细胞组成。",
+      "name": "组织学的学习方法",
+      "definition": "结合形态观察与功能理解，通过切片、染色和图像分析掌握组织微观结构的方法。",
       "category": "核心概念",
-      "chapter": "第5章 血液",
-      "page": 41,
-      "textbook_id": "book_02_组织学与胚胎学",
-      "textbook_name": "组织学与胚胎学"
-    },
-    {
-      "id": "book_02_组织学与胚胎学_node_013",
-      "name": "肌组织",
-      "definition": "由肌细胞构成，具有收缩功能，分为骨骼肌、心肌和平滑肌。",
-      "category": "核心概念",
-      "chapter": "第6章 肌组织",
-      "page": 52,
-      "textbook_id": "book_02_组织学与胚胎学",
-      "textbook_name": "组织学与胚胎学"
-    },
-    {
-      "id": "book_02_组织学与胚胎学_node_014",
-      "name": "神经元",
-      "definition": "神经系统的结构和功能单位，具有接受刺激、传导冲动和整合信息的能力。",
-      "category": "核心概念",
-      "chapter": "第7章 神经组织",
-      "page": 60,
-      "textbook_id": "book_02_组织学与胚胎学",
-      "textbook_name": "组织学与胚胎学"
-    },
-    {
-      "id": "book_02_组织学与胚胎学_node_015",
-      "name": "突触",
-      "definition": "神经元之间或神经元与效应细胞之间传递信息的特化结构。",
-      "category": "核心概念",
-      "chapter": "第7章 神经组织",
-      "page": 63,
-      "textbook_id": "book_02_组织学与胚胎学",
-      "textbook_name": "组织学与胚胎学"
-    },
-    {
-      "id": "book_02_组织学与胚胎学_node_016",
-      "name": "神经胶质细胞",
-      "definition": "对神经元起支持、营养、保护和绝缘等作用的细胞。",
-      "category": "核心概念",
-      "chapter": "第7章 神经组织",
-      "page": 64,
-      "textbook_id": "book_02_组织学与胚胎学",
-      "textbook_name": "组织学与胚胎学"
-    },
-    {
-      "id": "book_02_组织学与胚胎学_node_017",
-      "name": "大脑皮质",
-      "definition": "大脑半球表面的灰质层，是高级神经活动的物质基础。",
-      "category": "解剖结构",
-      "chapter": "第8章 神经系统",
-      "page": 75,
-      "textbook_id": "book_02_组织学与胚胎学",
-      "textbook_name": "组织学与胚胎学"
-    },
-    {
-      "id": "book_02_组织学与胚胎学_node_018",
-      "name": "小脑皮质",
-      "definition": "小脑表面的灰质层，参与躯体平衡和肌肉张力的调节。",
-      "category": "解剖结构",
-      "chapter": "第8章 神经系统",
-      "page": 77,
-      "textbook_id": "book_02_组织学与胚胎学",
-      "textbook_name": "组织学与胚胎学"
-    },
-    {
-      "id": "book_02_组织学与胚胎学_node_019",
-      "name": "血-脑屏障",
-      "definition": "由脑毛细血管内皮细胞、基膜和星形胶质细胞突起构成，阻止有害物质进入脑组织。",
-      "category": "生理机制",
-      "chapter": "第8章 神经系统",
-      "page": 80,
-      "textbook_id": "book_02_组织学与胚胎学",
-      "textbook_name": "组织学与胚胎学"
-    },
-    {
-      "id": "book_02_组织学与胚胎学_node_020",
-      "name": "毛细血管",
-      "definition": "管径最细、分布最广的血管，是血液与组织液进行物质交换的场所。",
-      "category": "解剖结构",
-      "chapter": "第9章 循环系统",
-      "page": 87,
+      "chapter": "第1章 组织学绪论",
+      "confidence": 0.92,
       "textbook_id": "book_02_组织学与胚胎学",
       "textbook_name": "组织学与胚胎学"
     }
@@ -206,116 +106,93 @@
   "relations": [
     {
       "source": "book_02_组织学与胚胎学_node_001",
+      "target": "book_02_组织学与胚胎学_node_002",
+      "relation_type": "contains",
+      "description": "组织学发展简史是组织学学科的一部分，描述了其历史演变。"
+    },
+    {
+      "source": "book_02_组织学与胚胎学_node_001",
+      "target": "book_02_组织学与胚胎学_node_010",
+      "relation_type": "contains",
+      "description": "组织学的学习方法是组织学学科内容的一部分，指导学习过程。"
+    },
+    {
+      "source": "book_02_组织学与胚胎学_node_001",
+      "target": "book_02_组织学与胚胎学_node_003",
+      "relation_type": "contains",
+      "description": "光学显微镜技术是组织学研究中常用的技术之一。"
+    },
+    {
+      "source": "book_02_组织学与胚胎学_node_001",
+      "target": "book_02_组织学与胚胎学_node_004",
+      "relation_type": "contains",
+      "description": "电子显微镜技术是组织学研究中用于超微结构观察的技术。"
+    },
+    {
+      "source": "book_02_组织学与胚胎学_node_001",
       "target": "book_02_组织学与胚胎学_node_005",
       "relation_type": "contains",
-      "description": "组织学包含对上皮组织的研究。"
+      "description": "组织化学技术是组织学中用于定位特定化学成分的技术。"
+    },
+    {
+      "source": "book_02_组织学与胚胎学_node_001",
+      "target": "book_02_组织学与胚胎学_node_006",
+      "relation_type": "contains",
+      "description": "图像分析技术是组织学中用于定量分析的技术。"
+    },
+    {
+      "source": "book_02_组织学与胚胎学_node_001",
+      "target": "book_02_组织学与胚胎学_node_007",
+      "relation_type": "contains",
+      "description": "细胞培养和组织工程技术是组织学在再生医学中的应用技术。"
     },
     {
       "source": "book_02_组织学与胚胎学_node_001",
       "target": "book_02_组织学与胚胎学_node_008",
       "relation_type": "contains",
-      "description": "组织学包含对结缔组织的研究。"
+      "description": "组织芯片技术是组织学中用于高通量分析的技术。"
     },
     {
       "source": "book_02_组织学与胚胎学_node_001",
-      "target": "book_02_组织学与胚胎学_node_013",
+      "target": "book_02_组织学与胚胎学_node_009",
       "relation_type": "contains",
-      "description": "组织学包含对肌组织的研究。"
+      "description": "类器官技术是组织学中模拟器官发育和疾病的前沿技术。"
     },
     {
-      "source": "book_02_组织学与胚胎学_node_001",
-      "target": "book_02_组织学与胚胎学_node_014",
-      "relation_type": "contains",
-      "description": "组织学包含对神经组织的研究。"
+      "source": "book_02_组织学与胚胎学_node_003",
+      "target": "book_02_组织学与胚胎学_node_004",
+      "relation_type": "parallel",
+      "description": "光学显微镜技术和电子显微镜技术是两种不同分辨级别的显微技术，并列用于组织观察。"
+    },
+    {
+      "source": "book_02_组织学与胚胎学_node_007",
+      "target": "book_02_组织学与胚胎学_node_009",
+      "relation_type": "parallel",
+      "description": "细胞培养和组织工程技术以及类器官技术都是体外构建组织或器官的技术，但类器官更侧重于三维微型器官。"
+    },
+    {
+      "source": "book_02_组织学与胚胎学_node_010",
+      "target": "book_02_组织学与胚胎学_node_003",
+      "relation_type": "applies_to",
+      "description": "组织学的学习方法需要应用光学显微镜技术来观察组织切片。"
+    },
+    {
+      "source": "book_02_组织学与胚胎学_node_010",
+      "target": "book_02_组织学与胚胎学_node_005",
+      "relation_type": "applies_to",
+      "description": "组织学的学习方法需要应用组织化学技术来定位特定成分。"
     },
     {
       "source": "book_02_组织学与胚胎学_node_002",
       "target": "book_02_组织学与胚胎学_node_003",
-      "relation_type": "parallel",
-      "description": "光学显微镜技术和电子显微镜技术是组织学中两种不同分辨层次的观察技术。"
-    },
-    {
-      "source": "book_02_组织学与胚胎学_node_002",
-      "target": "book_02_组织学与胚胎学_node_004",
-      "relation_type": "parallel",
-      "description": "光学显微镜技术和组织化学技术都是常用的组织学技术。"
-    },
-    {
-      "source": "book_02_组织学与胚胎学_node_005",
-      "target": "book_02_组织学与胚胎学_node_006",
-      "relation_type": "contains",
-      "description": "上皮组织包括被覆上皮。"
-    },
-    {
-      "source": "book_02_组织学与胚胎学_node_005",
-      "target": "book_02_组织学与胚胎学_node_007",
-      "relation_type": "contains",
-      "description": "上皮组织包括腺上皮。"
-    },
-    {
-      "source": "book_02_组织学与胚胎学_node_008",
-      "target": "book_02_组织学与胚胎学_node_009",
-      "relation_type": "contains",
-      "description": "结缔组织包括疏松结缔组织。"
-    },
-    {
-      "source": "book_02_组织学与胚胎学_node_008",
-      "target": "book_02_组织学与胚胎学_node_012",
-      "relation_type": "contains",
-      "description": "结缔组织包括血液。"
-    },
-    {
-      "source": "book_02_组织学与胚胎学_node_010",
-      "target": "book_02_组织学与胚胎学_node_011",
-      "relation_type": "parallel",
-      "description": "软骨组织和骨组织是两种不同的支持性组织。"
-    },
-    {
-      "source": "book_02_组织学与胚胎学_node_014",
-      "target": "book_02_组织学与胚胎学_node_015",
-      "relation_type": "contains",
-      "description": "神经元通过突触进行信息传递。"
-    },
-    {
-      "source": "book_02_组织学与胚胎学_node_014",
-      "target": "book_02_组织学与胚胎学_node_016",
-      "relation_type": "parallel",
-      "description": "神经元和神经胶质细胞是神经组织的两种主要细胞成分。"
-    },
-    {
-      "source": "book_02_组织学与胚胎学_node_017",
-      "target": "book_02_组织学与胚胎学_node_018",
-      "relation_type": "parallel",
-      "description": "大脑皮质和小脑皮质是中枢神经系统不同部位的灰质结构。"
-    },
-    {
-      "source": "book_02_组织学与胚胎学_node_019",
-      "target": "book_02_组织学与胚胎学_node_017",
-      "relation_type": "applies_to",
-      "description": "血-脑屏障保护大脑皮质等脑组织。"
-    },
-    {
-      "source": "book_02_组织学与胚胎学_node_020",
-      "target": "book_02_组织学与胚胎学_node_012",
-      "relation_type": "applies_to",
-      "description": "毛细血管是血液与组织进行物质交换的场所。"
-    },
-    {
-      "source": "book_02_组织学与胚胎学_node_002",
-      "target": "book_02_组织学与胚胎学_node_005",
       "relation_type": "prerequisite",
-      "description": "掌握光学显微镜技术是观察和研究上皮组织等微细结构的前提。"
-    },
-    {
-      "source": "book_02_组织学与胚胎学_node_003",
-      "target": "book_02_组织学与胚胎学_node_014",
-      "relation_type": "prerequisite",
-      "description": "电子显微镜技术是研究神经元超微结构的基础。"
+      "description": "了解组织学发展简史是理解光学显微镜技术背景的前提。"
     }
   ],
   "stats": {
-    "total_nodes": 20,
-    "total_relations": 18,
-    "chapters_processed": 1
+    "total_nodes": 10,
+    "total_relations": 14,
+    "chapters_processed": 1,
+    "chapters_total": 1
   }
 }

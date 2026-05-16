@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>《组织学与胚胎学》知识图谱</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { background: #0d1117; color: #c9d1d9; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; overflow: hidden; }
+#graph { width: 100vw; height: 100vh; }
+.node-label { font-size: 11px; fill: #8b949e; pointer-events: none; }
+.link { stroke-opacity: 0.5; }
+.tooltip {
+  position: absolute; display: none; background: #161b22; border: 1px solid #30363d;
+  border-radius: 8px; padding: 12px 16px; max-width: 320px; font-size: 13px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4); z-index: 100;
+}
+.tooltip h4 { color: #e6edf3; margin-bottom: 6px; font-size: 14px; }
+.tooltip .def { color: #c9d1d9; line-height: 1.5; margin: 6px 0; }
+.tooltip .meta { color: #8b949e; font-size: 11px; border-top: 1px solid #30363d; padding-top: 6px; margin-top: 6px; }
+.tag { display: inline-block; padding: 1px 6px; border-radius: 3px; font-size: 10px; color: #fff; margin-right: 4px; }
+.legend { position: absolute; top: 16px; right: 16px; background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 12px; font-size: 12px; }
+.legend-item { display: flex; align-items: center; gap: 6px; margin: 3px 0; }
+.legend-color { width: 12px; height: 12px; border-radius: 3px; }
+h1 { position: absolute; top: 16px; left: 16px; font-size: 16px; color: #e6edf3; background: #161b22; padding: 8px 16px; border-radius: 8px; border: 1px solid #30363d; }
+.stats { position: absolute; bottom: 16px; left: 16px; background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 10px 14px; font-size: 12px; color: #8b949e; }
+</style>
+</head>
+<body>
+<h1>《组织学与胚胎学》知识图谱</h1>
+<div class="tooltip" id="tooltip"></div>
+<svg id="graph"></svg>
+<div class="legend" id="legend"></div>
+<div class="stats" id="stats"></div>
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script>
+const data = {"nodes": [{"id": "book_02_组织学与胚胎学_node_001", "name": "组织学", "category": "核心概念", "definition": "研究机体微细结构及其相关功能的科学，包括细胞、组织和器官系统的微观结构。", "chapter": "第1章 组织学绪论", "textbook": "组织学与胚胎学", "confidence": 0.98, "color": "#6366f1", "size": 8}, {"id": "book_02_组织学与胚胎学_node_002", "name": "组织学发展简史", "category": "核心概念", "definition": "组织学从17世纪显微镜发明至今的发展历程，包括光学显微镜和电子显微镜技术的应用。", "chapter": "第1章 组织学绪论", "textbook": "组织学与胚胎学", "confidence": 0.9, "color": "#6366f1", "size": 8}, {"id": "book_02_组织学与胚胎学_node_003", "name": "光学显微镜技术", "category": "治疗方法", "definition": "利用可见光通过透镜系统放大标本，观察组织切片和细胞结构的技术。", "chapter": "第1章 组织学绪论", "textbook": "组织学与胚胎学", "confidence": 0.95, "color": "#ec4899", "size": 8}, {"id": "book_02_组织学与胚胎学_node_004", "name": "电子显微镜技术", "category": "治疗方法", "definition": "利用电子束代替光束，通过电磁透镜放大标本，观察超微结构的技术。", "chapter": "第1章 组织学绪论", "textbook": "组织学与胚胎学", "confidence": 0.95, "color": "#ec4899", "size": 8}, {"id": "book_02_组织学与胚胎学_node_005", "name": "组织化学技术", "category": "治疗方法", "definition": "通过化学试剂与组织成分反应，在组织切片上定位和定性特定物质的技术。", "chapter": "第1章 组织学绪论", "textbook": "组织学与胚胎学", "confidence": 0.92, "color": "#ec4899", "size": 8}, {"id": "book_02_组织学与胚胎学_node_006", "name": "图像分析技术", "category": "治疗方法", "definition": "利用计算机对组织学图像进行定量分析，测量细胞数量、面积、密度等参数的技术。", "chapter": "第1章 组织学绪论", "textbook": "组织学与胚胎学", "confidence": 0.88, "color": "#ec4899", "size": 8}, {"id": "book_02_组织学与胚胎学_node_007", "name": "细胞培养和组织工程技术", "category": "治疗方法", "definition": "在体外培养细胞并构建组织或器官，用于研究发育、疾病和再生医学的技术。", "chapter": "第1章 组织学绪论", "textbook": "组织学与胚胎学", "confidence": 0.9, "color": "#ec4899", "size": 8}, {"id": "book_02_组织学与胚胎学_node_008", "name": "组织芯片技术", "category": "治疗方法", "definition": "将多个微小组织样本排列在单一载玻片上，实现高通量分析的技术。", "chapter": "第1章 组织学绪论", "textbook": "组织学与胚胎学", "confidence": 0.85, "color": "#ec4899", "size": 8}, {"id": "book_02_组织学与胚胎学_node_009", "name": "类器官技术", "category": "治疗方法", "definition": "利用干细胞在体外三维培养形成微型器官样结构，模拟器官发育和疾病的技术。", "chapter": "第1章 组织学绪论", "textbook": "组织学与胚胎学", "confidence": 0.88, "color": "#ec4899", "size": 8}, {"id": "book_02_组织学与胚胎学_node_010", "name": "组织学的学习方法", "category": "核心概念", "definition": "结合形态观察与功能理解，通过切片、染色和图像分析掌握组织微观结构的方法。", "chapter": "第1章 组织学绪论", "textbook": "组织学与胚胎学", "confidence": 0.92, "color": "#6366f1", "size": 8}], "links": [{"source": "book_02_组织学与胚胎学_node_001", "target": "book_02_组织学与胚胎学_node_002", "type": "contains", "description": "组织学发展简史是组织学学科的一部分，描述了其历史演变。"}, {"source": "book_02_组织学与胚胎学_node_001", "target": "book_02_组织学与胚胎学_node_010", "type": "contains", "description": "组织学的学习方法是组织学学科内容的一部分，指导学习过程。"}, {"source": "book_02_组织学与胚胎学_node_001", "target": "book_02_组织学与胚胎学_node_003", "type": "contains", "description": "光学显微镜技术是组织学研究中常用的技术之一。"}, {"source": "book_02_组织学与胚胎学_node_001", "target": "book_02_组织学与胚胎学_node_004", "type": "contains", "description": "电子显微镜技术是组织学研究中用于超微结构观察的技术。"}, {"source": "book_02_组织学与胚胎学_node_001", "target": "book_02_组织学与胚胎学_node_005", "type": "contains", "description": "组织化学技术是组织学中用于定位特定化学成分的技术。"}, {"source": "book_02_组织学与胚胎学_node_001", "target": "book_02_组织学与胚胎学_node_006", "type": "contains", "description": "图像分析技术是组织学中用于定量分析的技术。"}, {"source": "book_02_组织学与胚胎学_node_001", "target": "book_02_组织学与胚胎学_node_007", "type": "contains", "description": "细胞培养和组织工程技术是组织学在再生医学中的应用技术。"}, {"source": "book_02_组织学与胚胎学_node_001", "target": "book_02_组织学与胚胎学_node_008", "type": "contains", "description": "组织芯片技术是组织学中用于高通量分析的技术。"}, {"source": "book_02_组织学与胚胎学_node_001", "target": "book_02_组织学与胚胎学_node_009", "type": "contains", "description": "类器官技术是组织学中模拟器官发育和疾病的前沿技术。"}, {"source": "book_02_组织学与胚胎学_node_003", "target": "book_02_组织学与胚胎学_node_004", "type": "parallel", "description": "光学显微镜技术和电子显微镜技术是两种不同分辨级别的显微技术，并列用于组织观察。"}, {"source": "book_02_组织学与胚胎学_node_007", "target": "book_02_组织学与胚胎学_node_009", "type": "parallel", "description": "细胞培养和组织工程技术以及类器官技术都是体外构建组织或器官的技术，但类器官更侧重于三维微型器官。"}, {"source": "book_02_组织学与胚胎学_node_010", "target": "book_02_组织学与胚胎学_node_003", "type": "applies_to", "description": "组织学的学习方法需要应用光学显微镜技术来观察组织切片。"}, {"source": "book_02_组织学与胚胎学_node_010", "target": "book_02_组织学与胚胎学_node_005", "type": "applies_to", "description": "组织学的学习方法需要应用组织化学技术来定位特定成分。"}, {"source": "book_02_组织学与胚胎学_node_002", "target": "book_02_组织学与胚胎学_node_003", "type": "prerequisite", "description": "了解组织学发展简史是理解光学显微镜技术背景的前提。"}]};
+
+const svg = d3.select("#graph");
+const width = window.innerWidth;
+const height = window.innerHeight;
+svg.attr("width", width).attr("height", height);
+
+const g = svg.append("g");
+const zoom = d3.zoom().scaleExtent([0.1, 4]).on("zoom", e => g.attr("transform", e.transform));
+svg.call(zoom);
+
+const defs = svg.append("defs");
+["#ef4444","#22c55e","#f59e0b","#8b5cf6","#6b7280"].forEach((c, i) => {
+  const types = ["prerequisite","parallel","contains","applies_to","default"];
+  defs.append("marker").attr("id","arrow-"+types[i]).attr("viewBox","0 -5 10 10")
+    .attr("refX",20).attr("refY",0).attr("markerWidth",6).attr("markerHeight",6)
+    .attr("orient","auto").append("path").attr("d","M0,-5L10,0L0,5").attr("fill",c);
+});
+
+const nodeMap = new Map(data.nodes.map(n => [n.id, n]));
+const validLinks = data.links.filter(l => nodeMap.has(l.source) && nodeMap.has(l.target));
+const relColors = { prerequisite:"#ef4444", parallel:"#22c55e", contains:"#f59e0b", applies_to:"#8b5cf6" };
+
+const link = g.append("g").selectAll("line").data(validLinks).join("line")
+  .attr("stroke", d => relColors[d.type] || "#6b7280")
+  .attr("stroke-width", d => d.type === "contains" ? 2 : 1.5)
+  .attr("stroke-dasharray", d => d.type === "prerequisite" ? "5,5" : d.type === "contains" ? "3,3" : "none")
+  .attr("stroke-opacity", 0.6)
+  .attr("marker-end", d => "url(#arrow-" + (d.type || "default") + ")");
+
+const categories = [...new Set(data.nodes.map(n => n.category).filter(Boolean))];
+const catColor = d3.scaleOrdinal().domain(categories).range(["#6366f1","#22c55e","#f59e0b","#ef4444","#ec4899","#14b8a6","#8b5cf6","#f97316"]);
+
+const node = g.append("g").selectAll("g").data(data.nodes).join("g")
+  .call(d3.drag().on("start",(e,d)=>{if(!e.active)sim.alphaTarget(0.3).restart();d.fx=d.x;d.fy=d.y;})
+  .on("drag",(e,d)=>{d.fx=e.x;d.fy=e.y;}).on("end",(e,d)=>{if(!e.active)sim.alphaTarget(0);d.fx=null;d.fy=null;}));
+
+node.append("circle")
+  .attr("r", d => d.size || 8)
+  .attr("fill", d => d.color || catColor(d.category))
+  .attr("stroke", "none").attr("stroke-width", 2).style("cursor", "pointer");
+
+node.append("text").text(d => d.name)
+  .attr("dx", 14).attr("dy", 4).attr("font-size", "11px").attr("fill", "#8b949e")
+  .style("pointer-events", "none");
+
+const tooltip = d3.select("#tooltip");
+node.on("click", (e, d) => {
+  e.stopPropagation();
+  tooltip.style("display", "block")
+    .style("left", Math.min(e.clientX + 10, width - 340) + "px")
+    .style("top", Math.min(e.clientY - 10, height - 200) + "px")
+    .html("<h4>" + d.name + "</h4>"
+      + (d.category ? '<span class="tag" style="background:' + catColor(d.category) + '">' + d.category + "</span>" : "")
+      + (d.definition ? '<p class="def">' + d.definition + "</p>" : "")
+      + '<div class="meta">' + (d.textbook ? "教材：" + d.textbook + "<br>" : "")
+      + (d.chapter ? "章节：" + d.chapter + "<br>" : "")
+      + (d.confidence ? "置信度：" + Math.round(d.confidence*100) + "%" : "") + "</div>");
+});
+
+svg.on("click", () => tooltip.style("display", "none"));
+
+const sim = d3.forceSimulation(data.nodes)
+  .force("link", d3.forceLink(validLinks).id(d => d.id).distance(120))
+  .force("charge", d3.forceManyBody().strength(-200))
+  .force("center", d3.forceCenter(width/2, height/2))
+  .force("collision", d3.forceCollide().radius(30));
+
+sim.on("tick", () => {
+  link.attr("x1",d=>d.source.x).attr("y1",d=>d.source.y).attr("x2",d=>d.target.x).attr("y2",d=>d.target.y);
+  node.attr("transform", d => "translate("+d.x+","+d.y+")");
+});
+
+// Legend
+const legendDiv = d3.select("#legend");
+categories.forEach(c => {
+  legendDiv.append("div").attr("class","legend-item")
+    .html('<div class="legend-color" style="background:'+catColor(c)+'"></div><span>'+c+'</span>');
+});
+
+// Stats
+d3.select("#stats").html("节点：" + data.nodes.length + " | 关系：" + validLinks.length);
+</script>
+</body>
+</html>

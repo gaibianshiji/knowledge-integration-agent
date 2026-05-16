@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>知识整合成果总览</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { background: #0d1117; color: #c9d1d9; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; padding: 40px; }
+h1 { color: #e6edf3; font-size: 24px; margin-bottom: 8px; }
+.subtitle { color: #8b949e; margin-bottom: 32px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; }
+.card { background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 20px; }
+.card h3 { color: #e6edf3; margin-bottom: 12px; font-size: 16px; }
+.stat-row { display: flex; justify-content: space-between; padding: 4px 0; font-size: 13px; }
+.stat-row span { color: #8b949e; }
+.stat-row strong { color: #e6edf3; }
+.card a { display: inline-block; margin-top: 12px; color: #58a6ff; text-decoration: none; font-size: 13px; }
+.card a:hover { text-decoration: underline; }
+.section { margin-top: 40px; }
+.section h2 { color: #e6edf3; font-size: 18px; margin-bottom: 16px; }
+.integ-card { background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 20px; max-width: 400px; }
+</style>
+</head>
+<body>
+<h1>📚 学科知识整合智能体 — 成果总览</h1>
+<p class="subtitle">7 本医学教材的知识图谱构建与跨教材整合</p>
+
+<div class="section">
+<h2>单本教材知识图谱</h2>
+<div class="grid">
+        <div class="card">
+          <h3>局部解剖学</h3>
+          <div class="stat-row"><span>知识点</span><strong>1246</strong></div>
+          <div class="stat-row"><span>关系</span><strong>1016</strong></div>
+          <div class="stat-row"><span>章节覆盖</span><strong>228/326 (70%)</strong></div>
+          <a href="图谱/局部解剖学.html" target="_blank">查看图谱 →</a>
+        </div>
+        <div class="card">
+          <h3>组织学与胚胎学</h3>
+          <div class="stat-row"><span>知识点</span><strong>10</strong></div>
+          <div class="stat-row"><span>关系</span><strong>14</strong></div>
+          <div class="stat-row"><span>章节覆盖</span><strong>1/1 (100%)</strong></div>
+          <a href="图谱/组织学与胚胎学.html" target="_blank">查看图谱 →</a>
+        </div>
+        <div class="card">
+          <h3>生理学</h3>
+          <div class="stat-row"><span>知识点</span><strong>4020</strong></div>
+          <div class="stat-row"><span>关系</span><strong>3075</strong></div>
+          <div class="stat-row"><span>章节覆盖</span><strong>434/533 (81%)</strong></div>
+          <a href="图谱/生理学.html" target="_blank">查看图谱 →</a>
+        </div>
+        <div class="card">
+          <h3>医学微生物学</h3>
+          <div class="stat-row"><span>知识点</span><strong>3405</strong></div>
+          <div class="stat-row"><span>关系</span><strong>2701</strong></div>
+          <div class="stat-row"><span>章节覆盖</span><strong>369/464 (80%)</strong></div>
+          <a href="图谱/医学微生物学.html" target="_blank">查看图谱 →</a>
+        </div>
+        <div class="card">
+          <h3>病理学</h3>
+          <div class="stat-row"><span>知识点</span><strong>3886</strong></div>
+          <div class="stat-row"><span>关系</span><strong>3024</strong></div>
+          <div class="stat-row"><span>章节覆盖</span><strong>417/571 (73%)</strong></div>
+          <a href="图谱/病理学.html" target="_blank">查看图谱 →</a>
+        </div>
+        <div class="card">
+          <h3>传染病学</h3>
+          <div class="stat-row"><span>知识点</span><strong>2585</strong></div>
+          <div class="stat-row"><span>关系</span><strong>1786</strong></div>
+          <div class="stat-row"><span>章节覆盖</span><strong>380/430 (88%)</strong></div>
+          <a href="图谱/传染病学.html" target="_blank">查看图谱 →</a>
+        </div>
+        <div class="card">
+          <h3>病理生理学</h3>
+          <div class="stat-row"><span>知识点</span><strong>2569</strong></div>
+          <div class="stat-row"><span>关系</span><strong>1918</strong></div>
+          <div class="stat-row"><span>章节覆盖</span><strong>290/385 (75%)</strong></div>
+          <a href="图谱/病理生理学.html" target="_blank">查看图谱 →</a>
+        </div></div>
+</div>
+
+<div class="section">
+<h2>跨教材整合</h2>
+<div class="integ-card">
+  <div class="stat-row"><span>整合后知识点</span><strong>17009</strong></div>
+  <div class="stat-row"><span>整合决策</span><strong>828</strong></div>
+  <div class="stat-row"><span>检测到冲突</span><strong>898</strong></div>
+  <a href="图谱/整合图谱.html" target="_blank">查看整合图谱 →</a>
+</div>
+</div>
+
+<div class="section">
+<h2>报告文档</h2>
+<ul style="list-style: none;">
+  <li style="margin:4px 0"><a href="报告/局部解剖学_知识图谱报告.md" style="color:#58a6ff;text-decoration:none">局部解剖学 知识图谱报告</a></li><li style="margin:4px 0"><a href="报告/组织学与胚胎学_知识图谱报告.md" style="color:#58a6ff;text-decoration:none">组织学与胚胎学 知识图谱报告</a></li><li style="margin:4px 0"><a href="报告/生理学_知识图谱报告.md" style="color:#58a6ff;text-decoration:none">生理学 知识图谱报告</a></li><li style="margin:4px 0"><a href="报告/医学微生物学_知识图谱报告.md" style="color:#58a6ff;text-decoration:none">医学微生物学 知识图谱报告</a></li><li style="margin:4px 0"><a href="报告/病理学_知识图谱报告.md" style="color:#58a6ff;text-decoration:none">病理学 知识图谱报告</a></li><li style="margin:4px 0"><a href="报告/传染病学_知识图谱报告.md" style="color:#58a6ff;text-decoration:none">传染病学 知识图谱报告</a></li><li style="margin:4px 0"><a href="报告/病理生理学_知识图谱报告.md" style="color:#58a6ff;text-decoration:none">病理生理学 知识图谱报告</a></li>
+  <li style="margin:4px 0"><a href="报告/跨教材整合报告.md" style="color:#58a6ff;text-decoration:none">跨教材整合报告</a></li>
+</ul>
+</div>
+</body>
+</html>
